@@ -111,7 +111,17 @@
 
 - Now open up the version that you posted in the Chrome web browser to be sure that it works, it should appear something like the screenshot below
 - If your screen is not as nicely formatted as mine, go download the [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) Chrome extension now
-- Open up the web inspector as I have done below
+- Open up the web inspector as I have done below:
+  - then select the **Network** tab
+  - reload the browser so that the **get-jokes.php** file is visible in the inspector
+  - click on the **get-jokes.php**
+  - click on the **Preview** tab on the right to see the content that the web service sent back
+  
+![screenshot](_images/ss-1.png)
+  
+<hr>
+  
+![screenshot](_images/ss-2.png)
 
 <hr>
 
