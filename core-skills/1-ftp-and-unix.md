@@ -14,7 +14,7 @@
 
 ## II. PHP stuff we already did in IGME-330
 
-### II-A. Upload *random-jokes.php* to banjo
+### II-A. Upload *random-jokes.php* to `banjo.rit.edu`
 - Post the **random-jokes.php** file below to banjo at `yourid/430/random-jokes.php` - if you have forgotten how to post files to banjo check out this page: https://github.com/tonethar/IGME-235-Shared/blob/master/notes/core-skills/ftp-upload-walkthrough.md
 
 **random-jokes.php**
@@ -33,7 +33,7 @@
 
 ## III. Discussion
 
-- In 230/235/330, we used the banjo.rit.edu server to post web files (HTML/CSS/JS) and run simple server-side scripts utilizing PHP. Banjo has many other capabilities (via PHP and other languages) that we didn't explore such as the ability to store data on the server via SQLite, generate images via ??? and so on. With our banjo accounts we have been granted some access to the file system 
+- In 230/235/330, we used the `banjo.rit.edu` server to post web files (HTML/CSS/JS) and run simple server-side scripts utilizing PHP. Banjo has many other capabilities (via PHP and other languages) that we didn't explore such as the ability to store data on the server via SQLite, generate images via ??? and so on. With our banjo accounts we have been granted some access to the file system 
 
 
 <hr>
