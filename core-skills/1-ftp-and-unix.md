@@ -104,13 +104,13 @@
 ?>
 ```
 
-- a working version is here: http://igm.rit.edu/~acjvks/courses/shared/430/php/get-jokes.php?limit=5
+- a working example version is here: http://igm.rit.edu/~acjvks/courses/shared/430/php/get-jokes.php?limit=5
 
 
 ### II-B. Review
 
-- Now open it up in the Chrome web browser to be sure that it works, it should appear something like the screenshot below
-- If your screen is not as nicely formatted as mine, go download the [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) chrome extension now
+- Now open up the version that you posted in the Chrome web browser to be sure that it works, it should appear something like the screenshot below
+- If your screen is not as nicely formatted as mine, go download the [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) Chrome extension now
 - Open up the web inspector as I have done below
 
 <hr>
