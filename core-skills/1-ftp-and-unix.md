@@ -122,7 +122,7 @@
   
 <hr>
 
-- Note that
+- In the screenshot above note that
 
 <hr>
   
@@ -130,9 +130,16 @@
 
 <hr>
 
-- Note that
+- In the screenshot above note tha
 
 <hr>
+
+### II-C. Do this!
+
+- Modify the PHP code so that it is now sending an HTTP header named `X-author-name` with a value of `your-first-name` (your actual first name or nickname)
+- Take a screenshot showing this as I have done so below - you are also required to utilize Chrome's JSON Viewer - so go ahead and install it if you have not yet done so - [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US)
+
+![screenshot](_images/ss-3.png)
 
 ## III. Discussion
 
