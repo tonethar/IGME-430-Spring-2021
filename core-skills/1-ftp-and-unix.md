@@ -106,6 +106,7 @@
 
 - a working example version is here: http://igm.rit.edu/~acjvks/courses/shared/430/php/get-jokes.php?limit=5
 
+<hr>
 
 ### II-B. Review
 
@@ -120,8 +121,16 @@
 ![screenshot](_images/ss-1.png)
   
 <hr>
+
+- Note that
+
+<hr>
   
 ![screenshot](_images/ss-2.png)
+
+<hr>
+
+- Note that
 
 <hr>
 
