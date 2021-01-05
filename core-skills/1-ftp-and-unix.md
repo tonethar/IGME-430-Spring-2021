@@ -3,6 +3,7 @@
 ## I. Overview
 - Let's take one last look at `banjo.rit.edu` ...
 - ... and we're going to give you a little Unix practice here
+- PHP? Don't worry, we will only be using it on this assignment, and on the next one when we post **random-jokes.php** to the [Heroku](https://www.heroku.com/) cloud service
 - Goals:
   - Post a PHP file to banjo using an FTP client (ex. [FileZilla](https://filezilla-project.org/))
   - Install these developer tools:
