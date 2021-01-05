@@ -143,6 +143,8 @@
 
 ![screenshot](_images/ss-3.png)
 
+<hr>
+
 ## III. Discussion
 
 - In 230/235/330, we used the `banjo.rit.edu` server to post web files (HTML/CSS/JS) and run simple server-side scripts utilizing PHP. Banjo has many other capabilities (via PHP and other languages) that we didn't explore such as the ability to store data on the server via SQLite, generate images via ??? and so on. With our banjo accounts we have been granted some access to the file system 
@@ -155,7 +157,7 @@
 <hr>
 
 ## V. Submission & Rubric (out of 10 points)
-- In the myCourses dropbox, upload the two screenshots you took in part II. & part III. above
+- In the myCourses dropbox, upload the two screenshots you took in part II-C. & part III. above
 - Type the following into the comments field of the dropbox:
   - the link to your working version of **random-jokes.php** that is running on banjo
   - the answers to the review questions
