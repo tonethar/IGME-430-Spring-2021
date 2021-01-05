@@ -5,10 +5,11 @@
 - ... and we're going to give you a little Unix practice here
 - PHP? Don't worry, we will only be using it on this assignment, and on the next one when we post **random-jokes.php** to the [Heroku](https://www.heroku.com/) cloud service
 - Goals:
-  - Post a PHP file to banjo using an FTP client (ex. [FileZilla](https://filezilla-project.org/))
-  - Install these developer tools:
+  - post a PHP file to banjo using an FTP client (ex. [FileZilla](https://filezilla-project.org/))
+  - install these developer tools:
     - GitBash
     - [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US)
+  - use JSON viewer to see parts of the HTTP protocol in action
   - `ssh` to banjo and practice a few basic Unix commands
  
 <hr>
