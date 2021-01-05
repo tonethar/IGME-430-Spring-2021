@@ -15,7 +15,8 @@
 ## II. PHP stuff we already did in IGME-330
 
 ### II-A. Upload *random-jokes.php* to `banjo.rit.edu`
-- Post the **random-jokes.php** file below to banjo at `yourid/430/random-jokes.php` - if you have forgotten how to post files to banjo check out this page: https://github.com/tonethar/IGME-235-Shared/blob/master/notes/core-skills/ftp-upload-walkthrough.md
+- Using the FTP client of your choise (ex. [Filezilla](https://filezilla-project.org/)) post the **random-jokes.php** file below to `banjo.rit.edu` at `yourid/430/random-jokes.php`
+- If you have forgotten how to post files to banjo check out this page: https://github.com/tonethar/IGME-235-Shared/blob/master/notes/core-skills/ftp-upload-walkthrough.md
 
 **random-jokes.php**
 
@@ -109,7 +110,7 @@
 ### II-B. Review
 
 - Now open it up in the Chrome web browser to be sure that it works, it should appear something like the screenshot below
-- If your screenshot is not as nicely formatted as mine, go download the [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) chrome extension now
+- If your screen is not as nicely formatted as mine, go download the [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) chrome extension now
 - Open up the web inspector as I have done below
 
 <hr>
