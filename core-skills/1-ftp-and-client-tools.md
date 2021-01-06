@@ -7,10 +7,10 @@
 - Goals:
   - post a PHP file to banjo using an FTP client (ex. [FileZilla](https://filezilla-project.org/))
   - install these developer tools:
-    - GitBash
     - [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US)
+    - [Postman](https://www.postman.com/downloads/)
   - use JSON viewer to see parts of the HTTP protocol in action
-  - `ssh` to banjo and practice a few basic Unix commands
+
  
 <hr>
 
