@@ -2,7 +2,6 @@
 
 ## I. Overview
 - Let's take one last look at `banjo.rit.edu` ...
-- ... and we're going to give you a little Unix practice here
 - PHP? Don't worry, we will only be using it on this assignment, and on the next one when we post **random-jokes.php** to the [Heroku](https://www.heroku.com/) cloud service
 - Goals:
   - post a PHP file to banjo using an FTP client (ex. [FileZilla](https://filezilla-project.org/))
@@ -112,7 +111,7 @@
 
 ### II-B. Review
 
-- Now open up the version that you posted in the Chrome web browser to be sure that it works, it should appear something like the screenshot below
+- Now open up the version that you posted in the Chrome web browser to be sure that it works, it should appear like the screenshot below
 - If your screen is not as nicely formatted as mine, go download the [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) Chrome extension now
 - Open up the web inspector as I have done below:
   - then select the **Network** tab
@@ -124,9 +123,21 @@
   
 <hr>
 
-- In the screenshot above note that
+#### II-B-i. The HTTP Protocol
 
-<hr>
+***In the screenshot below note that we can see quite a bit of the [HTTP protocol ("Hypertext Transfer Protocol")](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) in action:***
+
+- The [HTTP Request Method](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods):
+  - Here the browser is using the `GET` method (or "verb") of HTTP - which very simply means "give me this file"
+    - other common HTTP methods include `POST` ("here's some data that you need to save") and 
+    - `DELETE`("delete the specified resource") and 
+    - `HEAD` ("just send me the headers - i.e. the metadata about the file - not the file itself")
+    
+    
+    
+    **very soon, we will be creating our own customized web server (using JavaScript and the Node.js runtime)**
+
+
   
 ![screenshot](_images/ss-2.png)
 
