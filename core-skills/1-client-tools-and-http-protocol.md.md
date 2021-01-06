@@ -1,4 +1,4 @@
-# Skill #1 - Client Tools and HTTP Protocol
+# Skill #1 - Client Tools and the HTTP Protocol
 
 ## I. Overview
 - Let's take one last look at `banjo.rit.edu` ...
