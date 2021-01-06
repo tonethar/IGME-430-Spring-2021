@@ -5,7 +5,7 @@
 - PHP? Don't worry, we will only be using it on this assignment, and on the next one when we post **random-jokes.php** to the [Heroku](https://www.heroku.com/) cloud service
 - Goals:
   - post a PHP file to banjo using an FTP client (ex. [FileZilla](https://filezilla-project.org/))
-  - install these developer tools:
+  - install these developer tools - which will greatly aid you when you need to debug your code:
     - [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US)
     - [Postman](https://www.postman.com/downloads/)
   - use JSON viewer to see parts of the HTTP protocol in action
@@ -125,17 +125,41 @@
 
 #### II-B-i. The HTTP Protocol
 
-***In the screenshot below note that we can see quite a bit of the [HTTP protocol ("Hypertext Transfer Protocol")](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) in action:***
+***In the screenshot below note that we can see quite a bit of the [HTTP protocol ("Hypertext Transfer Protocol")](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) in action. Firt, the browser makes and HTTP request:***
 
-- The [HTTP Request Method](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods):
-  - Here the browser is using the `GET` method (or "verb") of HTTP - which very simply means "give me this file"
-    - other common HTTP methods include `POST` ("here's some data that you need to save") and 
-    - `DELETE`("delete the specified resource") and 
-    - `HEAD` ("just send me the headers - i.e. the metadata about the file - not the file itself")
+1) The [HTTP Request Method](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods):
+
+- Here the browser is using the `GET` method (or "verb") of HTTP - which very simply means "give me this file"
+  - other common HTTP methods include `POST` ("here's some data - a string of text for example - that you need to save") and 
+  - `DELETE`("delete the specified resource") and 
+  - `HEAD` ("just send me the headers - i.e. the metadata about the file - not the file itself")
+  - very soon, we will be creating our own customized HTTP web server (using JavaScript and the Node.js runtime) and learn how to write code that responds to these requests:
+    - returning a specified resource (`GET`)
+    - saving a resource that was sent to the server by the browser (`POST`)
+    - deleting a specified resource (`DELETE`)
+    - sending back headers (metadata) about a resource (`HEAD`)
     
+
+2) Then we get an HTTP **response message** back it consists of ([thanks wikipedia](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Response_message))
+
+- A) a status line which includes the status code and reason message (e.g., HTTP/1.1 200 OK, which indicates that the client's request succeeded)
+- B) response header fields (e.g., Content-Type: text/html)
+- C) an empty line
+- D) an optional message body
+      
+2-A) An [HTTP Status Code](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Status_codes)
+
+- Here the server is sending back a *status code* (`200`) and a *reason phrase* (`OK`) to indicate that the request was successful
+  - other common status codes include `404` ("Not Found") and `500` ("Internal Server Error")
+  - a full list HTTP status codes is here: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+  - In this class we will program our Node.js servers to send back these and other status codes (such as `201`, `204`, `206`, `400`, `401` and `403`) depending on the nature of a user request
+  
+2-B) Multiple [HTTP Response Headers](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
     
+2-C) an empty line, which tells the requester (the browser) - "Hey, I'm done with the headers!" 
+
+2-D) Optionally, the actual content (which above, was a JSON file of jokes)
     
-    **very soon, we will be creating our own customized web server (using JavaScript and the Node.js runtime)**
 
 
   
