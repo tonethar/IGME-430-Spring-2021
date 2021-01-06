@@ -1,4 +1,4 @@
-# Skill #1 - FTP and Unix commands
+# Skill #1 - Client Tools and HTTP Protocol
 
 ## I. Overview
 - Let's take one last look at `banjo.rit.edu` ...
@@ -125,7 +125,7 @@
 
 #### II-B-i. The HTTP Protocol
 
-***In the screenshot below note that we can see quite a bit of the [HTTP protocol ("Hypertext Transfer Protocol")](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) in action. Firt, the browser makes and HTTP request:***
+***In the screenshot below note that we can see quite a bit of the [HTTP protocol ("Hypertext Transfer Protocol")](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) in action. First, the browser makes an HTTP request:***
 
 1) The [HTTP Request Method](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods):
 
