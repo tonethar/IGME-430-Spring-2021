@@ -146,31 +146,28 @@
 
 **Here's more detail about each of these steps:**
 
-  2A) The *status line* includes an [HTTP Status Code](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Status_codes)
+2A) The *status line* includes an [HTTP Status Code](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Status_codes)
 
 - Here the server is sending back a *status code* (`200`) and a *reason phrase* (`OK`) to indicate that the request was successful
   - other common status codes include `404` ("Not Found") and `500` ("Internal Server Error")
   - a full list HTTP status codes is here: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
   - In this class we will program our Node.js servers to send back these and other status codes (such as `201`, `204`, `206`, `400`, `401` and `403`) depending on the nature of a user request
   
-  2B) Multiple [HTTP Response Headers](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
+2B) Multiple [HTTP Response Headers](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
 
-- `Access-Control-Allow-Origin: *`
-- `Content-Type: application/json`
-- `X-this-430-service-is-kinda-lame: true`
+- These response headers are *metadata* about the response. You can see that the web server is sending back information about the **Connection**, **Server**, and **Date**. It is also sending back 3 headers that we specified in our PHP:
+  - `Access-Control-Allow-Origin: *` (to enable [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS), which we talked about in 330)
+  - `Content-Type: application/json` (to tell the browser how to decode the bytes that are getting sent over)
+  - `X-this-430-service-is-kinda-lame: true` (a custom header - this does nothing - it just shows that it is possible to send non-standard headers - although it would certainly be possible to write some client-side JS to look for this header)
     
-  2C) an empty line, which tells the requester (the browser) - "Hey, I'm done with the headers!" 
+2C) an empty line, which tells the requester (the browser) - "Hey, I'm done with the headers!" 
 
-  2D) Optionally, the actual content (which above, was a JSON file of jokes)
+2D) Optionally, the actual content (which above, was a JSON file of jokes)
     
-
-
-  
-![screenshot](_images/ss-2.png)
 
 <hr>
-
-- In the screenshot above note tha
+  
+![screenshot](_images/ss-2.png)
 
 <hr>
 
