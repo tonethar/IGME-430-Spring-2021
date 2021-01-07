@@ -196,6 +196,7 @@
 - Open it up and point it at your copy of **random-jokes.php** as I have done in the screenshot below
   - Note that you will need to specify the HTTP *method* - `GET` - in the pulldown
   - You will also need to type in the URL, and then click the Send button
+  - You should now see the server response in the area below
 
 <hr>
 
