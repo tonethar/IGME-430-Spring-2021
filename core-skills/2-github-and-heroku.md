@@ -54,7 +54,32 @@
  
 ## IV. Set up a GitHub repository
 
+- A) Head to github at https://github.com/ and login
+  - Create a new repository named `random-jokes-php-heroku`
 
+<hr>
+
+![screenshot](_images/ss-10.png)
+
+<hr>
+
+- B) Click the "Creating a new file" link
+
+<hr>
+
+![screenshot](_images/ss-11.png)
+
+<hr>
+
+- C) Name the file **index.php**:
+  - copy and paste the **random-jokes.php** code into the file
+  - save the file
+
+<hr>
+
+![screenshot](_images/ss-12.png)
+
+<hr>
 
 <hr><hr>
 
