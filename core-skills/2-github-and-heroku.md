@@ -37,7 +37,6 @@
 
 - C) You should now be on the "Deploy" tab of this app:
   - Note that the bottom arrow points at a "Connect to GitHub" button - GitHub is where we will need to post the PHP file that we want to upload to here - we'll handle that in a second
-  - For now, just verify that the app works by clicking the "Open App" button, which will give you the following screen
 
 <hr>
 
@@ -47,11 +46,7 @@
  
 ## IV. Set up a GitHub repository
 
-<hr>
 
-![screenshot](_images/ss-8.png)
-
-<hr>
 
 <hr><hr>
 
