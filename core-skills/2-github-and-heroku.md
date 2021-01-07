@@ -20,9 +20,22 @@
 
 - Head to the Heroku Dashboard and click on the "New" and then "Create New App" buttons
   
+<hr> 
+
 ![screenshot](_images/ss-6.png)
 
 <hr>
+
+- Heroku apps need to have a globally unique name - name the app `abc1234-random-jokes` (where abc1234 is your ID, which should be unique)
+- Then click the "Create App" button
+
+<hr>
+
+![screenshot](_images/ss-7.png)
+
+<hr>
+
+You should now 
 
 
 <hr><hr>
