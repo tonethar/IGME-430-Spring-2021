@@ -189,6 +189,8 @@
 - Postman is a really handy tool for testing and debugging server-side code - you can use it send `POST` and `HEAD`requests, specific request headers, and to specify the "message body" i.e. content that you want to send. It will be invaluable once we start writing server-side code
 - Download it here: https://www.postman.com/downloads/
 - Open it up and point it at your copy of **random-jokes.php** as I have done in the screenshot below
+  - Note that you will need to specify the HTTP *method* - `GET` - in the pulldown
+  - You will also need to type in the URL, and then click the Send button
 
 <hr>
 
