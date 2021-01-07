@@ -199,11 +199,13 @@
 <hr>
 
 ### III-A. Do this!
- - To document that you have Postman installed, take a screenshot of your copy of **random-jokes.php** as seen in Postman, As I have done above
+ - To document that you have Postman installed, take a screenshot of your copy of **random-jokes.php** as seen in Postman, just as I have done above
 
 <hr>
 
 ## IV. Review Questions
+
+
  
 <hr>
 
