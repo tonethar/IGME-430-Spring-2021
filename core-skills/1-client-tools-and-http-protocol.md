@@ -142,7 +142,11 @@
 
 2) Then we get an HTTP **response message** back it consists of ([thanks wikipedia](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Response_message)):
 
-   ![screenshot](_images/ss-4.png)
+<hr>
+
+![screenshot](_images/ss-4.png)
+
+<hr>
 
 **Here's more detail about each of these steps:**
 
