@@ -1,6 +1,9 @@
 # Skill #2  - GitHub and Heroku
 
+## I. Overview
 
+- Let's take one last look at `banjo.rit.edu` before we move on to Heroku
+- banjo is a shared Unix server that runs the Apache web server application for us 
 
 
 - `ssh` to banjo and practice a few basic Unix commands
