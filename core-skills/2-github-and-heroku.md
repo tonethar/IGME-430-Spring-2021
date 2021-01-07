@@ -73,7 +73,7 @@
 
 - C) Name the file **index.php**:
   - copy and paste the **random-jokes.php** code into the file
-  - save the file
+  - save the file by clicking the "Commit new file" button
 
 <hr>
 
