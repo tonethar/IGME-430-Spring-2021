@@ -224,7 +224,7 @@
 
 7) The first part of the HTTP *response message* is the *status line* - which includes a *status code* and a *reason phrase* - give 3 examples of each
 
-8) TThe second part of the HTTP *response message* are the *response header fields* - give 3 examples of these
+8) The second part of the HTTP *response message* are the *response header fields* - give 3 examples of these
 
  
 <hr>
@@ -237,8 +237,8 @@
 - Rubric:
   - missing Screenshots (-5 each) 
   - no link, or link not working (-5)
-  - Chrome JSON Viewer extension not utilized in screenshot (-5) 
-  - Web Inspector and Network/Headers tabs not utilized in screenshot (-5) 
+  - Chrome JSON Viewer extension not utilized in first screenshot (-5) 
+  - Web Inspector and Network/Headers tabs not utilized in first screenshot (-5) 
   - Postman App not utilized (-5) 
   - incorrect answers to questions (-1/2 each)
 
