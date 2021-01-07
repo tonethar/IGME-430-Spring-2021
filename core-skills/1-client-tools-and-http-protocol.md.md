@@ -143,9 +143,14 @@
 2) Then we get an HTTP **response message** back it consists of ([thanks wikipedia](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Response_message)):
 
 A) a *status line* which includes the status code and reason message (e.g., HTTP/1.1 200 OK, which indicates that the client's request succeeded)
+
 B) *response header* fields (e.g., Content-Type: text/html)
+
 C) an *empty line*
+
 D) an optional *message body*
+
+
       
 2A) An [HTTP Status Code](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Status_codes)
 
