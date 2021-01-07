@@ -205,6 +205,15 @@
 
 ## IV. Review Questions
 
+1) What does HTTP stand for?
+
+2) What is, in terms of electronic communication, a *protocol*? (Google it if you don't know)
+
+3) Which HTTP *request method* is used by the browser when the user types a URL into the location bar?
+
+4) List the 4 HTTP *request methods* we talked about above
+
+5) 
 
  
 <hr>
