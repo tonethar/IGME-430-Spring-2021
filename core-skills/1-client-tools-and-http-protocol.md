@@ -183,7 +183,7 @@
 ### II-C. Do this!
 
 - Modify the PHP code so that it is now sending an HTTP header named `X-author-name` with a value of `your-first-name` (your actual first name or nickname)
-- Take a screenshot showing this as I have done so below with the web inspector open and showing the **Network** tab and response headers - you are also required to utilize Chrome's JSON Viewer - so go ahead and install it if you have not yet done so - [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US)
+- Take a screenshot showing this as I have done so below with the web inspector open and showing the **Network** tab and **Headers** tab and the actual response headers - you are also required to utilize Chrome's JSON Viewer - so go ahead and install it if you have not yet done so - [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US)
 
 ![screenshot](_images/ss-3.png)
 
@@ -238,7 +238,7 @@
   - missing Screenshots (-5 each) 
   - no link, or link not working (-5)
   - Chrome JSON Viewer extension not utilized in screenshot (-5) 
-  - Web Inspector and Network tab not utilized in screenshot (-5) 
+  - Web Inspector and Network/Headers tabs not utilized in screenshot (-5) 
   - Postman App not utilized (-5) 
   - incorrect answers to questions (-1/2 each)
 
