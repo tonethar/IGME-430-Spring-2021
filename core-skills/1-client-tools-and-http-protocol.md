@@ -246,5 +246,5 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   :-\  |  [**IGME-430**](../) | [**Skill #2 - GitHub and Heroku**](2-github-and-heroku.md.md)
+|   :-\  |  [**IGME-430**](../) | [**Skill #2 - GitHub and Heroku**](2-github-and-heroku.md)
 
