@@ -81,6 +81,14 @@
 
 <hr>
 
+## V. Linking your Heroku App to the GitHub repository
+
+- Easy! 
+- Just head back to Heroku control panel, choose your app, and head to the Deploy tab
+- Then click the "GitHub - Connect to GitHub" button in the "Deployment method" section of the page
+- Then search for your respository
+- Then click the "Connect" button
+
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
