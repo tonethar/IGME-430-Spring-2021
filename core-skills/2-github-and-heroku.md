@@ -44,7 +44,7 @@
 
 <hr>
 
-- D) For now, just verify that the app works by clicking the "Open App" button, which will give you the following default Heroku screen
+- D) For now, just verify that the app works by clicking the "Open App" button, which will give you the following default Heroku page in a new browser window
 
 <hr>
 
