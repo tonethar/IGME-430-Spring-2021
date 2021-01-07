@@ -89,6 +89,12 @@
 - Then search for your respository
 - Then click the "Connect" button
 
+<hr>
+
+![screenshot](_images/ss-13.png)
+
+<hr>
+
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
