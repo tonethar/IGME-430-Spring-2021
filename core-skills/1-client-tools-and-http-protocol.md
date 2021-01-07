@@ -222,9 +222,9 @@
 
 6) List the 4 things we get back in an HTTP *response message*
 
-7) The first of these is the *status line* of an HTTP response message - which includes a *status code* and a *reason phrase* - give 3 examples of each
+7) The first part of the HTTP *response message* is the *status line* - which includes a *status code* and a *reason phrase* - give 3 examples of each
 
-8) The second of these are the *response header fields* of an HTTP response message - give 3 examples of these
+8) TThe second part of the HTTP *response message* are the *response header fields* - give 3 examples of these
 
  
 <hr>
