@@ -125,11 +125,16 @@
 
 #### II-B-i. The HTTP Protocol
 
-***In the screenshot below note that we can see quite a bit of the [HTTP protocol ("Hypertext Transfer Protocol")](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) in action. First, the browser makes an HTTP request:***
+- In client-server protocols, like HTTP, sessions consist of three phases:
+  - The client establishes a TCP connection
+  - The client sends its request, and waits for the answer
+  - The server processes the request, sending back its answer, providing a status code and appropriate data
+
+***In the screenshot below note that we can see quite a bit of this [HTTP protocol ("Hypertext Transfer Protocol")](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) in action. The browser first establishes a connection with the web server. Then it makes an HTTP request:***
 
 1) The [HTTP Request Method](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods):
 
-- Here the browser is using the `GET` method (or "verb") of HTTP - which very simply means "give me this file"
+- Here the browser is using the http `GET` *method* (or "verb") of HTTP - which very simply means "give me this file"
   - other common HTTP methods include `POST` ("here's some data - a string of text for example - that you need to save") and 
   - `DELETE`("delete the specified resource") and 
   - `HEAD` ("just send me the headers - i.e. the metadata about the file - not the file itself")
@@ -209,11 +214,15 @@
 
 2) What is, in terms of electronic communication, a *protocol*? (Google it if you don't know)
 
-3) Which HTTP *request method* is used by the browser when the user types a URL into the location bar?
+3) List the 3 phases of the HTTP protocol
 
-4) List the 4 HTTP *request methods* we talked about above
+4) Which HTTP *request method* is used by the browser when the user types a URL into the location bar?
 
-5) 
+5) List the 4 HTTP *request methods* we talked about above
+
+6) What are the 4 things we get back in an HTTP *response message*
+
+7) The *status line* of an HTTP response message includes a *status code* and a *reason phrase* - give 3 examples of each
 
  
 <hr>
