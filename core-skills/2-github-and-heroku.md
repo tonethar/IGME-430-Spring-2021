@@ -2,15 +2,19 @@
 
 ## I. Overview
 
-- Let's take one last look at `banjo.rit.edu` before we move on to Heroku
-- banjo is a shared Unix server that runs the Apache web server application for us 
+- We are going to post the **random-jokes.php** code from last time and deploy it to Heroko
+- What is Heroku? It is a cloud "platform as service" (PaaS) environment where developers can host applications written in Java, JavaScript, PHP and other languages
+- Heroku is where we will hosting our apps for the rest of the semester
 
+## II. Create a Heroku account
 
-- `ssh` to banjo and practice a few basic Unix commands
-
-
-- In 230/235/330, we used the `banjo.rit.edu` server to post web files (HTML/CSS/JS) and run simple server-side scripts utilizing PHP. Banjo has many other capabilities (via PHP and other languages) that we didn't explore such as the ability to store data on the server via SQLite, generate images via ??? and so on. With our banjo accounts we have been granted some access to the file system 
-
+- Head here to create a Heroku account: https://signup.heroku.com/
+  - it's free!
+  - if you give them a credit card number to verify your identity, you can get a few more free benefits, including the ability to host more apps. It's very easy to set up your account so that you will enver get charged anything
+  
+## III. Create a Heroku App
+  
+![screenshot](_images/ss-6.png)
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
