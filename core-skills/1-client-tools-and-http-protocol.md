@@ -234,7 +234,7 @@
 - In the myCourses dropbox, upload the two screenshots you took in part II-C. & part III-A. above
 - Type the following into the comments field of the dropbox:
   - the link to your working version of **random-jokes.php** that is running on banjo
-  - the answers to the review questionsin part IV. above
+  - the answers to the review questions in part IV. above
 - Rubric:
   - missing Screenshots (-5 each) 
   - no link, or link not working (-5)
