@@ -220,9 +220,11 @@
 
 5) List the 4 HTTP *request methods* we talked about above
 
-6) What are the 4 things we get back in an HTTP *response message*
+6) List the 4 things we get back in an HTTP *response message*
 
-7) The *status line* of an HTTP response message includes a *status code* and a *reason phrase* - give 3 examples of each
+7) The first of these is the *status line* of an HTTP response message - which includes a *status code* and a *reason phrase* - give 3 examples of each
+
+8) The second of these are the *response header fields* of an HTTP response message - give 3 examples of these
 
  
 <hr>
@@ -231,11 +233,13 @@
 - In the myCourses dropbox, upload the two screenshots you took in part II-C. & part III-A. above
 - Type the following into the comments field of the dropbox:
   - the link to your working version of **random-jokes.php** that is running on banjo
-  - the answers to the review questions
+  - the answers to the review questionsin part IV. above
 - Rubric:
   - missing Screenshots (-5 each) 
   - no link, or link not working (-5)
   - Chrome JSON Viewer extension not utilized (-5) 
+  - Postman App not utilized (-5) 
+  - incorrect answers to questions (-1/2 each)
 
 
 <hr><hr>
