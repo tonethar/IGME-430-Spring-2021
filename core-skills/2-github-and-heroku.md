@@ -113,7 +113,8 @@
 ![screenshot](_images/ss-15.png)
 
 <hr>
- - D) Now click on the "Open app" button, you should see that your app was deployed!
+ - D) Now click on the "Open app" button, you should see that your app was deployed to the web!
+   - the URL in the location box (yours will be slightly different from mine) is the URL you will be posting to the dropbox in a little bit
  
 <hr>
 
@@ -121,6 +122,26 @@
 
 <hr>
 
+## VI. Updating you GitHub repository
+
+- Go ahead and update the PHP code in your repository - make a small change - for example I added triple `!!!` to the end of every punchline
+- Click the "Commit changes" button
+- If you head to the "Activity" tab of your project in Heroku, you will see that this new version is uploading
+- Once that's done, reload the URL to the actual joke page, it will take 5 or 10 seconds to reboot the "dyno", and then you will see the changes!
+
+
+<hr>
+
+![screenshot](_images/ss-17.png)
+
+<hr>
+
+## VII. Submission
+- In the myCourses dropbox, ZIP and Post your repository (the **index.php** file)
+- In the comments field of the dropbox, type:
+  - the URL to your GitHub repository
+  - the URL to your working random jokes page on Heroku (IMPORTANT - DO NOT post your Heroku control panel link - no one but you can see that page)
+  - tell us what changes you made to the **index.php** file
 
 <hr><hr>
 
