@@ -5,6 +5,7 @@
 - We are going to post the **random-jokes.php** code from last time and deploy it to Heroko
 - What is Heroku? It is a cloud ["platform as service" (PaaS)](https://en.wikipedia.org/wiki/Platform_as_a_service) environment where developers can host applications written in Java, JavaScript, PHP and other languages
 - Heroku is where we will hosting our apps for the rest of the semester
+- Unlike banjo (a Unix server), where we have acccess to the file system and use FTP to transfer files, we will instead upload files to Heroku via specific GitHub repositories
 
 <hr>
 
