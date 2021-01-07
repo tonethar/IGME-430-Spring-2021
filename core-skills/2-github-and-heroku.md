@@ -95,6 +95,33 @@
 
 <hr>
 
+- B) You should have successfully connected your GitHub repository to this Heroku project:
+  - one last thing to do! Click the "Enable Automatic Deploys" button
+  - this will make it so whenever you modify your GitHub repository, your code changes will *automatically* be pushed to Heroku
+
+<hr>
+
+![screenshot](_images/ss-14.png)
+
+<hr>
+
+- C) To upload the app (you'll only have to do this once because you enabled automatic deploys) - click the "Deploy Branch" button
+  - after a few seconds, your app should be uploaded and you will see the "Your App was successfully deployed" message at the bottom of the screen
+
+<hr>
+
+![screenshot](_images/ss-15.png)
+
+<hr>
+ - D) Now click on the "Open app" button, you should see that your app was deployed!
+ 
+<hr>
+
+![screenshot](_images/ss-16.png)
+
+<hr>
+
+
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
