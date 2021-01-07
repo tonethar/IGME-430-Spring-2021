@@ -184,10 +184,20 @@
 
 <hr>
 
-## III. Discussion
+## III. Postman
 
-- In 230/235/330, we used the `banjo.rit.edu` server to post web files (HTML/CSS/JS) and run simple server-side scripts utilizing PHP. Banjo has many other capabilities (via PHP and other languages) that we didn't explore such as the ability to store data on the server via SQLite, generate images via ??? and so on. With our banjo accounts we have been granted some access to the file system 
+- Postman is a really handy tool for testing and debugging server-side code - you can use it send `POST` and `HEAD`requests, specific request headers, and to specify the "message body" i.e. content that you want to send. It will be invaluable once we start writing server-side code
+- Download it here: https://www.postman.com/downloads/
+- Open it up and point it at your copy of **random-jokes.php** as I have done in the screenshot below
 
+<hr>
+
+![screenshot](_images/ss-5.png)
+
+<hr>
+
+### III-A. Do this!
+ - To document that you have Postman installed, take a screenshot of your copy of **random-jokes.php** as seen in Postman, As I have done above
 
 <hr>
 
@@ -196,7 +206,7 @@
 <hr>
 
 ## V. Submission & Rubric (out of 10 points)
-- In the myCourses dropbox, upload the two screenshots you took in part II-C. & part III. above
+- In the myCourses dropbox, upload the two screenshots you took in part II-C. & part III-A. above
 - Type the following into the comments field of the dropbox:
   - the link to your working version of **random-jokes.php** that is running on banjo
   - the answers to the review questions
