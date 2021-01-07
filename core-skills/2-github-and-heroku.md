@@ -43,6 +43,14 @@
 ![screenshot](_images/ss-8.png)
 
 <hr>
+
+- D) For now, just verify that the app works by clicking the "Open App" button, which will give you the following default Heroku screen
+
+<hr>
+
+![screenshot](_images/ss-9.png)
+
+<hr>
  
 ## IV. Set up a GitHub repository
 
