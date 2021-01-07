@@ -140,12 +140,12 @@
     - sending back headers (metadata) about a resource (`HEAD`)
     
 
-2) Then we get an HTTP **response message** back it consists of ([thanks wikipedia](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Response_message))
+2) Then we get an HTTP **response message** back it consists of ([thanks wikipedia](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Response_message)):
 
-- A) a status line which includes the status code and reason message (e.g., HTTP/1.1 200 OK, which indicates that the client's request succeeded)
-- B) response header fields (e.g., Content-Type: text/html)
-- C) an empty line
-- D) an optional message body
+- A) a *status line* which includes the status code and reason message (e.g., HTTP/1.1 200 OK, which indicates that the client's request succeeded)
+- B) *response header* fields (e.g., Content-Type: text/html)
+- C) an *empty line*
+- D) an optional *message body*
       
 2-A) An [HTTP Status Code](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Status_codes)
 
@@ -155,6 +155,10 @@
   - In this class we will program our Node.js servers to send back these and other status codes (such as `201`, `204`, `206`, `400`, `401` and `403`) depending on the nature of a user request
   
 2-B) Multiple [HTTP Response Headers](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
+
+- `Access-Control-Allow-Origin: *`
+- `Content-Type: application/json`
+- `X-this-430-service-is-kinda-lame: true`
     
 2-C) an empty line, which tells the requester (the browser) - "Hey, I'm done with the headers!" 
 
