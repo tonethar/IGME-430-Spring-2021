@@ -37,6 +37,12 @@
 - `ls` - lists out files and directories in the *cwd*
 - `ls -al` - lists out files and directories in the *cwd*, including "invisible" dot files
 - `mkdir dirName` - will create a new folder named *dirName*
+- `touch fileName` - will create an empty file named *fileName*
+- `rm fileName` - will delete *fileName*
+- `rmdir dirName` - will delete the folder named *dirName*
+- `mv file1 file2` - will rename *file1* to *file2*
+- `chmod` - used to set file permissions
+- `sudo` - used to perform commands (such as installing files in system directories) as the "super user"
 
 **Handy Unix Command-line tips**
 - *ctrl-a* to move the cursor to the *beginning* of the line
@@ -48,8 +54,13 @@
 ### III-B. Git Commands
 
 - `git --version` - will tell you that `git` is installed
-- `git clone <url>` - will clone a remote repository to the  *cwd*
-
+- `git clone <url>` - will clone the remote repository at `<url>` to the *cwd*
+- `git status`
+- `git add`
+- `git commit -m "message"`
+- `git push`
+- `git remote update`
+- `git pull`
 
 <hr>
 
