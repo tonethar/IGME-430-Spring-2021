@@ -61,6 +61,9 @@
 - `git push`- pushes the changes to the local repository up to the remote repository - https://git-scm.com/docs/git-push
 - `git remote update` - will update all of your branches set to track remote ones, but not merge any changes in. This is useful when you want to check if the remote repository has changed - https://git-scm.com/docs/git-remote
 - `git pull`- will update and merge any remote changes (of the current branch you're on) to your local repository - https://git-scm.com/docs/git-pull
+- `git rm --cached fileName` - will remove *fileName* from version tracking, but not delete the file itself
+- `git rm --f fileName` - will remove *fileName* from version tracking AND will delete the file
+- ``
 
 ![screenshot](./_images/ss-18.png)
 
@@ -70,10 +73,11 @@
 - Use the GitBash terminal emulator
 - Create a local GitHub repository of your random joke repository by utilizing `git clone <url>`
 - Make a change to the **index.php** file, such as changing `MAX_LIMIT`
-- Use `git add .` to commit it to the local repository
-- Use `git commit-m "message"` to commit it to the local repository
-- Use `git push` to push the changes to the remote repository
-- Use `git status` to be sure that your chnages and psuh was successful
+- Here are the "big 4" git commands that you need to know:
+  - Use `git add .` to commit it to the local repository
+  - Use `git commit-m "message"` to commit it to the local repository
+  - Use `git push` to push the changes to the remote repository
+  - Use `git status` to be sure that your chnages and push was successful
 - Take a screen shot of your entire session (the commands you typed above) and post it to myCourses
 
 
