@@ -62,6 +62,8 @@
 - `git remote update`
 - `git pull`
 
+![screenshot](./_images/ss-18.png)
+
 <hr>
 
 ## IV. HW & Submission
