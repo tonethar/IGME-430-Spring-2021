@@ -125,7 +125,7 @@
 
 ## VI. Updating your GitHub repository
 
-- Go ahead and update the PHP code in your repository - make a small change - for example I added triple `!!!` to the end of every punchline
+- Go ahead and update the PHP code in your repository - make a small change - for example I added triple `!!!` to the end of every punchline. *Be careful not to "break" the PHP code! Consider first testing your changes on banjo to be sure that they work*
 - Click the "Commit changes" button
 - If you head to the "Activity" tab of your project in Heroku, you will see that this new version is uploading
 - Once that's done, reload the URL to the actual joke page, it will take 5 or 10 seconds to reboot the "dyno", and then you will see the changes!
