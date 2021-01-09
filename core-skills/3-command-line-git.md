@@ -54,13 +54,13 @@
 ### III-B. Git Commands
 
 - `git --version` - will tell you that `git` is installed
-- `git clone <url>` - will clone the remote repository at `<url>` to the *cwd*
-- `git status`
-- `git add` - adds local repository files to the *staging area* - see below
-- `git commit -m "message"` - commits files in the staging area to the local repository files - see below
-- `git push`- pushes the changes to the local repository up to the remote repository
-- `git remote update`
-- `git pull`
+- `git clone <url>` - will clone the remote repository at `<url>` to the *cwd* - https://git-scm.com/docs/git-clone
+- `git status` - shows the current status of the repository (files that have changed, pending commits, ...) - https://git-scm.com/docs/git-status
+- `git add` - adds local repository files to the *staging area* - see below - https://git-scm.com/docs/git-add
+- `git commit -m "message"` - commits files in the staging area to the local repository files - see below - https://git-scm.com/docs/git-commit
+- `git push`- pushes the changes to the local repository up to the remote repository - https://git-scm.com/docs/git-push
+- `git remote update` - will update all of your branches set to track remote ones, but not merge any changes in. This is useful when you want to check if the remote repository has changed - https://git-scm.com/docs/git-remote
+- `git pull`- will update and merge any remote changes (of the current branch you're on) to your local repository - https://git-scm.com/docs/git-pull
 
 ![screenshot](./_images/ss-18.png)
 
