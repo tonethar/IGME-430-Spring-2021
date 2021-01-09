@@ -28,17 +28,34 @@
 - We'll be demoing these activities in this video -->
 - Below are some of the commands we'll be using in the demo
 
-## III-A. Unix Commands
+### III-A. Unix Commands
 
-- `cd *dirName*` will change the *current working directory* to *dirName*
+- `cd dirName` - will change the *current working directory* to *dirName*. The current working directory is the directory we are "in" - it is where any typed in unix commands will be executed. We will call the current working directory *cwd* below
+- `cd ..` - moves the *cwd* "up" one level into the parent directory of the folder
+- `cd` - by itself, will change the *cwd* to the user's login (i.e. home) directory
+- `pwd` - prints out the current path to the *cwd*
+- `ls` - lists out files and directories in the *cwd*
+- `ls -al` - lists out files and directories in the *cwd*, including "invisible" dot files
+- `mkdir dirName` - will create a new folder named *dirName*
+
+**Handy Unix Command-line tips**
+- *ctrl-a* to move the cursor to the *beginning* of the line
+- *ctrl-e* to move the cursor to the *end* of the line
+- *up arrow* to view previously typed commands (continue pressing up arrow to cycle through command history, the down arrow goes forward through the history)
+- *tab key* for autocompletion of partially typed file names
+- *drag and drop* files into GitBash (or Terminal) to have their file paths type for you
+
+### III-B. Git Commands
+
+- `git --version` - will tell you that `git` is installed
+- `git clone <url>` - will clone a remote repository to the  *cwd*
 
 
 <hr>
 
-# IV. Git Commands
+# IV. Submission
 
 
-# V. Submission
 
 
 <hr><hr>
