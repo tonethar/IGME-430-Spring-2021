@@ -123,7 +123,7 @@
 
 <hr>
 
-## VI. Updating you GitHub repository
+## VI. Updating your GitHub repository
 
 - Go ahead and update the PHP code in your repository - make a small change - for example I added triple `!!!` to the end of every punchline
 - Click the "Commit changes" button
