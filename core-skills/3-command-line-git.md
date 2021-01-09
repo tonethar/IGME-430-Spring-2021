@@ -64,7 +64,7 @@
 
 <hr>
 
-# IV. HW & Submission
+## IV. HW & Submission
 - Use the GitBash terminal emulator
 - Create a local GitHub repository of your random joke repository by utilizing `git clone <url>`
 - Make a change to the **index.php** file, such as changing `MAX_LIMIT`
