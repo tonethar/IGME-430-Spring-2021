@@ -45,11 +45,11 @@
 - `sudo` - used to perform commands (such as installing files in system directories) as the "super user"
 
 **Handy Unix Command-line tips**
-- *ctrl-a* to move the cursor to the *beginning* of the line
-- *ctrl-e* to move the cursor to the *end* of the line
-- *up arrow* to view previously typed commands (continue pressing up arrow to cycle through command history, the down arrow goes forward through the history)
-- *tab key* for autocompletion of partially typed file names
-- *drag and drop* files into GitBash (or Terminal) to have their file paths type for you
+- *ctrl-a* - to move the cursor to the *beginning* of the line
+- *ctrl-e* - to move the cursor to the *end* of the line
+- *up arrow* - to view previously typed commands (continue pressing up arrow to cycle through command history, the down arrow goes forward through the history)
+- *tab key* - for autocompletion of partially typed file names
+- *drag and drop* - files into GitBash (or Terminal) to have their file paths typed for you
 
 ### III-B. Git Commands
 
@@ -64,8 +64,15 @@
 
 <hr>
 
-# IV. Submission
-
+# IV. HW & Submission
+- Use the GitBash terminal emulator
+- Create a local GitHub repository of your random joke repository by utilizing `git clone <url>`
+- Make a change to the **index.php** file, such as changing `MAX_LIMIT`
+- Use `git add .` to commit it to the local repository
+- Use `git commit-m "message"` to commit it to the local repository
+- Use `git push` to push the changes to the remote repository
+- Use `git status` to be sure that your chnages and psuh was successful
+- Take a screen shot of your entire session (the commands you typed above) and post it to myCourses
 
 
 
