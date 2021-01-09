@@ -56,9 +56,9 @@
 - `git --version` - will tell you that `git` is installed
 - `git clone <url>` - will clone the remote repository at `<url>` to the *cwd*
 - `git status`
-- `git add`
-- `git commit -m "message"`
-- `git push`
+- `git add` - adds local repository files to the *staging area* - see below
+- `git commit -m "message"` - commits files in the staging area to the local repository files - see below
+- `git push`- pushes the changes to the local repository up to the remote repository
 - `git remote update`
 - `git pull`
 
