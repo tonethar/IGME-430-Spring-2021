@@ -8,7 +8,7 @@
   - install these developer tools - which will greatly aid you when you need to debug your code:
     - [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US)
     - [Postman](https://www.postman.com/downloads/)
-  - use JSON viewer to see parts of the HTTP protocol in action
+  - use the Chrome Developer Tools and Postman to see parts of the HTTP protocol in action
 
  
 <hr>
