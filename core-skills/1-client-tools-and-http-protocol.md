@@ -116,7 +116,7 @@
 - Open up the web inspector as I have done below:
   - then select the **Network** tab
   - reload the browser so that the **get-jokes.php** file is visible in the inspector
-  - click on the **get-jokes.php**
+  - click on the **get-jokes.php** file
   - click on the **Preview** tab on the right to see the content that the web service sent back
   
 ![screenshot](_images/ss-1.png)
