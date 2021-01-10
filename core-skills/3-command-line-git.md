@@ -63,7 +63,6 @@
 - `git pull`- will update and merge any remote changes (of the current branch you're on) to your local repository - https://git-scm.com/docs/git-pull
 - `git rm --cached fileName` - will remove *fileName* from version tracking, but not delete the file itself
 - `git rm --f fileName` - will remove *fileName* from version tracking AND will delete the file
-- ``
 
 ![screenshot](./_images/ss-18.png)
 
@@ -79,6 +78,8 @@
   - Use `git push` to push the changes to the remote repository
   - Use `git status` to be sure that your chnages and push was successful
 - Take a screen shot of your entire session (the commands you typed above) and post it to myCourses
+- Type the answers to these questions in the comments field of the dropbox:
+
 
 
 
