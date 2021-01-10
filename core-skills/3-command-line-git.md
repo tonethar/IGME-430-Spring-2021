@@ -43,6 +43,7 @@
 - `mv file1 file2` - will rename *file1* to *file2*
 - `chmod` - used to set file permissions
 - `sudo` - used to perform commands (such as installing files in system directories) as the "super user"
+- `nano` (or `pico`) a simple text editor
 
 **Handy Unix Command-line tips**
 - *ctrl-a* - to move the cursor to the *beginning* of the line
