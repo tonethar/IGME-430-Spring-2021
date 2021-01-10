@@ -1,5 +1,12 @@
 # Skill #1 - Client Tools and the HTTP Protocol
 
+## 0. Video & HW
+
+- The video for this lecture, which walks through the notes and adds a few details, is here --> [Essential Skills - Part I (11:36)](https://video.rit.edu/Watch/430-essential-skills-1)
+- See the HW assignment at the bottom of the page (Part V.)
+
+<hr>
+
 ## I. Overview
 - Let's take one last look at `banjo.rit.edu` ...
 - PHP? Don't worry, we will only be using it on this assignment, and on the next one when we post **random-jokes.php** to the [Heroku](https://www.heroku.com/) cloud service
