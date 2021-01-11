@@ -19,8 +19,23 @@
   - massive ecosystem of libraries can be downloaded via package managers like [npm](https://www.npmjs.com/)
   
  
-## 
-## II. "Hello Node" Demo
+## II. Install Node.js
+- If you are on your own computer (as opposed to a lab machine) you will need to install Node.js
+  - Here's the installer link --> https://nodejs.org/en/
+  - Be sure to install the LTS ("Long Term Support") version
+- After it is installed, you need to verify that `node` and `npm` (node package manager) were installed. Go ahead and open up GitBash (or PowerShell, or Terminal on a Mac) and type:
+  - `node -v`
+  - `npm -v`
+- You should see the version numbers of each application logged out
+
+
+## III. "Hello Node" Demo
+
+1) Create a folder named **hello** and make it your *cwd* (bu `cd`ing into it)
+
+2) Inside of the **hello** folder, create a file named **index.js**
+
+3) 
 
 
 
