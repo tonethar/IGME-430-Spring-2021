@@ -3,7 +3,7 @@
 ## 0. Video & HW
 
 - The video for this lecture, which walks through the notes and adds many details, is here --> [Essential Skills - Part III (15:53)](https://video.rit.edu/Watch/430-essential-skills-3)
-- ***You may have gotten away with watching the preious 2 videos, but you will probably need to watch this one!***
+- ***You may have gotten away with watching the previous 2 videos, but you will probably need to watch this one!***
 - See the HW assignment at the bottom of the page (Part IV.)
 
 <hr>
@@ -33,7 +33,7 @@
 
 ## III. Demo
 
-- We'll be demoing these activities in this video -->
+- We'll be demoing these activities in the video
 - Below are some of the commands we'll be using in the demo
 
 ### III-A. Unix Commands
@@ -88,6 +88,7 @@
   - Use `git status` to be sure that your chnages and push was successful
 - Take a screen shot of your entire session (the commands you typed above) and post it to myCourses
 - Type the answers to these questions in the comments field of the dropbox:
+  - 1) 
 
 
 
