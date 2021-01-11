@@ -109,11 +109,11 @@ const uuid = nanoid();
 console.log(`Here's a UUID for you: ${uuid}`);
 ```
 
-    - what is this `require()` function?
-    - believe it or not, Node DOES NOT support ES6 module imports by default - for example `import { nanoid } from 'nanoid'` is not supported unless you declare in the **package.json** file that your code using ES6 modules
-    - in this class we will mostly be using [CommonJS](https://nodejs.org/en/knowledge/getting-started/what-is-require/) syntax to import libraries and create modules - there are two symbols that are used:
-      - `require()`function
-      - `exports` object
+- what is this `require()` function?
+- believe it or not, Node DOES NOT support ES6 module imports by default - for example `import { nanoid } from 'nanoid'` is not supported unless you declare in the **package.json** file that your code using ES6 modules
+- in this class we will mostly be using [CommonJS](https://nodejs.org/en/knowledge/getting-started/what-is-require/) syntax to import libraries and create modules - there are two symbols that are used:
+  - `require()`function
+  - `exports` object
 
 
 3) `npm start` - oops something went wrong!
