@@ -49,9 +49,11 @@
 - `rm fileName` - will delete *fileName*
 - `rmdir dirName` - will delete the folder named *dirName*
 - `mv file1 file2` - will rename *file1* to *file2*
+- `cp file2 file3` - will make a copy of *file2* that is named *file3*
 - `chmod` - used to set file permissions
 - `sudo` - used to perform commands (such as installing files in system directories) as the "super user"
-- `nano` (or `pico`) a simple text editor
+- `nano` (or `pico`) - a simple text editor
+- `clear` - clear the screen
 
 **Handy Unix Command-line tips**
 - *ctrl-a* - to move the cursor to the *beginning* of the line
