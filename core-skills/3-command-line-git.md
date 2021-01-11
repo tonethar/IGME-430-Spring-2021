@@ -60,7 +60,7 @@
 - *ctrl-e* - to move the cursor to the *end* of the line
 - *up arrow* - to view previously typed commands (continue pressing up arrow to cycle through command history, the down arrow goes forward through the history)
 - *tab key* - for autocompletion of partially typed file names
-- *drag and drop* - files into GitBash (or Terminal) to have their file paths typed for you
+- *drag and drop* files into GitBash (or Terminal) to have their file paths typed for you
 
 ### III-B. Git Commands
 
