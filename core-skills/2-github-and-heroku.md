@@ -1,5 +1,12 @@
 # Skill #2  - GitHub and Heroku
 
+## 0. Video & HW
+
+- The video for this lecture, which walks through the notes and adds a few details, is here --> [Essential Skills - Part II (08:14)](https://video.rit.edu/Watch/430-essential-skills-2)
+- See the HW assignment at the bottom of the page (Part VII.)
+
+<hr>
+
 ## I. Overview
 
 - We are going to post the **random-jokes.php** code from last time and deploy it to Heroku
