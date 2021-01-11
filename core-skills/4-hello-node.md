@@ -21,7 +21,7 @@
 <hr>
 
 ## II. Install Node.js
-- If you are on your own computer (as opposed to a lab machine) you will need to install Node.js
+- If you are on your own computer (as opposed to a lab machine) you will need to install Node.js, as well as npm (Node Package Manager) - the installer linked below should install them both for you
   - Here's the installer link --> https://nodejs.org/en/
   - Be sure to install the LTS ("Long Term Support") version
 - After it is installed, you need to verify that `node` and `npm` (node package manager) were installed. Go ahead and open up GitBash (or PowerShell, or Terminal on a Mac) and type:
