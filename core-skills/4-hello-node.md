@@ -91,6 +91,8 @@
 
 4) Now test the start key by typing `npm start` on the command line - this should launch index.js awhich then logs out `Hello 430` to the console
 
+5) Finally, we'll add an "engines" key to the package.json file - this is important when the app runs on Herolu, and when we use *Continuous Integration* tools like [CircleCI](https://circleci.com/enterprise-trial-install) (coming soon!)
+
 <hr>
 
 ## VI. Utilize a external library (aka "package")
