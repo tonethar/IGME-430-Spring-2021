@@ -93,6 +93,8 @@
 
 5) Finally, we'll add an "engines" key to the package.json file - this is important when the app runs on Herolu, and when we use *Continuous Integration* tools like [CircleCI](https://circleci.com/enterprise-trial-install) (coming soon!)
 
+6) What happens when you add "bad" JSON to your **package.json** file?
+
 <hr>
 
 ## VI. Utilize a external library (aka "package")
