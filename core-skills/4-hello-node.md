@@ -101,7 +101,7 @@
 
 1) Here we will utilize the *Nano ID* package, which is used to generate [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier) - docs and usage example is here --> https://www.npmjs.com/package/nanoid
 
-2) Let's utilize the `nanoid` library in **index.js** - go ahead and delte the old code and make it look like this:
+2) Let's utilize the `nanoid` library in **index.js** - go ahead and delete the old code and make it look like this:
 
 ```js
 const {nanoid} = require('nanoid'); // import the library using CommonJS syntax
@@ -110,10 +110,11 @@ console.log(`Here's a UUID for you: ${uuid}`);
 ```
 
 - what is this `require()` function?
-- believe it or not, Node DOES NOT support ES6 module imports by default - for example `import { nanoid } from 'nanoid'` is not supported unless you declare in the **package.json** file that your code using ES6 modules
+- believe it or not, Node DOES NOT support ES6 module imports by default - for example ES6 module style code such as `import { nanoid } from 'nanoid'` is not supported unless you declare in the **package.json** file that your code using ES6 modules
 - in this class we will mostly be using [CommonJS](https://nodejs.org/en/knowledge/getting-started/what-is-require/) syntax to import libraries and create modules - there are two symbols that are used:
   - `require()`function
   - `exports` object
+- we will be 
 
 
 3) `npm start` - oops something went wrong!
