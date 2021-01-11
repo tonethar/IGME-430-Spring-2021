@@ -99,7 +99,7 @@
 
 ## VI. Utilize a external library (aka "package")
 
-1) XX
+1) Here we will utilize the *Nano ID* package, which is used to generate [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier) - https://www.npmjs.com/package/nanoid
 
 
 <hr><hr>
