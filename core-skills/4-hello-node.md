@@ -80,6 +80,21 @@
 
 ## V. Edit the package.json file
 
+1) First we will test the **package.json** file by typing `npm test`
+
+    - this runs the contents of the "test" key (under the "scripts" key) of the **package.json** file
+    
+2) Now we will modify the "test" key to instead log out "No tests required"
+
+3) Now we will create a "start" key under the "scripts" key with a value of "node ./index.js"
+
+4) Now test the start key by typing `npm start` on the command line - this should launch index.js awhich then logs out `Hello 430` to the console
+
+<hr>
+
+## VI. Utilize a external library (aka "package")
+
+1) XX
 
 
 <hr><hr>
