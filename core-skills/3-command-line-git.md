@@ -1,5 +1,12 @@
 # Skill #3 - Command-line Git & Cloning Repositories
 
+## 0. Video & HW
+
+- The video for this lecture, which walks through the notes and adds a few details, is here --> [Essential Skills - Part III (15:53)](https://video.rit.edu/Watch/430-essential-skills-3)
+- See the HW assignment at the bottom of the page (Part IV.)
+
+<hr>
+
 ## I. Recap & Overview
 
 - Last time we learned how to deploy a PHP file to Heroku, and then connect it to a GitHub repository
