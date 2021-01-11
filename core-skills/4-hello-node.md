@@ -18,7 +18,8 @@
   - can use same language on client & server
   - massive ecosystem of libraries can be downloaded via package managers like [npm](https://www.npmjs.com/)
   
- 
+<hr>
+
 ## II. Install Node.js
 - If you are on your own computer (as opposed to a lab machine) you will need to install Node.js
   - Here's the installer link --> https://nodejs.org/en/
@@ -28,17 +29,56 @@
   - `npm -v`
 - You should see the version numbers of each application logged out
 
+<hr>
 
-## III. "Hello Node" Demo
+## III. "Hello Node" Demo Start
 
-1) Create a folder named **hello** and make it your *cwd* (bu `cd`ing into it)
+1) Create a folder named **hello** and make it your *cwd* (by `cd`ing into it)
 
 2) Inside of the **hello** folder, create a file named **index.js**
 
-3) 
+3) Put the following code into **index.js** --> `console.log("Hello 430");`
 
+4) Now run the code by typing `npm ./index.js` on the command line - you should see `Hello 430` log out to the console
 
+<hr>
 
+## IV. Add a package.json file
+
+- Soon we will be adding a library to this app () so that we can utilize its capabilities
+- **package.json** files contain *metadata* about your node project - analagous to a C Makefile 
+
+1) Type `npm init` to launch and interactive prompt that will create a **package.json** file for us based on our answers
+
+- NOTE: you can alternatively type in `npm init -y` to create a **package.json** with default values without using the interactive prompts, and then just edit the file manually
+
+2) We will mostly go with the default values (by pressing enter), but will add values for `description`, `author`, and `keywords`
+
+3) Here is what the file looks like:
+
+```json
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "first node and npm demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "430",
+    "week1"
+  ],
+  "author": "Tony",
+  "license": "ISC"
+}
+```
+
+- Note that this files is in JSON, where the *keys* (such as "name") must be quoted strings, and the values are legal JSON data types such as strings, objects, and arrays (booleans and numbers and null are also legal)
+
+<hr>
+
+## V. Edit the package.json file
 
 
 
