@@ -43,7 +43,7 @@
 - `cd` - by itself, will change the *cwd* to the user's login (i.e. home) directory
 - `pwd` - prints out the current path to the *cwd*
 - `ls` - lists out files and directories in the *cwd*
-- `ls -al` - lists out files and directories in the *cwd*, including "invisible" dot files
+- `ls -al` - lists out files and directories in the *cwd*, including "invisible" (those files whose name begins with a dot)
 - `mkdir dirName` - will create a new folder named *dirName*
 - `touch fileName` - will create an empty file named *fileName*
 - `rm fileName` - will delete *fileName*
@@ -79,18 +79,33 @@
 
 <hr>
 
-## IV. HW & Submission
+## IV. HW & Submission (Out of 10 points)
 - Use the GitBash terminal emulator
 - Create a local GitHub repository of your random joke repository by utilizing `git clone <url>`
 - Make a change to the **index.php** file, such as changing `MAX_LIMIT`
 - Here are the "big 4" git commands that you need to know:
-  - Use `git add .` to commit it to the local repository
+  - Use `git add .` to add a file to the local repository's "staging area"
   - Use `git commit-m "message"` to commit it to the local repository
   - Use `git push` to push the changes to the remote repository
   - Use `git status` to be sure that your chnages and push was successful
 - Take a screen shot of your entire session (the commands you typed above) and post it to myCourses
-- Type the answers to these questions in the comments field of the dropbox:
-  - 1) 
+- Type the answers to these questions in the comments field of the dropbox: (-1/2 point each for incorrect answers)
+  - 1) What does *cwd* stand for?
+  - 2) Which command is used to print out the *cwd*
+  - 3) What is the maximum number of *parent* directories a directory can have? 
+  - 4) What does `ls` do?
+  - 5) What does `ls -al` do?
+  - 6) In a "long list", how can you tell that a listed item is a directory or a file?
+  - 7) What character do "invisible" files begin with?
+  - 8) Write the unix command that will move the *cwd* "up" one level
+  - 9) Which command will clear the shell's screen? 
+  - 10) How do you get the shell to cycle through the previously typed in command history?
+  - 11) Which `git` command is used to download a *local copy* of a remote repository?
+  - 12) Which `git` command is used to print out the current *status* of the repository?
+  - 13) Which `git` command is used to add a file to the local repository's *staging area*?
+  - 14) Which `git` command is used to save the changes made to the local repository, to the remote repository?
+  
+  
 
 
 
