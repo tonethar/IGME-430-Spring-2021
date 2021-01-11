@@ -89,7 +89,7 @@
   - Use `git push` to push the changes to the remote repository
   - Use `git status` to be sure that your chnages and push was successful
 - Take a screen shot of your entire session (the commands you typed above) and post it to myCourses
-- Type the answers to these questions in the comments field of the dropbox: (-1/2 point each for incorrect answers)
+- Type the answers to these questions in the comments field of the dropbox (-1/2 point each for incorrect answers):
 
 1. What does *cwd* stand for?
 
