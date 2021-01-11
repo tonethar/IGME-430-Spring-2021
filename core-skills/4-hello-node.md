@@ -50,7 +50,7 @@
 
 1) Type `npm init` to launch and interactive prompt that will create a **package.json** file for us based on our answers
 
-- NOTE: you can alternatively type in `npm init -y` to create a **package.json** with default values without using the interactive prompts, and then just edit the file manually
+  - NOTE: you can alternatively type in `npm init -y` to create a **package.json** with default values without using the interactive prompts, and then just edit the file manually
 
 2) We will mostly go with the default values (by pressing enter), but will add values for `description`, `author`, and `keywords`
 
