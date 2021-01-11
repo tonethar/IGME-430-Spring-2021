@@ -90,20 +90,36 @@
   - Use `git status` to be sure that your chnages and push was successful
 - Take a screen shot of your entire session (the commands you typed above) and post it to myCourses
 - Type the answers to these questions in the comments field of the dropbox: (-1/2 point each for incorrect answers)
-  - 1. What does *cwd* stand for?
-  - 2. Which command is used to print out the *cwd*
-  - 3) What is the maximum number of *parent* directories a directory can have? 
-  - 4) What does `ls` do?
-  - 5) What does `ls -al` do?
-  - 6) In a "long list", how can you tell that a listed item is a directory or a file?
-  - 7) What character do "invisible" files begin with?
-  - 8) Write the unix command that will move the *cwd* "up" one level
-  - 9) Which command will clear the shell's screen? 
-  - 10) How do you get the shell to cycle through the previously typed in command history?
-  - 11) Which `git` command is used to download a *local copy* of a remote repository?
-  - 12) Which `git` command is used to print out the current *status* of the repository?
-  - 13) Which `git` command is used to add a file to the local repository's *staging area*?
-  - 14) Which `git` command is used to save the changes made to the local repository, to the remote repository?
+
+1. What does *cwd* stand for?
+
+2. Which command is used to print out the *cwd*
+
+3. What is the maximum number of *parent* directories a directory can have? 
+
+4. What does `ls` do?
+
+5. What does `ls -al` do?
+
+6. In a "long list", how can you tell that a listed item is a directory or a file?
+
+7. What character do "invisible" files begin with?
+
+8. Write the unix command that will move the *cwd* "up" one level
+
+9. Which command will clear the shell's screen? 
+
+10. How do you get the shell to cycle through the previously typed in command history?
+
+11. Which `git` command is used to download a *local copy* of a remote repository?
+
+12. Which `git` command is used to print out the current *status* of the repository?
+
+13. Which `git` command is used to add a file to the local repository's *staging area*?
+
+14. Which `git` command is used to save the files in the *staging area* to the local repository?
+
+15. Which `git` command is used to save the changes made to the local repository, to the remote repository?
   
   
 
