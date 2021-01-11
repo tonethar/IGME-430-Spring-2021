@@ -15,8 +15,9 @@
   - full hardware access
   - unrestricted threads
 - Other advantages:
-  - can use same language on client & server
-  - massive ecosystem of libraries can be downloaded via package managers like [npm](https://www.npmjs.com/)
+  - can use same language (JS) on client & server
+  - a massive ecosystem of libraries can be downloaded via package managers like [npm](https://www.npmjs.com/)
+    - npm allows us to discover, download and publish *packages* (aka "libraries") from https://www.npmjs.com
   
 <hr>
 
