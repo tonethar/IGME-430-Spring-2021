@@ -46,7 +46,7 @@
 ## IV. Add a package.json file
 
 - Soon we will be adding a library to this app () so that we can utilize its capabilities
-- **package.json** files contain *metadata* about your node project - analagous to a C Makefile 
+- **package.json** files contain *metadata* about your node project - analagous to a [C Makefile](https://en.wikipedia.org/wiki/Makefile)
 
 1) Type `npm init` to launch and interactive prompt that will create a **package.json** file for us based on our answers
 
