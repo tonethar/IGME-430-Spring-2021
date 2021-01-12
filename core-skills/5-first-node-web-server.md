@@ -1,6 +1,6 @@
 # Skill #5 - First Node Web Server
 
-# I. Overview
+## I. Overview
 
 - Last time we "imported" (using `require()`) an *external* libray (aka "package") named `nanoid`
 - this time we will use a *built-in* library called `http` to help us build a simple web server
@@ -14,9 +14,47 @@
  
  
  
-- require `http`
-- `process.env`
-- `npm i nodemon --save-dev`
+## II. The server
+
+```js
+// 1 - pull in the HTTP server module
+const http = require('http'); 
+
+// 2 - locally this will be 3000, on Heroku it will be assigned
+const port = process.env.PORT || process.env.NODE_PORT || 3000;
+
+// 3 - process.env is an environmental variable
+// https://nodejs.org/dist/latest-v8.x/docs/api/process.html#process_process_env
+//console.log(process.env);
+
+// 4 - Here is the hard-coded web page we will send back
+const index = `	
+    <html>
+		  <head>
+		    <title>First Node Page</title>
+		  </head>
+		  <body>
+		  <h1>First Node Page!</h1>
+		  </body>
+		</html>`;
+
+// 5 - this is the function that will be called every time a client request comes in
+const onRequest = (request, response) => {
+  console.log(request.url);
+  console.log(request.headers);
+
+  response.writeHead(200, { 'Content-Type': 'text/html' }); // send response headers
+  response.write(index); // send content
+  response.end(); // close connection
+};
+
+
+// 6 - create the server, hook up the request handling function, and start lisening on `port`
+// method chaining! - https://medium.com/backticks-tildes/understanding-method-chaining-in-javascript-647a9004bd4f
+http.createServer(onRequest).listen(port);
+
+console.log(`Listening on 127.0.0.1: ${port}`);
+```
 
 
 <hr><hr>
