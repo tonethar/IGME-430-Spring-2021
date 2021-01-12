@@ -125,11 +125,7 @@ console.log(`Here's a UUID for you: ${uuid}`);
     - on the client side, we can "import" a library (for example, RiTa.js), and the browser will take care of downloading it for us
     - but on the server side, WE need to download the libray files ourselves
 
-4) To download the `nanoid` library files and add an entry to the "dependencies" key of our **package.json** file, type:
-
-```
-npm install --save nanoid
-```
+4) To download the `nanoid` library files and add an entry to the "dependencies" key of our **package.json** file, type `npm install --save nanoid` :
 
     - what happened when typed the above command in?
     - the `nanoid` library files were downlaoded by `npm` into a **node_modules** folder
