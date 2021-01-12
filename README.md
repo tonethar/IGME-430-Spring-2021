@@ -3,7 +3,7 @@
 ## Mission
 
 <blockquote>
-"Students will create and deploy *full-stack* web apps that are *secure* and *persistent*, while following *industry standard development practices*"
+"Students will create and deploy <i>full-stack</i> web apps that are <i>secure</i> and <i>persistent</i>, while following <i>industry standard development practices</i>"
 </blockquote>
   
 - *Full-stack* means that the app has both client-side and server-side components
