@@ -31,14 +31,15 @@ const port = process.env.PORT || process.env.NODE_PORT || 3000;
 
 // 4 - Here is the hard-coded web page we will send back
 const index = `	
-    <html>
-		  <head>
-		    <title>First Node Page</title>
-		  </head>
-		  <body>
-		  <h1>First Node Page!</h1>
-		  </body>
-		</html>`;
+<html>
+  <head>
+    <title>First Node Page</title>
+  </head>
+  <body>
+    <h1>First Node Page!</h1>
+  </body>
+</html>
+`;
 
 // 5 - this is the function that will be called every time a client request comes in
 const onRequest = (request, response) => {
