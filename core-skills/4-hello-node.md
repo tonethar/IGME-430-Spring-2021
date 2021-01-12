@@ -109,20 +109,56 @@ const uuid = nanoid();
 console.log(`Here's a UUID for you: ${uuid}`);
 ```
 
-- what is this `require()` function?
+- quick aside: what is this `require()` function?
 - believe it or not, Node DOES NOT support ES6 module imports by default:
-  - for example ES6 module style code such as `import { nanoid } from 'nanoid'` is not supported unless you declare in the **package.json** file that your code using ES6 modules
-- in this class we will mostly be using [CommonJS](https://nodejs.org/en/knowledge/getting-started/what-is-require/) syntax to import libraries and create modules - there are two symbols that are used:
+  - for example ES6 module style code such as `import { nanoid } from 'nanoid'` is not supported unless you declare in the **package.json** file that your code is using ES6 modules
+- in this class we will mostly be using the pre-ES6 [CommonJS](https://nodejs.org/en/knowledge/getting-started/what-is-require/) syntax (on the server-side) to import libraries and create code modules - there are two symbols that are used:
   - `require()`function
   - `exports` object
-- we will be 
+- we will be seeing a lot of this module style during the semester, so don't worry about it too much right now
 
 
 3) `npm start` - oops something went wrong!
 
-    - we
+![screenshot](_images/ss-19.png)
 
-it should log a UUID to the 
+    - on the client side, we can "import" a library (for example, RiTa.js), and the browser will take care of downloading it for us
+    - but on the server side, WE need to download the libray files ourselves
+
+4) To download the `nanoid` library files and add an entry to the "dependencies" key of our **package.json** file, type:
+
+```
+npm install --save nanoid
+```
+
+    - what happened when typed the above command in?
+    - the `nanoid` library files were downlaoded by `npm` into a **node_modules** folder
+    - a "dependencies" key was added to our **package.json** file
+    - go look for both of these things now!
+    
+5) Now run the app by typing `npm start` again - it should run and then log a UUID to the console.
+
+```
+Here's a UUID for you: kaTb4hL2IvqoM05lXTcIX
+```
+
+6) Now try deleting the **node_modules** folder and typing `npm start` again - ERROR!
+
+7) But because `nanoid` is listed as a "dependency" in the **package.json** file, we only have to type in `npm install` to re-download the `nano` package. THis means we don't have to specify a package after it has been added to the "dependencies". This is a good thing because you are going to see very soon that we often need to be using 5 to 10 packages on a typical project, so re-typing all of the package names everytime we need to rebuild the project would be onerous and error prown.
+
+8) Finally, the command we typed in step #4 above could be shortened to this:
+
+```
+npm i nanoid
+```
+
+    - why?
+    - `i` is short for `install`
+    - starting with Node version 5.0, `--save` is  no longer required to save packages to the "dependencies" key, this is now done by default
+
+<hr>
+
+## IV. HW & Submission (Out of 10 points)
 
 <hr><hr>
 
