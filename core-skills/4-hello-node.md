@@ -5,10 +5,11 @@
   
 - https://nodejs.org/en/
 - Server-side JavaScript, built on [Chrome's V8 JavaScript Engine](https://v8.dev/)
-  - V8 is highly performant, and compiles every JavaScript instruction into native instructions
+  - V8 is highly performant, and compiles every JavaScript code snippet into native instructions
 - Node.js can be used to create:
   - servers
   - desktop applications (like Discord, VS Code, Brackets, etc built with [Electron](https://www.electronjs.org/)
+  - mobile apps
   - embedded systems (Rasberry Pi, Arduino, etc)
 - Node.js runs JavaScript WITHOUT all of the browser restrictions we know and hate:
   - full OS access
@@ -122,8 +123,8 @@ console.log(`Here's a UUID for you: ${uuid}`);
 
 ![screenshot](_images/ss-19.png)
 
-    - on the client side, we can "import" a library (for example, RiTa.js), and the browser will take care of downloading it for us
-    - but on the server side, WE need to download the libray files ourselves
+  - on the client side, we can "import" a library (for example, RiTa.js), and the browser will take care of downloading it for us
+  - but on the server side, WE need to download the libray files ourselves
 
 4) To download the `nanoid` library files and add an entry to the "dependencies" key of our **package.json** file, type `npm install --save nanoid` :
 
@@ -140,6 +141,9 @@ Here's a UUID for you: kaTb4hL2IvqoM05lXTcIX
 
 6) Now try deleting the **node_modules** folder and typing `npm start` again - ERROR!
 
+    - BTW - we ALWAYS delete the **node_modules** folder before posting code to myCourses or commiting it to GitHub
+    - Why? Because they take up a lot of space, and whenever we post a node project to Heroku that has a **package.json** file, Heroku will go ahead and download fresh copies of all of the packages listed in the "dependencies" key for us
+
 7) But because `nanoid` is listed as a "dependency" in the **package.json** file, we only have to type in `npm install` to re-download the `nano` package. This means we don't have to specify a package after it has been added to the "dependencies". This is a good thing because you are going to see very soon that we often need to be using 5 to 10 packages on a typical project, so re-typing all of the package names everytime we need to rebuild the project would be onerous and error prown.
 
 8) Finally, the command we typed in step #4 above could be shortened to this - `npm i nanoid` :
@@ -153,10 +157,18 @@ Here's a UUID for you: kaTb4hL2IvqoM05lXTcIX
 ## IV. HW & Submission (Out of 10 points)
 
 - In the mycourses dropbox:
-  - delete the node_modules folder, and then ZIP and POST the **hello** folder
+  - ZIP and POST the **hello** folder (with the **node_modules** folder deleted)
   - take a screenshot of your shell session (showing `npm start`, `npm install --save nanoid` and `npm install`) and post it to the dropbox
 - In the comments section of the dropbox, type the answers to the following questions:
-  - 
+  - 1) True or False. The Chrome V8 engine compiles JavaScript instructions down to native code and is thus very fast
+  - 2) True or False.  node/npm can be used to create desktop and mobile apps
+  - 3) What kind of information/data goes into a **package.json** file?
+  - 4) What are the 2 things that happen when you install a package with `npm install package-name`?
+  - 5) What command would we type to "re-install" a project's package dependencies?
+- Rubric:
+  - wrong answer/missing answer to question -1
+  - **node_modules**  NOT deleted -3
+  - missing screenshot -5
 
 <hr><hr>
 
