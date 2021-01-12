@@ -35,6 +35,10 @@
 
 ## III. "Hello Node" Demo Start
 
+- Today, to get you started with node, we will create a simple node app and run it *locally*
+- (Next time we will run a node app locally, and then push it to Heroku so that it runs out on the Internet in the "cloud")
+- Let's get started!
+
 1) Create a folder named **hello** and make it your *cwd* (by `cd`ing into it)
 
 2) Inside of the **hello** folder, create a file named **index.js**
