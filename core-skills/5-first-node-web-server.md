@@ -9,7 +9,7 @@
   - [``]()
   - [`httpResponse.writeHead()`](https://nodejs.org/api/http.html#http_response_writehead_statuscode_statusmessage_headers)
   - [`httpResponse.write()`](https://nodejs.org/api/http.html#http_response_write_chunk_encoding_callback)
-  - [`httpResponse.end()`](https://nodejs.org/api/http.html#http_request_end_data_encoding_callback)
+  - [`httpResponse.end()`](https://nodejs.org/api/http.html#http_response_end_data_encoding_callback)
   
 - require `http`
 - `process.env`
