@@ -30,6 +30,7 @@ const port = process.env.PORT || process.env.NODE_PORT || 3000;
 //console.log(process.env);
 
 // 4 - Here is the hard-coded web page we will send back
+// note that we enclosed the string in back-ticks so that we could use a nicely formatted multi-line string
 const index = `	
 <html>
   <head>
