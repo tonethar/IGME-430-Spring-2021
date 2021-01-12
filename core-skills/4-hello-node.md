@@ -1,6 +1,13 @@
 # Skill #4 - Hello Node
 
 
+## 0. Video & HW
+
+- The video for this lecture, which walks through the notes and adds many details, is here --> [Essential Skills - Part IV (15:12)](https://video.rit.edu/Watch/430-essential-skills-4)
+- See the HW assignment at the bottom of the page (Part VII.)
+
+<hr>
+
 ## I. What is Node.js?
   
 - https://nodejs.org/en/
@@ -160,7 +167,7 @@ Here's a UUID for you: kaTb4hL2IvqoM05lXTcIX
 
 <hr>
 
-## IV. HW & Submission (Out of 10 points)
+## VII. HW & Submission (Out of 10 points)
 
 - In the mycourses dropbox:
   - ZIP and POST the **hello** folder (with the **node_modules** folder deleted)
