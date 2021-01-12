@@ -156,6 +156,8 @@ Here's a UUID for you: kaTb4hL2IvqoM05lXTcIX
     - `i` is short for `install`
     - starting with Node version 5.0, `--save` is  no longer required to save packages to the "dependencies" key, this is now done by default
 
+9) BTW - this was not mentioned in the companion video - `npm init` also generates a **package-lock.json** file - the file is needed by npm so you will commit it to your respository - but you will never edit it - you can head about its purpose here --> https://docs.npmjs.com/cli/v6/configuring-npm/package-lock-json
+
 <hr>
 
 ## IV. HW & Submission (Out of 10 points)
