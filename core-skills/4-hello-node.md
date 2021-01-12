@@ -144,7 +144,7 @@ Here's a UUID for you: kaTb4hL2IvqoM05lXTcIX
 
 6) Now try deleting the **node_modules** folder and typing `npm start` again - ERROR!
 
-7) But because `nanoid` is listed as a "dependency" in the **package.json** file, we only have to type in `npm install` to re-download the `nano` package. THis means we don't have to specify a package after it has been added to the "dependencies". This is a good thing because you are going to see very soon that we often need to be using 5 to 10 packages on a typical project, so re-typing all of the package names everytime we need to rebuild the project would be onerous and error prown.
+7) But because `nanoid` is listed as a "dependency" in the **package.json** file, we only have to type in `npm install` to re-download the `nano` package. This means we don't have to specify a package after it has been added to the "dependencies". This is a good thing because you are going to see very soon that we often need to be using 5 to 10 packages on a typical project, so re-typing all of the package names everytime we need to rebuild the project would be onerous and error prown.
 
 8) Finally, the command we typed in step #4 above could be shortened to this:
 
@@ -159,6 +159,12 @@ npm i nanoid
 <hr>
 
 ## IV. HW & Submission (Out of 10 points)
+
+- In the mycourses dropbox:
+  - delete the node_modules folder, and then ZIP and POST the **hello** folder
+  - take a screenshot of your shell session (showing `npm start`, `npm install --save nanoid` and `npm install`) and post it to the dropbox
+- In the comments section of the dropbox, type the answers to the following questions:
+  - 
 
 <hr><hr>
 
