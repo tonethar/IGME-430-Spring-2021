@@ -44,7 +44,7 @@ const index = `
 // 5 - this is the function that will be called every time a client request comes in
 const onRequest = (request, response) => {
   console.log(request.url);
-  console.log(request.headers);
+  //console.log(request.headers);
 
   response.writeHead(200, { 'Content-Type': 'text/html' }); // send response headers
   response.write(index); // send content
