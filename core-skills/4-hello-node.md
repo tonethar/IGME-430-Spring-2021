@@ -146,11 +146,7 @@ Here's a UUID for you: kaTb4hL2IvqoM05lXTcIX
 
 7) But because `nanoid` is listed as a "dependency" in the **package.json** file, we only have to type in `npm install` to re-download the `nano` package. This means we don't have to specify a package after it has been added to the "dependencies". This is a good thing because you are going to see very soon that we often need to be using 5 to 10 packages on a typical project, so re-typing all of the package names everytime we need to rebuild the project would be onerous and error prown.
 
-8) Finally, the command we typed in step #4 above could be shortened to this:
-
-```
-npm i nanoid
-```
+8) Finally, the command we typed in step #4 above could be shortened to this - `npm i nanoid` :
 
     - why?
     - `i` is short for `install`
