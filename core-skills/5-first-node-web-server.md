@@ -2,7 +2,7 @@
 
 ## I. Overview
 
-- Last time we "imported" (using `require()`) an *external* libray (aka "package") named `nanoid`
+- Last time we "imported" (using `require()`) an *external* library (aka "package") named `nanoid`
 - this time we will use a *built-in* library called `http` to help us build a simple web server
 - the properties and methods that we will use today are: 
   - [`http.createServer(listener)`](https://nodejs.org/api/http.html#http_http_createserver_options_requestlistener) - will create a new http web server for us, and any client requests that come in will be routed to `listener`
@@ -52,7 +52,7 @@ const onRequest = (request, response) => {
 };
 
 
-// 6 - create the server, hook up the request handling function, and start lisening on `port`
+// 6 - create the server, hook up the request handling function, and start listening on `port`
 // method chaining! - https://medium.com/backticks-tildes/understanding-method-chaining-in-javascript-647a9004bd4f
 http.createServer(onRequest).listen(port);
 
