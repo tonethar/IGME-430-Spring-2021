@@ -38,8 +38,7 @@ const index = `
   <body>
     <h1>First Node Page!</h1>
   </body>
-</html>
-`;
+</html>`;
 
 // 5 - this is the function that will be called every time a client request comes in
 const onRequest = (request, response) => {
