@@ -42,6 +42,7 @@ const index = `
 </html>`;
 
 // 5 - this is the function that will be called every time a client request comes in
+// note that in this course we'll be using arrow functions 100% of the time in our server-side code
 const onRequest = (request, response) => {
   console.log(request.url);
   //console.log(request.headers);
