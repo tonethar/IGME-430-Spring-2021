@@ -23,7 +23,7 @@
 
 - The complete code for your first node web server is below:
   - Create a folder named **first-web-server**
-  - Using a terminal program (GitBash/Powershell,Terminal) make that folder the *cwd* by `cd`ing into it
+  - Using a terminal program (GitBash/Powershell/Terminal) make that folder the *cwd* by `cd`ing into it
   - `npm init -y` - let's use the default values this time
   - edit the **package.json** file:
     - under the `"scripts"` key add a `"start"` key with the value of `node ./src/index.js`
@@ -75,7 +75,7 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 
 <hr>
 
-## IV. Test the server
+## III. Test the server
 
 - Start up the app and our web server by typing `npm start`
 - Check the console to be sure that the app is running on port 3000
@@ -90,19 +90,24 @@ console.log(`Listening on 127.0.0.1: ${port}`);
  
 ## III. Push the server to Heroku
 
-### III-A. Create a local GitHub repository
+### IV-A. Create a local GitHub repository
 
-### III-B. Create a remote GitHub repository
+- In order to post this app to Heroku, we'll need to push it to a *remote* Git repository. To do this we'll first make a *local* Git repository
+- To create a new local githib repository:
+  - using GitBash/Powershell/Terminal, make **first-web-server** your *cwd*
+  - type `git init`
 
-### III-C. Link the local and remote repository
+### IV-B. Create a remote GitHub repository
 
-### III-D. Create an App on Heroku
+### IV-C. Link the local and remote repository
 
-### III-E. Test it!
+### IV-D. Create an App on Heroku
+
+### IV-E. Test it!
 
 <hr> 
 
-## IV. Submission
+## V. Submission
 
 
 
