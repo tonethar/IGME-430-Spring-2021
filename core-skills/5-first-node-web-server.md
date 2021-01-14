@@ -116,6 +116,7 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 
 ![screenshot](./_images/ss-21.png)
 
+<hr>
 
 ### IV-C. Create an App on Heroku
 
@@ -129,11 +130,29 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 
 ![screenshot](./_images/ss-22.png)
 
+<hr>
+
 ### IV-D. Test it!
+
+- Now it should be online, fully functional, and available to anyone connected to the Internet!
 
 <hr>
 
 ![screenshot](./_images/ss-23.png)
+
+<hr>
+
+### IV-E. Try this!
+
+- Go ahead and make a small chnage to **index.js** (the local copy on your hard drive)
+- Commit the chnage to the *local* repository:
+  - `git add .`
+  - `git commit -m "updated index.js"`
+- push the chnage to the *remote* repository
+  - `git push`
+- Head to GitHub to be sure that your chnage pushed
+- Head to the *Activity* tab in the Heroku control panel to see the changes getting pushed to Heroku
+- Click the "Open App" button to see your the modified server 
 
 
 ## V. Submission
