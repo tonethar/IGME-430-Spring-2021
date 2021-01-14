@@ -84,6 +84,7 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 - Check the console to be sure that the app is running on port 3000
 - Head to `http://localhost:3000` - this will send a web page request to a local server running on port 3000
 - Our default web page should now load and display in the browser window
+- When you make chnages to the code, you will need to restart the server to see them. Press the **control-c** key to kill node, and then type `npm start` to restart the server
 
 <hr>
 
