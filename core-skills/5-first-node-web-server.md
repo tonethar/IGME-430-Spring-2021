@@ -15,6 +15,7 @@
   - [Wikipedia - Port (computer networking)](https://en.wikipedia.org/wiki/Port_(computer_networking))
   - [JS Template Literals (Template Strings) - created with backticks (\``)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
   - [JS Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+  - [Method Chaining in JS](https://medium.com/backticks-tildes/understanding-method-chaining-in-javascript-647a9004bd4f)
  
  
  
@@ -58,7 +59,6 @@ const onRequest = (request, response) => {
 
 
 // 6 - create the server, hook up the request handling function, and start listening on `port`
-// method chaining! - https://medium.com/backticks-tildes/understanding-method-chaining-in-javascript-647a9004bd4f
 http.createServer(onRequest).listen(port);
 
 console.log(`Listening on 127.0.0.1: ${port}`);
