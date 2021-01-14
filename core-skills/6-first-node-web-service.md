@@ -1,4 +1,4 @@
-# Skill #6 - First Node Web Server on Heroku
+# Skill #6 - First Node Web Service
 
 
 <hr><hr>
