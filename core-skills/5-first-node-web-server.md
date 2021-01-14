@@ -100,6 +100,10 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 - To create a new local githib repository:
   - using GitBash/Powershell/Terminal, make **first-web-server** your *cwd*
   - type `git init`
+  - type `git status`
+  - create `.gitignore` file and add "node_modules" to it (technically not needed this time)
+  - `git add .`
+  - `git commit -m "message"`
 
 ### IV-B. Create a remote GitHub repository
 
