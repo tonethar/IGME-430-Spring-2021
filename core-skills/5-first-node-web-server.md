@@ -92,7 +92,7 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 
 <hr> 
  
-## III. Push the server to Heroku
+## IV. Push our server to Heroku
 
 ### IV-A. Create a local GitHub repository
 
