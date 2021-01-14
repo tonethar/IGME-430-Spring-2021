@@ -59,7 +59,7 @@ const onRequest = (request, response) => {
 
 
 // 6 - create the server, hook up the request handling function, and start listening on `port`
-http.createServer(onRequest).listen(port);
+http.createServer(onRequest).listen(port); // method chaining!
 
 console.log(`Listening on 127.0.0.1: ${port}`);
 ```
