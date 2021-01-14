@@ -13,7 +13,7 @@
   - [`httpResponse.end()`](https://nodejs.org/api/http.html#http_response_end_data_encoding_callback) - close the connection
 - some other concepts that may come up:
   - [Wikipedia - Port (computer networking)](https://en.wikipedia.org/wiki/Port_(computer_networking))
-  - [JS Template Literals - created with backticks (`\``)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+  - [JS Template Literals - created with backticks (\``)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
  
  
  
