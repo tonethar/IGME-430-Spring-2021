@@ -17,7 +17,7 @@
   - [JS Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
   - [Method Chaining in JS](https://medium.com/backticks-tildes/understanding-method-chaining-in-javascript-647a9004bd4f)
  
- 
+<hr> 
  
 ## II. The server
 
@@ -62,6 +62,25 @@ http.createServer(onRequest).listen(port); // method chaining!
 
 console.log(`Listening on 127.0.0.1: ${port}`);
 ```
+
+<hr> 
+ 
+## III. Push the server to Heroku
+
+### III-A. Create a local GitHub repository
+
+### III-B. Create a remote GitHub repository
+
+### III-C. Link the local and remote repository
+
+### III-D. Create an App on Heroku
+
+### III-E. Test it!
+
+<hr> 
+
+## IV. Submission
+
 
 
 <hr><hr>
