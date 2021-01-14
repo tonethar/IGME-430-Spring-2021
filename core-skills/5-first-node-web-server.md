@@ -150,7 +150,7 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 
 ### IV-E. Try this!
 
-- Go ahead and make a small chnage to **index.js** (the local copy on your hard drive)
+- Go ahead and make a small change to **index.js** (the local copy on your hard drive)
 - Commit the chnage to the *local* repository:
   - `git add .`
   - `git commit -m "updated index.js"`
@@ -163,6 +163,23 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 
 ## V. Submission
 
+- In the mycourses dropbox:
+  - ZIP and POST the **first-web-server** folder
+  - In the comments field of the dropbox, type:
+    - the URL to your GitHub repository
+    - the URL to your working `abc1234-first-web-server` page on Heroku (IMPORTANT - DO NOT post your Heroku control panel link - no one but you can see that page)
+- In the comments section of the dropbox, type the answers to the following questions:
+  - 1) True or False. The main thing that web servers do is to wait for requests from *clients*, and send responses
+  - 2) True or False.  The `http` library ships with node by default
+  - 3) List the other built in libraries (aka modules) of Node.js. Yeah there are more than 30 - google it - then list them here!
+  - 4) What is the standard *port* for HTTP?
+  - 5) What is the standard *port* for HTTPS?
+  - 6) What are the two named arguments of our `onRequest` handler?
+  - 7) Which `git` command did you use to link the *local* repsoitory with the *remote*  (give the entire command)
+- Rubric:
+  - wrong answer/missing answer to question -1 each
+  - missing links -5 each
+  - app does not work on Heroku -5
 
 
 <hr><hr>
