@@ -21,7 +21,17 @@
  
 ## II. The server
 
-**index.js**
+- The complete code for your first node web server is below:
+  - Create a folder named **first-web-server**
+  - Using a terminal program (GitBash/Powershell,Terminal) make that folder the *cwd* by `cd`ing into it
+  - `npm init -y` - let's use the default values this time
+  - edit the **package.json** file:
+    - under the `"scripts"` key add a `"start"` key with the value of `node ./src/index.js`
+  - in the **first-web-server** folder, create a **src** folder
+  - create **index.js** and put it in the **src** folder
+
+
+**src/index.js**
 
 ```js
 // 1 - pull in the HTTP server module
@@ -62,6 +72,19 @@ http.createServer(onRequest).listen(port); // method chaining!
 
 console.log(`Listening on 127.0.0.1: ${port}`);
 ```
+
+<hr>
+
+## IV. Test the server
+
+- Start up the app and our web server by typing `npm start`
+- Check the console to be sure that the app is running on port 3000
+- Head to `http://localhost:3000` - this will send a web page request to a local server running on port 3000
+- Our default web page should now load and dispaky in the browser
+
+<hr>
+
+![screenshot](./_images/ss-20.png)
 
 <hr> 
  
