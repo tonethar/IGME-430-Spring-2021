@@ -119,6 +119,11 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 
 ### IV-C. Create an App on Heroku
 
+- Now head to https://dashboard.heroku.com/apps - and create a new app named `abc1234-first-web-server` (where `abc1234` is your id)
+- Make sure that it functions by clicking the "Open App" button
+- Now head to the "Deploy" tab and hook up your **first-web-server-heroku* repository**
+- Don't forget to click the "Enable Automatic Deploys" button and the "Deploy Branch" buttons
+
 <hr>
 
 ![screenshot](./_images/ss-22.png)
