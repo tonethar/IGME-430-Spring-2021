@@ -2,7 +2,7 @@
 
 ## I. Overview
 
-- Last time we "imported" (using `require()`) an *external* library (aka "package") named `nanoid`
+- Last time we "imported" - using `require()` - an *external* library (aka "package") named `nanoid`
 - this time we will use a *built-in* library called `http` to help us build a simple web server
 - the properties and methods that we will use today are: 
   - [`http.createServer(listener)`](https://nodejs.org/api/http.html#http_http_createserver_options_requestlistener) - will create a new http web server for us, and any client requests that come in will be routed to `listener`
