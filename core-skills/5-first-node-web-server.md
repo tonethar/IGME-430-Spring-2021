@@ -123,6 +123,7 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 - Make sure that it functions by clicking the "Open App" button
 - Now head to the "Deploy" tab and hook up your **first-web-server-heroku* repository**
 - Don't forget to click the "Enable Automatic Deploys" button and the "Deploy Branch" buttons
+- When you are done, your screen should appear as below
 
 <hr>
 
