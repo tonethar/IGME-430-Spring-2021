@@ -108,7 +108,9 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 ### IV-B. Create a remote GitHub repository and link it to the remote repository
 
 - Head to Github and create a new repository named **first-web-server-heroku**
-- The code to "hook up" your *local* repository to this *remote* repository is highlighted below
+- The code to "hook up" your *local* repository to this *remote* repository is highlighted below - go ahead and copy it
+- Head back to your GitBash/Powershell/Terminal app, make sure that **first-web-server** is your your *cwd*, and run these commands
+- The "origin" of you local repository should now point at the one you just made on GitHub, and the files on GitHub should now have been updated by the `git push` - go verify this now by checking GitHub
 
 <hr>
 
