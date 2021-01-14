@@ -3,6 +3,12 @@
 - Let's make a web server!
 - What does a web server do? - *"The primary function of a web server is to store, process and deliver web pages to clients"* -  [Wikipedia - Web server](https://en.wikipedia.org/wiki/Web_server)
 
+## 0. Video & HW
+- The videos for this lecture, which walk through the notes, are here:
+  - [Essential Skills - Part V (09:50)](https://video.rit.edu/Watch/430-essential-skills-5)
+  - [Essential Skills - Part V-B (07:04)](https://video.rit.edu/Watch/430-essential-skills-5B)
+- See the HW assignment at the bottom of the page (Part V.)
+
 ## I. Overview
 
 - Last time we "imported" - using `require()` - an *external* library (aka "package") named `nanoid`
