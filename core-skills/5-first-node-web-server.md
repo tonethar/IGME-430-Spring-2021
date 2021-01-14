@@ -188,4 +188,4 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   [Skill #4 - Hello Node](4-hello-node.md) |  [**IGME-430**](../) | Skill #6 First Node Web Service
+|   [Skill #4 - Hello Node](4-hello-node.md) |  [**IGME-430**](../) | Skill #6 - First Node Web Service
