@@ -160,6 +160,7 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 - Head to the *Activity* tab in the Heroku control panel to see the changes getting pushed to Heroku
 - Click the "Open App" button to see your the modified server 
 
+<hr> 
 
 ## V. Submission
 
