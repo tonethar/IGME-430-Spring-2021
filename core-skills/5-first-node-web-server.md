@@ -105,15 +105,28 @@ console.log(`Listening on 127.0.0.1: ${port}`);
   - `git add .`
   - `git commit -m "message"`
 
-### IV-B. Create a remote GitHub repository
+### IV-B. Create a remote GitHub repository and link it to the remote repository
 
-### IV-C. Link the local and remote repository
+- Head to Github and create a new repository named **first-web-server-heroku**
+- The code to "hook up" your *local* repository to this *remote* repository is highlighted below
 
-### IV-D. Create an App on Heroku
+<hr>
 
-### IV-E. Test it!
+![screenshot](./_images/ss-21.png)
 
-<hr> 
+
+### IV-C. Create an App on Heroku
+
+<hr>
+
+![screenshot](./_images/ss-22.png)
+
+### IV-D. Test it!
+
+<hr>
+
+![screenshot](./_images/ss-23.png)
+
 
 ## V. Submission
 
