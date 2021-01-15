@@ -24,7 +24,7 @@
   - create **index.js** and put it in the **src** folder
   
   
-  ## XX. Homework
+## XX. Homework
   
   - Here we will rebuild our **random-jokes.php** web service
   
