@@ -10,6 +10,7 @@
 - the properties and methods that we will use today are: 
   - https://nodejs.org/api/http.html
   - https://nodejs.org/api/url.html
+  - https://nodejs.org/dist/latest-v14.x/docs/api/querystring.html
 
 
 ## II. The web service
