@@ -1,6 +1,6 @@
 # Skill #6 - First Node Web Service
 
-- Today we will learn how to build a *web service*, and how to pass parameters to it. Recall that 
+- Today we will learn how to build a simple [*web service*](https://www.tutorialspoint.com/webservices/what_are_web_services.htm) using Node.js, and how to pass parameters to it
 - For today's HW, you will port **random-jokes.php** (from [Core Skills #1](./1-client-tools-and-http-protocol.md))from PHP to JavaScript/Node.js
 
 ## I. Overview
