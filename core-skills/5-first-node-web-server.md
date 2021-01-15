@@ -42,7 +42,7 @@
 
 **src/index.js**
 
-- Here are the comments that you can copy/paste
+- Here are the comments that you can copy/paste:
 
 ```js
 // 1 - pull in the HTTP server module
