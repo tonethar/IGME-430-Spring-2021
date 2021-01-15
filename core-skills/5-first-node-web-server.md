@@ -42,7 +42,7 @@
 
 **src/index.js**
 
-- Here are the comments that you can copy/paste:
+- **Here are the comments that you can copy/paste:**
 
 ```js
 // 1 - pull in the HTTP server module
@@ -56,6 +56,10 @@
 // 4 - Here is the hard-coded web page we will send back
 // note that we enclosed the string of HTML in back-ticks so that we could have a nicely formatted and readable multi-line string
 
+    // send response headers
+    // send content
+    // close connection
+
 // 5 - this is the function that will be called every time a client request comes in
 // note that in this course we'll be using arrow functions 100% of the time in our server-side code
 
@@ -64,9 +68,8 @@
 console.log(`Listening on 127.0.0.1: ${port}`);
 ```
 
-- And here is the code to type in:
+- **And here is the code to type in:**
 
-<hr>
 
 ![screenshot](./_images/ss-24.png)
 
