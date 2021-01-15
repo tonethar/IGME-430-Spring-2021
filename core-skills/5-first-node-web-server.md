@@ -56,6 +56,8 @@
 // 4 - Here is the hard-coded web page we will send back
 // note that we enclosed the string of HTML in back-ticks so that we could have a nicely formatted and readable multi-line string
 
+    //console.log(request.url);
+    //console.log(request.headers);
     // send response headers
     // send content
     // close connection
