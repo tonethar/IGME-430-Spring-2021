@@ -10,7 +10,7 @@
 - this time we'll actually look for the page that the client is looking for (using the `request.url`) property
 - we will also look for *query parameters* - in this case one named `max` that will get passed in like this - `http://localhost:3000/getRandom?max=10`
 
-### I-B. New built-in Node.js modules
+### I-B. New (to us) built-in Node.js modules
 - last time we will used the `http` module to help us build a simple web server
   - https://nodejs.org/api/http.html
 - this time we will also use, so that we can get `pathname` and *query parameters* from the URL: 
