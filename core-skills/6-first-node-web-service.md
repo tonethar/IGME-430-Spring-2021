@@ -115,7 +115,8 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 <hr>
 
 - Clicking on either landing page link, or typing in any other path name or file will produce the error page
-- Look in the Network inspector to see the error code (don't forget that you need to reload the page AFTER the dubugger is open in order to see this)
+- Also look in browser console - `GET http://localhost:3000/random-number 404 (Not Found)`  - and in the Network inspector to see the error code (don't forget that you need to reload the page AFTER the dubugger is open in order to see the latter)
+- Who sent that error (status) code? WE DID! In the `else` of `onRequest`
 
 <hr> 
 
