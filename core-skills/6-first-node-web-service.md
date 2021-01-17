@@ -153,7 +153,7 @@ console.log(`Listening on 127.0.0.1: ${port}`);
   
 <hr>
 
-- Watch the video to see how to format the number as JSON - it should look like this wehn you are done
+- Watch the video to see how to format the number as JSON - it should look like this when you are done
 
  <hr> 
 
@@ -161,7 +161,7 @@ console.log(`Listening on 127.0.0.1: ${port}`);
   
 <hr>
 
-## V. Accessing `max` parameter 
+## V. Accessing the `max` parameter 
 
 
 
