@@ -44,8 +44,6 @@
 
 ![screenshot](_images/ss-25.png)
 
-<hr>
-
 ![screenshot](_images/ss-26.png)
 
 <hr>
