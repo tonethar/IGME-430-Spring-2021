@@ -144,7 +144,7 @@ console.log(`Listening on 127.0.0.1: ${port}`);
     - don't worry about making the web server return JSON yet
   - now add an `else` statement to `onRequest`, and whenever the `path-name` is equal to `random-number`, call `getRandomNumberJSON()` and send that value back to the client in `response.write()`
     - and don't worry about the `max` parameter yet!
-  - make the `content-type` `text/plain` for now\
+  - make the `content-type` `text/plain` for now
  - now head to `http://localhost:3000/random-number` - you should see something like this (the number will vary of course)
   
  <hr> 
