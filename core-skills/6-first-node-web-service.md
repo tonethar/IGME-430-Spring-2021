@@ -1,6 +1,9 @@
 # Skill #6 - First Node Web Service
 
-- Today we will learn how to build a simple [*web service*](https://www.tutorialspoint.com/webservices/what_are_web_services.htm) using Node.js, and how to pass parameters to it
+- Today we will learn how to build a simple [*web service*](https://www.tutorialspoint.com/webservices/what_are_web_services.htm) using Node.js, and how to pass parameters to it:
+  - Recall that a *web service* generally returns *data* formatted in a specific format (usually JSON or XML) as opposed to an entire *web page*:
+    - an example of a *web page* is http://www.rit.edu
+    - and example of a *web service* is http://igm.rit.edu/~acjvks/courses/shared/430/php/get-jokes.php?limit=5
 
 ## I. Overview
 
