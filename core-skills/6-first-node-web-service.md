@@ -102,6 +102,32 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 ![screenshot](_images/ss-26.png)
 
 <hr>
+
+## III. Test it
+
+- `npm start` (and fix your typing errors as neccessary)
+- Head to `http://localhost:3000` - you should see the following:
+
+<hr> 
+
+![screenshot](_images/ss-27.png)
+  
+<hr>
+
+- Clicking on either landing page link, or typing in any other path name or file will produce the error page
+- Look in the Network inspector to see the error code (don't forget that you need to reload the page AFTER the dubugger is open in order to see this)
+
+<hr> 
+
+![screenshot](_images/ss-28.png)
+  
+<hr>
+
+- Dnn't forget that we can use also use Postman to inspect the web server output 
+
+<hr> 
+
+![screenshot](_images/ss-29.png)
   
 <hr>
 
