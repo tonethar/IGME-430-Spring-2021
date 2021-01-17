@@ -139,7 +139,7 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 
 - Now let's get the `/random-number` endpoint working - this is the *web service* part of our project
 - Try to figure it out on your own - here are some tips - we'll also walk through the entire process of getting this working on the video (linked above):
-  - don't forget that you newd to reboot your server to see the code changes - by pressing **control-C** on your keyboard
+  - don't forget that you need to reboot your server to see the code changes - by pressing **control-C** on your keyboard
   - modify `getRandomNumberJSON()` so that it return a number between `0` and `max`
     - don't worry about making the web server return JSON yet
   - now add an `else` statement to `onRequest`, and whenever the `path-name` is equal to `random-number`, call `getRandomNumberJSON()` and send that value back to the client in `response.write()`
