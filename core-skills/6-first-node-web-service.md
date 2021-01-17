@@ -22,14 +22,29 @@
 
 ## II. The web service
 
-- The complete code for your first node web server is below:
+- The starter code for your first node web service is below:
   - Create a folder named **first-web-service**
   - Using a terminal program (GitBash/Powershell/Terminal) make that folder the *cwd* by `cd`ing into it
   - `npm init -y` - let's use the default values this time
-  - edit the **package.json** file:
+  - Edit the **package.json** file:
     - under the `"scripts"` key add a `"start"` key with the value of `node ./src/index.js`
-  - in the **first-web-service** folder, create a **src** folder
-  - create **index.js** and put it in the **src** folder
+  - In the **first-web-service** folder, create a **src** folder
+  - Create **index.js** and put it in the **src** folder
+    - in **index.js**, add this line of code `console.log("First web service starting up ...")`
+    - in the console, type `npm start` to run your script to make sure that everything is working
+   
+   
+**index.js**
+
+```js
+
+```
+
+<hr>
+
+![screenshot](_images/ss-)
+
+<hr>
   
 <hr>
 
