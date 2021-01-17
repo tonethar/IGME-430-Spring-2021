@@ -188,6 +188,27 @@ console.log("max=", max);
 
 ### V-C. Test it!
 
+- See the video, and make sure that your endpoints all work:
+  - `http://localhost:3000/`
+  - `http://localhost:3000/random-number`
+  - `http://localhost:3000/random-number?max=100000`
+  - `http://localhost:3000/non-existent-file.png`
+
+
+## VI. Homework & Submission
+- Once you have it working perfectly, push this code to GitHub, and create a Heroku App!
+  - We did this in the previous "Essential Skill", see Part IV. of that page for a reminder
+  - name the Heroku project **abc1234-first-web-service**  (where `abc1234` is your id)
+- In the mycourses dropbox:
+  - ZIP and POST the **first-web-service** folder
+- In the comments field of the dropbox, type:
+  - the URL to your GitHub repository
+  - the following working URLs to your functional `abc1234-first-web-service` pages on Heroku (IMPORTANT - DO NOT post your Heroku control panel link - no one but you can see that page):
+  - `https://abc1234-first-web-service.herokuapp.com/`
+  - `https://abc1234-first-web-service.herokuapp.com/random-number`
+  - `https://abc1234-first-web-service.herokuapp.com/random-number?max=100000`
+  - `https://abc1234-first-web-service.herokuapp.com/non-existent-file.png`
+
 
 <hr><hr>
 
