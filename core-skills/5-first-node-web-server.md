@@ -99,7 +99,7 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 ### IV-A. Create a local GitHub repository
 
 - In order to post this app to Heroku, we'll need to push it to a *remote* Git repository. To do this we'll first make a *local* Git repository
-- To create a new local githib repository:
+- To create a new local github repository:
   - using GitBash/Powershell/Terminal, make **first-web-server** your *cwd*
   - type `git init`
   - type `git status`
