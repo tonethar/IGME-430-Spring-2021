@@ -21,7 +21,7 @@
 <hr>
 
 ## II. The web service
-
+- This web service will be really exciting - and will return a random number between `0` and `max` (`max` being a query parameter that is passed in)
 - First, set up the project:
   - Create a folder named **first-web-service**
   - Using a terminal program (GitBash/Powershell/Terminal) make that folder the *cwd* by `cd`ing into it
