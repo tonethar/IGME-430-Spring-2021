@@ -153,19 +153,11 @@ console.log(`Listening on 127.0.0.1: ${port}`);
   
 <hr>
 
-- Now here's the code to format this number as JSON:
+- Watch the video to see how to format the number as JSON - it should look like this wehn you are done
 
  <hr> 
 
 ![screenshot](_images/ss-31.png)
-  
-<hr>
-
-- Test it - it should look like this:
-
- <hr> 
-
-![screenshot](_images/ss-32.png)
   
 <hr>
 
