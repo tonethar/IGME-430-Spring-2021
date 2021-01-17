@@ -8,7 +8,7 @@
 ## 0. Video & HW
 - The video for this lecture, which walks through the notes, is here:
   - [Essential Skills - Part VI (16:32)](https://video.rit.edu/Watch/430-essential-skills-6)
-  - [Essential Skills - Part VI-B (04:43)](https://video.rit.edu/Watch/430-essential-skills-6B) - a review of posting to Heroku 
+  - [Essential Skills - Part VI-B (04:42)](https://video.rit.edu/Watch/430-essential-skills-6B) - a review of posting to Heroku 
 - See the HW assignment at the bottom of the page (Part VI.)
 
 <hr>
@@ -209,7 +209,7 @@ console.log("max=", max);
   - We did this in the previous ["Essential Skill", see Part IV. of that page for a reminder](5-first-node-web-server.md#push-server-to-heroku)
   - Recall that last time the folder was called **first-web-server**, but now we are calling it **first-web-service** - "...service" NOT "...server" - so be sure to name things properly
   - name the Heroku project **abc1234-first-web-service**  (where `abc1234` is your id)
-  - see the video linked at the top if you want a review of how to create a local GutHub repository & post to Heroku
+  - see the video linked at the top if you want a review of how to create a local GitHub repository & post to Heroku
 - In the mycourses dropbox:
   - ZIP and POST the **first-web-service** folder
 - In the comments field of the dropbox, type:
