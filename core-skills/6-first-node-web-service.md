@@ -20,9 +20,14 @@
 
 <hr>
 
-## II. The web service
+## II. Web service starter code
 - This web service will be really exciting - and will return a random number between `0` and `max` (`max` being a query parameter that is passed in)
-- First, set up the project:
+- We won't set up the actual web service at first, instead we will create and "serve" two HTML pages:
+  - the HTML "landing page" (the default page when the client opens up the default URL with nothing else in the path i.e. `/`
+    - we will also send the status code of `200`, `Success`
+  - the HTML "file not found" page that is returned when the client asks for any other path or file:
+    - we will also send the status code of `404`, `Not Found`
+- Let's get started! First, set up the project:
   - Create a folder named **first-web-service**
   - Using a terminal program (GitBash/Powershell/Terminal) make that folder the *cwd* by `cd`ing into it
   - `npm init -y` - let's use the default values this time
