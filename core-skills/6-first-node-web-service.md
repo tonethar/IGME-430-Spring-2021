@@ -205,7 +205,7 @@ console.log("max=", max);
 
 ## VI. Homework & Submission
 - Once you have it working perfectly, push this code to GitHub, and create a Heroku App!
-  - We did this in the previous "Essential Skill", see Part IV. of that page for a reminder
+  - We did this in the previous ["Essential Skill", see Part IV. of that page for a reminder](5-first-node-web-server.md#push-server-to-heroku)
   - name the Heroku project **abc1234-first-web-service**  (where `abc1234` is your id)
 - In the mycourses dropbox:
   - ZIP and POST the **first-web-service** folder
