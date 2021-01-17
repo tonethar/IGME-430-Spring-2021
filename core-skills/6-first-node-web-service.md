@@ -8,7 +8,7 @@
 ## 0. Video & HW
 - The video for this lecture, which walks through the notes, is here:
   - [Essential Skills - Part VI (16:32)](https://video.rit.edu/Watch/430-essential-skills-6)
-  - [Essential Skills - Part VI-B - Review of posting to Heroku (04:42)](https://video.rit.edu/Watch/430-essential-skills-6B)
+  - [Essential Skills - Part VI-B (04:42)](https://video.rit.edu/Watch/430-essential-skills-6B) - a review of posting to Heroku 
 - See the HW assignment at the bottom of the page (Part VI.)
 
 <hr>
