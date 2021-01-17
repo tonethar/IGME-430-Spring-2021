@@ -32,7 +32,7 @@
   - Create **index.js** and put it in the **src** folder
     - in **index.js**, add this line of code `console.log("First web service starting up ...");`
     - in the console, type `npm start` to run your script to make sure that everything is working
-  - Copy/Paste, then type in the rest of the **index.js** code
+  - To complete **index.js**, Copy/Paste the comments and code below, then type in the rest:
    
 **index.js**
 
