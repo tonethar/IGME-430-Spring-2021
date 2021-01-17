@@ -9,15 +9,15 @@
 
 ### I-A. Better code (slightly)
 
-- the simple web server we created last time wasn't too special - it actually returned the SAME web page (*index*) for every request it received. This means that when the web browser also asked for a favicon, this web server also sent back the same *index* page, again! Good thing that the browser is smart enough to ignore that HTML and not instead try to create an image out of a web page!
-- this time we'll actually look for the page that the client is looking for (using the `request.url`) property:
+- The simple web server we created last time wasn't too special - it actually returned the SAME web page (*index*) for every request it received. This means that when the web browser also asked for a favicon, this web server also sent back the same *index* page, again! Good thing that the browser is smart enough to ignore that HTML and not instead try to create an image out of a web page!
+- This time we'll actually look for the page that the client is looking for (using the `request.url`) property:
   - if the client requests a non-existent page, we'll return a "404 - file not found" page
-- we will also look for *query parameters* - in this case one named `max` that will get passed in like this - `http://localhost:3000/get-random?max=10`
+- We will also look for *query parameters* - in this case one named `max` that will get passed in like this - `http://localhost:3000/get-random?max=10`
 
 ### I-B. New (to us) built-in Node.js modules
-- last time we will used the `http` module to help us build a simple web server
+- Last time we will used the `http` module to help us build a simple web server
   - https://nodejs.org/api/http.html
-- this time we will also use, so that we can get `pathname` and *query parameters* from the URL: 
+- This time we will also use, so that we can get `pathname` and *query parameters* from the URL: 
   - https://nodejs.org/api/url.html
   - https://nodejs.org/dist/latest-v14.x/docs/api/querystring.html
 
