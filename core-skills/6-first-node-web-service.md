@@ -216,6 +216,8 @@ console.log("max=", max);
   - `https://abc1234-first-web-service.herokuapp.com/random-number`
   - `https://abc1234-first-web-service.herokuapp.com/random-number?max=100000`
   - `https://abc1234-first-web-service.herokuapp.com/non-existent-file.png`
+- In the comments section of the dropbox, type the answer to this question:
+  - What is the difference between a *web page* and a *web service*?
 
 
 <hr><hr>
