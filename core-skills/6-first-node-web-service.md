@@ -169,10 +169,10 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 - Add the following to `onRequest`, and then check the console to see what you get back:
 
 ```js
-//   const params = query.parse(parsedUrl.query);
-//   const max = params.max;
-//   console.log("params=", params);
-//   console.log("max=", max);
+const params = query.parse(parsedUrl.query);
+const max = params.max;
+console.log("params=", params);
+console.log("max=", max);
 ```
 
 ### V-B. Use the value of `max`
