@@ -22,7 +22,7 @@
 
 ## II. The web service
 
-- The starter code for your first node web service is below:
+- First, set up the project:
   - Create a folder named **first-web-service**
   - Using a terminal program (GitBash/Powershell/Terminal) make that folder the *cwd* by `cd`ing into it
   - `npm init -y` - let's use the default values this time
@@ -32,7 +32,7 @@
   - Create **index.js** and put it in the **src** folder
     - in **index.js**, add this line of code `console.log("First web service starting up ...");`
     - in the console, type `npm start` to run your script to make sure that everything is working
-   
+  - Copy/Paste, then type in the rest of the **index.js** code
    
 **index.js**
 
