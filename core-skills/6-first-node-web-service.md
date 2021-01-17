@@ -4,6 +4,13 @@
   - Recall that a *web service* generally returns *data* formatted in a specific format (usually JSON or XML), as opposed to an entire *web page*:
     - an example of a *web page* is http://www.rit.edu
     - and example of a *web service* is http://igm.rit.edu/~acjvks/courses/shared/430/php/get-jokes.php?limit=5
+    
+## 0. Video & HW
+- The video for this lecture, which walks through the notes, is here:
+  - [Essential Skills - Part VI (16:32)](https://video.rit.edu/Watch/430-essential-skills-6)
+- See the HW assignment at the bottom of the page (Part VI.)
+
+<hr>
 
 ## I. Overview
 
@@ -194,6 +201,7 @@ console.log("max=", max);
   - `http://localhost:3000/random-number?max=100000`
   - `http://localhost:3000/non-existent-file.png`
 
+<hr>
 
 ## VI. Homework & Submission
 - Once you have it working perfectly, push this code to GitHub, and create a Heroku App!
