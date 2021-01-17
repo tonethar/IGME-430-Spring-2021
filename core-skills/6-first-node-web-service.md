@@ -25,7 +25,7 @@
 
 ## II. Web service starter code
 - This web service will be really exciting - and will return a random number between `0` and `max` (`max` being a query parameter that is passed in)
-- We won't set up the actual web service at first, instead we will create and "serve" two HTML pages:
+- We won't set up the actual web service at first, instead we will create and "serve" two HTML web pages:
   - the HTML "landing page" (the default page when the client opens up the default URL with nothing else in the path i.e. `/`
     - we will also send the status code of `200`, `Success`
   - the HTML "file not found" page that is returned when the client asks for any other path or file:
@@ -137,7 +137,7 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 
 ## IV. Implementing the `/random-number` endpoint 
 
-- Now let's get the `/random-number` endpoint working
+- Now let's get the `/random-number` endpoint working - this is the *web service* part of our project
 - Try to figure it out on your own - here are some tips - we'll also walk through the entire process of getting this working on the video (linked above):
   - don't forget that you ned to reboot your server to see the code changes - by pressing **control-C** on your keyboard
   - modify `getRandomNumberJSON()` so that it return a number between `0` and `max`
