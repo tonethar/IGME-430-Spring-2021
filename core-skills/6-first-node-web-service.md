@@ -30,7 +30,7 @@
     - under the `"scripts"` key add a `"start"` key with the value of `node ./src/index.js`
   - In the **first-web-service** folder, create a **src** folder
   - Create **index.js** and put it in the **src** folder
-    - in **index.js**, add this line of code `console.log("First web service starting up ...")`
+    - in **index.js**, add this line of code `console.log("First web service starting up ...");`
     - in the console, type `npm start` to run your script to make sure that everything is working
    
    
