@@ -124,7 +124,7 @@ console.log(`Listening on 127.0.0.1: ${port}`);
   
 <hr>
 
-- Dnn't forget that we can use also use Postman to inspect the web server output 
+- Don't forget that we can use also use Postman to inspect the web server output 
 
 <hr> 
 
