@@ -132,9 +132,25 @@ console.log(`Listening on 127.0.0.1: ${port}`);
   
 <hr>
 
-## XX. Homework
+## IV. Implementing the `/random-number` endpoint 
+
+- Now let's get the `/random-number` endpoint working
+- Try to figure it out on your own - here are some tips - we'll also walk through the entire process of getting this working on the video (linked above):
+  - don't forget that you ned to reboot your server to see the code changes - by pressing **control-C** on your keyboard
+  - modify `getRandomNumberJSON()` so that it return a number between `0` and `max
+    - don't worry about making it JSON yet
+  - now add an `else` statement to `onRequest`, and whenever the `path-name` is equal to `random-number`, call `getRandomNumberJSON()` and send that value back to the client in `response.write()`
+    - and don't worry about the `max` parameter yet!
+  - make the `content-type` `text/plain` for now\
+ - now head to `http://localhost:3000/random-number` - you should see something like this (the number will vary of course)
   
+ <hr> 
+
+![screenshot](_images/ss-29.png)
   
+<hr>
+
+- Now here's the code to 
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
