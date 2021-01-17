@@ -164,6 +164,30 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 ## V. Accessing the `max` parameter 
 
 
+### V-A. Grab the value of the `max` parameter
+- To grab the query parameter of `max` and use it, we are now going to use node's `querystring` module that we required earlier (as `query`)
+- Add the following to `onRequest`, and then check the console to see what you get back:
+
+```js
+//   const params = query.parse(parsedUrl.query);
+//   const max = params.max;
+//   console.log("params=", params);
+//   console.log("max=", max);
+```
+
+### V-B. Use the value of `max`
+
+- First, in `onRequest`, pass `max` to `getRandomNumberJSON()`
+- In `getRandomNumberJSON()`, write some code to *validate* what is getting passed in see below:
+
+<hr>
+
+![screenshot](_images/ss-32.png)
+
+<hr>
+
+### V-C. Test it!
+
 
 <hr><hr>
 
