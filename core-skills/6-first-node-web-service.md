@@ -137,8 +137,8 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 - Now let's get the `/random-number` endpoint working
 - Try to figure it out on your own - here are some tips - we'll also walk through the entire process of getting this working on the video (linked above):
   - don't forget that you ned to reboot your server to see the code changes - by pressing **control-C** on your keyboard
-  - modify `getRandomNumberJSON()` so that it return a number between `0` and `max
-    - don't worry about making it JSON yet
+  - modify `getRandomNumberJSON()` so that it return a number between `0` and `max`
+    - don't worry about making the web server return JSON yet
   - now add an `else` statement to `onRequest`, and whenever the `path-name` is equal to `random-number`, call `getRandomNumberJSON()` and send that value back to the client in `response.write()`
     - and don't worry about the `max` parameter yet!
   - make the `content-type` `text/plain` for now\
@@ -146,11 +146,30 @@ console.log(`Listening on 127.0.0.1: ${port}`);
   
  <hr> 
 
-![screenshot](_images/ss-29.png)
+![screenshot](_images/ss-30.png)
   
 <hr>
 
-- Now here's the code to 
+- Now here's the code to format this number as JSON:
+
+ <hr> 
+
+![screenshot](_images/ss-31.png)
+  
+<hr>
+
+- Test it - it should look like this:
+
+ <hr> 
+
+![screenshot](_images/ss-32.png)
+  
+<hr>
+
+## V. Accessing `max` parameter 
+
+
+
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
