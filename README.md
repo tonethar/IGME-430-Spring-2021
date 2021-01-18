@@ -75,7 +75,7 @@
   - <ins>Server Code Style</ins>
     - multiple CommonJS code modules
     - all pages/files "served" by your Node.js server
-    - all HTML/CSS/JS are in external files (e.g. NOT hard-coded in code via `const`)
+    - all HTML/CSS/JS are in external files (i.e. loaded by the `fs` module, NOT hard-coded in code via `const`)
   - <ins>Client Code Style</ins>
     - VanillaJS
     - ES6 Modules
