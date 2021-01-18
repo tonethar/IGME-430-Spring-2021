@@ -25,23 +25,27 @@
     - example: 
       - *"Get Jokes" API with `limit` and `minrating` parameters*
       - endpoint: `/get-jokes?limit=5&minrating=3`
-  - JSON "write" API
+  - User submitted data (Write) API
     - uses HTTP `POST` method
     - takes at least 2 body parameters
     - stores data in hard-coded array of object literals - let's call it `dataArray` for now 
     - sends back proper HTTP status codes
     - example: 
       - *"Suggest Joke" API with `q` and `a` parameters*
+      - endpoint: `POST /suggest-joke?q=setup&a=punchline&username=abc1234`
   - HTML Home Page
     - documentation of API functionality
     - simple demonstration of API usage
     - example: 
       - *shows a random joke from the "Get Jokes" API, the `q` only, every time the page is reloaded*
   - HTML Suggestion Page
-    - HTML `<form>` for users to input data and send it to the **JSON "write" API** above  - example: *users can suggest data for the API by submitting a setup and punchline for a joke*
+    - HTML `<form>` for users to input data and send it to the **JSON "write" API** above
+    - example: 
+      - *users can suggest data for the API by submitting a setup and punchline for a joke*
+     
   - HTML Admin Page
     - login functionality not required
-    - shows the 
+    - shows the contents of `dataArray` (i.e. the User submitted data)
   - Server Code
     - multiple CommonJS code modules
     - all pages/files "served" by your Node.js server
