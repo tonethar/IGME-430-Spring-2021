@@ -17,7 +17,7 @@
 
 ### Project 1 - API Portal
 
-- Functionality
+- **Functionality**
   - <ins>Web Services:</ins>
     - #1 - Custom Web API (Read):
       - uses HTTP `GET` method
@@ -45,7 +45,7 @@
       - example:
         - returns contents of `userSuggestions` array
         - endpoint: `/get-suggestions?sort=latest`
-  - **HTML Pages:**
+  - <ins>HTML Pages:</ins>
     - #1 - Home Page:
       - "landing page" for API - should look nice
       - describes API
@@ -68,23 +68,23 @@
       - has controls to show all features of API
       - example:
         - calls `/get-jokes?limit=5&minrating=3`
-  - **Other Pages:**
+  - <ins>Other Pages:</ins>
     - at least one client-side JS page
     - at least one client-side CSS page
     - at least one client-side image
-  - Server Code Style
+  - <ins>Server Code Style</ins>
     - multiple CommonJS code modules
     - all pages/files "served" by your Node.js server
-  - Client Code Style
+  - <ins>Client Code Style</ins>
     - VanillaJS
     - ES6 Modules
     - Global Navgation System (HTML)
     - External CSS file(s)
-- Client-side Technologies
+- **Client-side Technologies**
   - VanillaJS
-- Server-side technologies
+- **Server-side technologies**
   - ephemeral server-side data
-- Developer Tools
+- **Developer Tools**
   - `eslint`
   - `nodemon`
   - Continuous Integration via CircleCI
