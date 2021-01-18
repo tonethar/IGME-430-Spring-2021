@@ -1,4 +1,4 @@
-# Skill #7 - Create Random Joke Web Service
+# Skill #7 - Create a "Random Joke" JSON Web Service
 
 ## I. Overview
 - For today's skill, you will port a simplified version of **random-jokes.php** (seen in [Core Skills #1](./1-client-tools-and-http-protocol.md)) from PHP to JavaScript/Node.js, and then post it to Heroku
