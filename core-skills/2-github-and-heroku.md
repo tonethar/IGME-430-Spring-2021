@@ -20,7 +20,7 @@
 
 - Head here to create a Heroku account --> https://signup.heroku.com/
   - it's free!
-  - if you give them a credit card number to verify your identity, you can get a few more free benefits, including the ability to host more apps. It's very easy to set up your account so that you will enver get charged anything
+  - if you give them a credit card number to verify your identity, you can get a few more free benefits, including the ability to host more apps. It's very easy to set up your account so that you will never get charged anything
 
 <hr>
 
