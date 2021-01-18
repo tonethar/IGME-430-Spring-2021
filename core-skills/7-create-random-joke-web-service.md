@@ -3,9 +3,9 @@
 ## I. Overview
 - For today's skill, you will port a simplified version **random-jokes.php** (seen in [Core Skills #1](./1-client-tools-and-http-protocol.md)) from PHP to JavaScript/Node.js, and then post it to Heroku
 - Here is what the "done" version looks like:
-  - Random Joke -->
+  - Random Joke --> https://acjvks-random-joke-node.herokuapp.com/random-joke
   - note that it returns a *single random joke*, so it is simpler than both **random-jokes.php** and the **random-number** web service from last time
-  - 404 Page --> 
+  - 404 Page --> https://acjvks-random-joke-node.herokuapp.com/non-existent-endpoint
 - There are no notes or videos for this "skill", but here are some tips:
   - create a new folder named **random-joke** and `cd` into it
   - `npm init -y`
@@ -23,12 +23,20 @@
     - `cd` to **random-joke** folder
     - `git init`
     - and so on
+    - and on Heroku, name the app `abc1234-random-joke-node`
   
   <hr>
   
-  ## II. Submission
+## II. Submission
      
-
+- In the mycourses dropbox:
+  - ZIP and POST the **random-joke** folder
+- In the comments field of the dropbox, type:
+  - the URL to your GitHub repository
+  - the working URL to your functional `/random-joke` endpoint on Heroku:
+    - which is something like `https://abc1234-random-joke-node.herokuapp.com/random-joke`
+    - IMPORTANT - DO NOT post your Heroku control panel link - no one but you can see that page
+    
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
