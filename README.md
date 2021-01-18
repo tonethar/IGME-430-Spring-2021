@@ -17,7 +17,7 @@
 
 ### Project 1 - API Portal
 
-- **Functionality**
+- **A - Functionality**
   - <ins>Web Services:</ins>
     - #1 - Custom Web API (Read):
       - uses HTTP `GET` method
@@ -80,11 +80,11 @@
     - ES6 Modules
     - Global Navgation System (HTML)
     - External CSS file(s)
-- **Client-side Technologies**
+- **B - Client-side Technologies**
   - VanillaJS
-- **Server-side technologies**
+- **C - Server-side technologies**
   - ephemeral server-side data
-- **Developer Tools**
+- **D - Developer Tools**
   - `eslint`
   - `nodemon`
   - Continuous Integration via CircleCI
