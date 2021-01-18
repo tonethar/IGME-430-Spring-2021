@@ -11,7 +11,7 @@
 - *Persistent* means that app data will be cached both locally and in "the cloud" so that it can be recovered by the user at a later date
 - *Industry standard development practices* means utilizing common build tools and workflows (automatic server rebooting, automatic code analysis aka linting, continuous integration, transpiling et al), testing, version control, and implementing MV* software design patterns both "from scratch" and by using current popular frameworks
 
-<hr>
+<hr><hr>
 
 ## II. Projects
 
@@ -76,6 +76,8 @@
   - `nodemon`
   - Continuous Integration via CircleCI
 
+<hr>
+
 ### Project 2 - Product/Service App VueJS
 
 - Functionality
@@ -85,6 +87,8 @@
   - Express
   - MongoDB (NoSQL)
 - Developer Tools
+
+<hr>
 
 ### Project 3 - Product/Service App ReactJS
 
