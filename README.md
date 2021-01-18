@@ -96,6 +96,8 @@
   - Express
   - MongoDB (NoSQL)
 - Developer Tools
+- Server Code Style:
+  - MVC - router style
 
 <hr>
 
