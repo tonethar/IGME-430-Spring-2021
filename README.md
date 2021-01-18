@@ -18,7 +18,7 @@
 ### Project 1 - API Portal
 
 - **A - Functionality**
-  - <ins>Web Services:</ins>
+  - <ins>Web Services (3):</ins>
     - #1 - Custom Web API (Read):
       - uses HTTP `GET` method
       - returns data in JSON format
@@ -45,7 +45,7 @@
       - example:
         - returns contents of `userSuggestions` array
         - endpoint: `/get-suggestions?sort=latest`
-  - <ins>HTML Pages:</ins>
+  - <ins>HTML Pages (4):</ins>
     - #1 - Home Page:
       - "landing page" for API - should look nice
       - describes API
@@ -68,7 +68,7 @@
       - has controls to show all features of API
       - example:
         - calls `/get-jokes?limit=5&minrating=3`
-  - <ins>Other Pages:</ins>
+  - <ins>Other Pages (3+):</ins>
     - at least one client-side JS page
     - at least one client-side CSS page
     - at least one client-side image
