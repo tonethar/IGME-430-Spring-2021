@@ -83,6 +83,7 @@
 - **B - Client-side Technologies**
   - VanillaJS
 - **C - Server-side technologies**
+  - "stock" Node.js - Express or similar NOT allowed
   - ephemeral server-side data
 - **D - Developer Tools**
   - `eslint`
