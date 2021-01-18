@@ -14,7 +14,7 @@
       - https://github.com/airbnb/javascript
   - you will write "test" and "pretest" scripts in your **package.json** file
   - you will periodically run `npm test` to validate your code
-  - rather than have all of the JS code in 1 file like we have been doing, you will split it up into 4 files (modules):
+  - rather than have all of the JS code in 1 file like we have been doing, you will split it up logically, into 4 separate files (modules):
     - **server.js**, **htmlResponses.js**, **jsonResponses.js** and **textResponses.js**
     - you will use `module.exports` to give each module a "public" interface
     - you will then `require()` them where their functions are needed
