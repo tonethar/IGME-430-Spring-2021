@@ -173,11 +173,11 @@ Here's a UUID for you: kaTb4hL2IvqoM05lXTcIX
   - ZIP and POST the **hello** folder (with the **node_modules** folder deleted)
   - take a screenshot of your shell session (showing `npm start`, `npm install --save nanoid` and `npm install`) and post it to the dropbox
 - In the comments section of the dropbox, type the answers to the following questions:
-  - 1) True or False. The Chrome V8 engine compiles JavaScript instructions down to native code and is thus very fast
-  - 2) True or False.  node/npm can be used to create desktop and mobile apps
-  - 3) What kind of information/data goes into a **package.json** file?
-  - 4) What are the 2 things that happen when you install a package with `npm install package-name`?
-  - 5) What command would we type to "re-install" a project's package dependencies?
+  - #1 - True or False. The Chrome V8 engine compiles JavaScript instructions down to native code and is thus very fast
+  - #2 - True or False.  node/npm can be used to create desktop and mobile apps
+  - #3 - What kind of information/data goes into a **package.json** file?
+  - #4 - What are the 2 things that happen when you install a package with `npm install package-name`?
+  - #5 - What command would we type to "re-install" a project's package dependencies?
 - Rubric:
   - wrong answer/missing answer to question -1
   - **node_modules**  NOT deleted -3
