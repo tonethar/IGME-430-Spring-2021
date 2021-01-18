@@ -119,3 +119,13 @@
   - Testing (Assertions)
 
 <hr>
+
+## III. Course Expectations
+
+- Be on time to the Zoom meetings:
+  - we only have 50 minutes of meeting time
+  - a 2:30PM start is 2:30:00, NOT 2:30:59
+  - recommendation: start logging into Zoom about 5 minutes before class
+- Be prepared to participate in class
+- Be prepared to *work* on assignments during class time:
+  - you CAN get a lot done in even 20 minutes, so long as you are prepared
