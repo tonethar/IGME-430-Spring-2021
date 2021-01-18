@@ -29,7 +29,7 @@
 
     - https://github.com/IGM-RichMedia-at-RIT/Simple-HTTP-Assignment-Start
     - the **fork** button is in the upper right corner of the repository screen
-    - when you fork an exisitng repository you create a copy of it in your own account
+    - when you fork an existing repository, you create a copy of it in your own GitHub account
     - once you have created this new (forked) repository you can `git clone` it
     - we covered git cloning in [Skill #3 - Command-line Git & Cloning Repositories](../core-skills/3-command-line-git.md)
     
