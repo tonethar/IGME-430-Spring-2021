@@ -19,7 +19,10 @@
    - You must have at least 10 jokes, with a `q` and an `a` property just like in the **random-jokes.php** service:
      - go ahead and copy the jokes from that assignment, but be aware that you need to convert the PHP associative array syntax over to JavaScript object literal syntax
      - we also had an array of jokes in the correct JS format in 330 - you can use those if you wish
-  - after you get this working, post it it Heroku like we did in the last 2 assignments
+  - after you get this working, post it it Heroku like we did in the last 2 assignments:
+    - `cd` to **random-joke** folder
+    - `git init`
+    - and so on
   
   <hr>
   
