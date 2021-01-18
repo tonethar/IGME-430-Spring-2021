@@ -18,7 +18,7 @@
 ### Project 1 - API Portal
 
 - Functionality
-  - Web Services:
+  - **Web Services:**
     - #1 - Custom Web API (Read):
       - uses HTTP `GET` method
       - returns data in JSON format
@@ -45,7 +45,7 @@
       - example:
         - returns contents of `userSuggestions` array
         - endpoint: `/get-suggestions?sort=latest`
-  - HTML Pages:
+  - **HTML Pages:**
     - #1 - Home Page:
       - "landing page" for API - should look nice
       - describes API
@@ -68,6 +68,10 @@
       - has controls to show all features of API
       - example:
         - calls `/get-jokes?limit=5&minrating=3`
+  - **Other Pages:**
+    - at least one client-side JS page
+    - at least one client-side CSS page
+    - at least one client-side image
   - Server Code Style
     - multiple CommonJS code modules
     - all pages/files "served" by your Node.js server
