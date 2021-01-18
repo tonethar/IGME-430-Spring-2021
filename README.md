@@ -46,7 +46,7 @@
         - returns contents of `userSuggestions` array
         - endpoint: `/get-suggestions?sort=latest`
   - HTML Pages:
-    - 1) Home Page:
+    - #1 - Home Page:
       - documentation of API functionality
       - simple demonstration of API usage
       - example: 
