@@ -59,7 +59,7 @@
   - `nodemon`
   - Continuous Integration via CircleCI
 
-### Project 2 - Product/Service App Vue.js
+### Project 2 - Product/Service App VueJS
 
 - Functionality
 - Client-side Technologies
@@ -69,7 +69,7 @@
   - MongoDB (NoSQL)
 - Developer Tools
 
-### Project 3 - Product/Service App React
+### Project 3 - Product/Service App ReactJS
 
 - Functionality
 - Client-side Technologies
