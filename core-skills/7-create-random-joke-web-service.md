@@ -13,8 +13,8 @@
     - the app will have a **/random-joke** endpoint that returns JSON formatted as in the example above, and it will return a "404 - file not found" page for all other endpoints (i.e. paths or file names)
     - you MUST delete all unnecessary code
       - that means you need to delete all of the "index page" code
-      - because you also don't need to parse any query parameters, you MUST delete the `querystring` include and any dependent code
-      - also get rid of any `console.log()` statements
+      - because you also don't need to parse any query parameters, you MUST delete the `querystring` `require()` and any dependent code
+      - also comment out any `console.log()` statements
 
 <hr><hr>
 
