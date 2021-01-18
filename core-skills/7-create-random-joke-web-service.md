@@ -1,9 +1,9 @@
 # Skill #7 - Create Random Joke Web Service
 
 ## I. Overview
-- For today's skill, you will port a simplified version **random-jokes.php** (seen in [Core Skills #1](./1-client-tools-and-http-protocol.md)) from PHP to JavaScript/Node.js, and then post it to Heroku
+- For today's skill, you will port a simplified version of **random-jokes.php** (seen in [Core Skills #1](./1-client-tools-and-http-protocol.md)) from PHP to JavaScript/Node.js, and then post it to Heroku
 - Here is what the "done" version looks like:
-  - Random Joke endpoint --> https://acjvks-random-joke-node.herokuapp.com/random-joke
+  - The **/random-joke** endpoint --> https://acjvks-random-joke-node.herokuapp.com/random-joke
   - note that it returns a *single random joke*, so it is simpler than both **random-jokes.php**,  as well as the **random-number** web service from last time
   - 404 Page for everything else --> https://acjvks-random-joke-node.herokuapp.com/non-existent-endpoint
 - There are no notes or videos for this "skill", but here are some tips:
