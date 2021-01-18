@@ -18,7 +18,7 @@
 ### Project 1 - API Portal
 
 - Functionality
-  - <u>Web Services:</u>
+  - <ins>Web Services:</ins>
     - #1 - Custom Web API (Read):
       - uses HTTP `GET` method
       - returns data in JSON format
