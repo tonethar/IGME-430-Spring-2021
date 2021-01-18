@@ -19,7 +19,7 @@
 
 - Functionality
   - Web Services:
-    - 1) Custom Web API (Read):
+    - #1 - Custom Web API (Read):
       - uses HTTP `GET` method
       - returns data in JSON format
       - public facing, and CORS is turned on
@@ -28,7 +28,7 @@
         - *"Get Jokes" API with `limit` and `minrating` parameters*
         - endpoint: `/get-jokes?limit=5&minrating=3`
         - data stored in hard-coded array of object literals - `allJokes`
-    - 2) User submitted data API (Write):
+    - #2 - User submitted data API (Write):
       - uses HTTP `POST` method
       - takes at least 2 body parameters
       - response:
@@ -39,7 +39,7 @@
         - *"Suggest Joke" API with `q` and `a` parameters*
         - endpoint: `POST /suggest-joke?q=setup&a=punchline&username=abc1234`
         - adds the submitted data to a `userSuggestions` array - the data is in object literal format
-    - 3) User submitted data API (Read):
+    - #3 - User submitted data API (Read):
       - uses HTTP `GET` method
       - takes at least 1 parameter
       - example:
@@ -47,18 +47,27 @@
         - endpoint: `/get-suggestions?sort=latest`
   - HTML Pages:
     - #1 - Home Page:
-      - documentation of API functionality
+      - "landing page" for API - should look nice
+      - describes API
+      - has documentation of API functionality
       - simple demonstration of API usage
       - example: 
+        - gives examples of `/get-jokes` endpoints, with and without parameters
         - *shows a random joke from the "Get Jokes" API, the `q` only, every time the page is reloaded*
-    - 2) Suggestion Page
+    - #2 - Suggestion Page
       - HTML `<form>` for users to input data and send it to the **JSON "write" API** above
       - example: 
         - *users can suggest data for the API by submitting a setup and punchline for a joke*
-    - 3) Admin Page
+    - #3 - Admin Page
       - login functionality not required
-      - shows the entire contents of the user submitted data
-      - example
+      - shows the entire contents of the **User submitted data API (Read)** above
+      - example:
+       - calls and displays `/get-suggestions?sort=latest`
+    - #4 - Client Page
+      - demonstrates API (Web Service #1) in action
+      - has controls to show all features of API
+      - example:
+        - calls `/get-jokes?limit=5&minrating=3`
   - Server Code Style
     - multiple CommonJS code modules
     - all pages/files "served" by your Node.js server
