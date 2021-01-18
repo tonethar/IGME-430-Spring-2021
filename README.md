@@ -18,38 +18,47 @@
 ### Project 1 - API Portal
 
 - Functionality
-  - JSON Custom Web API (Read):
-    - uses HTTP `GET` method
-    - public facing, and CORS is turned on
-    - takes at least 2 parameters
-    - example: 
-      - *"Get Jokes" API with `limit` and `minrating` parameters*
-      - endpoint: `/get-jokes?limit=5&minrating=3`
-  - User submitted data (Write) API
-    - uses HTTP `POST` method
-    - takes at least 2 body parameters
-    - stores data in hard-coded array of object literals - let's call it `dataArray` for now 
-    - sends back proper HTTP status codes
-    - example: 
-      - *"Suggest Joke" API with `q` and `a` parameters*
-      - endpoint: `POST /suggest-joke?q=setup&a=punchline&username=abc1234`
-  - HTML Home Page
-    - documentation of API functionality
-    - simple demonstration of API usage
-    - example: 
-      - *shows a random joke from the "Get Jokes" API, the `q` only, every time the page is reloaded*
-  - HTML Suggestion Page
-    - HTML `<form>` for users to input data and send it to the **JSON "write" API** above
-    - example: 
-      - *users can suggest data for the API by submitting a setup and punchline for a joke*
-     
-  - HTML Admin Page
-    - login functionality not required
-    - shows the contents of `dataArray` (i.e. the User submitted data)
-  - Server Code
+  - Web Services:
+    - JSON Custom Web API (Read):
+      - uses HTTP `GET` method
+      - public facing, and CORS is turned on
+      - takes at least 2 parameters
+      - example: 
+        - *"Get Jokes" API with `limit` and `minrating` parameters*
+        - endpoint: `/get-jokes?limit=5&minrating=3`
+        - data stored in hard-coded array of object literals - `allJokes`
+    - User submitted data API (Write):
+      - uses HTTP `POST` method
+      - takes at least 2 body parameters
+      - sends back proper HTTP status codes ex. `201 Created`
+      - example: 
+        - *"Suggest Joke" API with `q` and `a` parameters*
+        - endpoint: `POST /suggest-joke?q=setup&a=punchline&username=abc1234`
+        - adds the submitted data to a `userSuggestions` array - the data is in object literal format
+    - JSON User submitted data API (Read):
+      - uses HTTP `GET` method
+      - takes at least 1 parameter
+      - example:
+        - returns contents of `userSuggestions` array
+        - endpoint: `/get-suggestions?sort=latest`
+  - HTML Pages:
+    - Home Page:
+      - documentation of API functionality
+      - simple demonstration of API usage
+      - example: 
+        - *shows a random joke from the "Get Jokes" API, the `q` only, every time the page is reloaded*
+    - Suggestion Page
+      - HTML `<form>` for users to input data and send it to the **JSON "write" API** above
+      - example: 
+        - *users can suggest data for the API by submitting a setup and punchline for a joke*
+    - Admin Page
+      - login functionality not required
+      - shows the entire contents of the user submitted data
+      - example
+  - Server Code Style
     - multiple CommonJS code modules
     - all pages/files "served" by your Node.js server
-  - Client Code
+  - Client Code Style
     - VanillaJS
     - ES6 Modules
     - Global Navgation System (HTML)
