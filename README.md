@@ -18,7 +18,7 @@
 ### Project 1 - API Portal
 
 - Functionality
-  - JSON Custom Web API (Read only):
+  - JSON Custom Web API (Read):
     - uses HTTP `GET` method
     - public facing, and CORS is turned on
     - takes at least 2 parameters
