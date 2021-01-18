@@ -15,9 +15,32 @@
 
 ## II. Projects
 
-### Project 0 (or a big HW assignment)
+### Project 0 (or a big HW assignment) - API Portal
 
 - Functionality
+  - JSON Custom Web API (Read only):
+    - uses HTTP `GET` method
+    - public facing, and CORS is turned on
+    - takes at least 2 parameters
+    - example: *Get Jokes API with `limit` and `rating` parameters*
+  - HTML Home Page
+    - documentation of API functionality
+    - simple demonstration of API usage - example: *shows a random joke, the `q` only, every time page is reloaded*
+  - HTML Suggestion Page
+    - Form for users to suggest data for the API - example: *users can submit a setup and punchline for a joke*
+  - JSON "write" API
+    - uses HTTP `POST` method
+    - takes at least 2 body parameters
+    - stores data 
+    - example: *Suggest Joke API with `q` and `q` parameters*
+  - Server Code
+    - multiple CommonJS code modules
+    - all pages/files "served" by your Node.js server
+  - Client Code
+    - VanillaJS
+    - ES6 Modules
+    - Global Navgation System (HTML)
+    - External CSS file(s)
 - Client-side Technologies
   - VanillaJS
 - Server-side technologies
