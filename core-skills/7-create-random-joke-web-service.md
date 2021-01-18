@@ -14,7 +14,7 @@
     - you MUST delete all unnecessary code
       - that means you need to delete all of the "index page" code
       - because you also don't need to parse any query parameters, you MUST delete the `querystring` include and any dependent code
-      - also get rid of any console.logs
+      - also get rid of any `console.log()` statements
 
 <hr><hr>
 
