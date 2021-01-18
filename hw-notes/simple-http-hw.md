@@ -20,6 +20,11 @@
     - you will then `require()` them where their functions are needed
   - rather than having your HTML pages hard-coded in the JS, you will instead use `fs.readFileSync()` to load them from separate files
   - this HW uses CircleCI (Continuous Integration, see handout in myCourses)
+- This HW also DID NOT cover some of the things we did in Core Skills #1-#7, including:
+  - how to create a new local GitHub repository and link it to a remote repository
+  - how to install regular npm libraries such as `nanoid`
+  - how to return a "404 - file not found" page
+  - how to pass parameters to a web service
      
 <hr>
 
