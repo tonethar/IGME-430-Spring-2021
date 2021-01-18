@@ -130,3 +130,4 @@
 - Be prepared to participate in class
 - Be prepared to *work* on assignments during class time:
   - you CAN get a lot done in even 20 minutes, so long as you are prepared
+  - I WILL stay after every class meeting for questions, until 4:00PM, so that is another good time to work on HW
