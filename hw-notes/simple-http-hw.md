@@ -42,7 +42,7 @@
 
     - to update the remote repository (and to update the app on Heroku, once everything is connected):
       - you just have to do the `git add .`, `git commit -m`, and `git push` commands
-      - you DO NOT have to `git init` OR `git remote add origin http://...` or any of that because it is unnecessary when you have "git cloned" a repository
+      - you DO NOT have to `git init` OR `git remote add origin http://...` or any of that because it is unnecessary when you have previously "git cloned" a repository
     
 3) Here is the "live" running version:
 
