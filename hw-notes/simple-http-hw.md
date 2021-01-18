@@ -32,3 +32,7 @@
     - when you fork an exisitng repository you create a copy of it in your own account
     - once you have created this new (forked) repository you can `git clone` it
     - we covered git cloning in [Skill #3 - Command-line Git & Cloning Repositories](../core-skills/3-command-line-git.md)
+    
+2) After you have forked and then cloned the start code to your local hard drive
+
+    - to update the remote repository (and to update the app on Heroku, once everything is connected), you just have to do the `git add .`, `git commit -m`, and `git push` commands - you DO NOT have to `git remote add origin http://...` or any of that - as it is unecessary when you `git clone` a repository
