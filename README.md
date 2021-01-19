@@ -63,7 +63,7 @@
       - shows the entire contents of the **User submitted data API (Read)** above
       - example:
        - calls and displays `/get-suggestions?sort=latest`
-    - #4 - Client Page
+    - #4 - App Page
       - demonstrates API (Web Service #1) in action
       - has controls to show all features of API
       - example:
