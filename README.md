@@ -1,4 +1,4 @@
-# IGME 430-01 *Rich Media Web App Development II.*
+# IGME 430-01 - *Rich Media Web App Development II.*
 
 - Spring 2021
 
