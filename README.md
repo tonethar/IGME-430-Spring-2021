@@ -149,6 +149,8 @@
 - IDE:
   - Visual Studio Code
 
+<hr>
+
 ## IV. Course Expectations
 
 - Be on time to the Zoom meetings:
