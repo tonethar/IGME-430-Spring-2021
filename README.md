@@ -45,29 +45,37 @@
       - example:
         - returns contents of `userSuggestions` array
         - endpoint: `/get-suggestions?sort=latest`
-  - <ins>HTML Pages (4):</ins>
+  - <ins>HTML Pages (5):</ins>
     - #1 - Home Page:
       - "landing page" for API - should look nice
       - describes API
       - has documentation of API functionality
       - simple demonstration of API usage
       - example: 
+        - **home.html**
         - gives examples of `/get-jokes` endpoints, with and without parameters
         - *shows a random joke from the "Get Jokes" API, the `q` only, every time the page is reloaded*
-    - #2 - Suggestion Page
+    - #2 - Input Page
       - HTML `<form>` for users to input data and send it to the **JSON "write" API** above
       - example: 
+        - **suggestion.html**
         - *users can suggest data for the API by submitting a setup and punchline for a joke*
     - #3 - Admin Page
       - login functionality not required
       - shows the entire contents of the **User submitted data API (Read)** above
       - example:
+       - **admin.html**
        - calls and displays `/get-suggestions?sort=latest`
     - #4 - App Page
       - demonstrates API (Web Service #1) in action
       - has controls to show all features of API
       - example:
+        - **app.html**
         - calls `/get-jokes?limit=5&minrating=3`
+    - #5 - Error Page
+      - returned for no-existent endpoints
+      - example:
+        - **error.html**
   - <ins>Other Pages (3+):</ins>
     - at least one client-side JS page
     - at least one client-side CSS page
@@ -122,7 +130,24 @@
 
 <hr>
 
-## III. Course Expectations
+## III. Tools
+
+- Node.js / npm:
+  - https://nodejs.org/en/download/
+  - https://www.npmjs.com/
+- Chrome Developer Tools - https://developers.google.com/web/tools/chrome-devtools
+- JSONViewer - https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US
+- Console App:
+  - Terminal (Mac OS)
+  - GitBash - https://gitforwindows.org/
+  - Powershell
+- Text Editor:
+  - BBEdit (Mac OS)
+  - Notepad++
+- IDE:
+  - Visual Studio Code
+
+## IV. Course Expectations
 
 - Be on time to the Zoom meetings:
   - we only have 50 minutes of meeting time
