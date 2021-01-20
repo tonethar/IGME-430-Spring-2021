@@ -19,7 +19,7 @@
 
 ### II-A. Start code
 
-- Your start code is going to be the "Done" version of your [Skill #6 - First Node Web Service](6-first-node-web-service.md):
+- Your start code is going to be the "Done" version of your [Skill #6 - First Node Web Service](6-first-node-web-service.md)
 - Navigate to a folder on your hard drive, and in your console app of choice:
   - `git clone <url>` your **first-web-service** repository (or **first-web-service-heroku**, or whatever you called it) from GitHub
   - `cd` into the cloned folder so that it now the *cwd*
