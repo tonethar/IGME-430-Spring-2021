@@ -171,9 +171,6 @@ warning  Unexpected console statement               no-console
   - Watch the video to see how we will:
     - fix the  `no-dupe-keys`, `no-tabs`, `no-param-reassign`, and `eqeqeq` errors
     - turn the  `no-unused-vars` error into a *warning* by editing the **.eslintrc.json** file
-  - you should see something like the following, where the "pretest" and "test" scripts both run:
-  
- 
 
 ### III-C. All fixed?
 
