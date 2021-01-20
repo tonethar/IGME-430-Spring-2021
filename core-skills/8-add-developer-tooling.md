@@ -106,12 +106,20 @@ Listening on 127.0.0.1: 3000
   - Style guides are created so developers can get up to speed on a code base quickly, and then write code that the other developers can easily understand
   - We will be using the *Airbnb JavaScript Style Guide* in this course - https://github.com/airbnb/javascript
   
-  ### III-A. Installing ESLint with AirBnB
+### III-A. Installing ESLint with AirBnB
   
-  - make sure that you are still in the right *cwd*
-  - type `npm i --save-dev eslint eslint-config-airbnb eslint-plugin-import`
-  - wait for the install to complete
-  - now check your **node_modules** folder and the "devDependencies" key
+- make sure that you are still in the right *cwd*
+- type `npm i --save-dev eslint eslint-config-airbnb eslint-plugin-import`
+- wait for the install to complete
+- now check your **node_modules** folder and the "devDependencies" key for changes
+  
+### III-B. Running ESLint
+
+- modify the "test" key of **package.json** to read `"echo \"Tests complete\""`
+- add a "pretest" key (under "scripts") to **package.json** - give it a value of `"eslint ./src --fix"`
+  - this will run `eslint` on all of the files in the **/src** folder, and "fix" them where possible
+- Now run your tests by typing `npm run test` (or `npm test` as a shortcut)
+  - 
 
 <hr><hr>
 
