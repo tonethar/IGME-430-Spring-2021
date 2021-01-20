@@ -41,4 +41,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   [Skill #6 - First Node Web Service](6-first-node-web-service.md) |  [**IGME-430**](../) | Skill #8 - TBA
+|   [Skill #6 - First Node Web Service](6-first-node-web-service.md) |  [**IGME-430**](../) | [Skill #8 - Adding developer "tooling"](8-add-developer-tooling.md)
