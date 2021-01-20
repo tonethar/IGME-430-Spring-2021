@@ -1,5 +1,11 @@
 # Skill #8 - Adding developer "tooling"
 
+## 0. Video & HW
+- The video for this lecture, which walks through the notes, is here - [Essential Skills - Part VIII (20:48)](https://video.rit.edu/Watch/430-essential-skills-8)
+- See the HW assignment at the bottom of the page (Part IV.)
+
+<hr>
+
 ## I. Overview
 
 - Today we are going to utilize some npm developer tools to our project. These 2 tools will dramatically improve your productivity:
