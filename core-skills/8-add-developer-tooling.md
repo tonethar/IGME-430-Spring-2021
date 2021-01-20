@@ -15,7 +15,7 @@
 - Make your developer life easier!
   - https://www.npmjs.com/package/nodemon
   - *nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.*
-- Let's go ahead and try out nodemon on some previous code
+- Let's go ahead and try out `nodemon` on some of our previous code
 
 ### II-A. Start code
 
