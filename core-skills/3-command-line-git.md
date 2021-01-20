@@ -38,7 +38,7 @@
 
 ### III-A. Unix Commands
 
-- `cd dirName` - will change the *current working directory* to *dirName*. The current working directory is the directory we are "in" - it is where any typed in unix commands will be executed. We will call the current working directory *cwd* below
+- `cd dirName` - will change the *current working directory* to *dirName*. The current working directory is the directory we are "in" - it is where any typed in unix commands will be executed. **We will call the current working directory *cwd* below**
 - `cd ..` - moves the *cwd* "up" one level into the parent directory of the folder
 - `cd` - by itself, will change the *cwd* to the user's login (i.e. home) directory
 - `pwd` - prints out the current path to the *cwd*
