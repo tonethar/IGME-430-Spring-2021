@@ -30,9 +30,10 @@
 ### II-B. Install nodemon
 
 - To install the `nodemon` package, type `npm i --save-dev nodemon`
-  - This will download the `nodemon` files and put them into a **node_modules** folder
-  - This will also add a "devDependencies" key to your **package.json** file
-  - Note that for developer dependencies, the `--save-dev` flag IS required, and is what causes the "devDependencies" key to be added to the **package.json** file
+  - this will download the `nodemon` files and put them into a **node_modules** folder
+  - this will also add a "devDependencies" key to your **package.json** file
+  - note that for developer dependencies, the `--save-dev` flag IS required, and is what causes the "devDependencies" key to be added to the **package.json** file
+  - this will also create a **package-lock.json** file - `npm` uses this file - you will need to commit it later on
 - Take a look in your **node_modules** folder to see all of the files that have been downloaded
 - Now open your **package.json** file to verify that there is now a "devDependencies" key 
 
