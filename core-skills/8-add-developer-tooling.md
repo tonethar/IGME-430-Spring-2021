@@ -128,6 +128,54 @@ Listening on 127.0.0.1: 3000
   - *Where does your code run?* - **"Node"**
   - *What format do you want your config file to be in?* - **"JSON"**
 - You should now have a **.eslintrc.json** file (Reminder: Don't forget to eventually commit it to your repository!)
+- Now type `npm test` again:
+  - there will (probably) not be any errors, but that depends on how closely your code followed ours
+  - you should see something like the following, where the "pretest" and "test" scripts both run:
+  
+ ```
+> first-web-service@1.0.0 pretest
+> eslint ./src --fix
+
+
+> first-web-service@1.0.0 test
+> echo "Tests complete"
+
+Tests complete
+ ```
+
+### III-C. Create some errors
+
+- Add this to top of **index.js**
+
+```js
+const name = "fred";
+const car = {
+  "make" :"Ford",
+  "make" :"Ford",
+};
+```
+
+- Now run your tests - `npm test`
+- You should see a few errors in the console:
+
+```
+error  'name' is assigned a value but never used  no-unused-vars
+error  'car' is assigned a value but never used   no-unused-vars
+error  Duplicate key 'make'                       no-dupe-keys
+```
+
+
+### III-D. Turn errors into warnings
+
+- Watch the video to see how we will:
+  - get rid of the  `no-dupe-keys` error
+  - turn the  `no-unused-vars` error into a *warning*
+  
+<hr>
+
+## IV. Homework & Submission
+
+
 
 <hr><hr>
 
