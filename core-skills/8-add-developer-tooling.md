@@ -165,7 +165,7 @@ error  Duplicate key 'make'                       no-dupe-keys
 ```
 
 
-### III-D. Turn errors into warnings
+### III-D. Fix errors, and turn errors into warnings
 
 - Watch the video to see how we will:
   - get rid of the  `no-dupe-keys` error
