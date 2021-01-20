@@ -99,7 +99,11 @@ Listening on 127.0.0.1: 3000
 
 ## III. ESLint
 
-
+- *ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code:*
+  - https://www.npmjs.com/package/eslint
+  - `ESLint` enforces code *style guides* - a style guide is a set of standards that outline how code should be written and organized
+  - Companies generally frown on *idiomatic* code - most feel that no matter how large a devekloper team is, thecode should look like it was written by *one person* 
+  - Style guides are created so developers can get up to speed on a code base quickly, and then write code that the other developers can easily understand
 
 <hr><hr>
 
