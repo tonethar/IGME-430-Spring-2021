@@ -10,7 +10,8 @@
 
 ## II. nodemon
 
-- Getting sick or having to *quit* (**control-c**) and *restart* (`npm start`) your server constantly - every time you make a change to your code? You should be!
+- Getting sick or having to *quit* (**control-c**) and *restart* (`npm start`) your server constantly - every time you make a change to your code?
+  - You should be!
 - Make your developer life easier!
   - https://www.npmjs.com/package/nodemon
   - *nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.*
