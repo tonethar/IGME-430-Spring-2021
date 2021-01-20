@@ -132,24 +132,10 @@ ascript)**
   - *What format do you want your config file to be in?* - **"JSON"**
   - *The config that you've selected requires the following dependencies - Would you like to install them now with npm?* - **Yes**
 - You should now have a **.eslintrc.json** file (Reminder: Don't forget to eventually commit it to your repository!)
-- Now type `npm test` again:
-  - there will (probably) not be any errors, but that depends on how closely your code followed ours
-  - you should see something like the following, where the "pretest" and "test" scripts both run:
-  
- ```
-> first-web-service@1.0.0 pretest
-> eslint ./src --fix
 
+<hr>
 
-> first-web-service@1.0.0 test
-> echo "Tests complete"
-
-Tests complete
- ```
-
-### III-C. Create some errors
-
-- Add this to top of **index.js**
+- Here's some "bad code" to add to the top of **index.js**
 
 ```js
 const name = "fred";
@@ -159,22 +145,46 @@ const car = {
 };
 ```
 
-- Now run your tests - `npm test`
-- You should see a few errors in the console:
+<hr>
 
-```
-error  'name' is assigned a value but never used  no-unused-vars
-error  'car' is assigned a value but never used   no-unused-vars
-error  Duplicate key 'make'                       no-dupe-keys
-```
-
-
-### III-D. Fix errors, and turn errors into warnings
-
-- Watch the video to see how we will:
-  - get rid of the  `no-dupe-keys` error
-  - turn the  `no-unused-vars` error into a *warning*
+- Now type `npm test` again:
+  - there will (probably) be many errors, but that depends on how closely your code followed ours
   
+```
+warning  Unexpected console statement               no-console
+error    'name' is assigned a value but never used  no-unused-vars
+error    'car' is assigned a value but never used   no-unused-vars
+error    Duplicate key 'make'                       no-dupe-keys
+error    Unexpected tab character                   no-tabs
+error    Assignment to function parameter 'max'     no-param-reassign
+error    Assignment to function parameter 'max'     no-param-reassign
+error    Assignment to function parameter 'max'     no-param-reassign
+warning  Unexpected console statement               no-console
+warning  Unexpected console statement               no-console
+warning  Unexpected console statement               no-console
+warning  Unexpected console statement               no-console
+error    Expected '===' and instead saw '=='        eqeqeq
+error    Expected '===' and instead saw '=='        eqeqeq
+warning  Unexpected console statement               no-console
+```
+  
+  - Watch the video to see how we will:
+    - fix the  `no-dupe-keys`, `no-tabs`, `no-param-reassign`, and `eqeqeq` errors
+    - turn the  `no-unused-vars` error into a *warning* by editing the **.eslintrc.json** file
+  - you should see something like the following, where the "pretest" and "test" scripts both run:
+  
+ 
+
+### III-C. All fixed?
+
+- You should see only warnings in the console
+
+
+### III-D. Commit your changes!
+
+- Commit these changes to your local repository, and then push them to the remote repository
+- Double-check that verything still works on Heroku
+
 <hr>
 
 ## IV. Homework & Submission
