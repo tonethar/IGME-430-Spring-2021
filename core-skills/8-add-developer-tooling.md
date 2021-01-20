@@ -102,8 +102,16 @@ Listening on 127.0.0.1: 3000
 - *ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code:*
   - https://www.npmjs.com/package/eslint
   - `ESLint` enforces code *style guides* - a style guide is a set of standards that outline how code should be written and organized
-  - Companies generally frown on *idiomatic* code - most feel that no matter how large a devekloper team is, thecode should look like it was written by *one person* 
+  - Companies generally frown on *idiomatic* code - most feel that no matter how large a developer team is, the code base should look like it was written by *one person* 
   - Style guides are created so developers can get up to speed on a code base quickly, and then write code that the other developers can easily understand
+  - We will be using the *Airbnb JavaScript Style Guide* in this course - https://github.com/airbnb/javascript
+  
+  ### III-A. Installing ESLint with AirBnB
+  
+  - make sure that you are still in the right *cwd*
+  - type `npm i --save-dev eslint eslint-config-airbnb eslint-plugin-import`
+  - wait for the install to complete
+  - now check your **node_modules** folder and the "devDependencies" key
 
 <hr><hr>
 
