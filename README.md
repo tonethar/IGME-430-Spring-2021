@@ -47,10 +47,10 @@
         - returns contents of `userSuggestions` array
         - endpoint: `/get-suggestions?sort=latest`
     - ALL Web Services:
-      - sends back data in either JSON or XML depending on `accept` request header of client
-      - sends back correct HTTP status code (`200`,`201`,`404` etc)
-      - sends back correct `content-type` response header
-      - for HTTP `HEAD` requests from a client, will NOT send the response content, and instead send only the headers (and status code):
+      - send back data in either JSON or XML depending on the value of the `accept` HTTP request header of a client
+      - send back correct HTTP status code (`200`,`201`,`404` etc)
+      - send back correct `content-type` response header
+      - for HTTP `HEAD` requests from a client, the service will NOT send the response content, and instead send only the headers (and status code):
         - adding a `content-size` response header to such responses would be a nice touch, but is not required - https://stackoverflow.com/questions/2219526/how-many-bytes-in-a-javascript-string/29955838
   - <ins>HTML Pages (5):</ins>
     - #1 - Home Page:
