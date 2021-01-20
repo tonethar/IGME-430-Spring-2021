@@ -103,7 +103,7 @@ console.log(`Listening on 127.0.0.1: ${port}`);
   - using GitBash/Powershell/Terminal, make **first-web-server** your *cwd*
   - type `git init`
   - type `git status`
-  - create `.gitignore` file and add "node_modules" to it (technically not needed this time)
+  - create a `.gitignore` file and add "node_modules" to it (technically not needed this time)
   - `git add .`
   - `git commit -m "message"`
 
@@ -147,7 +147,7 @@ console.log(`Listening on 127.0.0.1: ${port}`);
 ### IV-E. Try this!
 
 - Go ahead and make a small change to **index.js** (the local copy on your hard drive)
-- Commit the chnage to the *local* repository:
+- Commit the change to the *local* repository:
   - `git add .`
   - `git commit -m "updated index.js"`
 - push the chnage to the *remote* repository
