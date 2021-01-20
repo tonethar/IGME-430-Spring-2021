@@ -81,6 +81,7 @@
         - calls `/get-jokes?limit=5&minrating=3`
     - #5 - Error Page
       - returned for no-existent endpoints
+      - be sure to send the `404` HTTP status code
       - example:
         - **error.html**
   - <ins>Other Pages (3+):</ins>
