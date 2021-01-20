@@ -119,6 +119,15 @@ Listening on 127.0.0.1: 3000
 - add a "pretest" key (under "scripts") to **package.json** - give it a value of `"eslint ./src --fix"`
   - this will run `eslint` on all of the files in the **/src** folder, and "fix" them where possible
 - Now run your tests by typing `npm run test` (or `npm test` as a shortcut)
+- Now you will get an error - eslint is looking for a configuration file
+- To create one, go ahead and type `eslint --init`
+- Follow the presets we use in the video:
+  - *How would you like to use ESLint?* - **"To check syntax, find problems, and enforce code style"**
+  - *What type of modules does your project use?*  - **"CommonJS (require/exports)"**
+  - *Which framework does your project use?* - **"None of these"**
+  - *Where does your code run?* - **"Node"**
+  - *What format do you want your config file to be in?* - **"JSON"**
+- You should now have a **.eslintrc.json** file (Reminder: Don't forget to eventually commit it to your repository!)
 
 <hr><hr>
 
