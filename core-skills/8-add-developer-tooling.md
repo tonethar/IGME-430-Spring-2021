@@ -2,7 +2,7 @@
 
 ## I. Overview
 
-- Today we are going to utilize some npm developer tools to our project:
+- Today we are going to utilize some npm developer tools to our project. These 2 tools will dramatically improve your productivity:
   - https://www.npmjs.com/package/nodemon
   - https://www.npmjs.com/package/eslint
 
