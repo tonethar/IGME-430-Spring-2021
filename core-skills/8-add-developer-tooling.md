@@ -86,7 +86,7 @@ Listening on 127.0.0.1: 3000
 - Now go ahead and `git clone <url>` the folder again, and `cd` into it
 - Type `npm run nodemon`
   - ERROR! 
-  - This is because you have not downloaded the `nodemon` files (the ones that go in the **node_modules** folder)
+  - This is because you have not yet downloaded the `nodemon` files (the ones that go in the **node_modules** folder)
   - To download/install these `nodemon` files, type `npm install` (or just `npm i`)
   - `npm` will go ahead an automatically download all of the packages listed under the "devDependencies" and "dependencies" keys in the **package.json** file (we talked about this back in [Skill #4 - Hello Node](4-hello-node.md))
 - Now type `npm run nodemon` again - now that the required packages have been installed, things should work like they did earlier
