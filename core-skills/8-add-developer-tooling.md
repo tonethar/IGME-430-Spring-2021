@@ -179,14 +179,20 @@ warning  Unexpected console statement               no-console
 
 ### III-D. Commit your changes!
 
-- Commit these changes to your local repository, and then push them to the remote repository
-- Double-check that verything still works on Heroku
+- Commit these changes to your local repository, and then push them to the remote repository:
+  - don't forget about **.eslintrc.json**
+- Double-check that everything still works on Heroku
 
 <hr>
 
 ## IV. Homework & Submission
 
-
+- In the mycourses dropbox:
+  - ZIP and POST the updated **first-web-service** folder
+- In the comments field of the dropbox, type:
+  - the URL to your GitHub repository
+  - the working URL to your functional `abc1234-first-web-service` page on Heroku - just the main page this time
+  - IMPORTANT - DO NOT post your Heroku control panel link - no one but you can see that page
 
 <hr><hr>
 
