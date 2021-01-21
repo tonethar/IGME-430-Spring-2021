@@ -1,5 +1,11 @@
 # Skill #9 - *Continuous Integration* with CircleCI
 
+## 0. Video & HW
+- The video for this lecture, which walks through the notes, is here - [Essential Skills - Part IX. (09:24)](https://video.rit.edu/Watch/430-essential-skills-9)
+- See the HW assignment at the bottom of the page (Part IV.)
+
+<hr>
+
 ## I. Overview
 - CircleCI is a cloud service that will *automatically* test your code whenever a change is committed to GitHub
   - This means that CircleCI will run our `npm test` script every time we push to GitHub, and email us if it fails
