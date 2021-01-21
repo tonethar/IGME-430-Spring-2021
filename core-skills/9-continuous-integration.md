@@ -31,7 +31,25 @@
 
 <hr>
 
-### II-C. Create a project
+### II-C. Create a CircleCI project
+
+- Head to the Dashboard and click the "Add Project" button
+
+<hr>
+
+![screenshot](_images/ss-34.png)
+
+<hr>
+
+- Then find your GitHub repository and click the "Set Up Project" button
+
+<hr>
+
+![screenshot](_images/ss-35.png)
+
+<hr>
+
+- 
   
 - https://blog.stackpath.com/yaml/
 - https://circleci.com/developer/orbs/orb/circleci/node
