@@ -194,6 +194,7 @@ warning  Unexpected console statement               no-console
 
 - In the mycourses dropbox:
   - ZIP and POST the updated **first-web-service** folder
+  - We will be running `npm test` on this
 - In the comments field of the dropbox, type:
   - the URL to your GitHub repository
   - the working URL to your functional `abc1234-first-web-service` page on Heroku - just the main page this time
