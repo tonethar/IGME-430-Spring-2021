@@ -11,4 +11,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   [Skill #11 - ](10-) |  [**IGME-430**](../) | Skill #13 - TBA
+|   [Skill #11 - "Serving" a Rich Client Page](11-serving-rich-client-and-ajax.md) |  [**IGME-430**](../) | [Skill #13 - HTTP HEAD requests](13-http-head-requests.md)
