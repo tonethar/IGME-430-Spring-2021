@@ -87,7 +87,7 @@
 
 <hr>
 
-### II-E. 
+### II-E. Head to the control panel 
 
 
 | <-- Previous Unit | Home | Next Unit -->
