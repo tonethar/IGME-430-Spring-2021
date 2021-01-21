@@ -133,8 +133,7 @@ Listening on 127.0.0.1: 3000
   - *Which framework does your project use?* - **"None of these"**
   - *Where does your code run?* - **"Node"**
   - *How would you like to define a style for your project?* - **Use a popular style guide**
-  - *Which style guide do you want to follow?* - **"Airbnb (https://github.com/airbnb/jav
-ascript)"**
+  - *Which style guide do you want to follow?* - **"Airbnb (https://github.com/airbnb/javascript)"**
   - *What format do you want your config file to be in?* - **"JSON"**
   - *The config that you've selected requires the following dependencies - Would you like to install them now with npm?* - **"Yes"**
 - You should now have a **.eslintrc.json** file (Reminder: Don't forget to eventually commit it to your repository!)
