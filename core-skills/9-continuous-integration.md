@@ -18,6 +18,7 @@
 - Our starter code from today will be the repository we created the `npm test` script for last time - which is **first-web-service** (or **first-web-service-heroku**, or whatever you called it)
 - Go ahead and `git clone <url>` this repository to a folder on your hard drive
 - `cd` into the **first-web-service-heroku** folder and make it the *cwd*
+- Type `npm i` to download the packages listed under "devDependencies" in **package.json**
 - Type `npm test` and verify that the test runs and passes (*passing* means there are no errors, but warnings are acceptable)
 - Type `npm run nodemon` and verify that the app still functions
 
