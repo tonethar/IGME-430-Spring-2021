@@ -204,4 +204,4 @@ warning  Unexpected console statement               no-console
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   [Skill #7 - Create a "Random Joke" JSON Web Service](7-create-random-joke-web-service.md) |  [**IGME-430**](../) | Skill #9 - TBA
+|   [Skill #7 - Create a "Random Joke" JSON Web Service](7-create-random-joke-web-service.md) |  [**IGME-430**](../) | [Skill #9 - Continuous Integration with CircleCI](9-continuous-integration.md)
