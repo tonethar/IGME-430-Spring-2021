@@ -8,6 +8,7 @@
 - What is *Continuous Integration* ?
   - "Integrating" (merging code branches) "hurts" - and if it hurts - we should do it more often (rather than less often) and then it will end up hurting *less*
   - [YouTube - IBM Cloud - What is Continuous Integration?](https://www.youtube.com/watch?v=1er2cjUq1UI)
+  - [YouTube - IBM Cloud - What is Continuous Delivery?](https://www.youtube.com/watch?v=2TTU5BB-k9U)
   
 ## II. 
 - https://blog.stackpath.com/yaml/
