@@ -18,7 +18,8 @@
 - Our starter code from today will be the repository we created the `npm test` script for last time - which is **first-web-service** (or **first-web-service-heroku**, or whatever you called it)
 - Go ahead and `git clone <url>` this repository to a folder on your hard drive
 - `cd` into the **first-web-service-heroku** folder and make it the *cwd*
-- Type `npm run nodemon` and verify that everything works
+- Type `npm test` and verify that the test runs and passes (*passing* means there are no errors, but warnings are acceptable)
+- Type `npm run nodemon` and verify that the app still functions
 
 ### II-B. Set up a CircleCI account
 
@@ -49,12 +50,44 @@
 
 <hr>
 
-- 
+- You have now successfully created a CircleCI project! (see screenshot below)
+- Now go ahead and download the configuration file by clicking the download button (or you can copy/paste this configuration file directly from the bottom of the page if you wish) - then take a look at the config file:
+  - It is written in YAML:
+    - https://yaml.org/
+    - https://blog.stackpath.com/yaml/
+  - It has property that looks something like this `node: circleci/node@4.1`
+  - This is an "orb"  - this one being a common pre-set for node projects:
+    - https://circleci.com/docs/2.0/orb-intro
+    - https://circleci.com/developer/orbs/orb/circleci/node
+  - If you look under `jobs` and `build-and-test`, you will see the following
   
-- https://blog.stackpath.com/yaml/
-- https://circleci.com/developer/orbs/orb/circleci/node
+  ```
+  - run:
+      name: Run tests
+      command: npm test
+  ```
+  
+  - You can see that the `build-and-test` "job" means that our `npm test` script will be run 
+  - And down in `workflows` is where the `build-and-test` job is actually told to run
 
+<hr>
 
+![screenshot](_images/ss-36.png)
+
+<hr>
+
+### II-D. Commit the config file
+
+- In your **first-web-service** folder, create a new folder named **.circleci**, put the **config.yml** file that you downloaded into it
+- Commit this file to your repo:
+  - `git status`
+  - `git add .`
+  - `git commit -m "committed .circleci/config.yml"`
+  - `git push`
+
+<hr>
+
+### II-E. 
 
 
 | <-- Previous Unit | Home | Next Unit -->
