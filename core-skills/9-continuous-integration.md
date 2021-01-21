@@ -41,7 +41,7 @@
 
 <hr>
 
-- Then find your GitHub repository and click the "Set Up Project" button
+- Then locate your GitHub repository in the **Repo** list and click the "Set Up Project" button
 
 <hr>
 
