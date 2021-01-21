@@ -6,7 +6,7 @@
 - Sign up for a CircleCI account (using your GitHub account):
   - https://circleci.com/signup/
 - What is *Continuous Integration* ?
-  - "Integrating" (merging code branches) "hurts" - and if it hurts - we should do it more often (rather than less often) and then it will end up hurting *less*
+  - "Integrating" (merging code branches) "hurts" - and if it hurts - we should do it more often (rather than less often) and then it will end up hurting *less* over the long run
   - [YouTube - IBM Cloud - What is Continuous Integration? (6:20)](https://www.youtube.com/watch?v=1er2cjUq1UI)
   - [YouTube - IBM Cloud - What is Continuous Delivery? (5:50)](https://www.youtube.com/watch?v=2TTU5BB-k9U)
   
