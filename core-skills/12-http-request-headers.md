@@ -1,4 +1,4 @@
-# Skill #11 - HTTP request headers
+# Skill #12 - HTTP request headers
 
 
 ## I. Overview 
@@ -11,4 +11,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   [Skill #10 - ](10-) |  [**IGME-430**](../) | Skill #12 - TBA
+|   [Skill #11 - ](10-) |  [**IGME-430**](../) | Skill #13 - TBA
