@@ -51,7 +51,7 @@
 <hr>
 
 - You have now successfully created a CircleCI project! (see screenshot below)
-- Now go ahead and download the configuration file by clicking the download button (or you can copy/paste this configuration file directly from the bottom of the page if you wish) - then take a look at the config file:
+- Now go ahead and download the configuration file by clicking the download button (or you can copy/paste this configuration file directly from the bottom of the page if you wish) - then take a look at the **config.yml** configuration file:
   - It is written in YAML:
     - https://yaml.org/
     - https://blog.stackpath.com/yaml/
