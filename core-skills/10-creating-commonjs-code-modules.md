@@ -3,9 +3,10 @@
 
 ## I. Overview 
 
+- https://nodejs.org/docs/latest/api/modules.html
 - `module.exports`
 - `require()`
-- dispatch table
+- Dispatch table - https://en.wikipedia.org/wiki/Dispatch_table
 
 
 <hr><hr>
