@@ -1,4 +1,4 @@
-# Skill #9 - Continuous Integration with CircleCI
+# Skill #9 - *Continuous Integration* with CircleCI
 
 ## I. Overview
 - CircleCI is a cloud service that will *automatically* test your code whenever a change is committed to GitHub
@@ -7,8 +7,8 @@
   - https://circleci.com/signup/
 - What is *Continuous Integration* ?
   - "Integrating" (merging code branches) "hurts" - and if it hurts - we should do it more often (rather than less often) and then it will end up hurting *less*
-  - [YouTube - IBM Cloud - What is Continuous Integration?](https://www.youtube.com/watch?v=1er2cjUq1UI)
-  - [YouTube - IBM Cloud - What is Continuous Delivery?](https://www.youtube.com/watch?v=2TTU5BB-k9U)
+  - [YouTube - IBM Cloud - What is Continuous Integration? (6:20)](https://www.youtube.com/watch?v=1er2cjUq1UI)
+  - [YouTube - IBM Cloud - What is Continuous Delivery? (5:50)](https://www.youtube.com/watch?v=2TTU5BB-k9U)
   
 ## II. 
 - https://blog.stackpath.com/yaml/
