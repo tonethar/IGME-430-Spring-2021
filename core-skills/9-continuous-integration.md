@@ -118,6 +118,7 @@
   - the working URL to your functional `abc1234-first-web-service` page on Heroku - just the main page this time
   - IMPORTANT - DO NOT post your Heroku control panel link - no one but you can see that page
 
+<hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
