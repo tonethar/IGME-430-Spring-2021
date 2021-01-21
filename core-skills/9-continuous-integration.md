@@ -79,7 +79,7 @@
 ### II-D. Commit the config file
 
 - In your **first-web-service** folder, create a new folder named **.circleci**, put the **config.yml** file that you downloaded into it
-- Commit this file to your repo:
+- Commit this file (and folder) to your repo:
   - `git status`
   - `git add .`
   - `git commit -m "committed .circleci/config.yml"`
