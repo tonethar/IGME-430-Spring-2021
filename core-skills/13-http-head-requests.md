@@ -1,4 +1,4 @@
-# Skill #12 - HTTP HEAD requests
+# Skill #13 - HTTP HEAD requests
 
 
 ## I. Overview 
@@ -10,4 +10,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   [Skill #11 - ](10-) |  [**IGME-430**](../) | Skill #13 - TBA
+|   [Skill #12 - ](10-) |  [**IGME-430**](../) | Skill #14 - TBA
