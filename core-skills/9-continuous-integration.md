@@ -100,6 +100,24 @@
 
 ## III. HW and Submission
 
+- One thing that was not mentioned in the video is that Heroku can be configured so that automatic deployment from GitHub are only allowed when the CircleCI tests PASS
+- Head to Heroku (the "Deploy" tab) and turn this option "on" for this project
+
+<hr>
+
+![screenshot](_images/ss-37.png)
+
+<hr>
+
+
+- In the mycourses dropbox:
+  - ZIP and POST the updated **first-web-service** folder
+  - Post a scrrenshot of your Heroku project panel (the "Deploy" tab) that shows you have checked the "Wait for CI to pass before deploy" checkbox
+- In the comments field of the dropbox, type:
+  - the URL to your GitHub repository (we are looking for the green checkmark that shows your tests have passed)
+  - the working URL to your functional `abc1234-first-web-service` page on Heroku - just the main page this time
+  - IMPORTANT - DO NOT post your Heroku control panel link - no one but you can see that page
+
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
