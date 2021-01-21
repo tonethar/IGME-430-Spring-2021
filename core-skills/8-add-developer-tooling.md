@@ -132,11 +132,11 @@ Listening on 127.0.0.1: 3000
   - *What type of modules does your project use?*  - **"CommonJS (require/exports)"**
   - *Which framework does your project use?* - **"None of these"**
   - *Where does your code run?* - **"Node"**
-  - *How would you like to define a style for your project?* - **Use a popular style guide **
-  - *Which style guide do you want to follow?* - **Airbnb (https://github.com/airbnb/jav
-ascript)**
+  - *How would you like to define a style for your project?* - **Use a popular style guide**
+  - *Which style guide do you want to follow?* - **"Airbnb (https://github.com/airbnb/jav
+ascript)"**
   - *What format do you want your config file to be in?* - **"JSON"**
-  - *The config that you've selected requires the following dependencies - Would you like to install them now with npm?* - **Yes**
+  - *The config that you've selected requires the following dependencies - Would you like to install them now with npm?* - **"Yes"**
 - You should now have a **.eslintrc.json** file (Reminder: Don't forget to eventually commit it to your repository!)
 
 <hr>
@@ -186,7 +186,7 @@ warning  Unexpected console statement               no-console
 ### III-D. Commit your changes!
 
 - Commit these changes to your local repository, and then push them to the remote repository:
-  - don't forget about **.eslintrc.json**
+  - don't forget about committing **.eslintrc.json**
 - Double-check that everything still works on Heroku
 
 <hr>
