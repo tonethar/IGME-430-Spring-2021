@@ -15,7 +15,7 @@
 
 <hr><hr>
 
-## II. Projects
+## II. Projects (2 or 3)
 
 ### Project 1 - API Portal
 
@@ -109,7 +109,7 @@
 
 <hr>
 
-### Project 2 - Product/Service App VueJS
+### Project 2 - Product/Service App VueJS (or BIG HW Assignments)
 
 - Functionality
 - Client-side Technologies
@@ -123,7 +123,7 @@
 
 <hr>
 
-### Project 3 - Product/Service App ReactJS
+### Final Project - Product/Service App ReactJS
 
 - Functionality
 - Client-side Technologies
@@ -159,13 +159,40 @@
 
 ## IV. Course Expectations
 
-- Be on time to the Zoom meetings:
+### IV-A. Be on time to the Zoom meetings:
   - we only have 50 minutes of meeting time
   - a 2:30PM start is 2:30:00, NOT 2:30:59
   - recommendation: start logging into Zoom about 5 minutes before class
 - Be prepared to participate in class
 - Be prepared to *work* on assignments during class time:
   - you CAN get a lot done in even 20 minutes, so long as you are prepared
-  - I WILL stay after every class meeting for questions, until 4:00PM, so that is another good time to work on HW
-- The Professor has limited availability late at night and on the weekends:
-  - that means if you anticipate there is any chance you will have questions, you should start assignments *early*
+
+### IV-B. Getting help/Communicating with Prof
+  - this is not an easy course, and if you skip HW assignments and/or fall behind in the work you will likely find it difficult to catch up
+  - which also means that if you have questions and/or are stuck on anything, ask for help ***immediately***
+  - I WILL stay after the Monday & Wednesday class meetings for questions, until 4:00PM, so that is another good time to work on HW
+  - I have limited availability late at night and on the weekends
+    - that means if you anticipate there is any chance you will have questions, you should start assignments *early*
+  - Discord is a great resource, but I won't be logged into in constantly, so the quickest way to contact me most of the time is via email
+
+<a id="asking-questions" />
+
+### IV-C. Asking Questions
+
+- What NOT to do:
+  - "Professor, I tried to do the HW but I just get a blank screen when I run it. What did I do wrong?"
+    - *With such a vague decription, it could be one of a thousand different things. At this point the prof will have to write you back and ask for more information. You should instead be mnore respectful of everyone's time and give more details in your first email*
+  - "My code doesn't work. Here's the link to my GitHub repository - what did I do wrong?"
+    - *Two issues here. It comes off as lazy (what have you done to try to solve the problem yourself?), and sharing GitHub repository links on GitHub is verboten*
+  - "My code works fine on IE9 and Firefox Developer Edition, but not on Chrome, so it looks like a browser bug"
+    - *More than likely it is YOUR code that is buggy, not the web browser*
+- What you should do:
+  - Spend a reasonable amount of time debugging it yourself - **TODO add link and discusion of debugging**
+  - Do a google search
+  - Describe the problem, and document the observed behavior of the program with screen shots
+  - Describe what fixes you attempted
+  - Share only a minimum amount of your code in Discord
+- Links:
+  - https://www.freecodecamp.org/news/how-to-ask-good-questions-as-a-developer-9f71ff809b63/
+  - http://www.catb.org/~esr/faqs/smart-questions.html
+  - https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603
