@@ -193,6 +193,7 @@
   - Describe what fixes you attempted
   - Share only a minimum amount of your code in Discord
 - Links:
+  - https://www.propublica.org/nerds/how-to-ask-programming-questions
   - https://www.freecodecamp.org/news/how-to-ask-good-questions-as-a-developer-9f71ff809b63/
   - http://www.catb.org/~esr/faqs/smart-questions.html
   - https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603
