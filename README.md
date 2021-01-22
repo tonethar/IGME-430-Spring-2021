@@ -192,6 +192,7 @@
   - Describe the problem, and document the observed behavior of the program with screen shots
   - Describe what fixes you attempted
   - Share only a minimum amount of your code in Discord
+  - Let people know when and how you ended up fixing the issue!
 - Links:
   - https://www.propublica.org/nerds/how-to-ask-programming-questions
   - https://www.freecodecamp.org/news/how-to-ask-good-questions-as-a-developer-9f71ff809b63/
