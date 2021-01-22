@@ -177,7 +177,7 @@
 
 <a id="asking-questions" />
 
-### IV-C. Asking Questions
+### IV-C. Asking Effective Questions
 
 - What NOT to do:
   - "Professor, I tried to do the HW but I just get a blank screen when I run it. What did I do wrong?"
