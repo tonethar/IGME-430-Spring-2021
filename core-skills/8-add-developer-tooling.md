@@ -126,7 +126,10 @@ Listening on 127.0.0.1: 3000
   - this will run `eslint` on all of the files in the **/src** folder, and "fix" them where possible
 - Now run your tests by typing `npm run test` (or `npm test` as a shortcut)
 - Now you will get an error - eslint is looking for a configuration file
-- To create one, go ahead and type `eslint --init` - which creates an interactive program that asks questions.
+- To create one, go ahead and type `eslint --init` - which creates an interactive program that asks questions:
+  - ***IMPORTANT: THE ARROW KEYS MIGHT NOT WORK ON WINDOWS GITBASH:***
+    - https://stackoverflow.com/questions/55753151/cant-use-arrow-keys-in-git-bash-windows
+    - so use PowerShell, Visual Studio Code's terminal window, or [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?active) instead
 - Follow the presets we use in the video:
   - *How would you like to use ESLint?* - **"To check syntax, find problems, and enforce code style"**
   - *What type of modules does your project use?*  - **"CommonJS (require/exports)"**
@@ -137,9 +140,6 @@ Listening on 127.0.0.1: 3000
   - *What format do you want your config file to be in?* - **"JSON"**
   - *The config that you've selected requires the following dependencies - Would you like to install them now with npm?* - **"Yes"**
 - You should now have a **.eslintrc.json** file (Reminder: Don't forget to eventually commit it to your repository!)
-- ***IMPORTANT: THE ARROW KEYS MIGHT NOT WORK ON WINDOWS GITBASH:***
-  - https://stackoverflow.com/questions/55753151/cant-use-arrow-keys-in-git-bash-windows
-  - so use PowerShell, Visual Studio Code's terminal window, or [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?active)
 
 <hr>
 
