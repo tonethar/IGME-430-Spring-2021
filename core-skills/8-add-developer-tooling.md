@@ -127,8 +127,8 @@ Listening on 127.0.0.1: 3000
 - Now run your tests by typing `npm run test` (or `npm test` as a shortcut)
 - Now you will get an error - eslint is looking for a configuration file
 - To create one, go ahead and type `eslint --init` - which creates an interactive program that asks questions:
-  - **IMPORTANT:** - if you get an error message `"bash: eslint : command not found".` - it's probably a `PATH` issue
-    - Try `npx eslint --init` instead
+  - **IMPORTANT:** if you get an error message `"bash: eslint : command not found".` - it's probably a `PATH` issue
+    - Try typing `npx eslint --init` instead
   - ***IMPORTANT: THE ARROW KEYS MIGHT NOT WORK ON WINDOWS GITBASH:***
     - https://stackoverflow.com/questions/55753151/cant-use-arrow-keys-in-git-bash-windows
     - so use PowerShell, Visual Studio Code's terminal window, or [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?active) instead
