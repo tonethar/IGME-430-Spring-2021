@@ -212,7 +212,7 @@
   - I **WILL attempt** to be logged into Discord during our class time on Wednesday & Friday though, for questions
 - The entirety of the Week 1 and Week 2 content has been prepared for you:
   - in myCourses look for the 9 "Core Skills" links, and the "Simple HTTP HW"
-  - the Core Skills assignments have note and short accompanying videos. Each one covers an important topic fundamental topic - we will go look at these now 
+  - the Core Skills assignments have notes and short accompanying videos. Each one covers an important topic fundamental topic - we will go look at these now 
 - ***Week 2:***
   - on MWF we will be reviewing the material from Core Skills #4 (*Intro to Node.js*) to Core Skills #9 (*Continuous Integration with CircleCI*), and getting you prepared for the "Simple HTTP HW":
     - IF you complete and post Core Skills #1-#9 early, I will *probably* excuse you from next Wednesday (2/3) and Friday's (2/5) classes (we'll talk about that Monday 2/1)
