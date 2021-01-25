@@ -191,7 +191,7 @@
     - *More than likely it is YOUR code that is buggy, not the web browser*
 - What you should DO:
   - Spend a reasonable amount of time debugging it yourself
-    - **TODO we will discuss debugging techniques**
+    - https://www.cs.cornell.edu/courses/cs312/2006fa/lectures/lec26.html
   - Do a google search
   - Describe the problem, and document the observed behavior of the program with screen shots
   - Describe what fixes you attempted
