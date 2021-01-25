@@ -149,22 +149,25 @@
   - Terminal (Mac OS)
   - GitBash - https://gitforwindows.org/
   - Powershell
+  - [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)
 - Text Editor:
   - BBEdit (Mac OS)
   - Notepad++
 - IDE:
-  - Visual Studio Code
+  - Visual Studio Code (later on in the semester we will use this exclusively)
 
 <hr>
 
 ## IV. Course Expectations
 
+***This course can be challenging-let's DISCUSS***
+
 ### IV-A. Be on time to the Zoom meetings:
   - we only have 50 minutes of meeting time
   - a 2:30PM start is 2:30:00, NOT 2:30:59
   - recommendation: start logging into Zoom about 5 minutes before class
-- Be prepared to participate in class
-- Be prepared to *work* on assignments during class time:
+  - Be prepared to participate in class
+  - Be prepared to *work* on assignments during class time:
   - you CAN get a lot done in even 20 minutes, so long as you are prepared
 
 ### IV-B. Getting help/Communicating with Prof
@@ -178,16 +181,17 @@
 <a id="asking-questions" />
 
 ### IV-C. Asking Effective Questions
-
+- The #1 rule in this class is to ASK QUESTIONS if you ever need clarification on anything. The #2 rule is to make the attempt to ask that question *effectively*
 - What NOT to do:
   - "Professor, I tried to do the HW but I just get a blank screen when I run it. What did I do wrong?"
-    - *With such a vague decription, it could be one of a thousand different things. At this point the prof will have to write you back and ask for more information. You should instead be mnore respectful of everyone's time and give more details in your first email*
+    - *With such a vague decription, it could be one of a thousand different things. At this point the prof will have to write you back and ask for more information. You should instead be more respectful of everyone's time and give more details in your first email*
   - "My code doesn't work. Here's the link to my GitHub repository - what did I do wrong?"
-    - *Two issues here. It comes off as lazy (what have you done to try to solve the problem yourself?), and sharing GitHub repository links on GitHub is verboten*
+    - *Two issues here. It comes off as kind of lazy (what have you done to try to solve the problem yourself?), and sharing GitHub repository links on GitHub is verboten*
   - "My code works fine on IE9 and Firefox Developer Edition, but not on Chrome, so it looks like a browser bug"
     - *More than likely it is YOUR code that is buggy, not the web browser*
-- What you should do:
-  - Spend a reasonable amount of time debugging it yourself - **TODO add link and discusion of debugging**
+- What you should DO:
+  - Spend a reasonable amount of time debugging it yourself
+    - **TODO we will discuss debugging techniques**
   - Do a google search
   - Describe the problem, and document the observed behavior of the program with screen shots
   - Describe what fixes you attempted
@@ -200,3 +204,10 @@
   - https://www.freecodecamp.org/news/how-to-ask-good-questions-as-a-developer-9f71ff809b63/
   - http://www.catb.org/~esr/faqs/smart-questions.html
   - https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603
+  
+## V. Course Delivery
+
+- ***Week 1 only:*** I am travelling and we will not meet on Zoom the rest of the week:
+  - I **WILL attempt** to be logged into Discord during our class time on Wednesday & Friday though, for questions
+  - The entirety of the Week 1 and Week 2 content has been prepared for you:
+    - In myCourses look for the 9 "Core Skills" links, and the "Simple HTTP HW". The Core Skills assignments have note and short accompanying videos. Each one covers an important topic
