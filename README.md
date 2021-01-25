@@ -186,7 +186,7 @@
   - "Professor, I tried to do the HW but I just get a blank screen when I run it. What did I do wrong?"
     - *With such a vague decription, it could be one of a thousand different things. At this point the prof will have to write you back and ask for more information. You should instead be more respectful of everyone's time and give more details in your first email*
   - "My code doesn't work. Here's the link to my GitHub repository - what did I do wrong?"
-    - *Two issues here. It comes off as kind of lazy (what have you done to try to solve the problem yourself?), and sharing GitHub repository links on GitHub is verboten*
+    - *Two issues here. It comes off as kind of lazy (what have you done to try to solve the problem yourself?), and sharing GitHub repository links on Discord is verboten*
   - "My code works fine on IE9 and Firefox Developer Edition, but not on Chrome, so it looks like a browser bug"
     - *More than likely it is YOUR code that is buggy, not the web browser*
 - What you should DO:
@@ -216,5 +216,5 @@
 - ***Week 2:***
   - on MWF we will be reviewing the material from Core Skills #4 (*Intro to Node.js*) to Core Skills #9 (*Continuous Integration with CircleCI*), and getting you prepared for the "Simple HTTP HW":
     - IF you complete and post Core Skills #1-#9 early, I will *probably* excuse you from next Wednesday (2/3) and Friday's (2/5) classes (we'll talk about that Monday 2/1)
-- Quetions?
+- Questions?
 
