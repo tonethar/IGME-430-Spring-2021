@@ -52,7 +52,7 @@ Completing the HW and in-class exercises is essential to learning the course mat
   - https://giphy.com/gifs/tos-big-hair-poofy-IgGNIfJx7bYHfEV3c8
 
 ### Zoom Attendance/Participation (10%)
-1 absence = no penalty, 2 = -2%, 3 = -5%, 4 = -10%, 5+ = additional -5% per absence (Yes, at 5+ absences that's a *negative* grade that reduces your overall grade even further. myCourses is able to calculate that). You can request to be excused from a class meeting, write us in advance of the meeting. If you can't attend class for any reason, always let us know *in advance*.
+1 absence = no penalty, 2 = -2%, 3 = -5%, 4 = -10%, 5+ = additional -5% per absence (Yes, at 5+ absences that's a *negative* grade that reduces your overall grade even further. myCourses is able to calculate that). You can request to be excused from a class meeting, write me in advance of the meeting. If you can't attend class for any reason, always let me know *in advance*.
 
 
 ### Policy on Incomplete Grades
