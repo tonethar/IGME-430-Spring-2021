@@ -53,7 +53,7 @@
 3) Put the following code into **index.js** --> `console.log("Hello 430");`
 
 4) Now run the code by typing `node ./index.js` on the command line:
-    - you should see `Hello 430` log out to the console
+    - you should see `"Hello 430"` log out to the console
 
 <hr>
 
