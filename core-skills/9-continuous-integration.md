@@ -120,9 +120,13 @@
   - ZIP and POST the updated **first-web-service** folder
   - Post a screenshot of your Heroku project panel (the "Deploy" tab) that shows you have checked the "Wait for CI to pass before deploy" checkbox
 - In the comments field of the dropbox, type:
-  - the URL to your GitHub repository (we are looking for the green checkmark that shows your tests have passed)
+  - the URL to your GitHub repository (we are looking for the green checkmark that shows your tests have passed - see screenshot below)
   - the working URL to your functional `abc1234-first-web-service` page on Heroku - just the main page this time
   - IMPORTANT - DO NOT post your Heroku control panel link - no one but you can see that page
+  
+  <hr>
+
+![screenshot](_images/ss-38.png)
 
 <hr><hr>
 
