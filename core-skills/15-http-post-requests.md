@@ -1,4 +1,4 @@
-# Skill #14 - HTTP POST requests
+# Skill #15 - HTTP POST requests
 
 
 ## I. Overview 
@@ -12,4 +12,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   [Skill #13 - HTTP HEAD requests](13-http-head-requests.md) |  [**IGME-430**](../) | Skill #15 - TBA
+|   [Skill #14 - HTTP HEAD requests](14-http-head-requests.md) |  [**IGME-430**](../) | Skill #16 - TBA
