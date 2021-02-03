@@ -8,7 +8,7 @@
 <hr>
 
 ## II. Watch the Video
-- The video for this lecture, which walks through the notes, is here --> [Essential Skills - Part X (05:12)]()
+- The video for this lecture, which walks through the notes, is here --> [Essential Skills - Part X (05:40)](https://video.rit.edu/Watch/430-essential-skills-10)
 - Here is the PDF I will be walking through --> [Debugging_Node.pdf](_files/Debugging_Node.pdf)
 - Follow along, using your **first-web-service** code from last time
 
