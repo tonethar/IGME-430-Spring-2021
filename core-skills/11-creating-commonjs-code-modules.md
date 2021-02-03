@@ -1,4 +1,4 @@
-# Skill #10 - Creating CommonJS Code Modules
+# Skill #11 - Creating CommonJS Code Modules
 
 
 ## I. Overview 
@@ -13,4 +13,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   [Skill #9 - Continuous Integration with CircleCI](9-continuous-integration.md) |  [**IGME-430**](../) | [Skill #11 - "Serving" a Rich Client Page](11-serving-rich-client-and-ajax.md)
+|   [Skill #10 - Debugging Node](10-debugging-node.md) |  [**IGME-430**](../) | [Skill #12 - "Serving" a Rich Client Page](12-serving-rich-client-and-ajax.md)
