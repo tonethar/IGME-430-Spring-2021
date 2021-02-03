@@ -132,4 +132,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   [Skill #8 - Adding developer "tooling"](8-add-developer-tooling.md) |  [**IGME-430**](../) | [Skill #10 - Debugging Node](0-debugging-node.md)
+|   [Skill #8 - Adding developer "tooling"](8-add-developer-tooling.md) |  [**IGME-430**](../) | [Skill #10 - Debugging Node](10-debugging-node.md)
