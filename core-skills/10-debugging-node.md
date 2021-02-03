@@ -26,4 +26,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   [Skill #9 - Continuous Integration with CircleCI](9-continuous-integration.md) |  [**IGME-430**](../) | [Skill #11 - "Serving" a Rich Client Page](11-serving-rich-client-and-ajax.md)
+|   [Skill #9 - Continuous Integration with CircleCI](9-continuous-integration.md) |  [**IGME-430**](../) | [Skill #11 - Creating CommonJS Code Modules](11-creating-commonjs-code-modules.md)
