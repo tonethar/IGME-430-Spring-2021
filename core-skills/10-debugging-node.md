@@ -3,7 +3,7 @@
 
 ## I. Overview 
 
-- Let's learn how to debug (e.g. set breakpoints, step through code, watch variables etc) Node.js!
+- Let's learn how to *debug* (e.g. set breakpoints, step through code, watch variables etc) our Node.js code!
 
 <hr>
 
