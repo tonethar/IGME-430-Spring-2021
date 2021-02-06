@@ -49,7 +49,7 @@ const randomNumberResponse = (request,response,params) => {
   
 **Common JS Modules:**
 
-- This is a module syntax known as CommonJS:
+- This is a module syntax known as [CommonJS](https://nodejs.org/api/modules.html#modules_module_exports):
   - This is an *older* module syntax than the ES6 Module syntax we used in 330
   - Does Nodejs have access to ES6 module syntax? YES
   - So why are we still using this older syntax?
