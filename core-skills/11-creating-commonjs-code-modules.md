@@ -68,13 +68,13 @@ const getRandomNumberResponse = (request,response,params) => {
 ### II-E.  "Import" the *jsonResponses.js* module
 
 - Over in **index.js**, add the following line of code to the top of the file:
-  - `const jsonResponses = require('./jsonResponses.js')`
+  - `const jsonHandler = require('./jsonResponses.js')`
 
 <hr>
 
 ### II-F.  Use the module 
 - In `onRequest()`, replace the 3 lines of "response" code in the `else if (pathname === '/random-number') {` block with:
-  - `jsonResponses.getRandomNumberResponse(request,response,params);`
+  - `jsonHandler.getRandomNumberResponse(request,response,params);`
   - the above code will call the `getRandomNumberResponse()` function over in **jsonResponses.js**, and pass in the 3 parameters it needs
 
 <hr>
@@ -122,7 +122,7 @@ const getIndexResponse = (request,response) => {
 <hr>
 
 ### III-D. "Import" the htmlResponses.js module
-- Over in **index.js**, go ahead and `require()` **htmlResponses.js** like we did with **jsonResponses.js** 
+- Over in **index.js**, go ahead and `require()` **htmlResponses.js** like we did with **jsonResponses.js** -and name this import `htmlHandler`
 
 <hr>
 
