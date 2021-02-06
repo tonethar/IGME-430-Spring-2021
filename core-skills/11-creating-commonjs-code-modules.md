@@ -87,6 +87,7 @@ const getRandomNumberResponse = (request,response,params) => {
   - http://localhost:3000/
   - http://localhost:3000/random-number
   - http://localhost:3000/random-number?max=10000
+  - http://localhost:3000/fake-file-name
 
 <hr> 
 
@@ -122,12 +123,33 @@ const getIndexResponse = (request,response) => {
 <hr>
 
 ### III-D. "Import" the htmlResponses.js module
-- Over in **index.js**, go ahead and `require()` **htmlResponses.js** like we did with **JsonResponses.js** 
+- Over in **index.js**, go ahead and `require()` **htmlResponses.js** like we did with **jsonResponses.js** 
 
 <hr>
 
 ### III-E. Use the *htmlResponses* module 
-- In `onRequest()`, replace the 3 lines of "response" code with a call to `getIndexResponse()` - don't forget to pass over the `request` and `response` parameters
+- In `onRequest()`, replace the 3 lines of "response" code with a call to `getIndexResponse()` - and don't forget to pass over the `request` and `response` parameters
+
+<hr>
+
+### III-F. Test it!
+
+- Head to the browser and test these endpoints, everything should work as before, except the last link (the 404 page):
+  - http://localhost:3000/
+  - http://localhost:3000/random-number
+  - http://localhost:3000/random-number?max=10000
+  - http://localhost:3000/fake-file-name
+
+<hr>
+
+### III-G. Get the `404` page working
+
+- Over in **htmlResponses.js**, name the function `get404Response()`
+- Move the appropriate code over from `onRequest()` 
+- export it, of course
+- require it in **index.js**
+- now use it in `onRequest()`
+- one everything is working, move on
 
 <hr><hr>
 
