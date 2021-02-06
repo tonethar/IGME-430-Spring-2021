@@ -43,7 +43,7 @@
 
 ## IV. Commit your changes
 
-- we added `nodemon` and `eslint` and CircleCI so we have made some changes to existing files, and added some new files - these need to be committed to our local respoitory, and then pushed to the remote repository:
+- we added `nodemon` and `eslint` and CircleCI so we have made some changes to existing files, and added some new files - these need to be committed to our local repository, and then pushed to the remote repository:
   - **.eslintrc.json**
   - **.circleci/config.yml**
 - BTW - You DO have a **.gitignore** file right?
