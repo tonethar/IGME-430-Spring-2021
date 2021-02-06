@@ -146,8 +146,7 @@ const getIndexResponse = (request,response) => {
 - Over in **htmlResponses.js**, name the function `get404Response()`
 - Move the appropriate code over from `onRequest()` 
 - export it, of course
-- require it in **index.js**
-- now use it in `onRequest()`
+- in **index.js**, use it in the right place in `onRequest()`
 - once everything is working, move on
 
 <hr>
