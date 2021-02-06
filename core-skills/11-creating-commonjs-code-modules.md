@@ -16,10 +16,34 @@
   - `cd` into it, and `npm i` to download all your dependencies
 
 ### II-B. Create the jsonResponses.js module
-- Create a new file named **src/jsonResponses.js**, and move the following code into it:
+- Create a new file named in the **src** directory named **jsonResponses.js**, and move the following code into it:
   - `const getRandomNumberJSON = ...`
+  
+### II-C.  Create a response handling function
 
-### II-X. Create the htmlResponses.js module
+- Add the following *response handler* to **jsonResponses.js**
+
+```js
+const responseRandomNumber = (request,response,params) ={
+  response.writeHead(200, { 'Content-Type': 'application/json' });
+  response.write(getRandomNumberJSON(max)); // send content
+  response.end(); // close connection
+}
+```
+
+### II-D.  Create a public interface for the **jsonResponses.js** module
+
+- We need to make the  `responseRandomNumber()` function "public" (i.e. *visible*) outside of this file
+- The ` getRandomNumberJSON()` function can stay "private"
+- Here's the code to do so - add it to the bottom of **jsonResponses.js**:
+  - `module.exports.responseRandomNumber = responseRandomNumber;`
+  - 
+
+
+
+<hr> 
+
+### III-X. Create the htmlResponses.js module
 - Create a new file named **src/htmlResponses.js**, and move the following code into it:
   - `const indexPage = ...`
   - `const errorPage = ...`
