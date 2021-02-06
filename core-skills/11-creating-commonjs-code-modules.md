@@ -37,7 +37,7 @@
 const randomNumberResponse = (request,response,params) => {
   response.writeHead(200, { 'Content-Type': 'application/json' });
   response.write(getRandomNumberJSON(params.max));
-  response.end(); // close connection
+  response.end();
 }
 ```
 
