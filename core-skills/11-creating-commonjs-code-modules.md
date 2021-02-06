@@ -96,7 +96,7 @@ const randomNumberResponse = (request,response,params) => {
 - Create a new file named **htmlResponses.js** (in the **src** folder, obviously), and move the following code (found in **index.js**) into it:
   - `const indexPage = ...`
   - `const errorPage = ...`
-- to the bottom of **src/htmlResponses.js** add:
+- to the bottom of **htmlResponses.js** add:
 
 
 
