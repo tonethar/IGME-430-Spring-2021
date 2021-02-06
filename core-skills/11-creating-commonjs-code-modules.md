@@ -175,6 +175,27 @@ const urlStruct = {
 };
 ```
 
+### IV-B. Using the dispatch table
+
+- in `onRequest()`, delete all of the "if" code
+- add the following:
+
+```js
+if(urlStruct[pathname]){
+   urlStruct[pathname](request,response,params);
+}else{
+  urlStruct['notFound'](request,response,params);
+}
+```
+
+- test the app - all 4 links above - it should work as expected
+- How this works:
+  - the `if` statement looks to see if there is a property named `pathname`
+  - if there is, go ahead and execute the referenced function in the dispatch table, and also pass in all 3 parameters (the HTML response handlers will ignore the extra `params` argument)
+  - if there is NOT a property named `pathname` (for example, if a web client requested a non-existant page), then call the `notFound` handler, which is `htmlHandler.get404Response`
+
+
+
 
 <hr><hr>
 
