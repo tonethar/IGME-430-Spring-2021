@@ -6,7 +6,7 @@
 ## I. Install and test `nodemon`
 - `git clone <url-to-random-joke-repository>`
 - test it to be sure everything still works:
-  - `npm i` - *not actually needed, yet, because this project doesn't yet have "dependencies" (but it will have "devDependencies", in just a bit)
+  - `npm i` - *not actually needed, yet, because this project doesn't yet have "dependencies" (but it will have "devDependencies", in just a bit)*
   - `npm start`
   - test these endpoints:
     - http://localhost:3000/
