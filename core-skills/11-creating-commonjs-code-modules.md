@@ -153,7 +153,28 @@ const getIndexResponse = (request,response) => {
 
 ## IV. One last thing, a dispatch table
 - here, our *dispatch table* will be a table of references to functions or methods
-- https://en.wikipedia.org/wiki/Dispatch_table
+  - https://en.wikipedia.org/wiki/Dispatch_table
+- we are going to store our response functions in a table, and then call them from `onRequest()`
+- this will significantly clean up and simplify our code
+- it will also make it much easier to add more endpoints and response handler in the future
+
+<hr>
+
+### IV-A. The dispatch table
+
+- Here it is - add it to **index.js**
+- As you can see, it's an object literal with:
+  - *properties* that are strings
+  - and *values* that are references to functions
+
+```js
+const urlStruct = {
+  '/'              : htmlHandler.getIndexResponse,
+  '/random-number' : jsonHandler.getRandomNumberResponse,
+  notFound         : htmlHandler.get404Response
+};
+```
+
 
 <hr><hr>
 
