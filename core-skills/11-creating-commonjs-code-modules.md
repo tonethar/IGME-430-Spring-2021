@@ -188,11 +188,13 @@ if(urlStruct[pathname]){
 }
 ```
 
-- test the app - all 4 links above - it should work as expected
-- How this works:
-  - the `if` statement looks to see if there is a property named `pathname`
-  - if there is, go ahead and execute the referenced function in the dispatch table, and also pass in all 3 parameters (the HTML response handlers will ignore the extra `params` argument)
-  - if there is NOT a property named `pathname` (for example, if a web client requested a non-existant page), then call the `notFound` handler, which is `htmlHandler.get404Response`
+- test the app - all 4 links above - it should function as expected!
+
+
+#### IV-B-i. How this works
+- the `if` statement looks to see if there is a property named `pathname`
+- if there is, go ahead and execute the referenced function in the dispatch table, and also pass in all 3 parameters (the HTML response handlers will ignore the extra `params` argument)
+- if there is NOT a property named `pathname` (for example, if a web client requested a non-existant page), then call the `notFound` handler, which is `htmlHandler.get404Response`
 
 
 
