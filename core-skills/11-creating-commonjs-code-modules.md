@@ -148,7 +148,7 @@ const getIndexResponse = (request,response) => {
 - export it, of course
 - require it in **index.js**
 - now use it in `onRequest()`
-- one everything is working, move on
+- once everything is working, move on
 
 <hr>
 
