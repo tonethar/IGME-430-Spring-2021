@@ -31,14 +31,25 @@ const responseRandomNumber = (request,response,params) ={
 }
 ```
 
-### II-D.  Create a public interface for the **jsonResponses.js** module
+### II-D.  Create a *public interface* for the **jsonResponses.js** module
 
 - We need to make the  `responseRandomNumber()` function "public" (i.e. *visible*) outside of this file
 - The ` getRandomNumberJSON()` function can stay "private"
 - Here's the code to do so - add it to the bottom of **jsonResponses.js**:
   - `module.exports.responseRandomNumber = responseRandomNumber;`
-  - 
+  
+**Common JS Modules:**
 
+- This is a module syntax known as CommonJS:
+  - This is an *older* module syntax than the ES6 Module syntax we used in 330
+  - Does Nodejs have access to ES6 module syntax? YES
+  - So why are we still using this older syntax?
+    - as of this writing, not all Node.js libraries support the newer syntax
+    - the vast majority of existing Node projects still use the older CommomJS syntax - so it is good to know!
+
+### II-E.  "Import" the *jsonResponses.js* module
+
+- Over in **index.js**
 
 
 <hr> 
