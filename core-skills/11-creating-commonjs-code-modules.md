@@ -74,7 +74,7 @@ const getRandomNumberResponse = (request,response,params) => {
 <hr>
 
 ### II-F.  Use the module 
-- replace the 3 lines of "response" code in the `else if (pathname === '/random-number') {` block with:
+- In `onRequest()`, replace the 3 lines of "response" code in the `else if (pathname === '/random-number') {` block with:
   - `jsonResponses.getRandomNumberResponse(request,response,params);`
   - the above code will call the `getRandomNumberResponse()` function over in **jsonResponses.js**, and pass in the 3 parameters it needs
 
@@ -91,7 +91,7 @@ const getRandomNumberResponse = (request,response,params) => {
 <hr> 
 
 ## III. Create the htmlResponses.js module
-- Now let's look at moving our HTML responses to a separate file
+- Now let's look at moving our HTML responses to a separate file (i.e. module)
 
 ### III-A. Create the htmlResponses.js module
 - Create a new file named **htmlResponses.js** (in the **src** folder, obviously), and move the following code (found in **index.js**) into it:
@@ -119,8 +119,15 @@ const getIndexResponse = (request,response) => {
 - to the bottom of **htmlResponses.js** add:
   - `module.exports.getIndexResponse = getIndexResponse;`
 
+<hr>
 
-### III-A. Create the htmlResponses.js module
+### III-D. "Import" the htmlResponses.js module
+- Over in **index.js**, go ahead and `require()` **htmlResponses.js** like we did with **JsonResponses.js** 
+
+<hr>
+
+### III-E. Use the *htmlResponses* module 
+- In `onRequest()`, replace the 3 lines of "response" code with a call to `getIndexResponse()` - don't forget to pass over the `request` and `response` parameters
 
 <hr><hr>
 
