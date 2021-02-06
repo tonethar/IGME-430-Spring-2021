@@ -14,8 +14,12 @@
 
 - Go ahead and `git clone <url>` your **first-web-service** repository:
   - `cd` into it, and `npm i` to download all your dependencies
+  - `npm run nodemon` to boot up the server
+  - head to `http://localhost:3000/` to be sure that the app functions as before
+  - now let's start refactoring this code!
 
 ### II-B. Create the jsonResponses.js module
+
 - Create a new file named in the **src** directory named **jsonResponses.js**, and move the following code into it:
   - `const getRandomNumberJSON = ...`
   
@@ -24,19 +28,19 @@
 - Add the following *response handler* to **jsonResponses.js**
 
 ```js
-const responseRandomNumber = (request,response,params) ={
+const randomNumberResponse = (request,response,params) => {
   response.writeHead(200, { 'Content-Type': 'application/json' });
-  response.write(getRandomNumberJSON(max)); // send content
+  response.write(getRandomNumberJSON(params.max)); // send content
   response.end(); // close connection
 }
 ```
 
 ### II-D.  Create a *public interface* for the **jsonResponses.js** module
 
-- We need to make the  `responseRandomNumber()` function "public" (i.e. *visible*) outside of this file
+- We need to make the  `randomNumberResponse()` function "public" (i.e. *visible*) outside of this file
 - The ` getRandomNumberJSON()` function can stay "private"
 - Here's the code to do so - add it to the bottom of **jsonResponses.js**:
-  - `module.exports.responseRandomNumber = responseRandomNumber;`
+  - `module.exports.randomNumberResponse = randomNumberResponse;`
   
 **Common JS Modules:**
 
@@ -49,7 +53,11 @@ const responseRandomNumber = (request,response,params) ={
 
 ### II-E.  "Import" the *jsonResponses.js* module
 
-- Over in **index.js**
+- Over in **index.js**, add the following line of code to the top of the file:
+  - `const jsonResponses = require('./jsonResponses.js')`
+  
+### II-F.  Use the module 
+
 
 
 <hr> 
