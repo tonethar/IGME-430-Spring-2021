@@ -208,7 +208,7 @@ if(urlStruct[pathname]){
 
 ## VII. Submission
 - In the mycourses dropbox:
-  - ZIP and POST the updated **first-web-service** folder (don't forget to firat delete the **node_modules** folder)
+  - ZIP and POST the updated **first-web-service** folder (don't forget to delete the **node_modules** folder prior to zipping!)
 - In the comments field of the dropbox, type:
   - the URL to your GitHub repository
     - we are also looking for the green checkmark that shows your CircleCI tests have passed
