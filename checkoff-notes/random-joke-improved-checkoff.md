@@ -14,6 +14,8 @@
 - add the **nodemon** capabilities we covered in [Skill #8 - Adding developer "tooling"](core-skills/8-add-developer-tooling.md) (be sure to review these notes so you don't miss any steps):
   - install the `nodemon` package (this will also add a "dev-dependencies" key
   - add a `"nodemon"` script to your **package.json**
+  - `npm run nodemon` to test your script:
+    - make some minor changes to **index.js** and be sure that the server reboots everytime you save
   
 
 ## II. Submission
