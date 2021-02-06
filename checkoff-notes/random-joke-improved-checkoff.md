@@ -1,9 +1,9 @@
-# Random Joke Improved Checkoff
+# Random Joke Improved - checkoff
 
 - Today you will add nodemon, unit testing, and continuous integration to your **random-joke** web service
 - You built this app for [Skill #7 - Create a "Random Joke" JSON Web Service](../core-skills/7-create-random-joke-web-service.md)
 
-## I. Process
+## I. Install and test `nodemon`
 - `git clone <url-to-random-joke-repository>`
 - test it to be sure everything still works:
   - `npm i` // actually not needed, yet, because this project doesn't yet have "dependencies" (but it will have "deve-dependencies", in just a bit)
@@ -17,6 +17,11 @@
   - `npm run nodemon` to test your script:
     - make some minor changes to **index.js** and be sure that the server reboots everytime you save
   
+<hr>
 
-## II. Submission
+## II. Install and test `eslint`
+
+<hr>
+
+## III. Submission
 
