@@ -152,7 +152,7 @@ const getIndexResponse = (request,response) => {
 <hr>
 
 ## IV. One last thing, a dispatch table
-
+- here, our *dispatch table* will be a table of references to functions or methods
 - https://en.wikipedia.org/wiki/Dispatch_table
 
 <hr><hr>
