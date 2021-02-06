@@ -29,7 +29,7 @@
 
 <hr>
 
-## III. CircleCI
+## III. Add CircleCI
 - Add Continuous Integration to your project by going through the steps here:
   - [Skill #9 - Continuous Integration with CircleCI](../core-skills/9-continuous-integration.md)
   - don't clone your project again, just use what we have
@@ -49,7 +49,7 @@
 - BTW - You DO have a **.gitignore** file right?
   - with `node_modules` typed at the top of it?
   - and it HAS already been committed to your repository?
-- Do one last `git status` to be sure you aare up to date with the remote repository:
+- Do one last `git status` to be sure you are up to date with the remote repository:
   - but you should have already committed all of these files, above when you set up CircleCI
 
 <hr>
@@ -58,7 +58,7 @@
 
 - In the mycourses dropbox:
   - ZIP and POST the updated **first-web-service** folder
-  - We will be running `npm test` and `npm run nodemon` on this
+  - we will be running `npm test` and `npm run nodemon` on this
 - In the comments field of the dropbox, type:
   - the URL to your GitHub repository:
     - we will be looking for the "green checkmark" to confirm that CircleCI passed (i.e. it ran your `npm test` and passed)
