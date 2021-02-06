@@ -1,4 +1,4 @@
-# Random Joke Improved - checkoff
+# Random Joke with tooling - checkoff
 
 - Today you will add nodemon, unit testing, and continuous integration to your **random-joke** web service
 - You built this app for [Skill #7 - Create a "Random Joke" JSON Web Service](../core-skills/7-create-random-joke-web-service.md)
