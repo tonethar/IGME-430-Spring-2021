@@ -1,4 +1,4 @@
-# Random Joke Checkoff
+# Random Joke Improved Checkoff
 
 - Today you will add nodemon, unit testing, and continuous integration to your **random-joke** web service
 - You built this app for [Skill #7 - Create a "Random Joke" JSON Web Service](../core-skills/7-create-random-joke-web-service.md)
@@ -11,7 +11,7 @@
     - 
 - add the **nodemon** capabilities we covered in [Skill #8 - Adding developer "tooling"](core-skills/8-add-developer-tooling.md):
   - install the `nodemon` developer dependencies
-  - add a `"nodemon"` script to your 
+  - add a `"nodemon"` script to your **package.json**
 
 ## II. Submission
 
