@@ -90,10 +90,10 @@ const randomNumberResponse = (request,response,params) => {
 <hr> 
 
 ## III. Create the htmlResponses.js module
-- Now let's look at moving our HTML responses to seperate files
+- Now let's look at moving our HTML responses to a separate file
 
 ### III-A. Create the htmlResponses.js module
-- Create a new file named **src/htmlResponses.js**, and move the following code (found in **index.js**) into it:
+- Create a new file named **htmlResponses.js** (in the **src** folder, obviously), and move the following code (found in **index.js**) into it:
   - `const indexPage = ...`
   - `const errorPage = ...`
 - to the bottom of **src/htmlResponses.js** add:
