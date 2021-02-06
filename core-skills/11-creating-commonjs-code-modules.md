@@ -26,6 +26,7 @@
 
 - Create a new file named in the **src** directory named **jsonResponses.js**, and move the following code into it:
   - `const getRandomNumberJSON = ...`
+  - rename this function to `randomNumberJSON`
 
 <hr>
 
@@ -34,25 +35,25 @@
 - Add the following *response handler* to **jsonResponses.js**
 
 ```js
-const randomNumberResponse = (request,response,params) => {
+const getRandomNumberResponse = (request,response,params) => {
   response.writeHead(200, { 'Content-Type': 'application/json' });
-  response.write(getRandomNumberJSON(params.max));
+  response.write(randomNumberJSON(params.max));
   response.end();
 }
 ```
 
 - Note that this is similar code to handle the `/random-number` endpoint what we have over in **index.js**, except:
   - that `params` is an object that is getting passed in
-  - and we need to grab the `max` property from params and pass that to our `getRandomNumberJSON()` helper function so that it functions as before
+  - and we need to grab the `max` property from params and pass that to our `randomNumberJSON()` helper function so that it functions as before
 
 <hr>
 
 ### II-D.  Create a *public interface* for the **jsonResponses.js** module
 
-- We need to make the  `randomNumberResponse()` function "public" (i.e. *visible*) outside of this file
-- The ` getRandomNumberJSON()` function can stay "private"
+- We need to make the  `getRandomNumberResponse()` function "public" (i.e. *visible*) outside of this file
+- The ` randomNumberJSON()` function can stay "private"
 - Here's the code to do so - add it to the bottom of **jsonResponses.js**:
-  - `module.exports.randomNumberResponse = randomNumberResponse;`
+  - `module.exports.getRandomNumberResponse = getRandomNumberResponse;`
  
 **Common JS Modules:**
 
@@ -74,8 +75,8 @@ const randomNumberResponse = (request,response,params) => {
 
 ### II-F.  Use the module 
 - replace the 3 lines of "response" code in the `else if (pathname === '/random-number') {` block with:
-  - `jsonResponses.randomNumberResponse(request,response,params);`
-  - the above code will call the `randomNumberResponse()` function over in **jsonResponses.js**, and pass in the 3 parameters it needs
+  - `jsonResponses.getRandomNumberResponse(request,response,params);`
+  - the above code will call the `getRandomNumberResponse()` function over in **jsonResponses.js**, and pass in the 3 parameters it needs
 
 <hr>
 
@@ -99,7 +100,7 @@ const randomNumberResponse = (request,response,params) => {
 - to the bottom of **htmlResponses.js** add:
 
 
-
+### III-A. Create the htmlResponses.js module
 
 <hr><hr>
 
