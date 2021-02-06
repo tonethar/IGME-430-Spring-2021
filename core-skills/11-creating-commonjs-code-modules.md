@@ -62,10 +62,15 @@ const randomNumberResponse = (request,response,params) => {
   - `const jsonResponses = require('./jsonResponses.js')`
   
 ### II-F.  Use the module 
-
+- replace the 3 lines of "response" code in the `else if (pathname === '/random-number') {` block with:
+  - `jsonResponses.randomNumberResponse(request,response,params);`
 
 ### II-G.  Test it
-- If you have running `nodemon` (as we asked you to at the beginning, when you tested the app), you ou have probably noticed thta
+- If you have running `nodemon` (as we asked you to at the beginning, when you tested the app), you have probably noticed that the app has been rebuilding an crashing, but once you save the last line of new code above it should be running correctly
+- Head to the browser and test these endpoints, everything should work as before:
+  - http://localhost:3000/
+  - http://localhost:3000/random-number
+  - http://localhost:3000/random-number?max=10000
 
 <hr> 
 
