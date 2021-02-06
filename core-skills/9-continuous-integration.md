@@ -96,7 +96,7 @@
 
 ### II-E. Head to the CircleCI Dashboard
 
-- You should now be able to see the test running on the CIrcleCI dashboard
+- You should now be able to see the test running on the CIrcleCI dashboard (you might have to click the "Use existing config" button)
   - If the test passes - head to your **first-web-service** GitHub repository and look for the green checkmark that shows that the test passed. Click on that checkmark to jump to the project on CircleCI
   - If you get an error about "No one is following the project" - be sure to click the "Follow Project" button and try again
 - To see what a CircleCI error looks like, go ahead and modify **src/index.js** so that it fails `npm test` and then commit/push your changes to the remote repository
