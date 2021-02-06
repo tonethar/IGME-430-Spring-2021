@@ -66,7 +66,8 @@ const randomNumberResponse = (request,response,params) => {
   - `jsonResponses.randomNumberResponse(request,response,params);`
 
 ### II-G.  Test it
-- If you have running `nodemon` (as we asked you to at the beginning, when you tested the app), you have probably noticed that the app has been rebuilding an crashing, but once you save the last line of new code above it should be running correctly
+- If you have running `nodemon` (as we asked you to at the beginning, when you tested the app), you have probably noticed that the app has been rebuilding and crashing as you made changes, this is normal!
+- But once you save the last line of new code above it should be running correctly
 - Head to the browser and test these endpoints, everything should work as before:
   - http://localhost:3000/
   - http://localhost:3000/random-number
