@@ -3,9 +3,9 @@
 
 ## I. Overview 
 
-- https://nodejs.org/docs/latest/api/modules.html
-- `module.exports`
-- `require()`
+- Today we are going to do some substantial "clean up" on our code by:
+  - grouping the code into *logical* units (modules, i.e. external files)
+  - getting rid of the `if` statements that route the responses in `onRequest()`, and instead utilize a *dispatch table*
 
 <hr>
 
@@ -196,6 +196,20 @@ if(urlStruct[pathname]){
 - if there is, go ahead and execute the referenced function in the dispatch table, and also pass in all 3 parameters (the HTML response handlers will ignore the extra `params` argument)
 - if there is NOT a property named `pathname` (for example, if a web client requested a non-existant page), then call the `notFound` handler, which is `htmlHandler.get404Response`
 
+<hr>
+
+## VI. Submission
+- First, commit the code,a dn push it to your remote repository:
+  - git add, git commit, git push
+  - test the app on Heroku 
+- In the mycourses dropbox:
+  - ZIP and POST the updated **first-web-service** folder (don't forget to delete **node_modules**)
+- In the comments field of the dropbox, type:
+  - the URL to your GitHub repository
+    - we are also looking for the green checkmark that shows your CircleCI tests have passed
+    - the working URL to your functional `abc1234-first-web-service` page on Heroku - just the link to the main page is fine
+  - IMPORTANT - DO NOT post your Heroku control panel link - no one but you can see that page
+  
 
 
 
