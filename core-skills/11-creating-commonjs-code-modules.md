@@ -26,7 +26,7 @@
 
 - Create a new file named in the **src** directory named **jsonResponses.js**, and move the following code into it:
   - `const getRandomNumberJSON = ...`
-  - rename this function to `randomNumberJSON`
+  - \*\* rename this function to `randomNumberJSON` \*\*
 
 <hr>
 
