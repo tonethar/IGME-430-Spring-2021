@@ -39,7 +39,7 @@ const getRandomNumberResponse = (request,response,params) => {
   response.writeHead(200, { 'Content-Type': 'application/json' });
   response.write(randomNumberJSON(params.max));
   response.end();
-}
+};
 ```
 
 - Note that this is similar code to handle the `/random-number` endpoint what we have over in **index.js**, except:
@@ -97,7 +97,27 @@ const getRandomNumberResponse = (request,response,params) => {
 - Create a new file named **htmlResponses.js** (in the **src** folder, obviously), and move the following code (found in **index.js**) into it:
   - `const indexPage = ...`
   - `const errorPage = ...`
+  
+<hr>
+
+### III-B. Create the "index response" function
+
+```js
+const getIndexResponse = (request,response) => {
+  response.writeHead(200, { 'Content-Type': 'text/html' });
+  response.write(indexPage);
+  response.end();
+};
+```
+
+- Note that we do not have a `params` parameter like in `getRandomNumberResponse(request,response,params)`, as we don't need one because we are not apssing any parameters to the index page
+
+<hr>
+
+### III-C. Create a *public interface* for the **htmlResponses.js** module
+- so we don't need to export `indexPage` or `errorPage`, but we do need to export `getIndexResponse`
 - to the bottom of **htmlResponses.js** add:
+  - `module.exports.getIndexResponse = getIndexResponse;`
 
 
 ### III-A. Create the htmlResponses.js module
