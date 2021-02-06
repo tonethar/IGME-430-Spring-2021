@@ -6,7 +6,6 @@
 - https://nodejs.org/docs/latest/api/modules.html
 - `module.exports`
 - `require()`
-- Dispatch table - https://en.wikipedia.org/wiki/Dispatch_table
 
 <hr>
 
@@ -134,7 +133,7 @@ const getIndexResponse = (request,response) => {
 
 ### III-F. Test it!
 
-- Head to the browser and test these endpoints, everything should work as before, except the last link (the 404 page):
+- Head to the browser and test these endpoints, everything should work as before, except the last link (the 404 page), which will cause a crash:
   - http://localhost:3000/
   - http://localhost:3000/random-number
   - http://localhost:3000/random-number?max=10000
@@ -150,6 +149,12 @@ const getIndexResponse = (request,response) => {
 - require it in **index.js**
 - now use it in `onRequest()`
 - one everything is working, move on
+
+<hr>
+
+## IV. One last thing, a dispatch table
+
+- https://en.wikipedia.org/wiki/Dispatch_table
 
 <hr><hr>
 
