@@ -30,10 +30,15 @@
 ```js
 const randomNumberResponse = (request,response,params) => {
   response.writeHead(200, { 'Content-Type': 'application/json' });
-  response.write(getRandomNumberJSON(params.max)); // send content
+  response.write(getRandomNumberJSON(params.max));
   response.end(); // close connection
 }
 ```
+
+- Note that this is similar code to handle the `/random-number` endpoint what we have over in **index.js**, except:
+  - that `params` is an object that is getting passed in
+  - and we need to grab the `max` property from params and pass that to our `getRandomNumberJSON()` helper function so that it functions as before
+
 
 ### II-D.  Create a *public interface* for the **jsonResponses.js** module
 
@@ -59,6 +64,8 @@ const randomNumberResponse = (request,response,params) => {
 ### II-F.  Use the module 
 
 
+### II-G.  Test it
+- If you have running `nodemon` (as we asked you to at the beginning, when you tested the app), you ou have probably noticed thta
 
 <hr> 
 
