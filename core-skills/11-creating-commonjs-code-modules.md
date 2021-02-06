@@ -198,12 +198,17 @@ if(urlStruct[pathname]){
 
 <hr>
 
-## VI. Submission
-- First, commit the code,a dn push it to your remote repository:
-  - git add, git commit, git push
-  - test the app on Heroku 
+## VI. Code Quality
+- Run `npm test` and fix and errors you have (warnings are OK)
+- Commit the code (`git add`, `git commit`), and `git push` it to your remote repository
+- Test the app on Heroku 
+- Be sure that CircleCI passed (look for the green checkmark on the GitHub page)
+
+<hr>
+
+## VII. Submission
 - In the mycourses dropbox:
-  - ZIP and POST the updated **first-web-service** folder (don't forget to delete **node_modules**)
+  - ZIP and POST the updated **first-web-service** folder (don't forget to firat delete the **node_modules** folder)
 - In the comments field of the dropbox, type:
   - the URL to your GitHub repository
     - we are also looking for the green checkmark that shows your CircleCI tests have passed
