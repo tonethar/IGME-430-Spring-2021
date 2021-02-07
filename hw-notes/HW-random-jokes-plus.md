@@ -48,7 +48,7 @@
 
 2) Create `urlStruct` and use it
     
-    - here you go!
+    - here you go, see below!
     
      <hr>
   
