@@ -44,4 +44,18 @@
       
     - test both endpoints in a web browser, they should work as before
     
-    2) 
+    2) Create `urlStruct` and use it
+    
+    - here you go!
+    
+     <hr>
+  
+     ![screenshot](_images/hw-2.png)
+     
+     <hr>
+     
+    - test both endpoints in a web browser, they should work as before
+    
+    <hr>
+    
+    ## IV. Phase #2. 
