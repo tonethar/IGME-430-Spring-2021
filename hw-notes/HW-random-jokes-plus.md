@@ -13,7 +13,7 @@
 - You can work off of your existing GitHib repository and Heroku app, or you can create a new one, it's up to you. If you are going to go "new", you could have:
   - a new GitHub repository named **random-jokes-plus** (which is what we are going to call it in this exercise going forward)
   - a new Heroku app named `abc1234-random-jokes-plus`
-  - if you don't remember how to initialize a new GitHub respository, head to [Skill #5 - First Node Web Server](https://github.com/tonethar/IGME-430-Spring-2021/blob/main/core-skills/5-first-node-web-server.md) - Part IV.
+  - if you don't remember how to initialize a new GitHub respository, head to [Skill #5 - First Node Web Server](../core-skills/5-first-node-web-server.md) - Part IV.
 
 <hr>
 
