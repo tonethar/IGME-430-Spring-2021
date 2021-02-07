@@ -18,5 +18,13 @@
 <hr>
 
 ## III. Phase #1. - add your own modules
-- You are going to create 2 external modules for **random-jokes-plus**, similar to how we did so in  [Skill #11 - Creating CommonJS Code Modules](/core-skills/11-creating-commonjs-code-modules.md) 
-  - create **jsonResponses.js** & **htmlResponses.js**
+
+1) You are going to create 2 external modules for **random-jokes-plus**, similar to how we did so in  [Skill #11 - Creating CommonJS Code Modules](/core-skills/11-creating-commonjs-code-modules.md) 
+
+    - create **htmlResponses.js**
+      - move `const errorPage = ...` into it 
+      - create a function named `const get404Response = (request, response) => {...}` and "export" it
+      - import **htmlResponses.js** (as `htmlHandler`) into **index.js**
+      - call the `htmlHandler.get404Response` function in the `onRequest` method of **index.js**
+    - **jsonResponses.js**
+      - 
