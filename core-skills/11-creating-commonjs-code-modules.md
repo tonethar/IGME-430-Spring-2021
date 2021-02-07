@@ -38,14 +38,6 @@
 
 - Add the following *response handler* to **jsonResponses.js**
 
-```js
-const getRandomNumberResponse = (request,response,params) => {
-  response.writeHead(200, { 'Content-Type': 'application/json' });
-  response.write(randomNumberJSON(params.max));
-  response.end();
-};
-```
-
 ![screenshot](_images/ss-39.png)
 
 - Note that this is similar code to handle the `/random-number` endpoint what we have over in **index.js**, except:
@@ -109,14 +101,6 @@ const getRandomNumberResponse = (request,response,params) => {
 
 ### III-B. Create the "index response" function
 
-```js
-const getIndexResponse = (request,response) => {
-  response.writeHead(200, { 'Content-Type': 'text/html' });
-  response.write(indexPage);
-  response.end();
-};
-```
-
 ![screenshot](_images/ss-40.png)
 
 - Note that we do not have a `params` parameter like in `getRandomNumberResponse(request,response,params)`, as we don't need one because we are not apssing any parameters to the index page
@@ -176,14 +160,6 @@ const getIndexResponse = (request,response) => {
   - *properties* that are strings
   - and *values* that are references to functions
 
-```js
-const urlStruct = {
-  '/'              : htmlHandler.getIndexResponse,
-  '/random-number' : jsonHandler.getRandomNumberResponse,
-  notFound         : htmlHandler.get404Response
-};
-```
-
 ![screenshot](_images/ss-41.png)
 
 <hr>
@@ -192,14 +168,6 @@ const urlStruct = {
 
 - in `onRequest()`, delete all of the "if" code
 - add the following:
-
-```js
-if(urlStruct[pathname]){
-   urlStruct[pathname](request,response,params);
-}else{
-  urlStruct['notFound'](request,response,params);
-}
-```
 
 ![screenshot](_images/ss-42.png)
 
