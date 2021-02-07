@@ -1,5 +1,10 @@
 # Skill #11 - Creating CommonJS Code Modules
 
+## 0. Watch the Video
+- The video for this lecture, which walks through the notes, is here --> [Essential Skills - Part XI (11:35)](https://video.rit.edu/Watch/430-essential-skills-11)
+- Follow along, using your **first-web-service** code from last time
+
+<hr>
 
 ## I. Overview 
 
