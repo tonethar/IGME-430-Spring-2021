@@ -188,7 +188,7 @@ warning  Unexpected console statement               no-console
 
 
 ### III-D. Commit your changes!
-
+- `git status`
 - Commit these changes to your local repository, and then push them to the remote repository:
   - don't forget about committing **.eslintrc.json**
 - Double-check that everything still works on Heroku
