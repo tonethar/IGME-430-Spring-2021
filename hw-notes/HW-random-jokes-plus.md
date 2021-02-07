@@ -11,10 +11,11 @@
 - Your start code should be where you left off on **random-joke** as of [Random Joke with tooling - checkoff](../checkoff-notes/random-joke-with-tooling-checkoff.md)
   - the above assignment added `nodemon`, `eslint` and CircleCI to your project
 - You can work off of your existing GitHib repository and Heroku app, or you can create a new one, it's up to you. If you are going to go "new", you could have:
-  - a new GitHub repository named **random-jokes-plus**
+  - a new GitHub repository named **random-jokes-plus** (which is what we are going to call it in this exercise going forward)
   - a new Heroku app named `abc1234-random-jokes-plus`
 
 <hr>
 
 ## III. Phase #1. - add your own modules
-- First, 
+- You are going to create 2 external modules for **random-jokes-plus**, similar to how we did so in  [Skill #11 - Creating CommonJS Code Modules](/core-skills/11-creating-commonjs-code-modules.md) 
+- 
