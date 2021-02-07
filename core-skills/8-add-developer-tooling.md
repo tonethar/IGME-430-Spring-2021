@@ -80,9 +80,9 @@ Listening on 127.0.0.1: 3000
 - We need to commit these *local* changes back to your *remote* repository
 - Now that we have a massive **node_modules** folder, we want to be sure that we don't commit it to the repository
   - this is especially true in this case because Heroku will ignore any packages listed under "devDependencies" and will NOT download them when it builds your app - it doesn't need them!
-- Update your *local* git repository and commit your files
 - You DO have a **.gitignore** file, right?
   - If not, create one and add `node_modules` to the top of it
+- Update your *local* git repository and commit your files
   - `git status` - to see your changes
   - `git add .` - to add these files to the local *staging area*
   - `git commit -m "Added nodemon to devDependency"` - to commit files in the staging area to the *local* repository
