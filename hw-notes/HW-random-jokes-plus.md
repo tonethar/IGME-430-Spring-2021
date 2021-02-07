@@ -62,4 +62,43 @@
     
     <hr>
     
-    ## IV. Phase #2. 
+## IV. Phase #2. - Add a `/random-jokes` endpoint
+    
+    - The `/random-jokes` endpoint will return an array of jokes, defaulting at `5`
+    - If a `limit` parameter is also passed in to `/random-jokes`, that will be the number of jokes returned instead:
+      - be sure to validate the `limit` parameter so that it is neither too large or to small - it should be constrained to integer values between 1 and the length of the jokes array inclusive
+      - for help with this, check out how we handled the `max` parameter in the "random number" HW
+    
+ <hr>
+    
+ ## V. Phase #3. - Send back both XML & JSON
+    
+    - the default data type returned by both the `/random-joke` and `/random-jokes` endpoints is JSON
+    - but if the client sends an [HTTP `Accept` header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept) of `text/xml` in the request phase, then the application will return the joke data in XML format
+    - the joke data shall be formed like this:
+
+**`/random-joke`**
+```xml
+<joke>
+  <q>What is a frog's favorite outdoor sport?</q>
+  <a>Fly Fishing!"</a>
+</joke>
+```
+
+**`/random-jokes?limit=2`**
+```xml
+<jokes>
+  <joke>
+    <q>What is a frog's favorite outdoor sport?</q>
+    <a>Fly Fishing!"</a>
+  </joke>
+  <joke>
+    <q>I hate jokes about German sausages.</q>
+    <a>They're the wurst."</a>
+  </joke>
+</jokes>
+```
+
+<hr>
+    
+## VI. Phase #4. - Send back headers only with `HEAD` requests
