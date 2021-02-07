@@ -36,7 +36,7 @@
       - call the `jsonHandler.getRandomJokeResponse()` function in the `onRequest` method of **index.js** (in the correct part of the `if`)
      - your `if` statement should look something like this:
      
-     ![screenshot](_images/)
+     ![screenshot](_images/hw-1.png)
       
     - test both endpoints in a web browser, they should work as before
     
