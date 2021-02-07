@@ -58,7 +58,7 @@ const getRandomNumberResponse = (request,response,params) => {
 
 - This is a module syntax known as [CommonJS](https://nodejs.org/api/modules.html#modules_module_exports):
   - This is an *older* module syntax than the ES6 Module syntax we used in 330
-  - Does Nodejs have access to ES6 module syntax? YES
+  - Does Node.js have access to ES6 module syntax? YES
   - So why are we still using this older syntax?
     - as of this writing, not all Node.js libraries support the newer syntax
     - the vast majority of existing Node projects still use the older CommomJS syntax - so it is good to know!
