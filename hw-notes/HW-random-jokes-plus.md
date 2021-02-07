@@ -29,7 +29,7 @@
       - create a function named `const get404Response = (request, response) => {...}` and "export" it
       - import **htmlResponses.js** (as `htmlHandler`) into **index.js**
       - call the `htmlHandler.get404Response()` function in the `onRequest` method of **index.js** (in the correct part of the `if`)
-    - **jsonResponses.js**
+    - create **jsonResponses.js**
       - move `jokes` and `getRandomJoke()` into it
       - create a function named `const getRandomJokeResponse = (request, response) => {...}` and "export" it
       - import **jsonResponses.js** (as `jsonHandler`) into **index.js**
