@@ -180,7 +180,7 @@ warning  Unexpected console statement               no-console
   
   - Watch the video to see how we will:
     - fix the  `no-dupe-keys`, `no-tabs`, `no-param-reassign`, and `eqeqeq` errors
-    - turn the  `no-unused-vars` error into a *warning* by editing the **.eslintrc.json** file
+    - turn the  `no-unused-vars` *error* into a *warning* by editing the **.eslintrc.json** file
 
 ### III-C. All fixed?
 
