@@ -20,6 +20,8 @@
 
 <hr>
 
+<a id="phase1" />
+
 ## III. Phase #1. - add your own modules
 
 1) You are going to create 2 external modules for **random-jokes-plus**, similar to how we did so in  [Skill #11 - Creating CommonJS Code Modules](/core-skills/11-creating-commonjs-code-modules.md) 
