@@ -34,4 +34,10 @@
       - create a function named `const getRandomJokeResponse = (request, response) => {...}` and "export" it
       - import **jsonResponses.js** (as `jsonHandler`) into **index.js**
       - call the `jsonHandler.getRandomJokeResponse()` function in the `onRequest` method of **index.js** (in the correct part of the `if`)
-
+     - your `if` statement should look something like this:
+     
+     ![screenshot](_images/)
+      
+    - test both endpoints in a web browser, they should work as before
+    
+    2) 
