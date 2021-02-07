@@ -14,6 +14,9 @@
   - a new GitHub repository named **random-jokes-plus** (which is what we are going to call it in this exercise going forward)
   - a new Heroku app named `abc1234-random-jokes-plus`
   - if you don't remember how to initialize a new GitHub respository, head to [Skill #5 - First Node Web Server](../core-skills/5-first-node-web-server.md) - Part IV.
+- Don't forget to `npm run nodemon` rather than `npm start` so that you won't have to re-boot the server all of the time
+- Also be sure to run `npm test` on occassion - and whenever you run into an issue with your code - it might flag a problem for you early - that's what it's for:
+  - Tip: Because `nodemon` is running in your terminal window, you can set up a second terminal window to periodically run `npm test`
 
 <hr>
 
