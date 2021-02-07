@@ -46,6 +46,8 @@ const getRandomNumberResponse = (request,response,params) => {
 };
 ```
 
+![screenshot](_images/ss-39.png)
+
 - Note that this is similar code to handle the `/random-number` endpoint what we have over in **index.js**, except:
   - that `params` is an object that is getting passed in
   - and we need to grab the `max` property from params and pass that to our `randomNumberJSON()` helper function so that it functions as before
@@ -115,6 +117,8 @@ const getIndexResponse = (request,response) => {
 };
 ```
 
+![screenshot](_images/ss-40.png)
+
 - Note that we do not have a `params` parameter like in `getRandomNumberResponse(request,response,params)`, as we don't need one because we are not apssing any parameters to the index page
 
 <hr>
@@ -180,6 +184,10 @@ const urlStruct = {
 };
 ```
 
+![screenshot](_images/ss-41.png)
+
+<hr>
+
 ### IV-B. Using the dispatch table
 
 - in `onRequest()`, delete all of the "if" code
@@ -192,6 +200,8 @@ if(urlStruct[pathname]){
   urlStruct['notFound'](request,response,params);
 }
 ```
+
+![screenshot](_images/ss-42.png)
 
 - test the app - all 4 links above - it should function as expected!
 
