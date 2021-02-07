@@ -74,7 +74,7 @@
 ## V. Phase #3. - Send back both XML & JSON
     
 - the default data type returned by both the `/random-joke` and `/random-jokes` endpoints is JSON
-- but if the client sends an [HTTP `Accept` header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept) of `text/xml` in the request phase, then the application will return the joke data in XML format
+- but if the client sends an [HTTP `Accept` header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept) of `text/xml` in the request phase, then the application will return the joke data in XML format, and will send it back with a `content-type` of `text/xml`
 - the joke data shall be formed like this:
 
 **`/random-joke`**
