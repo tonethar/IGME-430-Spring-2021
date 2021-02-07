@@ -44,7 +44,9 @@
       
     - test both endpoints in a web browser, they should work as before
     
-    2) Create `urlStruct` and use it
+<hr> 
+
+2) Create `urlStruct` and use it
     
     - here you go!
     
