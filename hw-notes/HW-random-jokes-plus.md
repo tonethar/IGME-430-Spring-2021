@@ -75,7 +75,7 @@
   - if you borrow any array shuffling code from the Internet, be sure to credit your source both in the source code, and in the dropbox comments section
   - another alternative is to use npm's [underscore
 ](https://www.npmjs.com/package/underscore) package
-  - also, you will need to pass in a `params` object to the "random jokes response handler" - here's what it could look like:
+- Also, you will need to pass in a `params` object to the "random jokes response handler" - here's what it could look like:
 
 <hr>
 
