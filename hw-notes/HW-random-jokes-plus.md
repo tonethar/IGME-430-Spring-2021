@@ -3,7 +3,7 @@
 ## I. Overview
 - In this HW assignment you will add substantial capability to your **random-joke** app
 - This will take a bit of time, so get started early
-- This HW will make a great "starter" for project 1, so it will be time well spent!
+- ***This HW will make a great "starter" for project 1, so it will be time well spent!***
 
 <hr>
   
