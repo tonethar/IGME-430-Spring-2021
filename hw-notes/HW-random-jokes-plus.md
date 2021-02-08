@@ -75,7 +75,7 @@
     
 - the default data type returned by both the `/random-joke` and `/random-jokes` endpoints is JSON
 - but if the client sends an [HTTP `Accept` header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept) of `text/xml` in the request phase, then the application will return the joke data in XML format, and will send it back with a `content-type` of `text/xml`
-- the joke data shall be formed like this:
+- the joke XML data shall be formed like this:
 
 **`/random-joke`**
 
@@ -95,8 +95,8 @@
     <a>Fly Fishing!"</a>
   </joke>
   <joke>
-    <q>I hate jokes about German sausages.</q>
-    <a>They're the wurst."</a>
+    <q>I hate jokes about German sausages...</q>
+    <a>They're the wurst!"</a>
   </joke>
 </jokes>
 ```
