@@ -66,13 +66,21 @@
     
 - The `/random-jokes` endpoint will return an array of jokes, defaulting at `5`
 - If a `limit` parameter is also passed in to `/random-jokes`, that will be the number of jokes returned instead:
-  - be sure to validate the `limit` parameter so that it is neither too large or to small - it should be constrained to integer values between 1 and the length of the jokes array inclusive
+  - be sure to validate the `limit` parameter so that it is neither too large or to small - it should be constrained to integer values (use `Math.floor()`) between 1 and the `.length` of the `jokes` array, inclusive
   - for help with this, check out how we handled the `max` parameter in the "random number" HW
 - Notes:
-  - You will probably want to "shuffle" your array of jokes, and then grab the first `limit` items
-  - If you borrow any array shuffling code from the Internet, be sure to credit your source both in the source code, and in the dropbox comments section
-  - Another alternative is to use npm's [underscore
+  - you will probably want to "shuffle" your array of jokes, and then grab the first `limit` number of items
+  - if you borrow any array shuffling code from the Internet, be sure to credit your source both in the source code, and in the dropbox comments section
+  - another alternative is to use npm's [underscore
 ](https://www.npmjs.com/package/underscore) package
+  - also, you will need to pass in a `params` object to the "random jokes response handler" - here's what it could look like:
+
+<hr>
+
+![screenshot](_images/hw-4.png)
+    
+ <hr>
+  
 - When you are done, add a working link to the 404 page that references this new endpoint - see below:
 
 <hr>
