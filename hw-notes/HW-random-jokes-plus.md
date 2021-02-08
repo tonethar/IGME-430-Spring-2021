@@ -18,7 +18,7 @@
 - Also be sure to run `npm test` on occassion - and whenever you run into an issue with your code - it might flag a problem for you early - that's what it's for:
   - Tip: Because `nodemon` is running in your terminal window, you can set up a second terminal window to periodically run `npm test`
 
-<hr>
+<hr><hr>
 
 <a id="phase1" />
 
@@ -59,9 +59,11 @@
      <hr>
      
     - test both endpoints in a web browser, they should work as before
-    
-    <hr>
-    
+
+<a id="phase2" />
+
+<hr><hr>
+
 ## IV. Phase #2. - Add a `/random-jokes` endpoint
     
 - The `/random-jokes` endpoint will return an array of jokes, defaulting at `5`
@@ -87,8 +89,11 @@
 
 ![screenshot](_images/hw-3.png)
     
- <hr>
-    
+<a id="phase3" />
+
+<hr><hr>
+
+
 ## V. Phase #3. - Send back both XML & JSON
     
 - the default data type returned by both the `/random-joke` and `/random-jokes` endpoints is JSON
@@ -119,6 +124,8 @@
 </jokes>
 ```
 
-<hr>
+<a id="phase3" />
+
+<hr><hr>
     
 ## VI. Phase #4. - Send back headers only with `HEAD` requests
