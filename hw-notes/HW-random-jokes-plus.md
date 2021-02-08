@@ -74,7 +74,7 @@
   - you will probably want to "shuffle" your array of jokes, and then grab the first `limit` number of items
   - if you borrow any array shuffling code from the Internet, be sure to credit your source both in the source code, and in the dropbox comments section
   - another alternative is to use npm's [underscore
-](https://www.npmjs.com/package/underscore) package
+](https://www.npmjs.com/package/underscore) package - which has a function named `shuffle()`
 - Also, you will need to pass in a `params` object to the "random jokes response handler" - here's what it could look like:
 
 <hr>
