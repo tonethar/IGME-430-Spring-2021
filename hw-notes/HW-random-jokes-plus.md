@@ -68,7 +68,7 @@
 - If a `limit` parameter is also passed in to `/random-jokes`, that will be the number of jokes returned instead:
   - be sure to validate the `limit` parameter so that it is neither too large or to small - it should be constrained to integer values between 1 and the length of the jokes array inclusive
   - for help with this, check out how we handled the `max` parameter in the "random number" HW
-- Also add a linkto the 404 page that references this new endpoint:
+- Also add a working link to the 404 page that references this new endpoint - see below:
 
 <hr>
 
