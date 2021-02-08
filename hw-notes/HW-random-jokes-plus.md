@@ -116,7 +116,7 @@
     
 - the default data type returned by both the `/random-joke` and `/random-jokes` endpoints is JSON
 - but if the client sends an [HTTP `Accept` header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept) of `text/xml` in the request phase, then the application will return the joke data in XML format, and will send it back with a `content-type` of `text/xml`:
-  - make sure that you handle the possibility that the cline t might not send any accept headers. You can easily test this in the Postman app.
+  - make sure that you handle the possibility that the client might not send any `accept` headers. You can easily test this in the Postman app.
 - the joke XML data shall be formed like this:
 
 **`/random-joke`**
@@ -143,7 +143,15 @@
 </jokes>
 ```
 
-<a id="phase3" />
+- **When you test the app endpoints in Postman, and send `text/xml` for an `accept` header, you will see the following:
+
+<hr>
+
+![screenshot](_images/hw-5.png)
+
+![screenshot](_images/hw-6.png)
+
+<a id="phase4" />
 
 <hr><hr>
     
