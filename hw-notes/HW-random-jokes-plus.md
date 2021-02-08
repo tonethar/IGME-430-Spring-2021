@@ -66,7 +66,24 @@
 
 ## IV. Phase #2. - Add a `/random-jokes` endpoint
     
-- The `/random-jokes` endpoint will return an array of jokes, defaulting at `5`
+- The `/random-jokes` endpoint will return an array of jokes, defaulting at `1`
+- The returned data will look like this:
+
+<hr>
+
+```json
+  {
+    "q": "What do you call a very small valentine?",
+    "a": "A valen-tiny!"
+  },
+  {
+    "q": "What did the dog say when he rubbed his tail on the sandpaper?",
+    "a": "Ruff, Ruff!"
+  }
+]
+```
+<hr>
+
 - If a `limit` parameter is also passed in to `/random-jokes`, that will be the number of jokes returned instead:
   - be sure to validate the `limit` parameter so that it is neither too large or to small - it should be constrained to integer values (use `Math.floor()`) between 1 and the `.length` of the `jokes` array, inclusive
   - for help with this, check out how we handled the `max` parameter in the "random number" HW
