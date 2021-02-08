@@ -151,6 +151,8 @@
 
 ![screenshot](_images/hw-5.png)
 
+<hr>
+
 - **Multiple jokes:**
 
 ![screenshot](_images/hw-6.png)
