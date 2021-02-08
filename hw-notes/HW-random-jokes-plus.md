@@ -143,11 +143,15 @@
 </jokes>
 ```
 
-- **When you test the app endpoints in Postman, and send `text/xml` for an `accept` header, you will see the following:
+- **When you test the app endpoints in Postman, and send `text/xml` for an `accept` header, you will see the following:**
 
 <hr>
 
+- **One joke:**
+
 ![screenshot](_images/hw-5.png)
+
+- **Multiple jokes:**
 
 ![screenshot](_images/hw-6.png)
 
