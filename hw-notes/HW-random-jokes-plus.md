@@ -146,4 +146,4 @@
 
 <hr><hr>
     
-## VI. Phase #4. - Send back headers only with `HEAD` requests
+## VI. Phase #4. - Send back headers only, NOT content,  when `HEAD` requests are made
