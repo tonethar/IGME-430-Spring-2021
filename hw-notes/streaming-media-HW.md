@@ -30,9 +30,12 @@
 ## II. Tips & Hints
 
 1) Here are endpoints you will need to implement:
-    - `/` - sends **client.html** (this HTML page displays a `<video>` tag for **party.mp4**, which means that the browser will render this, page, and then make an *additional request* for **party.mp4**)
-    - `/page2` - sends **client2.html** (this HTML page displays an `<audio>` tag for **bling.mp3**, which means that the browser will render this, page, and then make an *additional request* for **bling.mp3**)
-    - `/page3` - sends **client3.html** (this HTML page displays a `<video>` tag for **bird.mp4**, which means that the browser will render this, page, and then make an *additional request* for **bird.mp4**)
+    - `/` - sends **client.html** (this HTML page displays a `<video>` tag for **party.mp4**):
+      - which means that the browser will render this page, and then make an *additional request* for **party.mp4**
+    - `/page2` - sends **client2.html** (this HTML page displays an `<audio>` tag for **bling.mp3**):
+      - which means that the browser will render this page, and then make an *additional request* for **bling.mp3**
+    - `/page3` - sends **client3.html** (this HTML page displays a `<video>` tag for **bird.mp4**):
+      - which means that the browser will render this, page, and then make an *additional request* for **bird.mp4**
     - `/bird.mp4` - sends **bird.mp4** 
     - `/bling.mp3` - sends **bling.mp3** 
     - `/party.mp4` - sends **party.mp4** 
