@@ -72,7 +72,8 @@
 <hr>
 
 ```json
-  {
+[ 
+ {
     "q": "What do you call a very small valentine?",
     "a": "A valen-tiny!"
   },
