@@ -57,11 +57,11 @@
 ## V. Submission
 
 - In the mycourses dropbox:
-  - ZIP and POST the updated **first-web-service** folder
+  - ZIP and POST the updated **random-joke** folder
   - we will be running `npm test` and `npm run nodemon` on this
 - In the comments field of the dropbox, type:
   - the URL to your GitHub repository:
     - we will be looking for the "green checkmark" to confirm that CircleCI passed (i.e. it ran your `npm test` and passed)
-  - the working URL to your functional `abc1234-first-web-service` page on Heroku - just the main page link 
+  - the working URL to your functional "random-joke" page on Heroku - just the main page link 
   - IMPORTANT - DO NOT post your Heroku control panel link - no one but you can see that page
 
