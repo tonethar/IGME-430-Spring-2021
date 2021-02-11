@@ -14,6 +14,8 @@
 
 <hr>
 
+- Not mentioned in the video - click the "Open dedicated DevTools for Node" link for the best debugging experience wiht Node.js
+
 ![screenshot](./_images/ss-43.png)
 
 <hr>
