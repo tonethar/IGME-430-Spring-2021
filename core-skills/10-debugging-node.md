@@ -14,6 +14,10 @@
 
 <hr>
 
+![screenshot](./_images/ss-43.png)
+
+<hr>
+
 ## III. Homework
 - Take a screenshot of your console, that shows you starting the debug session with `node --inspect ./src/index.js`
 - In Chrome, fire up `chrome://inspect`, and then open up another browser tab and head to `http://localhost:3000/random-number`
