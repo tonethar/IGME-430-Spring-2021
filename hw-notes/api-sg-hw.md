@@ -25,7 +25,16 @@
 
 - https://geemus.gitbooks.io/http-api-design/content/en/responses/ 
 
-### III-A. Status Codes
+### III-A. Requests
+- Accept serialized JSON in request bodies
+- Use the plural version of a resource name unless the resource in question is a singleton within the system
+- Use downcased and dash-separated path names - ex. `jokes-api.com/users` or  `jokes-api.com/all-jokes`
+- Require Versioning in the `Accepts` Header
+
+
+### III-B. Responses
+
+#### III-B-i. Return appropriate Status Codes
 
 - `200`
 - `201` 
@@ -37,6 +46,13 @@
 - `429`
 - `500`
 
+#### III-B-ii. Time Stamps
 
 
+#### III-B-iii. Serialize Foreign Key References
 
+
+#### III-B-iv. Generate Structured Errors
+
+
+#### III-B-v. Keep JSON Minified
