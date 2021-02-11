@@ -1,5 +1,6 @@
 # HTTP API Study Guide Notes
 
+- This study guide exposes you to API terminology and some best practices for designing APIs
 - See myCourses for DOC file and due date
 
 
