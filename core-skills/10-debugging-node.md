@@ -14,7 +14,7 @@
 
 <hr>
 
-- ***Not mentioned in the video - click the "Open dedicated DevTools for Node" link - rather than the "inspect" link - for the best debugging experience with Node.js:***
+- ***Not mentioned in the video - for the BEST debugging experience with Node.js - click the "Open dedicated DevTools for Node" link, rather than the "inspect" link :***
 
 ![screenshot](./_images/ss-43.png)
 
