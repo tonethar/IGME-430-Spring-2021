@@ -24,7 +24,7 @@
 - Take a screenshot of your console, that shows you starting the debug session with `node --inspect ./src/index.js`
 - In Chrome, fire up `chrome://inspect`, and then open up another browser tab and head to `http://localhost:3000/random-number`
   - take a screenshot of the Chrome debugger window (under the "Sources" tab of the `chrome://inspect` window) that shows an "active" breakpoint in your `onRequest` handler code of **index.js**
-  - be sure that we can see the current value of the `pathname` variable
+  - be sure that we can see the current value of the `pathname` variable in the debugger
 - Post both screenshots to the myCourses dropbox
 
 
