@@ -158,8 +158,20 @@
 
 ![screenshot](_images/hw-6.png)
 
+### V-A. Hints
+- your JSON response handlers should have anew parameter for `accpetedTypes` ex. - `const getRandomJokeResponse = (request, response, params, acceptedTypes)`
+- call it like this over in `onRequest` ex.  `urlStruct[pathname](request, response, params, acceptedTypes);`
+
 <a id="phase4" />
 
 <hr><hr>
     
 ## VI. Phase #4. - Send back headers only, NOT content,  when `HEAD` requests are made
+
+### VI-A. Set up the server
+
+- in your `onRequest` handler, write code that looks for the `method` property of the `request` parameter that would be `request.method`
+- if the method is `HEAD`, then you will send back only the *headers*, NOT the actual content
+- do this 
+
+
