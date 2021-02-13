@@ -178,6 +178,8 @@ acceptedTypes = acceptedTypes || [];
 3) In getRandomJokeResponse = (request, response, params, acceptedTypes)`:
 
     - check to see that "text/xml" is in the `acceptedTypes` array with [`Array.includes()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+    - if is DOES NOT, return the data in JSON format
+    - it if DOES, return the data in XML format
 
 
 <a id="phase4" />
