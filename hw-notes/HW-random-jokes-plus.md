@@ -159,8 +159,10 @@
 ![screenshot](_images/hw-6.png)
 
 ### V-A. Hints
-- your JSON response handlers should have anew parameter for `accpetedTypes` ex. - `const getRandomJokeResponse = (request, response, params, acceptedTypes)`
-- call it like this over in `onRequest` ex.  `urlStruct[pathname](request, response, params, acceptedTypes);`
+- your JSON response handlers should have a new parameter for `acceptedTypes`:
+  - ex. - `const getRandomJokeResponse = (request, response, params, acceptedTypes)`
+- call it like this over in `onRequest:
+  - ` ex.  `urlStruct[pathname](request, response, params, acceptedTypes);`
 
 <a id="phase4" />
 
