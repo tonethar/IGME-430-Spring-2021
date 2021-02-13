@@ -159,10 +159,26 @@
 ![screenshot](_images/hw-6.png)
 
 ### V-A. Hints
-- your JSON response handlers should have a new parameter for `acceptedTypes`:
-  - ex. - `const getRandomJokeResponse = (request, response, params, acceptedTypes)`
-- call it like this over in `onRequest`:
-  - ex. - `urlStruct[pathname](request, response, params, acceptedTypes);`
+1) In `onRequest()`, you need to grab the contents of the HTTP `accept` header that is sent over by the client. The following code snippet will:
+  
+    - get the contents of `request.headers.accept` (a string), then "split" it into an array of strings, and assign this array to the `acceptedTypes` variable
+    - if `acceptedTypes` is `null` or `undefined`, then assign an empty array to it
+
+```js
+let acceptedTypes = request.headers.accept && request.headers.accept.split(',');
+acceptedTypes = acceptedTypes || [];
+```
+
+2) Your JSON response handlers should have a new parameter for this `acceptedTypes` array:
+
+    - ex. - `const getRandomJokeResponse = (request, response, params, acceptedTypes)`
+    - and the call it like this over in `onRequest`:
+      - ex. - `urlStruct[pathname](request, response, params, acceptedTypes);`
+
+3) In getRandomJokeResponse = (request, response, params, acceptedTypes)`:
+
+    - check to see that "text/xml" is in the `acceptedTypes` array with [`Array.includes()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+
 
 <a id="phase4" />
 
