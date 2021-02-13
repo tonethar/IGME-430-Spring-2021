@@ -161,7 +161,7 @@
 ### V-A. Hints
 - your JSON response handlers should have a new parameter for `acceptedTypes`:
   - ex. - `const getRandomJokeResponse = (request, response, params, acceptedTypes)`
-- call it like this over in `onRequest:
+- call it like this over in `onRequest`:
   - ex. - `urlStruct[pathname](request, response, params, acceptedTypes);`
 
 <a id="phase4" />
@@ -174,6 +174,5 @@
 
 - in your `onRequest` handler, write code that looks for the `method` property of the `request` parameter that would be `request.method`
 - if the method is `HEAD`, then you will send back only the *headers*, NOT the actual content
-- do this 
 
 
