@@ -172,10 +172,10 @@ acceptedTypes = acceptedTypes || [];
 2) Your JSON response handlers should have a new parameter for this `acceptedTypes` array:
 
     - ex. - `const getRandomJokeResponse = (request, response, params, acceptedTypes)`
-    - and the call it like this over in `onRequest`:
+    - and the call it like this over in `onRequest()`:
       - ex. - `urlStruct[pathname](request, response, params, acceptedTypes);`
 
-3) In getRandomJokeResponse = (request, response, params, acceptedTypes)`:
+3) In `getRandomJokeResponse = (request, response, params, acceptedTypes){}`:
 
     - check to see that "text/xml" is in the `acceptedTypes` array with [`Array.includes()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
     - if is DOES NOT, return the data in JSON format
