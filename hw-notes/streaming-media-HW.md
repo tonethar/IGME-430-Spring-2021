@@ -12,6 +12,7 @@
   - using `require()` to import your own modules of code ex. **htmlResponses.js**
   - setting up a basic HTTP server and an `onRequest` handler
   - loading in static HTML files with the `fs` module and `fs.readFileSync()`
+  - *refactoring* duplicated code into a reusable function (in this case the media loading code)
 - Topics that are new on this assignment:
   - hosting a web page that requires multiple files, for example a page that consists of an HTML file AND an MP4 (don't "overthink" this, we'll talk about it in class!)
   - *streaming* very large files like MP3s and MP4s:
