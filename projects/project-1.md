@@ -41,10 +41,11 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 4) Must use CircleCI for testing - the "test" script will be run by CircleCI, and a green checkmark will appear on the GitHub repo
 
 5) Other code standards:
-  - code must be well-commented. Every function/method must have a comment describing its purpose
-  - *Separation of Concern* - There should be a clear separation of purpose and classes. Do not put everything in the same file/module
-  - **D.R.Y.** - *Don't Repeat Yourself*. Repeated blocks of nearly identical code must be factored out and placed in a separate function
-  - any borrowed code or fragments (e.g. from Stack Overflow) must be credited in both your code comments, and in the final documentation of the project
+
+    - code must be well-commented. Every function/method must have a comment describing its purpose
+    - *Separation of Concern* - There should be a clear separation of purpose and classes. Do not put everything in the same file/module
+    - **D.R.Y.** - *Don't Repeat Yourself*. Repeated blocks of nearly identical code must be factored out and placed in a separate function
+    - any borrowed code or fragments (e.g. from Stack Overflow) must be credited in both your code comments, and in the final documentation of the project
 
 6) Must be deployed to Heroku. The "Wait for CI to pass before deploy" checkbox must be checked.
 
