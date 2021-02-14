@@ -34,15 +34,24 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 1) Must use Git for version control in a repo I can access. You may make the repo *private* if you wish, just be sure to send me an invite to collaborate ASAP
 
-2) Must have a "test" script that uses ESLint with the Airbnb spec. Must pass tests when I run `npm test`
+2) Must have `nodemon` installed. I will test this by typing `npm run nodemon`
 
-3) Must use CircleCI for testing - the "test" script will be run by CircleCI, and a green checkmark will appear on the GitHub repo
+3) Must have a "test" script that uses ESLint with the Airbnb spec. Must pass tests when I run `npm test`
 
-4) Must have `nodemon` installed. I will test this by typing `npm run nodemon`
+4) Must use CircleCI for testing - the "test" script will be run by CircleCI, and a green checkmark will appear on the GitHub repo
 
-5) Code must be well-commented. Every function/method should have a comment describing its purpose
+5) Other code standards:
+  - code must be well-commented. Every function/method must have a comment describing its purpose
+  - *Separation of Concern* - There should be a clear separation of purpose and classes. Do not put everything in the same file/module
+  - **D.R.Y.** - *Don't Repeat Yourself*. Repeated blocks of nearly identical code must be factored out and placed in a separate function
+  - any borrowed code or fragments (e.g. from Stack Overflow) must be credited in both your code comments, and in the final documentation of the project
 
 6) Must be deployed to Heroku. The "Wait for CI to pass before deploy" checkbox must be checked.
+
+<hr>
+
+## IV. Media Requirements
+
 
 
 <hr>
@@ -79,9 +88,86 @@ Your application should scale infinitely until it hits the limitations of the ha
 Client should use accept header (only needs to support JSON, but other formats would count as extra).
 Client should submit a body in a POST request to add or update data.
 It is okay to keep your API data in memory for this project. That does mean user added data will go away after each server reload. (roughly 30 minutes on Heroku).
-Any borrowed code or fragments must be credited in both your code comments, and in the final documentation of the project.
-Separation of Concern - There should be a clear separation of purpose and classes. Do not put everything in the same file/module.
-D.R.Y. - Don't Repeat Yourself. Repeated blocks of nearly identical code should be factored out and placed in a separate function.
+
+
+- **A - Functionality**
+  - <ins>Web Services (3):</ins>
+    - #1 - Custom Web API (Read):
+      - uses HTTP `GET` method
+      - returns data in JSON format
+      - public facing, and CORS is turned on
+      - takes at least 2 parameters
+      - example: 
+        - *"Get Jokes" API with `limit` and `minrating` parameters*
+        - endpoint: `/get-jokes?limit=5&minrating=3`
+        - data stored in hard-coded array of object literals - `allJokes`
+    - #2 - User submitted data API (Write):
+      - uses HTTP `POST` method
+      - takes at least 2 body parameters
+      - response:
+          - sends back proper HTTP status codes ex. `201 Created`
+          - send back created resource
+      - example: 
+        - *"Suggest Joke" API with `q` and `a` and `username` parameters*
+        - endpoint: `POST /suggest-joke?q=setup&a=punchline&username=abc1234`
+        - adds the submitted data to a `userSuggestions` array - the data is in object literal format
+    - #3 - User submitted data API (Read):
+      - uses HTTP `GET` method
+      - takes at least 1 parameter
+      - example:
+        - returns contents of `userSuggestions` array
+        - endpoint: `/get-suggestions?sort=latest`
+    - ALL Web Services:
+      - send back data in either JSON or XML depending on the value of the `accept` HTTP request header of a client
+      - send back correct HTTP status code (`200`,`201`,`404` etc)
+      - send back correct `content-type` response header
+      - for HTTP `HEAD` requests from a client, the service will NOT send the response content, and instead send only the headers (and status code):
+        - adding a `content-size` response header to such responses would be a nice touch, but is not required - https://stackoverflow.com/questions/2219526/how-many-bytes-in-a-javascript-string/29955838
+  - <ins>HTML Pages (5):</ins>
+    - #1 - Home Page:
+      - "landing page" for API - should look nice
+      - describes API
+      - has documentation of API functionality
+      - simple demonstration of API usage
+      - example: 
+        - **home.html**
+        - gives examples of `/get-jokes` endpoints, with and without parameters
+        - *shows a random joke from the "Get Jokes" API, the `q` only, every time the page is reloaded*
+    - #2 - Input Page
+      - HTML `<form>` for users to input data and send it to the **JSON "write" API** above
+      - example: 
+        - **suggestion.html**
+        - *users can suggest data for the API by submitting a setup and punchline for a joke*
+    - #3 - Admin Page
+      - login functionality not required
+      - shows the entire contents of the **User submitted data API (Read)** above
+      - example:
+       - **admin.html**
+       - calls and displays `/get-suggestions?sort=latest`
+    - #4 - App Page
+      - demonstrates API (Web Service #1) in action
+      - has controls to show all features of API
+      - example:
+        - **app.html**
+        - calls `/get-jokes?limit=5&minrating=3`
+    - #5 - Error Page
+      - returned for no-existent endpoints
+      - be sure to send the `404` HTTP status code
+      - example:
+        - **error.html**
+  - <ins>Other Pages (3+):</ins>
+    - at least one client-side JS page
+    - at least one client-side CSS page
+    - at least one client-side image
+  - <ins>Server Code Style</ins>
+    - multiple CommonJS code modules
+    - all pages/files "served" by your Node.js server
+    - all HTML/CSS/JS are in external files (i.e. loaded by the `fs` module, NOT hard-coded in code via `const`)
+  - <ins>Client Code Style</ins>
+    - VanillaJS
+    - ES6 Modules
+    - Global Navgation System (HTML)
+    - External CSS file(s)
 
 
 <hr>
