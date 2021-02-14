@@ -2,13 +2,9 @@
 
 ##  I. Overview
 
-Individually, you need to make a rich web app that uses a web API of your design. You may use an external API in addition to your own. The app should be engaging and aesthetically pleasing. Ideally these will all be portfolio quality. The project should be scoped for just a couple weeks.
+- Individually, you need to make a rich web app that uses a web API of your design. You may use an external API **in addition to your own**. The app should be engaging and aesthetically pleasing. Ideally it will be (or approach) portfolio quality. The project should be scoped for just a couple weeks.
 
-Application: The actual project is fairly open-ended. The goal is to make a rich web app that uses backend (server) data from an API. The app should be aesthetically pleasing and provide a rich user experience. The static files (like HTML, CSS, Client JS, images, etc) may be sent normally, but the rest of the changes/updates for the app should be done through a custom AJAX API.
-
-You may opt to do a shared image pinning system (like an all public Pinterest) or perhaps a visualized message system (like this).
-
-Regardless of the application, your project should be appropriately scoped for a couple weeks. This means different levels of scope depending on the type of application. Please understand that these cannot have a larger scope or else you will not have enough time. 80% of the development will be done in 20% of the time. Actually completing the project with a passing grade will take a majority of the time.
+- **Application:** The actual project is fairly open-ended. The goal is to make a rich web app that uses backend (server) data from an API. The app should be aesthetically pleasing and provide a rich user experience. The static files (like HTML, CSS, Client JS, images, etc) may be sent normally, but the rest of the changes/updates for the app should be done through a custom AJAX API.
 
 <hr>
 
