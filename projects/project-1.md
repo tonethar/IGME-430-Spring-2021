@@ -30,19 +30,46 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 <hr>
 
-## III. Functional Requirements
+## III. Development Requirements
+
+1) Must use Git for version control in a repo I can access. You may make the repo *private* if you wish, just be sure to send me an invite to collaborate ASAP
+
+2) Must have a "test" script that uses ESLint with the Airbnb spec. Must pass when I run `npm test`
+
+3) Must use CircleCI for testing - the "test" script will be run by CircleCI, and a green checkmark will appear on the GitHub repo
+
+4) Must have `nodemon` installed. We will test this by typing `npm run nodemon`
+
+5) Must be deployed to Heroku. The 
 
 <hr>
 
-## IV. Programming Requirements
+## IV. Functional Requirements
+1) Should provide an engaging and rich user experience.
+
+
+
+Must use a cloud service (such as Heroku) for deployment (unless special arrangements have been made).
+Your application must be professionally designed and implemented.
+Your application should have good, stable performance. There should not be any hiccups or performance issues when the server is under a light load. This means both your client and server need to run smoothly.
+Static files (such as HTML, CSS, Client JS, Images, Videos, etc) should be delivered from the server.
+Information calls (getting data, posting data, checking for updates, etc) should all be done through Ajax and a web API.
+Direct calls to GET requests should work correctly. As in: going straight to the Ajax URL in the browser (including parameters).
+Users should be able to add data to the API (with limitation). For example, maybe your app is a collection of images and keywords. You might then have a way for the user to add an image url and keywords to your API.
+Your application should scale infinitely until it hits the limitations of the hardware it is on. This means, you cannot have any hard limits for how many different users have access until you run out of storage/memory. You may not give any site messages saying too many people are online or too many accounts have been created unless it is related to storage/memory/hardware performance.
+App should go above and beyond in order to get an A.
 
 <hr>
 
-## V. Rubric
+## V. Programming Requirements
 
 <hr>
 
-## VI. Deliverables
+## VI. Rubric
+
+<hr>
+
+## VII. Deliverables
 
 
 
