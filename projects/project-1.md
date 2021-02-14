@@ -47,30 +47,31 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - **D.R.Y.** - *Don't Repeat Yourself*. Repeated blocks of nearly identical code must be factored out and placed in a separate function
     - any borrowed code or fragments (e.g. from Stack Overflow) must be credited in both your code comments, and in the final documentation of the project
 
-6) Must be deployed to Heroku. The "Wait for CI to pass before deploy" checkbox must be checked.
-
-<hr>
-
-## IV. Media Requirements
-
-
+6) Must be deployed to Heroku. The "Wait for CI to pass before deploy" checkbox must be checked in the dashboard
 
 <hr>
 
 ## IV. Functional Requirements
 1) Must provide an engaging and rich user experience
 
-2) Users must be able to add data to the API (with limitation). For example, maybe your app is a collection of images and keywords. You might then have a way for the user to add an image url and keywords to your API.
+2) Users must be able to add data to the API (with limitation). For example, maybe your app is a collection of images and keywords. You might then have a way for the user to add an image url and keywords to your API
+
+3) Users will be able to view API data that others have posted. For example, a list of images and keywords that 
+
+4) The application must be performant and run as expected. There must not be any hiccups or performance issues when the server is under a light load. Common user errors must be handled gracefully on both the client-side and server-side:
+  
+    - example: the user forgets to type in their last name (a required form field)
+      - the *client* (the HTMK page, utilizing JavaScript) will not allow the data to be submitted to the server
+      - the *server* will return an error message if a value for required field is not iven
+      
+5) All of these information "calls"  (getting data, posting data, checking for updates, etc) must all be done through Ajax and your web API
+ 
+6)  It is okay to keep your API data in memory for this project (NB - we will be learning MongoDB for the next project). That does mean user added data will go away after each server reload. (roughly 30 minutes on Heroku)
 
 
-
-
-Your application should have good, stable performance. There should not be any hiccups or performance issues when the server is under a light load. This means both your client and server need to run smoothly.
 Static files (such as HTML, CSS, Client JS, Images, Videos, etc) should be delivered from the server.
-Information calls (getting data, posting data, checking for updates, etc) should all be done through Ajax and a web API.
-Direct calls to GET requests should work correctly. As in: going straight to the Ajax URL in the browser (including parameters).
 
-Your application should scale infinitely until it hits the limitations of the hardware it is on. This means, you cannot have any hard limits for how many different users have access until you run out of storage/memory. You may not give any site messages saying too many people are online or too many accounts have been created unless it is related to storage/memory/hardware performance.
+Direct calls to GET requests should work correctly. As in: going straight to the Ajax URL in the browser (including parameters).
 
 
 <hr>
@@ -81,33 +82,36 @@ Your application should scale infinitely until it hits the limitations of the ha
 
 2) Server API must support the following methods:
 
-    - HEAD (should be supported on the calls that get data back)
+    - HEAD (must be supported on the JSON calls that get data back)
     - GET
     - POST
     
 3) At least one GET request type will support query parameters (both in AJAX and directly). These could be used to filter results, sort results or something else.
+
 Client should use accept header (only needs to support JSON, but other formats would count as extra).
 Client should submit a body in a POST request to add or update data.
-It is okay to keep your API data in memory for this project. That does mean user added data will go away after each server reload. (roughly 30 minutes on Heroku).
 
+### V-A. Web Services (3)
 
-- **A - Functionality**
-  - <ins>Web Services (3):</ins>
-    - #1 - Custom Web API (Read):
-      - uses HTTP `GET` method
-      - returns data in JSON format
-      - public facing, and CORS is turned on
-      - takes at least 2 parameters
-      - example: 
-        - *"Get Jokes" API with `limit` and `minrating` parameters*
-        - endpoint: `/get-jokes?limit=5&minrating=3`
-        - data stored in hard-coded array of object literals - `allJokes`
+1) Custom Web API (Read-only)
+      
+    - uses HTTP `GET` method
+    - returns data in JSON format by default:
+      - returns data in XML format if `accepts` request header has a value of "text/xml"
+    
+    - takes at least 2 parameters
+    - example: 
+      - *"Get Jokes" API with `limit` and `minrating` parameters*
+      - endpoint: `/get-jokes?limit=5&minrating=3`
+      - data stored in hard-coded array of object literals - `allJokes`
+      
     - #2 - User submitted data API (Write):
       - uses HTTP `POST` method
+      - CORS is turned OFF (the default)
       - takes at least 2 body parameters
       - response:
           - sends back proper HTTP status codes ex. `201 Created`
-          - send back created resource
+          - sends back created resource ex. `{"q": "I invented a new word!", "a": "Plagiarism!"}`
       - example: 
         - *"Suggest Joke" API with `q` and `a` and `username` parameters*
         - endpoint: `POST /suggest-joke?q=setup&a=punchline&username=abc1234`
