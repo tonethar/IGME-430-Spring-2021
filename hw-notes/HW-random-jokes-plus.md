@@ -223,6 +223,8 @@ const getBinarySize = (string) => Buffer.byteLength(string, 'utf8');
 - There are 5 headers in this instance, but we only set 2 of them - `Content-Type` and `Content-Length` - the `http` library set the others for us
 - Note the value of the `Content-Length` header - that was calculated with the `getBinarySize()` helper function above
 
+<hr>
+
 ![screenshot](_images/hw-7.png)
 
 <hr>
@@ -231,6 +233,8 @@ const getBinarySize = (string) => Buffer.byteLength(string, 'utf8');
 
 - Below we make a `GET` request (the default from the browser), and we will get both the content and the headers back from the server
 - If we look under the **Headers** tab, the `Content-Length` header will be missing (because our code did not send it)
+
+<hr>
 
 ![screenshot](_images/hw-8.png)
 
