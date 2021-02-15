@@ -11,9 +11,9 @@
 
 - [Phase #2. - Add a `/random-jokes` endpoint](#phase2)
 
-- [Phase #2. - Add a `/random-jokes` endpoint](#phase3)
+- [Phase #3. - Send back both XML & JSON](#phase3)
 
-- [Phase #2. - Add a `/random-jokes` endpoint](#phase4)
+- [Phase #4. - Send back headers only, NOT content,  when `HEAD` requests are made](#phase4)
 
 <hr>
   
