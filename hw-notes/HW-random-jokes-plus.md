@@ -205,9 +205,20 @@ const getBinarySize = (string) => Buffer.byteLength(string, 'utf8');
 ```
 
 - you only need to do this for the endpoints that send back data - `random-joke` and `random-jokes`
-- once you have this working, tou can test this from Postman by specifying the HTTP *method*, see screenshots below:
+- once you have this working, you should test this from Postman by specifying the HTTP *method*, see screenshots below:
+
+<hr>
+
+- Below we make a `HEAD` request, and we only get HTTP headers back (look under the **Headers** tab)
+- There are 5 headers in this instance, but we only set 2 of them - `Content-Type` and `Content-Length` - the `http` library set the others for us
+- Note the value of the `Content-Length` header - that was calculated with the `getBinarySize()` helper function above
 
 ![screenshot](_images/hw-7.png)
+
+<hr>
+
+- Below we make a `GET` request (the default from the browser), and we will get both the content and the headers back from the server
+- If we look under the **Headers** tab, the `Content-Length` header will be missing (because our code did not send it)
 
 ![screenshot](_images/hw-8.png)
 
