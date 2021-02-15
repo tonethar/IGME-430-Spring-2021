@@ -250,12 +250,13 @@ const getBinarySize = string => Buffer.byteLength(string, 'utf8');
 - Sick of hard-coded your HTML into you JavaScript program files? You should be! Let's instead do things the way the **Simple HTTP Server** and **Streaming Media** PDF HW assignments (i.e. the PDFs) did them!
 - Going forward, let's put all of the HTML/CSS/JS and image files into external files, and keep them stored in a folder called **client**
 - Go ahead and move the HTML from `const errorPage` to an external file named **error.html**, and put that file into the **client** folder
-- When the app starts up, you will then use the `fs` module to load the **error.html**
+- When the app starts up, you will then use the `fs` module to load the **error.html** file, and store those contents in `errorPage`
 - When HTTP requests come in, send the file back as you normally would
 - Once you have that working, create an external CSS style sheet, and use it:
   - create **default-styles.css** 
   - add the following to it, minimally (or add your own styles) - `*{font-family: sans-serif;}`
   - `<link>` to this file from **error.html**
+  - load it using `fs`, and write a response handler for it
   - add an endpoint for **default-styles.css**:
     - don't forget to send the corrent content type - which is `text/css`!
     - don't forget to send the proper status code - which is `200`!
