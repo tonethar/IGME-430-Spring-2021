@@ -251,7 +251,7 @@ const getBinarySize = string => Buffer.byteLength(string, 'utf8');
 
 ### VI-B. Re-factor the HTML code
 
-- Sick of hard-coded your HTML into you JavaScript program files? You should be! Let's instead do things the way the **Simple HTTP Server** and **Streaming Media** PDF HW assignments (i.e. the PDFs) did them!
+- Sick of hard-coding your HTML into your JavaScript program files? You should be! Let's instead do things the way the **Simple HTTP Server** and **Streaming Media** PDF HW assignments (i.e. the PDFs) did them!
 - Going forward, let's put all of the HTML/CSS/JS and image files into external files, and keep them stored in a folder called **client**
 - Go ahead and move the HTML from `const errorPage` to an external file named **error.html**, and put that file into the **client** folder
 - When the app starts up, you will then use the `fs` module to load the **error.html** file, and store those contents in `errorPage`
