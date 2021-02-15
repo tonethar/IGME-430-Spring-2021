@@ -215,8 +215,10 @@ const getBinarySize = (string) => Buffer.byteLength(string, 'utf8');
 ```
 
 - You only need to do this for the endpoints that send back data - `random-joke` and `random-jokes`
-- Hint: your JSON response handlers should have a new parameter for this `method` string
+- Hint: your JSON response handlers should have a new parameter for this `request.method` string
   - ex. `const getRandomJokeResponse = (request, response, params, acceptedTypes, httpMethod)`
+  - and the call it like this over in `onRequest()`:
+    - ex. `urlStruct[pathname](request, response, params, acceptedTypes, httpMethod);`
 - Once you have this working, you should test this from Postman by specifying the HTTP *method*, see screenshots below
 
 #### VI-A-i. Test the `HEAD` request method
