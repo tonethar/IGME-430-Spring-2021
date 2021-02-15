@@ -170,8 +170,6 @@
 
 ### V-A. Hints
 
-- the **"accept-header-example-DONE"** link in myCourses can give you some ideas on how to structure your XML and JSON
-
 1) In `onRequest()`, you need to grab the contents of the HTTP `accept` header that is sent over by the client. The following code snippet will:
   
     - get the contents of `request.headers.accept` (a string), then "split" it into an array of strings, and assign this array to the `acceptedTypes` variable
@@ -195,6 +193,9 @@ acceptedTypes = acceptedTypes || [];
     - it if DOES, return the data in XML format - and don't forget to send the correct `Content-Type` header!
 
 4) You might want to rename the **jsonResponses.js** file to **responses.js** - because this file is now returning BOTH JSON and XML
+
+- the **"accept-header-example-DONE"** link in myCourses can also give you some ideas on how to structure your XML and JSON
+
 
 <a id="phase4" />
 
