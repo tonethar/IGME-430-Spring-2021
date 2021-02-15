@@ -209,6 +209,7 @@ acceptedTypes = acceptedTypes || [];
 - Once you have that working, create an external CSS style sheet, and use it:
   - create **default-styles.css** 
   - add the following to it, minimally (or add your own styles) - `*{font-family: sans-serif;}`
-  - link to this file from 
+  - `<link>` to this file from **error.html**
+  - add an endpoint for **default-styles.css** - don't forget to send the corrent content type - which is  `text/css`!
 
-
+<hr><hr>
