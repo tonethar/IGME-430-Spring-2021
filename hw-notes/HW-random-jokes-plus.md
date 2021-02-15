@@ -7,13 +7,13 @@
 
 ### I-A. Navigation
 
-- [Phase #1. - add your own modules](./#phase1)
+- [Phase #1. - add your own modules](#phase1)
 
-- [Phase #2. - Add a `/random-jokes` endpoint](./#phase2)
+- [Phase #2. - Add a `/random-jokes` endpoint](#phase2)
 
-- [Phase #2. - Add a `/random-jokes` endpoint](./#phase3)
+- [Phase #2. - Add a `/random-jokes` endpoint](#phase3)
 
-- [Phase #2. - Add a `/random-jokes` endpoint](./#phase4)
+- [Phase #2. - Add a `/random-jokes` endpoint](#phase4)
 
 <hr>
   
