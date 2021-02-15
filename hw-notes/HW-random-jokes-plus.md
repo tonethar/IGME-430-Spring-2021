@@ -143,7 +143,7 @@
 </jokes>
 ```
 
-- **You won't be able to test the XML capablity endpoints from a web browser's location bar (i.e. simply typing th URL in), because the web browser can't send a  `text/xml` `accept` header from there. The solution is either to use some JavaScript like `XMLHttpRequest`, or to ise the [Postman](https://www.postman.com/downloads/) App (which you should already have installed)**
+- **You won't be able to test the XML capablity endpoints from a web browser's location bar (i.e. simply typing th URL in), because the web browser can't send a  `text/xml` `accept` header from there. The solution is either to use some JavaScript like `XMLHttpRequest`, or to utilize the [Postman](https://www.postman.com/downloads/) App (which you should already have installed)**
 - **When you test the app endpoints in Postman, and send `text/xml` for an `accept` header, you will see the following:**
 
 <hr>
@@ -181,6 +181,7 @@ acceptedTypes = acceptedTypes || [];
     - if is DOES NOT, return the data in JSON format
     - it if DOES, return the data in XML format
 
+4) You might want to rename the **jsonResponses.js** file to **responses.js** - because this file is now returning BOTH JSON and XML
 
 <a id="phase4" />
 
