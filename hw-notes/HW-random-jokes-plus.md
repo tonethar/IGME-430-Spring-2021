@@ -169,6 +169,9 @@
 ![screenshot](_images/hw-6.png)
 
 ### V-A. Hints
+
+- the **"accept-header-example-DONE"** link in myCourses can give you some ideas on how to structure your XML and JSON
+
 1) In `onRequest()`, you need to grab the contents of the HTTP `accept` header that is sent over by the client. The following code snippet will:
   
     - get the contents of `request.headers.accept` (a string), then "split" it into an array of strings, and assign this array to the `acceptedTypes` variable
