@@ -2,7 +2,7 @@
 
 ##  I. Overview
 
-- Individually, you need to make a rich web app that uses a web API of your design. You may use an external API **in addition to your own**. The app should be engaging and aesthetically pleasing. Ideally it will be (or approach) portfolio quality. The project should be scoped for just a couple weeks.
+- Individually, you need to make a rich web app that uses a web API of your design. This API will have BOTH read-only capabilities (ex. `/random-joke` AND write capabilities (ex. `suggest-joke/?q=...&a=...`). You may use an external API **in addition to your own**. The app should be engaging and aesthetically pleasing. Ideally it will be (or approach) portfolio quality.  The project should be scoped for just a couple weeks.
 
 - **Application:** The actual project is fairly open-ended. The goal is to make a rich web app that uses backend (server) data from an API. The app should be aesthetically pleasing and provide a rich user experience. The static files (like HTML, CSS, Client JS, images, etc) may be sent normally, but the rest of the changes/updates for the app should be done through a custom AJAX API.
 
