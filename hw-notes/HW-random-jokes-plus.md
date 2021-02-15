@@ -204,7 +204,7 @@ acceptedTypes = acceptedTypes || [];
 - In your `onRequest` handler, write code that looks for the `method` property of the `request` parameter - that would be `request.method`
 - If the method is `HEAD`, then you will send back solely the HTTP *headers*, NOT the actual content. The HTTP headers you need to send back are:
   - `Content-Type:`
-  - `Content-Length:` (this is in *bytes*)
+  - [`Content-Length:`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Length) (this is in *bytes*)
   - you can calculate the second of these with this utility function:
   
 ```js
