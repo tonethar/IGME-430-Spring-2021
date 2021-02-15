@@ -192,9 +192,22 @@ acceptedTypes = acceptedTypes || [];
 ### VI-A. Set up the server
 
 - In your `onRequest` handler, write code that looks for the `method` property of the `request` parameter - that would be `request.method`
-- If the method is `HEAD`, then you will send back only the *headers*, NOT the actual content
+- If the method is `HEAD`, then for you will send back only the *headers*, NOT the actual content. The HTTP headers you need to send back are:
+  - `Content-Type`
+  - `Content-Length`
+  - you can calculate the second of these with this utility function:
+  
+```js
+// ALWAYS GIVE CREDIT - in your code comments and documentation
+// Source: https://stackoverflow.com/questions/2219526/how-many-bytes-in-a-javascript-string/29955838
+// Refactored to an arrow function by ACJ
+const getBinarySize = (string) => Buffer.byteLength(string, 'utf8');
+```
 
-- You can test this from Postman by specifying the HTTP *method*, see screenshots below:
+
+    - you only need to do this for the endpoints that send back data - `random-joke` and `random-jokes`
+    - once you have this working, 
+    - You can test this from Postman by specifying the HTTP *method*, see screenshots below:
 
 ![screenshot](_images/hw-7.png)
 
