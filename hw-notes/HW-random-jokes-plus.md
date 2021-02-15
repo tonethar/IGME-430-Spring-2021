@@ -178,8 +178,8 @@ acceptedTypes = acceptedTypes || [];
 3) In `getRandomJokeResponse = (request, response, params, acceptedTypes){}`:
 
     - check to see that "text/xml" is in the `acceptedTypes` array with [`Array.includes()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
-    - if is DOES NOT, return the data in JSON format
-    - it if DOES, return the data in XML format
+    - if is DOES NOT, return the data in JSON format - and don't forget to send the correct `Content-Type` header!
+    - it if DOES, return the data in XML format - and don't forget to send the correct `Content-Type` header!
 
 4) You might want to rename the **jsonResponses.js** file to **responses.js** - because this file is now returning BOTH JSON and XML
 
