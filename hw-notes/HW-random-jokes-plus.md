@@ -193,9 +193,22 @@ acceptedTypes = acceptedTypes || [];
 - In your `onRequest` handler, write code that looks for the `method` property of the `request` parameter - that would be `request.method`
 - If the method is `HEAD`, then you will send back only the *headers*, NOT the actual content
 
+- You can test this from Postman by specifying the HTTP *method*, see screenshots below:
+
+![screenshot](_images/hw-7.png)
+
+<hr>
 
 ### VI-B. Re-factor the HTML code
 
-- sick 
+- Sick of having hard-coded HTML files? You should be! Let's instead do things the way the **Simple HTTP Server** and **Streaming Media** PDF HW assignments (i.e. the PDFs) did them 
+- Going forward, let's put all of the HTML/CSS/JS and image files into external files, and keep them stored in a folder called **client**
+- Go ahead and move the HTML from `const errorPage` to an external file named **error.html**, and put that file into the **client** folder
+- When the app starts up, you will then use the `fs` module to load the **error.html**
+- When HTTP requests come in, send the file back as you normally would
+- Once you have that working, create an external CSS style sheet, and use it:
+  - create **default-styles.css** 
+  - add the following to it, minimally (or add your own styles) - `*{font-family: sans-serif;}`
+  - link to this file from 
 
 
