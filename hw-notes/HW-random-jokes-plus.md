@@ -222,6 +222,7 @@ const getBinarySize = (string) => Buffer.byteLength(string, 'utf8');
 - Below we make a `HEAD` request, and we only get HTTP headers back (look under the **Headers** tab)
 - There are 5 headers in this instance, but we only set 2 of them - `Content-Type` and `Content-Length` - the `http` library set the others for us
 - Note the value of the `Content-Length` header - that was calculated with the `getBinarySize()` helper function above
+- Be sure to test this BOTH with the `Content-Type` being equal to "text/xml" (meaning the returned type is XML) AND with the `Content-Type` not being specified (meaning the returned type is JSON). The JSON will always be smaller than the XML in our "jokes" use case, which means that the `Content-Length` will be less for JSON too
 
 <hr>
 
