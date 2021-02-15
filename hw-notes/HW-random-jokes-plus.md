@@ -190,7 +190,12 @@ acceptedTypes = acceptedTypes || [];
 
 ### VI-A. Set up the server
 
-- in your `onRequest` handler, write code that looks for the `method` property of the `request` parameter that would be `request.method`
-- if the method is `HEAD`, then you will send back only the *headers*, NOT the actual content
+- In your `onRequest` handler, write code that looks for the `method` property of the `request` parameter - that would be `request.method`
+- If the method is `HEAD`, then you will send back only the *headers*, NOT the actual content
+
+
+### VI-B. Re-factor the HTML code
+
+- sick 
 
 
