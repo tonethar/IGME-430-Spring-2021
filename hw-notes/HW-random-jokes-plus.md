@@ -5,6 +5,16 @@
 - This will take a bit of time, so get started early
 - ***This HW will make a great "starter" for project 1, so it will be time well spent!***
 
+### I-A. Navigation
+
+- [Phase #1. - add your own modules](./#phase1)
+
+- [Phase #2. - Add a `/random-jokes` endpoint](./#phase2)
+
+- [Phase #2. - Add a `/random-jokes` endpoint](./#phase3)
+
+- [Phase #2. - Add a `/random-jokes` endpoint](./#phase4)
+
 <hr>
   
 ## II. Get Started
@@ -207,7 +217,7 @@ const getBinarySize = (string) => Buffer.byteLength(string, 'utf8');
 - you only need to do this for the endpoints that send back data - `random-joke` and `random-jokes`
 - once you have this working, you should test this from Postman by specifying the HTTP *method*, see screenshots below:
 
-<hr>
+#### VI-A-i. Test the `HEAD` request method
 
 - Below we make a `HEAD` request, and we only get HTTP headers back (look under the **Headers** tab)
 - There are 5 headers in this instance, but we only set 2 of them - `Content-Type` and `Content-Length` - the `http` library set the others for us
@@ -216,6 +226,8 @@ const getBinarySize = (string) => Buffer.byteLength(string, 'utf8');
 ![screenshot](_images/hw-7.png)
 
 <hr>
+
+#### VI-A-ii. Test the `GET` request method
 
 - Below we make a `GET` request (the default from the browser), and we will get both the content and the headers back from the server
 - If we look under the **Headers** tab, the `Content-Length` header will be missing (because our code did not send it)
