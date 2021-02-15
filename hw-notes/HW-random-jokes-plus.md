@@ -211,7 +211,7 @@ acceptedTypes = acceptedTypes || [];
 // ALWAYS GIVE CREDIT - in your code comments and documentation
 // Source: https://stackoverflow.com/questions/2219526/how-many-bytes-in-a-javascript-string/29955838
 // Refactored to an arrow function by ACJ
-const getBinarySize = (string) => Buffer.byteLength(string, 'utf8');
+const getBinarySize = string => Buffer.byteLength(string, 'utf8');
 ```
 
 - You only need to do this for the endpoints that send back data - `random-joke` and `random-jokes`
