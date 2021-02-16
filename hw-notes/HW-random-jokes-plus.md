@@ -81,6 +81,8 @@
 
 <hr>
 
+- results of **`/random-jokes?limit=2`** call:
+
 ```json
 [ 
  {
