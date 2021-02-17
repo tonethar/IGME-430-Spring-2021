@@ -2,9 +2,33 @@
 
 ##  I. Overview
 
-- Individually, you need to make a rich web app that uses a web API of your design. This API will have BOTH read-only capabilities (ex. `/random-joke` AND write capabilities (ex. `suggest-joke/?q=...&a=...`). You may use an external API **in addition to your own**. The app should be engaging and aesthetically pleasing. Ideally it will be (or approach) portfolio quality.  The project should be scoped for just a couple weeks.
+- Individually, you need to make a rich web app that uses a web API of your design. This API will have BOTH read-only capabilities (ex. `/random-joke` AND write capabilities (ex. `suggest-joke/?q=...&a=...`). You may use an external API **in addition to your own**. The app should be engaging and aesthetically pleasing. Ideally it will be (or approach) portfolio quality.  The project should be scoped for just a couple of weeks.
+- The actual project is fairly open-ended. The goal is to make a rich web app that uses backend (server) data from an API. The app should be aesthetically pleasing and provide a rich user experience. 
+- Let the needs of app's users drive them capabilities of the app
+- The static files (like HTML, CSS, Client JS, images, etc) may be sent normally, but the rest of the changes/updates for the app should be done through a custom AJAX API.
 
-- **Application:** The actual project is fairly open-ended. The goal is to make a rich web app that uses backend (server) data from an API. The app should be aesthetically pleasing and provide a rich user experience. The static files (like HTML, CSS, Client JS, images, etc) may be sent normally, but the rest of the changes/updates for the app should be done through a custom AJAX API.
+### I-A. Example
+- Here is a (limited functionality) example (jokester.bomb) of what a possible project would look like:
+- Landing page - https://p1-430-stub-2105.herokuapp.com/
+- Functionality:
+  - Users can view a random joke via an Ajax call (we already covered this in 330 and in Week 4)
+  - Users can submit a joke via a `<form>` and an Ajax POST request (we are covering this week 5)
+  - Administrators can view user submitted jokes
+  - Required endpoints (MINIMUM) - here are examples:
+    - TWO data endpoints:
+      - https://p1-430-stub-2105.herokuapp.com/random-joke
+      - https://p1-430-stub-2105.herokuapp.com/random-jokes?limit=10
+    - FOUR HTML pages:
+      - https://p1-430-stub-2105.herokuapp.com/
+      - https://p1-430-stub-2105.herokuapp.com/app
+      - https://p1-430-stub-2105.herokuapp.com/suggest
+      - https://p1-430-stub-2105.herokuapp.com/admin
+    - ONE error page (which is also an HTML page):
+      - https://p1-430-stub-2105.herokuapp.com/bad-link
+    - ONE CSS file:
+      - https://p1-430-stub-2105.herokuapp.com/default-styles.css
+    - ONE image:
+      - https://p1-430-stub-2105.herokuapp.com/joke-image.jpg
 
 <hr>
 
