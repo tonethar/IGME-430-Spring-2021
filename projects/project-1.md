@@ -11,9 +11,9 @@
 - Here is a (limited functionality) example of a web site/service - **jokester.bomb** - of what a possible project would look like:
 - Landing page - https://p1-430-stub-2105.herokuapp.com/
 - Functionality:
-  - Users can view a random joke via an Ajax call (we already covered this in 330 and in Week 4)
+  - Users can view a random joke via an Ajax call (use `XHR` or `fetch()` - we already covered this in 330 and in Week 4)
   - Users can submit a joke via a `<form>` and an Ajax POST request (we are covering this week 5)
-  - Administrators can view user submitted jokes
+  - Administrators can view user submitted jokes (this is just an AJAX call)
   - Required endpoints (MINIMUM) - here are examples:
     - TWO data endpoints:
       - https://p1-430-stub-2105.herokuapp.com/random-joke
