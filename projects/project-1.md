@@ -8,7 +8,7 @@
 - The static files (like HTML, CSS, Client JS, images, etc) may be sent normally, but the rest of the changes/updates for the app should be done through a custom AJAX API.
 
 ### I-A. Example
-- Here is a (limited functionality) example (jokester.bomb) of what a possible project would look like:
+- Here is a (limited functionality) example of a web site/service - **jokester.bomb** - of what a possible project would look like:
 - Landing page - https://p1-430-stub-2105.herokuapp.com/
 - Functionality:
   - Users can view a random joke via an Ajax call (we already covered this in 330 and in Week 4)
