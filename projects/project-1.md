@@ -80,7 +80,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 2) Users must be able to add data to the API (with limitation). For example, maybe your app is a collection of images and keywords. You might then have a way for the user to add an image url and keywords to your API
 
-3) Users will be able to view API data that others have posted. For example, a list of images and keywords that 
+3) Users will be able to view API data that others have posted. For example, a list of images and keywords 
 
 4) The application must be performant and run as expected. There must not be any hiccups or performance issues when the server is under a light load. Common user errors must be handled gracefully on both the client-side and server-side:
   
@@ -93,9 +93,9 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 6)  It is okay to keep your API data in memory for this project (NB - we will be learning MongoDB for the next project). That does mean user added data will go away after each server reload. (roughly 30 minutes on Heroku)
 
 
-Static files (such as HTML, CSS, Client JS, Images, Videos, etc) should be delivered from the server.
+7) Static files (such as HTML, CSS, Client JS, Images, Videos, etc) must be delivered from your server
 
-Direct calls to GET requests should work correctly. As in: going straight to the Ajax URL in the browser (including parameters).
+8) Direct calls to GET requests must work correctly. As in: going straight to the Ajax URL in the browser, or with Postman
 
 
 <hr>
@@ -112,8 +112,7 @@ Direct calls to GET requests should work correctly. As in: going straight to the
     
 3) At least one GET request type will support query parameters (both in AJAX and directly). These could be used to filter results, sort results or something else.
 
-Client should use accept header (only needs to support JSON, but other formats would count as extra).
-Client should submit a body in a POST request to add or update data.
+4) Client must submit a body in a POST request to add or update data
 
 ### V-A. Web Services (3)
 
