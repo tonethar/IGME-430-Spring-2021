@@ -126,6 +126,7 @@
 
 ## V. Phase #3. - Send back both XML & JSON
     
+- Note: for help with this Phase, see the "Accept Header" demo in myCourses, and other class notes (which also links to a video)
 - the default data type returned by both the `/random-joke` and `/random-jokes` endpoints is JSON
 - but if the client sends an [HTTP `Accept` header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept) of `text/xml` in the request phase, then the application will return the joke data in XML format, and will send it back with a `content-type` of `text/xml`:
   - make sure that you handle the possibility that the client might not send any `accept` headers. You can easily test this in the Postman app.
@@ -207,6 +208,7 @@ acceptedTypes = acceptedTypes || [];
 
 ### VI-A. Set up the server
 
+- Note: for help with this Phase, see the "HEAD Requests" demo in myCourses, and other class notes (which also links to a video)
 - In your `onRequest` handler, write code that looks for the `method` property of the `request` parameter - that would be `request.method`
 - If the method is `HEAD`, then you will send back solely the HTTP *headers*, NOT the actual content. The HTTP headers you need to send back are:
   - `Content-Type:`
