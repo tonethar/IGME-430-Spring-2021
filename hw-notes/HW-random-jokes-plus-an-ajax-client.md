@@ -86,7 +86,7 @@
       <h2>Just have time for one joke?</h2>
       <p><button id="btnJoke">Show me a Joke!</button></p>
       <div id="jokeContainer">
-
+        
       </div>
     </section>
     
