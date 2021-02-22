@@ -49,7 +49,7 @@
       - https://p1-430-stub-2105.herokuapp.com/app
       - https://p1-430-stub-2105.herokuapp.com/suggest
       - https://p1-430-stub-2105.herokuapp.com/admin
-    - ONE error page (which is also an HTML page):
+    - ONE error page (which is an *additional* HTML page):
       - https://p1-430-stub-2105.herokuapp.com/bad-link
     - ONE CSS file:
       - https://p1-430-stub-2105.herokuapp.com/default-styles.css
