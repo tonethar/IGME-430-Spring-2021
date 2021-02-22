@@ -60,8 +60,9 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
   
     - see the "Body Parse" examples and video
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/suggest
+    - the appropriate HTTP status codes will be returned when content is either created or updated on the server
     - *in your project, this functionality could be performed by a user, an admin, or both*
-    - The appropriate HTTP status codes will be returned when 
+   
 
  
   **4) Required endpoints (MINIMUM) - your project needs ALL of these - here are examples:**
