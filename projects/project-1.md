@@ -78,7 +78,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - ONE image:
       - https://p1-430-stub-2105.herokuapp.com/joke-image.jpg
 
-<a href="#development-requirements" />
+<a id="development-requirements" />
 
 <hr>
 
