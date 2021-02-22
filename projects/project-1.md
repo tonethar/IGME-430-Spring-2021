@@ -66,6 +66,9 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - TWO data endpoints:
       - https://p1-430-stub-2105.herokuapp.com/random-joke
       - https://p1-430-stub-2105.herokuapp.com/random-jokes?limit=10
+      - BOTH of these endpoints MUST:
+        - Send back data as XML if (and only if) an HTTP `Accept` request header with a value of "text/xml" is sent by the client (we did this in [Phase 3](../hw-notes/HW-random-jokes-plus.md#phase3))
+        - Send back the HTTP response headers only (including `Content-Length`) when a HEAD request is send by the client (we did this in [Phase 4](../hw-notes/HW-random-jokes-plus.md#phase4))
     - FOUR HTML pages:
       - https://p1-430-stub-2105.herokuapp.com/
       - https://p1-430-stub-2105.herokuapp.com/app
