@@ -2,18 +2,33 @@
 
 ##  I. Overview
 
-- Individually, you need to make a rich web app that uses a web API of your design. This API will have BOTH read-only capabilities (ex. `/random-joke` AND write capabilities (ex. `suggest-joke/?q=...&a=...`). You may use an external API **in addition to your own**. The app should be engaging and aesthetically pleasing. Ideally it will be (or approach) portfolio quality.  The project should be scoped for just a couple of weeks.
-- The actual project is fairly open-ended. The goal is to make a rich web app that uses backend (server) data from an API. The app should be aesthetically pleasing and provide a rich user experience. 
-- Let the needs of app's users drive them capabilities of the app
+- Individually, you need to make a rich web app that uses a backend (server) web API of your design:
+  - this API will have BOTH read-only capabilities (ex. `/random-joke` AND write capabilities (ex. `suggest-joke/?q=...&a=...`)
+  - you may use an external API **in addition to your own**
+  - the app should be engaging and aesthetically pleasing, ideally it will be (or approach) portfolio quality
+  - the app should do something useful for its target audience
+  - the project features should be scoped for just a couple of weeks
+- The actual project is fairly open-ended - let the needs of app's users drive them capabilities of the app
 - The static files (like HTML, CSS, Client JS, images, etc) may be sent normally, but the rest of the changes/updates for the app should be done through a custom AJAX API.
 
-### I-A. Example
+<hr>
+
+### II. Functional Requirements (with an example)
 - Here is a (limited functionality) example of a web site/service - **jokester.bomb** - of what a possible project would look like:
 - Landing page - https://p1-430-stub-2105.herokuapp.com/
-- Functionality:
-  - Users can view a random joke via an Ajax call (use `XHR` or `fetch()` - we already covered this in 330 and in Week 4)
-  - Users can submit a joke via a `<form>` and an Ajax POST request (we are covering this week 5)
-  - Administrators can view user submitted jokes (this is just an AJAX call)
+  
+  1) Users can view a random joke via an Ajax call:
+  
+    - use [`XHR`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) or [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)     - we already covered this in 230/235/330, in the "Accept Headers" demo, and in [Random Jokes Plus an Ajax Client](hw-notes/HW-random-jokes-plus-an-ajax-client.md)
+    - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/app
+    - in your project, users must be able to access at least 2 endpoints of your API, with a variety of controls depending on hyo
+  
+  2) Users can submit a joke via a `<form>` and an Ajax POST request
+
+    - see the "Body Parse" examples and video
+
+
+ 3) Administrators can view user submitted jokes (this is just an AJAX call)
   - Required endpoints (MINIMUM) - here are examples:
     - TWO data endpoints:
       - https://p1-430-stub-2105.herokuapp.com/random-joke
