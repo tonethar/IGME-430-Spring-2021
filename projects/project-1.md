@@ -78,6 +78,8 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - ONE image:
       - https://p1-430-stub-2105.herokuapp.com/joke-image.jpg
 
+<a href="development-requirements" />
+
 <hr>
 
 ## IV. Development Requirements
@@ -282,14 +284,4 @@ README.md
 4) Missing endpoints, ex. HTML, CSS, image, error page, JSON endpoints  (-10 each)
 
 
-XX) Does not pass `npm test` and CircleCI  (-10%)
-
-XX) 
-
-
-
-
-
-
-
-
+XX) Not meeting the [Development Requirements](#development-requirements) above  (-10% each)
