@@ -14,7 +14,7 @@
 ### II-A. Serving *joke-client.html*
 
 - Save **joke-client.html** below into your the **client** folder of your **random-jokes-plus** (or whatever you called it) folder of your project
-- In your **htmlResponses.js** file:
+- In your **src/htmlResponses.js** file:
   - use `fs` to load the **joke-client.html** file in 
   - create a response handling function to "serve" the file'
   - "export" the response handling function
