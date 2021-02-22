@@ -9,9 +9,7 @@
 
 <hr>
 
-## II. Workflow
-
-### II-A. Serving *joke-client.html*
+## II. Serving *joke-client.html*
 
 - Save **joke-client.html** below into your the **client** folder of your **random-jokes-plus** (or whatever you called it) folder of your project
 - In your **src/htmlResponses.js** file:
@@ -21,9 +19,6 @@
 - In **index.js** - add an endpoint for **joke-client.html**
 - Lastly, add a hypertext link to **client/error.html** that leads to **joke-client.html**
 - Test your **joke-client.html** endpoint both in the location bar of the browser, and by clicking the hypertext link you just created
-
-### II-B. Serving *joke-client.html*
-
 
 <hr>
 
