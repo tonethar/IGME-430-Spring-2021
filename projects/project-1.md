@@ -61,6 +61,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - see the "Body Parse" examples and video
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/suggest
     - *in your project, this functionality could be performed by a user, an admin, or both*
+    - The appropriate HTTP status codes will be returned when 
 
  
   **4) Required endpoints (MINIMUM) - your project needs ALL of these - here are examples:**
@@ -70,7 +71,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
       - https://p1-430-stub-2105.herokuapp.com/random-jokes?limit=10
       - BOTH of these endpoints MUST:
         - Send back data as XML if (and only if) an HTTP `Accept` request header with a value of "text/xml" is sent by the client (we did this in [Random Jokes Plus - Phase 3](../hw-notes/HW-random-jokes-plus.md#phase3))
-        - Send back the HTTP response headers only (including `Content-Length`) when a HEAD request is send by the client (we did this in [Random Jokes Plus - Phase 4](../hw-notes/HW-random-jokes-plus.md#phase4))
+        - Send back the HTTP response headers ONLY (including `Content-Length`) when a HEAD request is send by the client (we did this in [Random Jokes Plus - Phase 4](../hw-notes/HW-random-jokes-plus.md#phase4))
     - FOUR HTML pages:
       - https://p1-430-stub-2105.herokuapp.com/
       - https://p1-430-stub-2105.herokuapp.com/app
@@ -89,7 +90,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 ## IV. Development Requirements
 
-1) Must use Git for version control in a repo I can access. You may make the repo *private* if you wish, just be sure to send me an invite to collaborate ASAP
+1) Must use Git for version control in a repo I can access. The repo will be named **abc1234-430-project-1** (where *abc1234* is your actual rit web account name). You may make the repo *private* if you wish, just be sure to send me an invite to collaborate ASAP
 
 2) Must have `nodemon` installed. I will test this by typing `npm run nodemon`
 
