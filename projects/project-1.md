@@ -285,3 +285,5 @@ README.md
 
 
 XX) Not meeting the [Development Requirements](#development-requirements) above  (-10% each)
+
+XX) Code must be based on the "HW - Random Jokes Plus" assignment - i.e. do not use any "DONE" versions of demos from the other section or previous semesters as a starting point (-50%)
