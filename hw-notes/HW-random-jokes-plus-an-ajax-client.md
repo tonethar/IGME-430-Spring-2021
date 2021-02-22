@@ -103,11 +103,18 @@
 
 - Here's some `XHR` start code for you - add this to `downloadJoke()`
 
-```js
-
-```
+![screenshot](_images/hw-11.png)
 
 - test this by clicking the **Show me a Joke!** button - you should see a log to the console that the data has loaded
   - now write JS so that the joke shows up in the `#jokeContainer` div (see below)
 - also get the **Show me 5 Jokes!** button working (see below)
+
+<hr>
+
+![screenshot](_images/hw-12.png)
+
+
+![screenshot](_images/hw-13.png)
+
+## IV. Submission
 
