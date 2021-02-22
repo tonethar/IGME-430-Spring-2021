@@ -109,7 +109,7 @@
 
 ## III. Get *joke-client.html* working
 
-- Here's some `XHR` start code for you:
+- Here's some `XHR` start code for you - because this `XHR` code is running in the browser (i.e. the *client-side*) - it goes into **joke-client.html**:
   - create the `handleResponse()` function
   - add the following code to `downloadJoke()`
   - be sure to type ALL of the comments and ALL of the logs into your code - I will be checking - 2 points will be deducted if this is not done
