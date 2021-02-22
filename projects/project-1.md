@@ -24,20 +24,23 @@
     - *in your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (this could be the 1st of the 2 required endpoint "viewers")*
 
 
-  **2) Administrators can view user submitted jokes (this is just an AJAX call)**
+  **2) Administrators can view user submitted jokes (this is just an AJAX call):**
+  
     - note: we don't need to worry about an admin being "logged in" for this project
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/admin
     - *in your project, you MUST have an admin page where all of the site data (user submitted and otherwise) can be viewed*
     - *in your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (this could be the 2nd of the 2 required endpoint "viewers")*
   
   
-  **3) Users can submit a joke via a `<form>` and an Ajax POST request**
+  **3) Users can submit a joke via a `<form>` and an Ajax POST request:**
+  
     - see the "Body Parse" examples and video
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/suggest
-    - *in your project, this could functionality could be performed by a user, and admin, or both*
+    - *in your project, this functionality could be performed by a user, an admin, or both*
 
  
-  - Required endpoints (MINIMUM) - here are examples:
+  **4) Required endpoints (MINIMUM) - your project needs ALL of these - here are examples:**
+  
     - TWO data endpoints:
       - https://p1-430-stub-2105.herokuapp.com/random-joke
       - https://p1-430-stub-2105.herokuapp.com/random-jokes?limit=10
@@ -275,6 +278,8 @@ README.md
 2) Missing Admin page (-10%)
 
 3) Missing page with `<form>` and ability to POST data to server  (-25%)
+
+4) Missing endpoints, ex. HTML, CSS, image, error page, JSON endpoints  (-10 each)
 
 
 XX) Does not pass `npm test` and CircleCI  (-10%)
