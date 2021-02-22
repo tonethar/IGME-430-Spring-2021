@@ -14,9 +14,8 @@
 <hr>
 
 ## II. Functional Requirements (with an example)
-- Here is a (limited functionality) example of a web site/service - **jokester.bomb** - of what a possible project would look like:
-- Landing page - https://p1-430-stub-2105.herokuapp.com/
-- Your site will likely have a different structure (because you should not be building a "Random Joke" clone) - if you have any questions about your app meeting requirements, ask in class or send me an email ASAP
+- Here is a (limited functionality) example of a web site/service - **jokester.bomb** - of what a possible project would look like - landing page - https://p1-430-stub-2105.herokuapp.com/
+- Your site will likely have a different structure (because ideally you are building a "Random Joke" clone) - if you have any questions about your app meeting requirements, ask in class or send me an email ASAP
   
   **1) Users can view a random joke via an Ajax call:**
   
@@ -31,8 +30,8 @@
     - *in your project, you MUST have an admin page where all of the site data (user submitted and otherwise) can be viewed*
     - *in your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (this could be the 2nd of the 2 required endpoint "viewers")*
   
+  
   **3) Users can submit a joke via a `<form>` and an Ajax POST request**
-
     - see the "Body Parse" examples and video
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/suggest
     - *in your project, this could functionality could be performed by a user, and admin, or both*
