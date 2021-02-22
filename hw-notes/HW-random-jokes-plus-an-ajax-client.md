@@ -19,11 +19,17 @@
 - In **index.js** - add an endpoint for **joke-client.html**
 - Lastly, add a hypertext link to **client/error.html** that leads to **joke-client.html**
 - Test your **joke-client.html** endpoint both in the location bar of the browser, and by clicking the hypertext link you just created
-- You should see the following:
+- You should see the following on your 2 pages:
 
 <hr>
 
+**error.html**
+
 ![screenshot](_images/hw-9.png)
+
+<hr>
+
+**joke-client.html**
 
 ![screenshot](_images/hw-10.png)
 
