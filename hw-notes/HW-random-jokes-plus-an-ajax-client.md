@@ -116,7 +116,8 @@
 
 ![screenshot](_images/hw-11.png)
 
-- test this by clicking the **Show me a Joke!** button - you should see all the log to the consoles, and indications that the random joke has loaded 
+- Test this by clicking the **Show me a Joke!** button - you should see all the log to the consoles, and indications that the random joke has loaded
+- PS - the `obj` object contains your joke data
 
 <hr>
 
@@ -124,8 +125,10 @@
 
 <hr>
 
-- Now write JS so that the joke shows up in the `#jokeContainer` div (see below)
-- Also get the **Show me 5 Jokes!** button working (see below)
+- Now write JS so that the joke shows up in the `#jokeContainer` div (see below):
+  - you should jknow how to do this already, as it has been covered in both of your previous 2 web courses
+  - you can also look at the "Accept Headers" DONE demo (see myCourses) - but be advised that there is a lot of code in that example that is UNNECESSARY for this HW. There will be a grade deduction if you include such code in your finished HW
+- Once you have the first button working,  get the **Show me 5 Jokes!** button working too (see below)
 
 <hr>
 
@@ -137,4 +140,10 @@
 <hr>
 
 ## IV. Submission
+- Push your updates to GitHub, and publish them to Heroku
+- Make sure the code passes `npm test` AND CircleCI, we will be looking for the green checkmark on your GitHub repository
+- ZIP and POST the repository to GitHub
+- In the comments field of the dropbox:
+  - Put the link to your GitHub repository
+  - Put the link to the working app on Heroku
 
