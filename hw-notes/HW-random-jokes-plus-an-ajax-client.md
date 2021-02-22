@@ -134,9 +134,6 @@
 
 ![screenshot](_images/hw-13.png)
 
-
-![screenshot](_images/hw-14.png)
-
 <hr>
 
 ## IV. Submission
