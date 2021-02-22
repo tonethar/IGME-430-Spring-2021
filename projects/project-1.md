@@ -98,12 +98,14 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - *Separation of Concern* - There should be a clear separation of purpose and classes. Do not put everything in the same file/module
     - **D.R.Y.** - *Don't Repeat Yourself*. Repeated blocks of nearly identical code must be factored out and placed in a separate function
     - any borrowed code or fragments (e.g. from Stack Overflow) must be credited in both your code comments, and in the final documentation of the project
+    - all HTML & CSS pages must pass validation (warnings are OK)
+    - all other media (images etc) must be *optimized* - meaning they have been re-sized to appropriate dimensions, and saved via 
 
 6) Must be deployed to Heroku. The "Wait for CI to pass before deploy" checkbox must be checked in the dashboard
 
 <hr>
 
-## IV. Functional Requirements
+## V. User Experience Requirements
 1) Must provide an engaging and rich user experience
 
 2) Users must be able to add data to the API (with limitation). For example, maybe your app is a collection of images and keywords. You might then have a way for the user to add an image url and keywords to your API
@@ -128,7 +130,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 <hr>
 
-## V. Programming Requirements
+## VI. Programming Requirements
 
 1) Server API must support the following status codes: 200, 201, 204, 400, 404, 500 (only necessary if applicable)
 
@@ -142,7 +144,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 4) Client must submit a body in a POST request to add or update data
 
-### V-A. Web Services (3)
+### VI-A. Web Services (3)
 
 1) Custom Web API (Read-only)
       
@@ -228,9 +230,9 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 <hr>
 
-## VI. Deliverables
+## VII. Deliverables
 
-### VI-A. Prototype
+### VII-A. Prototype
 
 - Should at least be the core experience with some of the API working. The full API might not be ready and the app may not be finished, but the main part of the experience should be testable
 - Submission:
@@ -239,7 +241,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
   - Final code must be zipped and submitted to the dropbox (without **node_modules**)
   - The following links in the submission comments
 
-### VI-A. Final Version
+### VII-A. Final Version
 
 - Final code must be pushed to Git repo
 - Final code must be zipped and submitted to the dropbox (without node_modules)
@@ -249,7 +251,7 @@ Link to CircleCI Build.
 Link to cloud deployed app (Heroku).
 Final:
 
-### VI-B. Final Version Documentation
+### VII-B. Final Version Documentation
 README.md
 
 - Hand in documentation explaining the following:
@@ -268,12 +270,12 @@ README.md
 
 <hr>
 
-## VII. Rubric
+## VIII. Rubric
 
 - Do all of the above and get an 89%
 - App mut go "above and beyond" in order to get an A (be sure to document this)
 
-### VII-A. Deductions
+### VIII-A. Deductions
 
 1) In your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (up to -30% if not fully implemented)
 
