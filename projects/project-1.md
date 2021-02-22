@@ -15,7 +15,7 @@
 
 ## II. Functional Requirements (with an example)
 - Here is a (limited functionality) example of a web site/service - **jokester.bomb** - of what a possible project would look like - landing page - https://p1-430-stub-2105.herokuapp.com/
-- Your site will likely have a different structure (because ideally you are building a "Random Joke" clone) - if you have any questions about your app meeting requirements, ask in class or send me an email ASAP
+- Your site will likely have a different structure (because ideally you are not building a "Random Joke" clone) - if you have any questions about your app meeting requirements, ask in class or send me an email ASAP
   
   **1) Users can view a random joke via an Ajax call:**
   
