@@ -58,7 +58,7 @@
       
       const init = () => {
          // An Event *Handler*
-        // document.querySelector("#btnJoke").onclick = showJoke; // same as above, less typing, use which ever version you prefer
+        // document.querySelector("#btnJoke").onclick = showJoke; // same as below, less typing, use which ever version you prefer
       
         // An Event *Listener*
         document.querySelector("#btnJoke").addEventListener("click", showJoke);
