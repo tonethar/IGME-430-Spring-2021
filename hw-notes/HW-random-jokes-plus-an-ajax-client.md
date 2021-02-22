@@ -99,6 +99,8 @@
 </html>
 ```
 
+<hr>
+
 ## III. Get *joke-client.html* working
 
 - Here's some `XHR` start code for you - add this to `downloadJoke()`
@@ -115,6 +117,8 @@
 
 
 ![screenshot](_images/hw-13.png)
+
+<hr>
 
 ## IV. Submission
 
