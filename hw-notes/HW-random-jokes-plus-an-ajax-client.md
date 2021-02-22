@@ -99,7 +99,7 @@
 </html>
 ```
 
-## III. Get *joke-clinet.html* working
+## III. Get *joke-client.html* working
 
 - Here's some `XHR` start code for you - add this to `downloadJoke()`
 
