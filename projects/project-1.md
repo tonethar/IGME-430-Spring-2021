@@ -13,22 +13,30 @@
 
 <hr>
 
-### II. Functional Requirements (with an example)
+## II. Functional Requirements (with an example)
 - Here is a (limited functionality) example of a web site/service - **jokester.bomb** - of what a possible project would look like:
 - Landing page - https://p1-430-stub-2105.herokuapp.com/
+- Your site will likely have a different structure (because you should not be building a "Random Joke" clone) - if you have any questions about your app meeting requirements, ask in class or send me an email ASAP
   
-  1) Users can view a random joke via an Ajax call:
+  **1) Users can view a random joke via an Ajax call:**
   
     - use [`XHR`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) or [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)     - we already covered this in 230/235/330, in the "Accept Headers" demo, and in [Random Jokes Plus an Ajax Client](hw-notes/HW-random-jokes-plus-an-ajax-client.md)
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/app
-    - in your project, users must be able to access at least 2 endpoints of your API, with a variety of controls depending on hyo
+    - in your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (this could be the 1st of the 2 required endpoint "viewers")
+
+
+  **2) Administrators can view user submitted jokes (this is just an AJAX call)**
+    - note: we don't need to worry about an admin being "logged in" for this project
+    - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/admin
+    - in your project, you MUST have an admin page where all of the site data can be viewed
+    - in your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (this could be the 2nd of the 2 required endpoint "viewers")
   
-  2) Users can submit a joke via a `<form>` and an Ajax POST request
+  **3) Users can submit a joke via a `<form>` and an Ajax POST request**
 
     - see the "Body Parse" examples and video
+    - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/suggest
 
-
- 3) Administrators can view user submitted jokes (this is just an AJAX call)
+ 
   - Required endpoints (MINIMUM) - here are examples:
     - TWO data endpoints:
       - https://p1-430-stub-2105.herokuapp.com/random-joke
@@ -261,6 +269,13 @@ The following links in the submission comments
 Link to the Git repo (add me if necessary).
 Link to CircleCI Build.
 Link to cloud deployed app (Heroku).
+
+
+## VIII. Rubric
+
+1) In your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (up to -30% if not fully implemented)
+
+2) Missing Admin page (-10%)
 
 
 
