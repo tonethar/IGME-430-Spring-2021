@@ -13,7 +13,29 @@
 
 <hr>
 
-## II. Functional Requirements (with an example)
+## II. Ideas
+
+Here are some loose ideas that would warrant a server side API. Be creative! Make a good portfolio piece!
+
+- https://www.pokedex.org/ (loads page with overall list, but then calls to an individual one when clicked. Your API should work directly from the URL returning JSON.)
+- https://naramsim.github.io/Colosseum/ (similar to above, with individual calls to certain objects. Note: this app uses a hash reference in the URL instead of query parameters, which does not quite fit the requirements. The overall app itself is similar to the idea of the assignment though.)
+- https://sii.im/playground/notes/ (Note system where users can create a note and then use a query parameter through some UI ability or unique url to recall that particular note. Then the user could edit their note again.)
+- https://trello.com/ (similar to above, a shared task board people could add tasks to or update.)
+- https://asana.com (Similar to Trello. A task board people can add tasks to or update.)
+- https://www.meetup.com (App for creating meetups based on a topic, area and time.)
+- https://www.pinterest.com/ (board or boards people could add images, text, keywords to and add more later. To avoid uploading images, the user could submit a URL instead).
+- https://deanhume.github.io/beer/ (App indexing some topic, such as board games, heartstone cards, music, etc and letting the user click on individuals for more info, go through categories or even search).
+- https://hellosunapp.com (App that shows positions of the sun and moon in different times zones throughout the world.)
+- https://getkana.com/app/ (Another tutorial type app that users could add to).
+- http://flateric.columba.uberspace.de/canvas/ (Visualization of user collected messages, links, etc).
+- http://idiots.win/ (quiz type app users could add questions to or create their own unique quiz).
+- https://www.google.com/forms/about (A survey & survey creation system.)
+- https://www.instapaper.com (A link and article manager. For users to store links for later.)
+- https://www.getpennies.com (A personal financial tracker. Users can add their own data. DO NOT COLLECT REAL USER FINANICAL DATA IN THIS COURSE.)
+
+<hr>
+
+## III. Functional Requirements (with an example)
 - Here is a (limited functionality) example of a web site/service - **jokester.bomb** - of what a possible project would look like - landing page - https://p1-430-stub-2105.herokuapp.com/
 - Your site will likely have a different structure (because ideally you are not building a "Random Joke" clone) - if you have any questions about your app meeting requirements, ask in class or send me an email ASAP
   
@@ -58,29 +80,7 @@
 
 <hr>
 
-## II. Ideas
-
-Here are some loose ideas that would warrant a server side API. Be creative! Make a good portfolio piece!
-
-- https://www.pokedex.org/ (loads page with overall list, but then calls to an individual one when clicked. Your API should work directly from the URL returning JSON.)
-- https://naramsim.github.io/Colosseum/ (similar to above, with individual calls to certain objects. Note: this app uses a hash reference in the URL instead of query parameters, which does not quite fit the requirements. The overall app itself is similar to the idea of the assignment though.)
-- https://sii.im/playground/notes/ (Note system where users can create a note and then use a query parameter through some UI ability or unique url to recall that particular note. Then the user could edit their note again.)
-- https://trello.com/ (similar to above, a shared task board people could add tasks to or update.)
-- https://asana.com (Similar to Trello. A task board people can add tasks to or update.)
-- https://www.meetup.com (App for creating meetups based on a topic, area and time.)
-- https://www.pinterest.com/ (board or boards people could add images, text, keywords to and add more later. To avoid uploading images, the user could submit a URL instead).
-- https://deanhume.github.io/beer/ (App indexing some topic, such as board games, heartstone cards, music, etc and letting the user click on individuals for more info, go through categories or even search).
-- https://hellosunapp.com (App that shows positions of the sun and moon in different times zones throughout the world.)
-- https://getkana.com/app/ (Another tutorial type app that users could add to).
-- http://flateric.columba.uberspace.de/canvas/ (Visualization of user collected messages, links, etc).
-- http://idiots.win/ (quiz type app users could add questions to or create their own unique quiz).
-- https://www.google.com/forms/about (A survey & survey creation system.)
-- https://www.instapaper.com (A link and article manager. For users to store links for later.)
-- https://www.getpennies.com (A personal financial tracker. Users can add their own data. DO NOT COLLECT REAL USER FINANICAL DATA IN THIS COURSE.)
-
-<hr>
-
-## III. Development Requirements
+## IV. Development Requirements
 
 1) Must use Git for version control in a repo I can access. You may make the repo *private* if you wish, just be sure to send me an invite to collaborate ASAP
 
