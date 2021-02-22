@@ -1,7 +1,7 @@
 # Checkoff - Random Jokes Plus an Ajax Client
 
 
-## I.Overview
+## I. Overview
 
 - We are going to add a simple `XHR` driven client page to your completed [HW - Random Jokes Plus - Phase 4](https://github.com/tonethar/IGME-430-Spring-2021/blob/main/hw-notes/HW-random-jokes-plus.md#phase4)
 - You have worked with XHR and web services in both IGME-230/235 & IGME-330 - so this should be really easy for you
