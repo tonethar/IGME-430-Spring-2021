@@ -42,11 +42,12 @@
         background-color:pink;
         color: yellow;
         font-size:2em;
-        padding:3em;
+        padding:1em;
       }
       
       h1{
         font-family: fantasy;
+        filter: drop-shadow(5px 5px 2px #4444dd);
       }
       
       section{
@@ -81,12 +82,15 @@
     
     <section>
       <h2>Just have time for one joke?</h2>
-      <button id="btnJoke">Show me a Joke!</button>
+      <p><button id="btnJoke">Show me a Joke!</button></p>
+      <div id="jokeContainer">
+
+      </div>
     </section>
     
     <section>
       <h2>How about 5 jokes?</h2>
-      <button>Show me 5 Jokes!</button>
+      <p><button>Show me 5 Jokes!</button></p>
     </section>
     
   </body>
