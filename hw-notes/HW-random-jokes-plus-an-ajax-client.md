@@ -11,7 +11,7 @@
 
 ## II. Serving *joke-client.html*
 
-- Save **joke-client.html** below into your the **client** folder of your **random-jokes-plus** (or whatever you called it) folder of your project
+- Save **joke-client.html** (see below fro start file) into the **client** folder of your **random-jokes-plus** (or whatever you called it) folder
 - In your **src/htmlResponses.js** file:
   - use `fs` to load the **joke-client.html** file in 
   - create a response handling function to "serve" the file
@@ -19,10 +19,17 @@
 - In **index.js** - add an endpoint for **joke-client.html**
 - Lastly, add a hypertext link to **client/error.html** that leads to **joke-client.html**
 - Test your **joke-client.html** endpoint both in the location bar of the browser, and by clicking the hypertext link you just created
+- You should see the following:
 
 <hr>
 
-## III. Start File
+![screenshot](_images/hw-9.png)
+
+![screenshot](_images/hw-10.png)
+
+<hr>
+
+### II-A. Start File
 
 
 **joke-client.html**
@@ -50,7 +57,7 @@
       }
     </style>
     <script>
-      const showJoke = (e) => {
+      const downloadJoke = (e) => {
         // remember that an `Event` object gets passed along every time that an event handler or listener calls a function
         // the `target` property of that event points at the element that sent the event, in this case a button
         console.log(`An element of id=${e.target.id} was clicked!`);
@@ -58,10 +65,10 @@
       
       const init = () => {
          // An Event *Handler*
-        // document.querySelector("#btnJoke").onclick = showJoke; // same as below, less typing, use which ever version you prefer
+        // document.querySelector("#btnJoke").onclick = downloadJoke; // same as below, less typing, use which ever version you prefer
       
         // An Event *Listener*
-        document.querySelector("#btnJoke").addEventListener("click", showJoke);
+        document.querySelector("#btnJoke").addEventListener("click", downloadJoke);
       
         // **Actually, event handlers and listeners are NOT exactly the same in all use cases - what ARE the differences?**
       }
@@ -91,4 +98,16 @@
   </body>
 </html>
 ```
+
+## III. Get *joke-clinet.html* working
+
+- Here's some `XHR` start code for you - add this to `downloadJoke()`
+
+```js
+
+```
+
+- test this by clicking the **Show me a Joke!** button - you should see a log to the console that the data has loaded
+  - now write JS so that the joke shows up in the `#jokeContainer` div (see below)
+- also get the **Show me 5 Jokes!** button working (see below)
 
