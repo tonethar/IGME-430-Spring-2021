@@ -22,19 +22,20 @@
   
     - use [`XHR`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) or [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)     - we already covered this in 230/235/330, in the "Accept Headers" demo, and in [Random Jokes Plus an Ajax Client](hw-notes/HW-random-jokes-plus-an-ajax-client.md)
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/app
-    - in your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (this could be the 1st of the 2 required endpoint "viewers")
+    - *in your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (this could be the 1st of the 2 required endpoint "viewers")*
 
 
   **2) Administrators can view user submitted jokes (this is just an AJAX call)**
     - note: we don't need to worry about an admin being "logged in" for this project
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/admin
-    - in your project, you MUST have an admin page where all of the site data can be viewed
-    - in your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (this could be the 2nd of the 2 required endpoint "viewers")
+    - *in your project, you MUST have an admin page where all of the site data (user submitted and otherwise) can be viewed*
+    - *in your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (this could be the 2nd of the 2 required endpoint "viewers")*
   
   **3) Users can submit a joke via a `<form>` and an Ajax POST request**
 
     - see the "Body Parse" examples and video
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/suggest
+    - *in your project, this could functionality could be performed by a user, and admin, or both*
 
  
   - Required endpoints (MINIMUM) - here are examples:
@@ -223,15 +224,9 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 <hr>
 
-## VI. Rubric
+## VI. Deliverables
 
-- App should go above and beyond in order to get an A.
-
-<hr>
-
-## VII. Deliverables
-
-### VII-A. Prototype
+### VI-A. Prototype
 
 - Should at least be the core experience with some of the API working. The full API might not be ready and the app may not be finished, but the main part of the experience should be testable
 - Submission:
@@ -240,7 +235,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
   - Final code must be zipped and submitted to the dropbox (without **node_modules**)
   - The following links in the submission comments
 
-### VII-A. Final Version
+### VI-A. Final Version
 
 - Final code must be pushed to Git repo
 - Final code must be zipped and submitted to the dropbox (without node_modules)
@@ -250,32 +245,42 @@ Link to CircleCI Build.
 Link to cloud deployed app (Heroku).
 Final:
 
-Documentation:
+### VI-B. Final Version Documentation
 README.md
 
-Hand in documentation explaining the following:
+- Hand in documentation explaining the following:
+  - What your site does and its purpose.
+  - What part of your app does the API handle?
+  - What went right and what went wrong?
+  - If you were to continue, what would you do to improve your app?
+  - How did you go above and beyond?
+- Code:
+  - Must be accessible online through Heroku (unless special arrangements have been made).
+  - Final code should be submitted to Git repo.
+  - Final code should be zipped and submitted to the dropbox (without node_modules).
+  - The following links in the submission comments:
+    - Link to the Git repo (add me if necessary).
+    - Link to cloud deployed app (Heroku).
 
-What your site does and its purpose.
-What part of your app does the API handle?
-What went right and what went wrong?
-If you were to continue, what would you do to improve your app?
-How did you go above and beyond?
-Code:
+<hr>
 
-Must be accessible online through Heroku (unless special arrangements have been made).
-Final code should be submitted to Git repo.
-Final code should be zipped and submitted to the dropbox (without node_modules).
-The following links in the submission comments
-Link to the Git repo (add me if necessary).
-Link to CircleCI Build.
-Link to cloud deployed app (Heroku).
+## VII. Rubric
 
+- Do all of the above and get an 89%
+- App mut go "above and beyond" in order to get an A (be sure to document this)
 
-## VIII. Rubric
+### VII-A. Deductions
 
 1) In your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (up to -30% if not fully implemented)
 
 2) Missing Admin page (-10%)
+
+3) Missing page with `<form>` and ability to POST data to server  (-25%)
+
+
+XX) Does not pass `npm test` and CircleCI  (-10%)
+
+XX) 
 
 
 
