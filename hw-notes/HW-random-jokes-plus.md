@@ -266,7 +266,7 @@ const getBinarySize = string => Buffer.byteLength(string, 'utf8');
   - `<link>` to this file from **error.html**
   - load it using `fs`, and write a response handler for it
   - add an endpoint for **default-styles.css**:
-    - don't forget to send the corrent content type - which is `text/css`!
+    - don't forget to send the correct content type - which is `text/css`!
     - don't forget to send the proper status code - which is `200`!
 
 <hr><hr>
