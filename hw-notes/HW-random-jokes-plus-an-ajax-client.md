@@ -53,7 +53,8 @@
     <script>
       const showJoke = (e) => {
         // remember that an `Event` object gets passed along every time that an event handler or listener calls a function
-        // the `target` property of that event 
+        // the `target` property of that event points at the element that sent the event, in this case a button
+        console.log(`An element of id=${e.target.id} was clicked!`);
       }
       
       const init = () => {
@@ -63,9 +64,7 @@
         // An Event *Listener*
         document.querySelector("#btnJoke").addEventListener("click", showJoke);
       
-       
-      
-        // Actually, event handlers and listeners are NOT exactly the same in all use cases - what ARE the differences?
+        // **Actually, event handlers and listeners are NOT exactly the same in all use cases - what ARE the differences?**
       }
       
       window.onload = init;
