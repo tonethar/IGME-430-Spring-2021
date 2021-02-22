@@ -109,20 +109,30 @@
 
 ## III. Get *joke-client.html* working
 
-- Here's some `XHR` start code for you - add this to `downloadJoke()`
+- Here's some `XHR` start code for you:
+  - create the `handleResponse()` function
+  - add the following code to `downloadJoke()`
+  - be sure to type ALL of the comments and ALL of the logs into your code - I will be checking - 2 points will be deducted if this is not done
 
 ![screenshot](_images/hw-11.png)
 
-- test this by clicking the **Show me a Joke!** button - you should see a log to the console that the data has loaded
-  - now write JS so that the joke shows up in the `#jokeContainer` div (see below)
-- also get the **Show me 5 Jokes!** button working (see below)
+- test this by clicking the **Show me a Joke!** button - you should see all the log to the consoles, and indications that the random joke has loaded 
 
 <hr>
 
 ![screenshot](_images/hw-12.png)
 
+<hr>
+
+- Now write JS so that the joke shows up in the `#jokeContainer` div (see below)
+- Also get the **Show me 5 Jokes!** button working (see below)
+
+<hr>
 
 ![screenshot](_images/hw-13.png)
+
+
+![screenshot](_images/hw-14.png)
 
 <hr>
 
