@@ -45,6 +45,7 @@
 - [`400`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400)
 - `401`
 - `403`
+- `404`
 - `422`
 - `429`
 - `500`
