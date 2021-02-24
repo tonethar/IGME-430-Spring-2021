@@ -125,6 +125,11 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 4) Must use CircleCI for testing - the "test" script will be run by CircleCI, and a green checkmark will appear on the GitHub repo
 
+5) Must have this "chromeinspect" script for debugging:
+
+  - `"chromeinspect": "echo \"Now in DEBUG mode. Head to 'chrome://inspect'\";node --inspect ./src/index.js"`
+  - I will test this by typing `npm run chromeinspect`
+
 5) Other code standards:
 
     - code must be well-commented. Every function/method must have a comment describing its purpose
