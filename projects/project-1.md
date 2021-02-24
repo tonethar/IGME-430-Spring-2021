@@ -94,7 +94,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
      - In your documentation, tell us where & when in the app these status codes are sent, example:
         - "`200` is sent for all successful HTML requests, and when the `/get-joke` endpoint is called"
         - "`201` is sent when the user creates a new joke with the POST `/add-joke` endpoint"
-        - "`204` is sent when the admin edits a joke"
+        - "`204` is sent when the admin edits an existing joke"
         - "`400` is sent when the user calls `/add-joke` with out all of the required parameters"
         - "`404` is sent when the server can't find a resource at the requested endpoint"
  
@@ -128,24 +128,24 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 ## V. User Experience Requirements
 1) Must provide an engaging and rich user experience
 
-2) Users must be able to add data to the API (with limitation). For example, maybe your app is a collection of images and keywords. You might then have a way for the user to add an image url and keywords to your API
+2) Users must be able to add data to the API via `POST` requests (with limitation). For example, maybe your app is a collection of images and keywords. You might then have a way for the user to add an image url and keywords to your API
 
 3) Users will be able to view API data that others have posted. For example, a list of images and keywords 
 
-4) The application must be performant and run as expected. There must not be any hiccups or performance issues when the server is under a light load. Common user errors must be handled gracefully on both the client-side and server-side:
+4) The application must be performant and run as expected. There must not be any hiccups or performance issues when the server is under a light load. Common user errors must be handled gracefully on BOTH the client-side and server-side:
   
     - example: the user forgets to type in their last name (a required form field)
       - the *client* (the HTML page, utilizing JavaScript) will not allow the data to be submitted to the server
-      - the *server* will return an error message if a value for required field is not iven
+      - the *server* will return an error message and a status code of `400` if a value for required field is not given
+      - we will test the API via the prvided `<form>` AND by using Postman
       
 5) All of these information "calls"  (getting data, posting data, checking for updates, etc) must all be done through Ajax and your web API
  
 6)  It is okay to keep your API data in memory for this project (NB - we will be learning MongoDB for the next project). That does mean user added data will go away after each server reload. (roughly 30 minutes on Heroku)
 
-
 7) Static files (such as HTML, CSS, Client JS, Images, Videos, etc) must be delivered from your server
 
-8) Direct calls to GET requests must work correctly. As in: going straight to the Ajax URL in the browser, or with Postman
+8) Direct calls to GET requests must work correctly. As in: going straight to the Ajax URL in the browser, or with Postman. `POST` and `HEAD` requests will be tested via Postman
 
 
 <hr>
@@ -163,89 +163,6 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 3) At least one GET request type will support query parameters (both in AJAX and directly). These could be used to filter results, sort results or something else.
 
 4) Client must submit a body in a POST request to add or update data
-
-### VI-A. Web Services (3)
-
-1) Custom Web API (Read-only)
-      
-    - uses HTTP `GET` method
-    - returns data in JSON format by default:
-      - returns data in XML format if `accepts` request header has a value of "text/xml"
-    
-    - takes at least 2 parameters
-    - example: 
-      - *"Get Jokes" API with `limit` and `minrating` parameters*
-      - endpoint: `/get-jokes?limit=5&minrating=3`
-      - data stored in hard-coded array of object literals - `allJokes`
-      
-    - #2 - User submitted data API (Write):
-      - uses HTTP `POST` method
-      - CORS is turned OFF (the default)
-      - takes at least 2 body parameters
-      - response:
-          - sends back proper HTTP status codes ex. `201 Created`
-          - sends back created resource ex. `{"q": "I invented a new word!", "a": "Plagiarism!"}`
-      - example: 
-        - *"Suggest Joke" API with `q` and `a` and `username` parameters*
-        - endpoint: `POST /suggest-joke?q=setup&a=punchline&username=abc1234`
-        - adds the submitted data to a `userSuggestions` array - the data is in object literal format
-    - #3 - User submitted data API (Read):
-      - uses HTTP `GET` method
-      - takes at least 1 parameter
-      - example:
-        - returns contents of `userSuggestions` array
-        - endpoint: `/get-suggestions?sort=latest`
-    - ALL Web Services:
-      - send back data in either JSON or XML depending on the value of the `accept` HTTP request header of a client
-      - send back correct HTTP status code (`200`,`201`,`404` etc)
-      - send back correct `content-type` response header
-      - for HTTP `HEAD` requests from a client, the service will NOT send the response content, and instead send only the headers (and status code):
-        - adding a `content-size` response header to such responses would be a nice touch, but is not required - https://stackoverflow.com/questions/2219526/how-many-bytes-in-a-javascript-string/29955838
-  - <ins>HTML Pages (5):</ins>
-    - #1 - Home Page:
-      - "landing page" for API - should look nice
-      - describes API
-      - has documentation of API functionality
-      - simple demonstration of API usage
-      - example: 
-        - **home.html**
-        - gives examples of `/get-jokes` endpoints, with and without parameters
-        - *shows a random joke from the "Get Jokes" API, the `q` only, every time the page is reloaded*
-    - #2 - Input Page
-      - HTML `<form>` for users to input data and send it to the **JSON "write" API** above
-      - example: 
-        - **suggestion.html**
-        - *users can suggest data for the API by submitting a setup and punchline for a joke*
-    - #3 - Admin Page
-      - login functionality not required
-      - shows the entire contents of the **User submitted data API (Read)** above
-      - example:
-       - **admin.html**
-       - calls and displays `/get-suggestions?sort=latest`
-    - #4 - App Page
-      - demonstrates API (Web Service #1) in action
-      - has controls to show all features of API
-      - example:
-        - **app.html**
-        - calls `/get-jokes?limit=5&minrating=3`
-    - #5 - Error Page
-      - returned for no-existent endpoints
-      - be sure to send the `404` HTTP status code
-      - example:
-        - **error.html**
-  - <ins>Other Pages (3+):</ins>
-    - at least one client-side JS page
-    - at least one client-side CSS page
-    - at least one client-side image
-  - <ins>Server Code Style</ins>
-    - multiple CommonJS code modules
-    - all pages/files "served" by your Node.js server
-    - all HTML/CSS/JS are in external files (i.e. loaded by the `fs` module, NOT hard-coded in code via `const`)
-  - <ins>Client Code Style</ins>
-    - VanillaJS
-    - ES6 Modules
-    - Global Navgation System (HTML)
-    - External CSS file(s)
 
 
 <hr>
