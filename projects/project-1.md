@@ -41,14 +41,14 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 - Here is a (limited functionality) example of a web site/service - **jokester.bomb** - of what a possible project would look like - landing page - https://p1-430-stub-2105.herokuapp.com/
 - Your site will likely have a different structure (because ideally you are not building a "Random Joke" clone) - if you have any questions about your app meeting requirements, ask in class or send me an email ASAP
   
-  **1) Users can view a random joke via an Ajax call:**
+  **1) Users can view a random joke via a `GET` Ajax call:**
   
     - use [`XHR`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) or [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)     - we already covered this in 230/235/330, in the "Accept Headers" demo, and in [Random Jokes Plus an Ajax Client](hw-notes/HW-random-jokes-plus-an-ajax-client.md)
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/app
     - *in your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (this could be the 1st of the 2 required endpoint "viewers")*
 
 
-  **2) Administrators can view user submitted jokes (this is just an AJAX call):**
+  **2) Administrators can view user submitted jokes (this is just a `GET` AJAX call):**
   
     - note: we don't need to worry about an admin being "logged in" for this project
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/admin
@@ -56,7 +56,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - *in your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (this could be the 2nd of the 2 required endpoint "viewers")*
   
   
-  **3) Users can submit a joke via a `<form>` and an Ajax POST request:**
+  **3) Users can submit a joke via a `<form>` and an Ajax `POST` request:**
   
     - see the "Body Parse" examples and video
     - see the "POST-demo-start" example
