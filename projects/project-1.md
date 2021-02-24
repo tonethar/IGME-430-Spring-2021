@@ -201,7 +201,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
   - The following links in the submission comments:
     - Link to the Git repo (add me if necessary).
     - Link to cloud deployed app (Heroku).
-- a 1 to 2-minute narrated "demo reel" of the completed project will be required - post it to YouTube & put the URL in the comments field. If you decide to upload a video file instead, it must be in the MP4 format
+- A 1 to 2-minute narrated "demo reel" of the completed project will be required - post it to YouTube & put the URL in the comments field. If you decide to upload a video file instead, it must be in the MP4 format
   - The easiest way to record a demo reel is to use Zoom - here is a 2-minute video on how to do this: https://www.youtube.com/watch?v=D617OXKhSYw
     - don't forget to "Share Screen" so that I can see you interacting with the project
     - please don't stress out over this requirement - I am the only one who will see the video - I won't be sharing or posting these
