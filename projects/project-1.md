@@ -138,7 +138,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 1) Must use Git for version control in a repo I can access. The repo will be named **abc1234-430-project-1** (where *abc1234* is your actual RIT web account name). You may make the repo *private* if you wish, just be sure to send me an invite to collaborate ASAP
 
-2) Must use **HW - Random Jokes Plus** as a starting point for the project. You may NOT use any of the other demos in this way (for example, the "accept headers" or "HEAD requests" or "Body Parsing" demos that are zipped in myCourses)
+2) Must use **HW - Random Jokes Plus** as a starting point for the project. You may NOT use any of the other demos in this way (for example, the "accept headers" or "HEAD requests" or "Body Parsing" demos that are zipped in myCourses). You may also NOT utilize any "routing" libraries such as [express](https://www.npmjs.com/package/express) (FYI - we will be covering express soon, and will use it on Project 2)
 
 3) Must have `nodemon` installed. I will test this by typing `npm run nodemon`
 
@@ -227,4 +227,6 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 XX) Not meeting the [Development Requirements](#development-requirements) above  (-10% each)
 
-XX) Code must be based on the "HW - Random Jokes Plus" assignment - i.e. do not use any "DONE" versions of demos from the other section or previous semesters as a starting point (-50%)
+XX) Used express or similar framework (-100%)
+
+XX) Code must be based on the "HW - Random Jokes Plus" assignment - i.e. do not use any "DONE" versions of demos from the other section or previous semesters as a starting point (-100%)
