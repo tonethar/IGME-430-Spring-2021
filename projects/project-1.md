@@ -61,7 +61,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - see the "Body Parse" examples and video
     - see the "POST-demo-start" example
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/suggest
-    - *in your project, use the "hijacked `<form>`* version
+    - *in your project, use the "hijacked `<form>`" version*
     - *in your project, this functionality could be performed by a user, an admin, or both*
     - *a user, probably an admin, will also have the ability to update (edit) information on the server*
     
