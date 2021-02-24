@@ -59,15 +59,17 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
   **3) Users can submit a joke via a `<form>` and an Ajax POST request:**
   
     - see the "Body Parse" examples and video
+    - see the "POST-demo-start" example
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/suggest
-    - the appropriate HTTP status codes will be returned when content is either created or updated on the server
+    - the appropriate HTTP status codes will be returned when content is either created or updated on the server, or if insufficient parameters are included in the request
     - *in your project, this functionality could be performed by a user, an admin, or both*
+    - *a user, probably an admin, will also have the ability to update (edit) information on the server*
    
 
  
   **4) Required endpoints (MINIMUM) - your project needs ALL of these - here are examples:**
   
-    - TWO data endpoints:
+    - TWO data endpoints, one of which much take at least 1 parameter in the query string:
       - https://p1-430-stub-2105.herokuapp.com/random-joke
       - https://p1-430-stub-2105.herokuapp.com/random-jokes?limit=10
       - BOTH of these endpoints MUST:
@@ -85,6 +87,14 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - ONE image:
       - https://p1-430-stub-2105.herokuapp.com/joke-image.jpg
 
+ **5) Required status codes:**
+   - You app is required to send the following status codes at the appropriate time:
+     - `200`, `201`, `204`, `400`, `404`
+   - In your documentation, tell us where & when in the app these are sent, example:
+      - "200 is sent for all successful HTML requests, and when the `/get-joke` endpoint is called"
+      - "201 is sent when the user creates a new joke with the `/add-joke` endpoint"
+      - "204 is sent when the admin edits a joke" and so on
+ 
 <a id="development-requirements" />
 
 <hr>
