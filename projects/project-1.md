@@ -46,6 +46,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - use [`XHR`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) or [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)     - we already covered this in 230/235/330, in the "Accept Headers" demo, and in [Random Jokes Plus an Ajax Client](hw-notes/HW-random-jokes-plus-an-ajax-client.md)
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/app
     - *in your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (this could be the 1st of the 2 required endpoint "viewers")*
+    - *in your project, for `HEAD` requests, both endpoints will return the headers (only) including the `Content-Length` header*
 
 
   **2) Administrators can view user submitted jokes (this is just an AJAX call):**
@@ -87,8 +88,8 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - ONE image:
       - https://p1-430-stub-2105.herokuapp.com/joke-image.jpg
 
- **5) Required status codes:**
-   - You app is required to send the following status codes at the appropriate time:
+ **5) Required HTTP status codes:**
+   - Your app is required to send the following HTTP status codes at the appropriate time:
      - `200`, `201`, `204`, `400`, `404`
    - In your documentation, tell us where & when in the app these status codes are sent, example:
       - "`200` is sent for all successful HTML requests, and when the `/get-joke` endpoint is called"
@@ -134,7 +135,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 4) The application must be performant and run as expected. There must not be any hiccups or performance issues when the server is under a light load. Common user errors must be handled gracefully on both the client-side and server-side:
   
     - example: the user forgets to type in their last name (a required form field)
-      - the *client* (the HTMK page, utilizing JavaScript) will not allow the data to be submitted to the server
+      - the *client* (the HTML page, utilizing JavaScript) will not allow the data to be submitted to the server
       - the *server* will return an error message if a value for required field is not iven
       
 5) All of these information "calls"  (getting data, posting data, checking for updates, etc) must all be done through Ajax and your web API
