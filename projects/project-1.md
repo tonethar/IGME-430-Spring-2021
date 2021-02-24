@@ -1,4 +1,4 @@
-# Project 1 - API Powered App - DRAFT
+# Project 1 - API Powered App
 
 ##  I. Overview
 
@@ -39,7 +39,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 ## III. Functional Requirements (with an example)
 - Here is a (limited functionality) example of a web site/service - **jokester.bomb** - of what a possible project would look like - here is the landing page --> https://p1-430-stub-2105.herokuapp.com/
-- Your site will likely have a different structure (because ideally you are not building a "Random Joke" clone) - if you have any questions about your app meeting requirements, ask in class or send me an email ASAP
+- Your site will likely have a different structure (because ideally you are not building a "Random Joke" clone) - if you have any questions about your app meeting these requirements, ask in class or send me an email ASAP
   
   **1) Users can view a random joke via a `GET` Ajax call:**
   
@@ -61,8 +61,10 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - see the "Body Parse" examples and video
     - see the "POST-demo-start" example
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/suggest
+    - *in your project, use the "hijacked `<form>`* version
     - *in your project, this functionality could be performed by a user, an admin, or both*
     - *a user, probably an admin, will also have the ability to update (edit) information on the server*
+    
    
 
  
@@ -188,7 +190,6 @@ Link to cloud deployed app (Heroku).
 Final:
 
 ### VI-C. Final Version Documentation
-README.md
 
 - Hand in documentation explaining the following:
   - What your site does and its purpose.
@@ -203,10 +204,15 @@ README.md
   - The following links in the submission comments:
     - Link to the Git repo (add me if necessary).
     - Link to cloud deployed app (Heroku).
+- a 1 to 2-minute narrated "demo reel" of the completed project will be required - post it to YouTube & put the URL in the comments field. If you decide to upload a video file instead, it must be in the MP4 format
+  - The easiest way to record a demo reel is to use Zoom - here is a 2-minute video on how to do this: https://www.youtube.com/watch?v=D617OXKhSYw
+    - don't forget to "Share Screen" so that I can see you interacting with the project
+    - please don't stress out over this requirement - I am the only one who will see the video - I won't be sharing or posting these
+    - 10% from project 1 grade if the video requirement is not completed
 
 <hr>
 
-## VII. Rubric
+## VII. Rubric (DRAFT)
 
 - Do all of the above and get an 89%
 - App mut go "above and beyond" in order to get an A (be sure to document this)
