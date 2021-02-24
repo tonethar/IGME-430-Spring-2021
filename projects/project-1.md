@@ -107,8 +107,8 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
       - NB - we will be learning MongoDB for the next project
     - Static files (such as HTML, CSS, Client JS, Images, Videos, etc) MUST be delivered from your Nodejs server (For example, NOT hosted on banjo, and delivered via a link)
     - Direct calls to GET requests in the browser location box or via Postman must work correctly
-    - `POST` requests will be tested with yur `<form>` and via Postman
-    - `HEAD` requests will be tested via Postman
+    - We will be testing `POST` requests with your `<form>` and via Postman
+    - We will be testing `HEAD` requests via Postman
    
    
 <a id="development-requirements" />
