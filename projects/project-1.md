@@ -117,7 +117,24 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 <hr>
 
-## IV. Development Requirements
+## IV. User Experience Requirements
+1) Must provide an engaging and rich user experience
+
+2) Users must be able to add data to the API via `POST` requests (with limitation). For example, maybe your app is a collection of images and keywords. You might then have a way for the user to add an image url and keywords to your API
+
+3) Users will be able to view API data that others have posted. For example, a list of images and keywords 
+
+4) The application must be performant and run as expected. There must not be any hiccups or performance issues when the server is under a light load. Common user errors must be handled gracefully on BOTH the client-side and server-side:
+  
+    - example: the user forgets to type in their last name (a required form field)
+      - the *client* (the HTML page, utilizing JavaScript) will not allow the data to be submitted to the server
+      - the *server* will return an error message and a status code of `400` if a value for required field is not given
+      - we will test the API via the provided `<form>` AND by using Postman
+
+
+<hr>
+
+## V. Development Requirements
 
 1) Must use Git for version control in a repo I can access. The repo will be named **abc1234-430-project-1** (where *abc1234* is your actual rit web account name). You may make the repo *private* if you wish, just be sure to send me an invite to collaborate ASAP
 
@@ -148,23 +165,6 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 9) Borrowed code fragments MUST be cited in the code comments AND in the documentation - failing to do so constitutes plagiarism
 
 10) BTW - [stackoverflow.com](https://stackoverflow.com/) is a fantastic resource that many of us use on a weekly or even daily basis. Please consider creating an account so that you can upvote answers, and maybe even comment or answer questions yourself. This also might also help you to remember to cite any related sources that you used
-
-<hr>
-
-## V. User Experience Requirements
-1) Must provide an engaging and rich user experience
-
-2) Users must be able to add data to the API via `POST` requests (with limitation). For example, maybe your app is a collection of images and keywords. You might then have a way for the user to add an image url and keywords to your API
-
-3) Users will be able to view API data that others have posted. For example, a list of images and keywords 
-
-4) The application must be performant and run as expected. There must not be any hiccups or performance issues when the server is under a light load. Common user errors must be handled gracefully on BOTH the client-side and server-side:
-  
-    - example: the user forgets to type in their last name (a required form field)
-      - the *client* (the HTML page, utilizing JavaScript) will not allow the data to be submitted to the server
-      - the *server* will return an error message and a status code of `400` if a value for required field is not given
-      - we will test the API via the provided `<form>` AND by using Postman
-
 
 <hr>
 
