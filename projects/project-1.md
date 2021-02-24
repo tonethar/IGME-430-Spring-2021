@@ -183,11 +183,8 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 - Final code must be pushed to Git repo
 - Final code must be zipped and submitted to the dropbox (without node_modules)
-
-Link to the Git repo (add me if necessary).
-Link to CircleCI Build.
-Link to cloud deployed app (Heroku).
-Final:
+- Link to the Git repo (add me if necessary).
+- Link to cloud deployed app (Heroku).
 
 ### VI-C. Final Version Documentation
 
