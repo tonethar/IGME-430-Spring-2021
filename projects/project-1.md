@@ -136,7 +136,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 ## V. Development Requirements
 
-1) Must use Git for version control in a repo I can access. The repo will be named **abc1234-430-project-1** (where *abc1234* is your actual rit web account name). You may make the repo *private* if you wish, just be sure to send me an invite to collaborate ASAP
+1) Must use Git for version control in a repo I can access. The repo will be named **abc1234-430-project-1** (where *abc1234* is your actual RIT web account name). You may make the repo *private* if you wish, just be sure to send me an invite to collaborate ASAP
 
 2) Must use **HW - Random Jokes Plus** as a starting point for the project. You may NOT use any of the other demos in this way (for example, the "accept headers" or "HEAD requests" or "Body Parsing" demos that are zipped in myCourses)
 
