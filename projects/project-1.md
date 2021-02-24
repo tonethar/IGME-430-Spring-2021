@@ -98,6 +98,19 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
         - "`400` is sent when the user calls `/add-joke` with out all of the required parameters"
         - "`404` is sent when the server can't find a resource at the requested endpoint"
  
+ 
+   **6) Other:**
+   
+    - All of these information "calls"  (getting data, posting data, checking for updates, etc) must be done through Ajax and your web API
+    - It is okay to keep your API data in "memory only" for this project:
+      - this does mean that user added data will go away after each server reload, which is roughly 30 minutes on Heroku
+      - NB - we will be learning MongoDB for the next project
+    - Static files (such as HTML, CSS, Client JS, Images, Videos, etc) MUST be delivered from your Nodejs server (For example, NOT hosted on banjo, and delivered via a link)
+    - Direct calls to GET requests in the browser location box or via Postman must work correctly
+    - `POST` requests will be tested with yur `<form>` and via Postman
+    - `HEAD` requests will be tested via Postman
+   
+   
 <a id="development-requirements" />
 
 <hr>
@@ -137,15 +150,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - example: the user forgets to type in their last name (a required form field)
       - the *client* (the HTML page, utilizing JavaScript) will not allow the data to be submitted to the server
       - the *server* will return an error message and a status code of `400` if a value for required field is not given
-      - we will test the API via the prvided `<form>` AND by using Postman
-      
-5) All of these information "calls"  (getting data, posting data, checking for updates, etc) must all be done through Ajax and your web API
- 
-6)  It is okay to keep your API data in memory for this project (NB - we will be learning MongoDB for the next project). That does mean user added data will go away after each server reload. (roughly 30 minutes on Heroku)
-
-7) Static files (such as HTML, CSS, Client JS, Images, Videos, etc) must be delivered from your server
-
-8) Direct calls to GET requests must work correctly. As in: going straight to the Ajax URL in the browser, or with Postman. `POST` and `HEAD` requests will be tested via Postman
+      - we will test the API via the provided `<form>` AND by using Postman
 
 
 <hr>
