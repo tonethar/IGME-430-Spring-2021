@@ -90,10 +90,12 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
  **5) Required status codes:**
    - You app is required to send the following status codes at the appropriate time:
      - `200`, `201`, `204`, `400`, `404`
-   - In your documentation, tell us where & when in the app these are sent, example:
-      - "200 is sent for all successful HTML requests, and when the `/get-joke` endpoint is called"
-      - "201 is sent when the user creates a new joke with the `/add-joke` endpoint"
-      - "204 is sent when the admin edits a joke" and so on
+   - In your documentation, tell us where & when in the app these status codes are sent, example:
+      - "`200` is sent for all successful HTML requests, and when the `/get-joke` endpoint is called"
+      - "`201` is sent when the user creates a new joke with the POST `/add-joke` endpoint"
+      - "`204` is sent when the admin edits a joke"
+      - "`400` is sent when the user calls `/add-joke` with out all of the required parameters"
+      - "`404` is sent when the server can't find a resource at the requested endpoint"
  
 <a id="development-requirements" />
 
