@@ -178,7 +178,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
   - Final code must be zipped and submitted to the dropbox (without **node_modules**)
   - The following links in the submission comments
 
-### VII-A. Final Version
+### VII-B. Final Version
 
 - Final code must be pushed to Git repo
 - Final code must be zipped and submitted to the dropbox (without node_modules)
@@ -188,7 +188,7 @@ Link to CircleCI Build.
 Link to cloud deployed app (Heroku).
 Final:
 
-### VII-B. Final Version Documentation
+### VII-C. Final Version Documentation
 README.md
 
 - Hand in documentation explaining the following:
