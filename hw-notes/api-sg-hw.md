@@ -37,10 +37,12 @@
 
 #### III-B-i. Return appropriate Status Codes
 
-- `200`
-- `201` 
+- [`200`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200)
+- [`201`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201)
 - `202`
+- [`204`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/204)
 - `206`
+- [`400`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400)
 - `401`
 - `403`
 - `422`
