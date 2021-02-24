@@ -131,8 +131,8 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 6) Must have this "chromeinspect" script for debugging:
 
-  - `"chromeinspect": "echo \"Now in DEBUG mode. Head to 'chrome://inspect'\";node --inspect ./src/index.js"`
-  - I will test this by typing `npm run chromeinspect`
+    - `"chromeinspect": "echo \"Now in DEBUG mode. Head to 'chrome://inspect'\";node --inspect ./src/index.js"`
+    - I will test this by typing `npm run chromeinspect`
 
 7) Other code standards:
 
