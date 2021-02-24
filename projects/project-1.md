@@ -145,7 +145,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 9) Borrowed code fragments MUST be cited in the code comments AND in the documentation - failing to do so constitutes plagiarism
 
-10) BTW - [stackoverflow.com](https://stackoverflow.com/) is a fantastic resource that many of us use on a weekly or even daily basis. Please consider creating an account so that you can upvote answers, and maybe even comment or answer questions yourself. This also might also help you to remember to cite any sources that you used
+10) BTW - [stackoverflow.com](https://stackoverflow.com/) is a fantastic resource that many of us use on a weekly or even daily basis. Please consider creating an account so that you can upvote answers, and maybe even comment or answer questions yourself. This also might also help you to remember to cite any related sources that you used
 
 <hr>
 
