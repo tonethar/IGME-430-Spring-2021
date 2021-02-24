@@ -119,18 +119,20 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 1) Must use Git for version control in a repo I can access. The repo will be named **abc1234-430-project-1** (where *abc1234* is your actual rit web account name). You may make the repo *private* if you wish, just be sure to send me an invite to collaborate ASAP
 
-2) Must have `nodemon` installed. I will test this by typing `npm run nodemon`
+2) Must use **HW - Random Jokes Plus** as a starting point for the project. You may NOT use any of the other demos in this way (for example, the "accept headers" or "HEAD requests" or "Body Parsing" demos that are zipped in myCourses 
 
-3) Must have a "test" script that uses ESLint with the Airbnb spec. Must pass tests when I run `npm test`
+3) Must have `nodemon` installed. I will test this by typing `npm run nodemon`
 
-4) Must use CircleCI for testing - the "test" script will be run by CircleCI, and a green checkmark will appear on the GitHub repo
+4) Must have a "test" script that uses ESLint with the Airbnb spec. Must pass tests when I run `npm test`
 
-5) Must have this "chromeinspect" script for debugging:
+5) Must use CircleCI for testing - the "test" script will be run by CircleCI, and a green checkmark will appear on the GitHub repo
+
+6) Must have this "chromeinspect" script for debugging:
 
   - `"chromeinspect": "echo \"Now in DEBUG mode. Head to 'chrome://inspect'\";node --inspect ./src/index.js"`
   - I will test this by typing `npm run chromeinspect`
 
-5) Other code standards:
+7) Other code standards:
 
     - code must be well-commented. Every function/method must have a comment describing its purpose
     - *Separation of Concern* - There should be a clear separation of purpose and classes. Do not put everything in the same file/module
@@ -139,7 +141,11 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - all HTML & CSS pages must pass validation (warnings are OK)
     - all other media (images etc) must be *optimized* - meaning they have been re-sized to appropriate dimensions, and saved via 
 
-6) Must be deployed to Heroku. The "Wait for CI to pass before deploy" checkbox must be checked in the dashboard
+8) Must be deployed to Heroku. The "Wait for CI to pass before deploy" checkbox must be checked in the dashboard
+
+9) Borrowed code fragments MUST be cited in the code comments AND in the documentation - failing to do so constitutes plagiarism
+
+10) BTW - [stackoverflow.com](https://stackoverflow.com/) is a fantastic resource that many of us use on a weekly or even daily basis. Please consider creating an account so that you can upvote answers, and maybe even comment or answer questions yourself. This also might also help you to remember to cite any sources that you used
 
 <hr>
 
