@@ -46,7 +46,6 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - use [`XHR`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) or [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)     - we already covered this in 230/235/330, in the "Accept Headers" demo, and in [Random Jokes Plus an Ajax Client](hw-notes/HW-random-jokes-plus-an-ajax-client.md)
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/app
     - *in your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (this could be the 1st of the 2 required endpoint "viewers")*
-    - *in your project, for `HEAD` requests, both endpoints will return the headers (only) including the `Content-Length` header*
 
 
   **2) Administrators can view user submitted jokes (this is just an AJAX call):**
@@ -62,7 +61,6 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - see the "Body Parse" examples and video
     - see the "POST-demo-start" example
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/suggest
-    - the appropriate HTTP status codes will be returned when content is either created or updated on the server, or if insufficient parameters are included in the request
     - *in your project, this functionality could be performed by a user, an admin, or both*
     - *a user, probably an admin, will also have the ability to update (edit) information on the server*
    
@@ -76,6 +74,8 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
       - BOTH of these endpoints MUST:
         - Send back data as XML if (and only if) an HTTP `Accept` request header with a value of "text/xml" is sent by the client (we did this in [Random Jokes Plus - Phase 3](../hw-notes/HW-random-jokes-plus.md#phase3))
         - Send back the HTTP response headers ONLY (including `Content-Length`) when a HEAD request is send by the client (we did this in [Random Jokes Plus - Phase 4](../hw-notes/HW-random-jokes-plus.md#phase4))
+    - ONE `POST` endpoint where a user will be able to add data to the app via a form. This form MUST send a minimum of 2 fields (ex `name` and `age` in the request):
+      - the appropriate HTTP status codes will be returned when content is either created or updated on the server, or if insufficient parameters are included in the request
     - FOUR HTML pages:
       - https://p1-430-stub-2105.herokuapp.com/
       - https://p1-430-stub-2105.herokuapp.com/app
