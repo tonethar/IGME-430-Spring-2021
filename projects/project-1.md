@@ -48,7 +48,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - *in your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (this could be the 1st of the 2 required endpoint "viewers")*
 
 
-  **2) Administrators can view user submitted jokes (this is just a `GET` AJAX call):**
+  **2) Administrators can view user submitted jokes (this is just a `GET` Ajax call):**
   
     - note: we don't need to worry about an admin being "logged in" for this project
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/admin
@@ -150,26 +150,9 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 <hr>
 
-## VI. Programming Requirements
+## VI. Deliverables
 
-1) Server API must support the following status codes: 200, 201, 204, 400, 404, 500 (only necessary if applicable)
-
-2) Server API must support the following methods:
-
-    - HEAD (must be supported on the JSON calls that get data back)
-    - GET
-    - POST
-    
-3) At least one GET request type will support query parameters (both in AJAX and directly). These could be used to filter results, sort results or something else.
-
-4) Client must submit a body in a POST request to add or update data
-
-
-<hr>
-
-## VII. Deliverables
-
-### VII-A. Prototype
+### VI-A. Prototype
 
 - Should at least be the core experience with some of the API working. The full API might not be ready and the app may not be finished, but the main part of the experience should be testable
 - Submission:
@@ -178,7 +161,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
   - Final code must be zipped and submitted to the dropbox (without **node_modules**)
   - The following links in the submission comments
 
-### VII-B. Final Version
+### VI-B. Final Version
 
 - Final code must be pushed to Git repo
 - Final code must be zipped and submitted to the dropbox (without node_modules)
@@ -188,7 +171,7 @@ Link to CircleCI Build.
 Link to cloud deployed app (Heroku).
 Final:
 
-### VII-C. Final Version Documentation
+### VI-C. Final Version Documentation
 README.md
 
 - Hand in documentation explaining the following:
@@ -207,12 +190,12 @@ README.md
 
 <hr>
 
-## VIII. Rubric
+## VII. Rubric
 
 - Do all of the above and get an 89%
 - App mut go "above and beyond" in order to get an A (be sure to document this)
 
-### VIII-A. Deductions
+### VII-A. Deductions
 
 1) In your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (up to -30% if not fully implemented)
 
