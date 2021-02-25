@@ -43,7 +43,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
   
   **1) Users can view a random joke via a `GET` Ajax call:**
   
-    - use [`XHR`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) or [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)     - we already covered this in 230/235/330, in the "Accept Headers" demo, and in [Random Jokes Plus an Ajax Client](hw-notes/HW-random-jokes-plus-an-ajax-client.md)
+    - use [`XHR`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) or [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)     - we already covered this in 230/235/330, in the "Accept Headers" demo, and in [Random Jokes Plus an Ajax Client](../hw-notes/HW-random-jokes-plus-an-ajax-client.md)
     - here is the (non functional) example: https://p1-430-stub-2105.herokuapp.com/app
     - *in your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (this could be the 1st of the 2 required endpoint "viewers")*
 
