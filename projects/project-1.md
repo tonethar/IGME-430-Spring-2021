@@ -111,9 +111,6 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - Direct calls to GET requests in the browser location box or via Postman must work correctly
     - We will be testing `POST` requests with your `<form>` and via Postman
     - We will be testing `HEAD` requests via Postman
-   
-   
-<a id="development-requirements" />
 
 <hr>
 
@@ -131,6 +128,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
       - the *server* will return an error message and a status code of `400` if a value for required field is not given
       - we will test the API via the provided `<form>` AND by using Postman
 
+<a id="development-requirements" />
 
 <hr>
 
