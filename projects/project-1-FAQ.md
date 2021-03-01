@@ -66,7 +66,7 @@
   - this has been ddemo, so many times, in 330
 
 ### I-F. Head to Discord
-- After you have made attempts to debug your code, and had limited success, it's time to head to Discord and see if your fellow students can help:
+- After you have made attempts to debug your code utilizing the above methodologies, and had limited success, it's time to head to Discord and see if your fellow students can help:
   - the time you spent debugging has hopely narrowed down the scope of the issue!
   - so that other people can help you, you'll need to:
     -  describe how the problem happens
@@ -74,8 +74,8 @@
     -  tell us what the expected output is
     -  describe what you've done to attempt to fix the problem on your own
   - be aware:
-    - it's OK to share code snippets
-    - but DO NOT otherwise share too much your code with your classmates
+    - it's OK to share code *snippets*
+    - but DO NOT otherwise share too much your code with your classmates - NEVER post your GitHub link for example
   - if you are successsful:
     - in the Discord, let us know how you fixed the problem!
   - If you are still stuck:
