@@ -81,7 +81,9 @@
     - it's OK to share code *snippets*
     - but DO NOT otherwise share too much your code with your classmates - NEVER post your GitHub link for example
   - if you are successsful:
-    - in the Discord, let us know how you fixed the problem!
+    - "Close the loop" in the Discord, let us know how you fixed the problem!
+      - it helps others who might have had the same issue
+      - it shows appreciation to those who helped you
   - If you are still stuck:
     - push your latest code to GitHub
     - send the professor an email with the GitHub and Heroku links
