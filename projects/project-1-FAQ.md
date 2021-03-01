@@ -15,7 +15,7 @@
 ## I. Debugging
 
 - You might not be asking "how do I debug my code"? - but you should be! 
-- You may have been able to skate through web dev until now without opening up the debugger, but it's unlikely that you will be able to continue to rely on `console.log()` for much longer
+- You may have been able to skate through web dev until now without opening up the debugger, but it's unlikely that you will be able to continue to rely *solely* on `console.log()` for much longer
 - When things aren't working as expected:
   - first, run `npm test`, that often flags unused variables, which often mean that you misspelled something
   - next, decide if you want to debug from the "top down" (look at the client code and verify what it's doing, then the server), or from the bottom up (server code first, then client)
