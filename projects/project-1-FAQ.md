@@ -85,6 +85,7 @@
  - PS:
    - Yes, it's still OK to shortcut this debug process occasionally - for example:
      - *Is anyone else getting the `"no-restricted-syntax"` error when you run ESLint?*
+     - *Does anyone know of a good `npm` library that does X?*
   
 
 <a id="project-requirements" />
