@@ -101,10 +101,12 @@
 
 ### III-A. Endpoint Issues
 
-1) Imagine that you have an HTML page in your **client** folder that is trying to load a style sheet like this -  `<link href="default-styles.css" type="text/css" rel="stylesheet" />`:
+1) Imagine that you have an HTML page in your **client** folder that is trying to load a style sheet like this:
+    -  `<link href="default-styles.css" type="text/css" rel="stylesheet" />` - but it's not working
     - make sure the endpoint is named properly in your **src/index.js** file - ex. **default-styles.css**  - NOT something like **/css**
     - test the endpoint in the browser as recommended in **I-B.** above
       - make sure that you are serving the correct `Content-Type` and *HTTP status code* in your **src/responses.js** file - ex. `text/css` and `200`
+      - make sure the CSS is *valid* - for example `<style>` tags are not allowed in external CSS files - you can use a web CSS Validator to be sure
 
 ### III-B. ESLint Issues
 
