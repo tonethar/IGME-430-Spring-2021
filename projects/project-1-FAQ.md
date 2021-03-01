@@ -1,5 +1,17 @@
 # Project 1 FAQ
 
+## Navigation
+
+- [I. Debugging](#debugging)
+
+- [II. Questions on Project Requirements](#project-requirements)
+
+- [III. Technical Questions](#technical-questions)
+
+<a id="debugging" />
+
+<hr><hr>
+
 ## I. Debugging
 
 - You might not be asking "how do I debug my code"? - but you should be! 
@@ -44,11 +56,15 @@
  
 ### I-XX. Debugging the "client"
 
+<a id="project-requirements" />
+
 <hr><hr>
 
 ## II. Questions on Project Requirements
 
 - [Project 1 - API Powered App](project-1.md)
+
+<a id="technical-questions" />
 
 <hr><hr>
 
