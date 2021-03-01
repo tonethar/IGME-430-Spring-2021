@@ -100,7 +100,7 @@
 ***Of course, you can always start your debugging process by "Asking the Google"***
 
 - Sometimes this works great, and there is an obvious solution that is at the top of search results:
-  - but don't just stop at the first StackOverflow post that seems to work, dig a lilltle deeper, look for alternative solutions
+  - but don't just stop at the first StackOverflow post that seems to work, dig a little deeper, look for alternative solutions
   - and don't just blindly copy/paste/reload JS code without actually understanding what it does
   - make sure that you give credit for any solution you find online,  both in your project documentaiton, and in in your code comments 
  - Mostly, just be sure that "googling it" is NOT the only tool in your debugging toolbox. You also need to follow the practices outlined above
