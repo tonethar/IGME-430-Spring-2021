@@ -37,7 +37,8 @@
   - is your server sending the correct *HTTP status code*? 
     - it's a common "copy/paste" error to neglect to change the **status code** to the proper value in `response.writeHead()` (for example, sending `404` as a status code for your index page)
     - is your server sending the correct **`Content-Type` header**? It's a common "copy/paste" error to neglect to change the content type to the proper value in `response.writeHead()`
-    - recall that that HTML files, CSS files, JavaScript/JSON files, XML files, text files, images etc *all have distinct content-types* --> https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
+    - recall that that HTML files, CSS files, JavaScript/JSON files, XML files, text files, images etc *all have distinct content-types*:
+      - https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
   - Are any of the headers you are sending back giving incorrect of improperly formatted information?
     - for example, are you sending back an incorrect `Content-Length` header?
 
