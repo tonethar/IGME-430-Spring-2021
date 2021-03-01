@@ -46,21 +46,26 @@
   - and/or with Ajax (e.g. `XHR`)
 
 ### I-C. Debug the server code directly 
-- Go ahead and use `console.log()` to test your assumptions about what code is firing when, and 
-- You can insert breakpoints in your server code (the Node.js code in your **src** folder) by launching the inspector:
+- Go ahead and use `console.log()` to test your assumptions about what code is firing when, and what the values of variables are. These logs will appear on the *server-side* - meaning in the console that you launch your Node.js server from
+- You can insert breakpoints in your server code (the Node.js code in your **src** folder) by launching the Node.js inspector:
   - `node --inspect ./src/index.js`
   - the head to **chrome://inspect**
   - this was covered in [Skill #10 - Debugging Node](../core-skills/10-debugging-node.md)
-  - then you need to set a lot of breakpoints, step through the code, and test your assumptions
-  - 
+  - then you need to set a lot of breakpoints, step through the code, and test your assumptions on what code is firing when, and what the values of variables are as the code executes
  
-### I-XX. Debugging the "client"
+### I-D. Debugging the "client"
+- The *client* code means the JavaScript that runs on the *client-side* - e.g. the web browser
+- This is the code that is in the `<script>` tag of any of your HTML pages - meaning those pages that are located in the **client** folder of your project:
+  - you might have also moved that code to an etxternal JavaScript file - for example  **client/js** - but it's still running on the **client-side**
+- Go ahead and use `console.log()` to test your assumptions about what code is firing when, and what the values of variables are. These logs will appear on the *client-side* - meaning in the web inspector console of the web browser
+- You can insert breakpoints in your client code (the JavaScript in your `<script>` tag) by using the Chrome web inspector:
+  - this has been ddemo, so many times, in 330
 
 <a id="project-requirements" />
 
 <hr><hr>
 
-## II. Questions on Project Requirements
+## II. Questions/Clarifications on Project Requirements
 
 - [Project 1 - API Powered App](project-1.md)
 
@@ -71,6 +76,14 @@
 ## III. Technical Questions
 
 ### III-A. Endpoint Issues
+
+1) Imagine that you have an HTML page in your **client** folder that is trying to load a style sheet like this -  `<link href="default-styles.css" type="text/css" rel="stylesheet" />`:
+  - make sure the endpoint is named properly in your **src/index.js** file - ex. **default-styles.css**  - NOT something like **/css**
+  - test the endpoint in the browser as recommended in **I-B.** above
+    - make sure that you are serving the correct `Content-Type` and *HTTP status code* in your **src/responses.js** file - ex. `text/css` and `200`
+
+
+2) TBA
 
 <hr>
 
