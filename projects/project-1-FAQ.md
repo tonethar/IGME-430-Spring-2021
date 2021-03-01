@@ -115,7 +115,7 @@
     }
 ```
 
-    - HOWEVER - you need to take the error seriously, and be sure to revisit it later on when you have time to work out what's going on 
+***HOWEVER - you need to take the error seriously, and be sure to revisit it later on when you have time to work out what's going on***
 
 3) TBA
 
