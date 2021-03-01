@@ -49,7 +49,7 @@
   - and/or with Ajax (e.g. `XHR`)
 - Now go ahead and follow all of the debugging strategies mentioned under `GET` above
 
-### I-C. Debug the server code directly 
+### I-D. Debug the server code directly 
 - Go ahead and use `console.log()` to test your assumptions about what code is firing when, and what the values of variables are. These logs will appear on the *server-side* - meaning in the console that you launch your Node.js server from
 - You can insert breakpoints in your server code (the Node.js code in your **src** folder) by launching the Node.js inspector:
   - `node --inspect ./src/index.js`
@@ -57,7 +57,7 @@
   - this was covered in [Skill #10 - Debugging Node](../core-skills/10-debugging-node.md)
   - then you need to set a lot of breakpoints, step through the code, and test your assumptions on what code is firing when, and what the values of variables are as the code executes
  
-### I-D. Debugging the "client"
+### I-E. Debugging the "client"
 - The *client* code means the JavaScript that runs on the *client-side* - e.g. the web browser
 - This is the code that is in the `<script>` tag of any of your HTML pages - meaning those pages that are located in the **client** folder of your project:
   - you might have also moved that code to an etxternal JavaScript file - for example  **client/js** - but it's still running on the **client-side**
@@ -65,7 +65,7 @@
 - You can insert breakpoints in your client code (the JavaScript in your `<script>` tag) by using the Chrome web inspector:
   - this has been ddemo, so many times, in 330
 
-### I-E. Head to Discord
+### I-F. Head to Discord
 - After you have made attempts to debug your code, and had limited success, it's time to head to Discord and see if your fellow students can help:
   - the time you spent debugging has hopely narrowed down the scope of the issue!
   - so that other people can help you, you'll need to:
