@@ -76,6 +76,8 @@
   - be aware:
     - it's OK to share code snippets
     - but DO NOT otherwise share too much your code with your classmates
+  - if you are successsful:
+    - in the Discord, let us know how you fixed the problem!
   - If you are still stuck:
     - push your latest code to GitHub
     - send the professor an email with the GitHub and Heroku links
