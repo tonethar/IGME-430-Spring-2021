@@ -102,8 +102,9 @@
     - test the endpoint in the browser as recommended in **I-B.** above
       - make sure that you are serving the correct `Content-Type` and *HTTP status code* in your **src/responses.js** file - ex. `text/css` and `200`
 
+### III-B. ESLint Issues
 
-2) *I can't push my code to GitHub because of ESLint errors - this AirBnB spec is really picky - what should I do?!*
+1) *I can't push my code to GitHub because of ESLint errors - this AirBnB spec is really picky - what should I do?!*
     - First, you should either fix or comment out the offending code
     - If the code seems to run locally OK, then you can edit your **.eslintrc.json** file and convert the *error* to a *warning*. Then you should be able to push your code to GitHub - example:
 
@@ -117,7 +118,7 @@
 
 ***HOWEVER - you need to take the error seriously, and be sure to revisit it later on when you have time to work out what's going on***
 
-3) TBA
+### III-C. TBA
 
 
 <hr>
