@@ -47,6 +47,7 @@
   - the [Postman](https://www.postman.com/) App (this is the recommended way to start)
   - or with an HTML form
   - and/or with Ajax (e.g. `XHR`)
+- Now go ahead and follow all of the debugging strategies mentioned under `GET` above
 
 ### I-C. Debug the server code directly 
 - Go ahead and use `console.log()` to test your assumptions about what code is firing when, and what the values of variables are. These logs will appear on the *server-side* - meaning in the console that you launch your Node.js server from
