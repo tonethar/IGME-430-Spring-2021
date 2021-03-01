@@ -105,7 +105,7 @@
 
 2) *I can't push my code to GitHub because of ESLint errors - this AirBnB spec is really picky - what should I do?!*
     - First, you should either fix or comment out the offending code
-    - If the code seems to run locally OK, then you can edit your **.eslintrc.json** file and convert the error to a warning. Then you should be able to push your code to GitHub - example:
+    - If the code seems to run locally OK, then you can edit your **.eslintrc.json** file and convert the *error* to a *warning*. Then you should be able to push your code to GitHub - example:
 
 
 ```js
