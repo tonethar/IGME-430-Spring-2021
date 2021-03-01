@@ -55,6 +55,7 @@
 
 ### I-D. Debug the server code directly 
 - Go ahead and use `console.log()` to test your assumptions about what code is firing when, and what the values of variables are. These logs will appear on the *server-side* - meaning in the console that you launch your Node.js server from
+- To help isolate exactly where an error is occurring, commenting out large blocks of code, running the program and looking at the output, and then uncommenting the code line-by-line and re-tsting it, is also a good strategy 
 - You can insert breakpoints in your server code (the Node.js code in your **src** folder) by launching the Node.js inspector:
   - `node --inspect ./src/index.js`
   - then head to **chrome://inspect** in the web browser
@@ -66,6 +67,7 @@
 - This is the code that is in the `<script>` tag of any of your HTML pages - meaning those pages that are located in the **client** folder of your project:
   - you might have also moved that code to an etxternal JavaScript file - for example  **client/js** - but it's still running on the **client-side**
 - Go ahead and use `console.log()` to test your assumptions about what code is firing when, and what the values of variables are. These logs will appear on the *client-side* - meaning in the web inspector console of the web browser
+- To help isolate exactly where an error is occurring, commenting out large blocks of code, running the program and looking at the output, and then uncommenting the code line-by-line and re-tsting it, is also a good strategy 
 - You can insert breakpoints in your client code (the JavaScript in your `<script>` tag) by using the Chrome web inspector:
   - this has been demod, so many times, in 330
 
