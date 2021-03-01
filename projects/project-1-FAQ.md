@@ -61,6 +61,26 @@
 - You can insert breakpoints in your client code (the JavaScript in your `<script>` tag) by using the Chrome web inspector:
   - this has been ddemo, so many times, in 330
 
+### I-E. Head to Discord
+- After you have made attempts to debug your code, and had limited success, it's time to head to Discord and see if your fellow students can help:
+  - the time you spent debugging has hopely narrowed down the scope of the issue!
+  - so that other people can help you, you'll need to:
+    -  describe how the problem happens
+    -  give an example of the output you received - screenshots are really helpful
+    -  tell us what the expected output is
+    -  describe what you've done to attempt to fix the problem on your own
+  - be aware:
+    - it's OK to share code snippets
+    - but DO NOT otherwise share too much your code with your classmates
+  - If you are still stuck:
+    - push your latest code to GitHub
+    - send the professor an email with the GitHub and Heroku links
+    - be sure to document & describe the issue 
+ - PS:
+   - Yes, it's still OK to shortcut this debug process occasionally - for example:
+     - *Is anyone else getting the `"no-restricted-syntax"` error when you run ESLint?*
+  
+
 <a id="project-requirements" />
 
 <hr><hr>
@@ -78,12 +98,27 @@
 ### III-A. Endpoint Issues
 
 1) Imagine that you have an HTML page in your **client** folder that is trying to load a style sheet like this -  `<link href="default-styles.css" type="text/css" rel="stylesheet" />`:
-  - make sure the endpoint is named properly in your **src/index.js** file - ex. **default-styles.css**  - NOT something like **/css**
-  - test the endpoint in the browser as recommended in **I-B.** above
-    - make sure that you are serving the correct `Content-Type` and *HTTP status code* in your **src/responses.js** file - ex. `text/css` and `200`
+    - make sure the endpoint is named properly in your **src/index.js** file - ex. **default-styles.css**  - NOT something like **/css**
+    - test the endpoint in the browser as recommended in **I-B.** above
+      - make sure that you are serving the correct `Content-Type` and *HTTP status code* in your **src/responses.js** file - ex. `text/css` and `200`
 
 
-2) TBA
+2) *I can't push my code to GitHub because of ESLint errors - this AirBnB spec is really picky - what should I do?!*
+    - First, you should either fix or comment out the offending code
+    - If the code seems to run locally OK, then you can edit your **.eslintrc.json** file and convert the error to a warning. Then you should be able to push your code to GitHub - example:
+
+
+```js
+"rules": {
+        "no-unused-vars": "warn",
+        "no-restricted-syntax": "warn"
+    }
+```
+
+    - HOWEVER - you need to take the error seriously, and be sure to revisit it later on when you have time to work out what's going on 
+
+3) TBA
+
 
 <hr>
 
