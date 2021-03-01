@@ -53,7 +53,7 @@
 - Go ahead and use `console.log()` to test your assumptions about what code is firing when, and what the values of variables are. These logs will appear on the *server-side* - meaning in the console that you launch your Node.js server from
 - You can insert breakpoints in your server code (the Node.js code in your **src** folder) by launching the Node.js inspector:
   - `node --inspect ./src/index.js`
-  - the head to **chrome://inspect**
+  - then head to **chrome://inspect** in the web browser
   - this was covered in [Skill #10 - Debugging Node](../core-skills/10-debugging-node.md)
   - then you need to set a lot of breakpoints, step through the code, and test your assumptions on what code is firing when, and what the values of variables are as the code executes
  
