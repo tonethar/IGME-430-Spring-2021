@@ -16,9 +16,11 @@
   - https://devcenter.heroku.com/articles/logging#log-retrieval-via-the-web-dashboard
 
 ### I-B. Debug the server by testing your endpoints
-- We have done this many, many times in class, and it's pretty straightforward
-- For your `GET` endpoints, you can use the Chrome Web Inspector. Things to look for:
-  - 
+- We have done this many, many times in class, and it's pretty straightforward to do. You just have to do it
+- For your `GET` endpoints, you can use the Chrome Web Inspector. More than likely you will need the **Network** tab. Things to look for:
+  - is the content what you expected?
+  - if the content is in the JSON format, is it *valid*? The [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) extension will help determine that. There are also various online JSON validators that you can use
+  - is your server sending the correct `Content-Type` header? It's a common "vopy/paste" error to neglect to change the content type. Recall that 
  
 ### I-XX. Debugging the "client"
 
