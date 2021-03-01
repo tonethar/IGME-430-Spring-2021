@@ -34,8 +34,10 @@
 - More than likely you will need the **Network** tab of the Web Inspector, which allows you to see the status code, content-type, and the actual returned text. Things to look for:
   - is the content what you expected?
   - if the content is in the JSON format, is it *valid*? The [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) extension will help determine that. There are also various online JSON validators that you can use
-  - is your server sending the correct *HTTP status code*? It's a common "copy/paste" error to neglect to change the status code to the proper value in `response.writeHead()` (for example, sending `404` as a status code for your index page)
-  - is your server sending the correct `Content-Type` header? It's a common "copy/paste" error to neglect to change the content type to the proper value in `response.writeHead()`. Recall that that HTML files, CSS files, JavaScript/JSON files, XML files, text files, images etc *all have distinct content-types* --> https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
+  - is your server sending the correct *HTTP status code*? 
+    - it's a common "copy/paste" error to neglect to change the **status code** to the proper value in `response.writeHead()` (for example, sending `404` as a status code for your index page)
+    - is your server sending the correct **`Content-Type` header**? It's a common "copy/paste" error to neglect to change the content type to the proper value in `response.writeHead()`
+    - recall that that HTML files, CSS files, JavaScript/JSON files, XML files, text files, images etc *all have distinct content-types* --> https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
   - Are any of the headers you are sending back giving incorrect of improperly formatted information?
     - for example, are you sending back an incorrect `Content-Length` header?
 
