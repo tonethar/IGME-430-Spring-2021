@@ -44,3 +44,17 @@
  
 ### I-XX. Debugging the "client"
 
+<hr><hr>
+
+## II. Questions on Project Requirements
+
+- [Project 1 - API Powered App](project-1.md)
+
+<hr><hr>
+
+## III. Technical Questions
+
+### III-A. Endpoint Issues
+
+<hr>
+
