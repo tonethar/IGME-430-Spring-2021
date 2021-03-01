@@ -67,7 +67,7 @@
   - you might have also moved that code to an etxternal JavaScript file - for example  **client/js** - but it's still running on the **client-side**
 - Go ahead and use `console.log()` to test your assumptions about what code is firing when, and what the values of variables are. These logs will appear on the *client-side* - meaning in the web inspector console of the web browser
 - You can insert breakpoints in your client code (the JavaScript in your `<script>` tag) by using the Chrome web inspector:
-  - this has been ddemo, so many times, in 330
+  - this has been demod, so many times, in 330
 
 ### I-F. Head to Discord
 - After you have made attempts to debug your code utilizing the above methodologies, and had limited success, it's time to head to Discord and see if your fellow students can help:
@@ -97,8 +97,11 @@
 
 ***Of course, you can always start your debugging process by "Asking the Google"***
 
-- Sometimes (often?) this works great, and there is an obvious solution that is at the top of search results:
-  - 
+- Sometimes this works great, and there is an obvious solution that is at the top of search results:
+  - but don't just stop at the first StackOverflow post that seems to work, dig a lilltle deeper, look for alternative solutions
+  - and don't just blindly copy/paste/reload JS code without actually understanding what it does
+  - make sure that you give credit for any solution you find online,  both in your project documentaiton, and in in your code comments 
+ - Mostly, just be sure that "googling it" is NOT the only tool in your debugging toolbox. You also need to follow the practices outlined above
   
 
 <a id="project-requirements" />
