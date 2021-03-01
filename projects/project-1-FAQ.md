@@ -92,6 +92,13 @@
    - Yes, it's still OK to shortcut this debug process occasionally - for example:
      - *Is anyone else getting the `"no-restricted-syntax"` error when you run ESLint?*
      - *Does anyone know of a good `npm` library that does X?*
+
+<hr>
+
+***Of course, you can always start your debugging process by "Asking the Google"***
+
+- Sometimes (often?) this works great, and there is an obvious solution that is at the top of search results:
+  - 
   
 
 <a id="project-requirements" />
