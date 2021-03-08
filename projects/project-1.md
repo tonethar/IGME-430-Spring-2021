@@ -205,7 +205,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
   - The easiest way to record a demo reel is to use Zoom - here is a 2-minute video on how to do this: https://www.youtube.com/watch?v=D617OXKhSYw
     - don't forget to "Share Screen" so that I can see you interacting with the project
     - please don't stress out over this requirement - I am the only one who will see the video - I won't be sharing or posting these
-    - 10% from project 1 grade if the video requirement is not completed
+    - 10% deducted from project 1 grade if the video requirement is not completed
 
 <a id="rubric" />
 
@@ -236,6 +236,8 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 7) (-10% each) Not meeting the **V. Development Requirements** above 
 
-8) (-100%) Used express or similar framework 
+8) (-10% each) Missing documentation or video
 
-9) (-100%) Code must be based on the "HW - Random Jokes Plus" assignment - i.e. do not use any "DONE" versions of demos from the other section or previous semesters as a starting point 
+9) (-100%) Used express or similar framework 
+
+10) (-100%) Code must be based on the "HW - Random Jokes Plus" assignment - i.e. do not use any "DONE" versions of demos from the other section or previous semesters as a starting point 
