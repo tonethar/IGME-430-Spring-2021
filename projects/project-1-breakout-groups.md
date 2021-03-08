@@ -2,7 +2,7 @@
 
 ## I. Overview
 
-- Today we will put you in Zoom breakout groups consisting of 3 or 4 students, and you will give and receive feedback regarding the *User Experience* [Project 1](project-1.md) of your Project 1 prototypes
+- Today we will put you in Zoom breakout groups consisting of 3 or 4 students, and you will give and receive feedback regarding the *User Experience*  of your [Project 1](project-1.md) prototypes
 
 <hr>
 
