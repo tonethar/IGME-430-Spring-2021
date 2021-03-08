@@ -67,6 +67,8 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     
    
 <a id="required-endpoints" />
+
+<hr>
  
   **4) Required endpoints (MINIMUM) - your project needs ALL of these - here are examples:**
   
@@ -100,6 +102,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
         - "`400` is sent when the user calls `/add-joke` with out all of the required parameters"
         - "`404` is sent when the server can't find a resource at the requested endpoint"
  
+ <hr>
  
    **6) Other:**
    
