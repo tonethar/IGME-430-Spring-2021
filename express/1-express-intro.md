@@ -19,15 +19,27 @@
 - `npm i express`
 - `npm i --save-dev nodemon`
 
-3) Add the following to 
+3) Add the following to the "scripts" key of **package.json**
 - `"nodemon": "nodemon --watch src src/server.js"`
 
 <hr>
 
-## II. Start coding your server
+## II. Start coding your express server
 
 ### II-A. Start Code
+
+- Rather than CommonJS modules (`require()` & `module.exports`) like we used in Project 1, let's instead use ES6 modules (`import` & `export`)
+
 **src/server.js**
+
+![screenshot](_images/express-1.png)
+
+- `npm run nodemon` // FAIL
+
+### II-B. Node uses CommonJS (CJS) modules by default
+- You can tell Node.js to use ES6 modules by either:
+  -  chnaging the file extension of the JS files from `.js` to `.mjs` OR
+  -  adding a `"type": "module"` key to **package.json**
 
 <hr>
 
