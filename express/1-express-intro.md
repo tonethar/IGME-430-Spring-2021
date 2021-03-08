@@ -11,13 +11,13 @@
 
 ## I. Set up project and tooling
 
-1) Create a folder named **first-express-app**
+1) Create a folder named **first-express-app** and `cd` into it
 
 2) Install packages
 
-- `npm init -y`
-- `npm i express`
-- `npm i --save-dev nodemon`
+    - `npm init -y`
+    - `npm i express`
+    - `npm i --save-dev nodemon`
 
 3) Add the following to the "scripts" key of **package.json**
 - `"nodemon": "nodemon --watch src src/server.js"`
