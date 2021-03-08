@@ -232,9 +232,9 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 5) (-25% each) Missing POST endpoint
 
-6) (-5% each) Does not meet [**IV. User Experience Requirements**](#experience-requirements)
+6) (-5% each) Does not meet **IV. User Experience Requirements** above
 
-7) (-10% each) Not meeting the [**V. Development Requirements**](#development-requirements) above 
+7) (-10% each) Not meeting the **V. Development Requirements** above 
 
 8) (-100%) Used express or similar framework 
 
