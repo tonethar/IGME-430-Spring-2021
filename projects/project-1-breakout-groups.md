@@ -8,7 +8,7 @@
 
 ## II. Instructions
 
-1) If you haven't already pushed your most current version of your project to GitHub & Heroku, do so immediately (don't forget to be sure that your code passes `npm test`)
+1) If you haven't already pushed your most current version of your project to GitHub & Heroku, do so immediately (don't forget to first be sure that your code passes `npm test` rior to pushing)
 
 2) Wait to be assigned to a Zoom breakout room
 
