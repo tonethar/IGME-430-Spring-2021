@@ -65,14 +65,8 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - *in your project, this functionality could be performed by a user, an admin, or both*
     - *a user, probably an admin, will also have the ability to update (edit) information on the server*
     
-   
-<a id="required-endpoints" />
-
-<hr>
  
   **4) Required endpoints (MINIMUM) - your project needs ALL of these - here are examples:**
-
-<hr>
 
     - TWO data endpoints, one of which must take at least 1 parameter in the query string:
       - https://p1-430-stub-2105.herokuapp.com/random-joke
