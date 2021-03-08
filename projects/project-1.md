@@ -240,4 +240,4 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 9) (-100%) Used express or similar framework 
 
-10) (-100%) Code must be based on the "HW - Random Jokes Plus" assignment - i.e. do not use any "DONE" versions of demos from the other section or previous semesters as a starting point 
+10) (-100%) Code must be based on the "HW - Random Jokes Plus" assignment - i.e. do not use any "DONE" versions of demos from this or the other section or previous semesters as a starting point 
