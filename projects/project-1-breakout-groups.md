@@ -43,21 +43,28 @@ IV. User Experience Requirements
 - the server will return an error message and a status code of 400 if a value for required field is not given
 - we will test the API via the provided <form> AND by using Postman
 
-
 5) Other
   - Does this app have a purpose/function that is useful for *someone*? 
   - Can you figure out how to use it?
   - Is the visual design pleasing?
   - What area of this project need more attention to make an excellent experience? 
 
+
 Project #2 Author:
 Project #2 Heroku Link: 
 etc ...
-
-- If you have time at the end, you can also evaluate the III. Functional Requirements of each project
 ```
 
+- If you have time at the end, you can also evaluate the III. Functional Requirements of each project
 
+<hr>
+
+## III. Other Project Requirements & Rubric
+
+- The [Project 1 Functional Requirements](project-1.md#functional-requirements) weigh very heavily on the rubric, so don't neglect these. Take the time to walk through them one-by-one, and write the Prof if you have any questions about them
+- Here is the [Project 1 Rubric](project-1.md#rubric)
+
+<hr>
 
 ## IV. Submission
 - After class, the scribe should spend a few minutes to clean up the document (edit for clarity/brevity, fix spelling errors, format it so that it's readable etc...)
