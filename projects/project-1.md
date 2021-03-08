@@ -112,6 +112,8 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - We will be testing `POST` requests with your `<form>` and via Postman
     - We will be testing `HEAD` requests via Postman
 
+<a id="experience-requirements" />
+
 <hr>
 
 ## IV. User Experience Requirements
@@ -205,6 +207,8 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - please don't stress out over this requirement - I am the only one who will see the video - I won't be sharing or posting these
     - 10% from project 1 grade if the video requirement is not completed
 
+<a id="rubric" />
+
 <hr>
 
 ## VII. Rubric
@@ -214,7 +218,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 ### VII-A. Deductions
 
-1) (-5% each) App is missing any of the individual requirements listed under **III. Functional Requirements** - Examples:
+1) (-5% each) App is missing any of the individual requirements listed under [**III. Functional Requirements**](#functional-requirements) - Examples:
 
     - **III. Functional Requirements  4) Required endpoints** - *missing a GET API parameter*, *not sending back XML when requested*, *not sending back headers only when requested*, *not having 2 params sent in POST Body requests*, *not sending back a `201` status code at the proper time*, *not sending back a `400` status code at the proper time*a and so on
    
@@ -228,7 +232,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 5) (-25% each) Missing POST endpoint
 
-6) (-5% each) Does not meet **IV. User Experience Requirements**
+6) (-5% each) Does not meet [**IV. User Experience Requirements**](#experience-requirements)
 
 7) (-10% each) Not meeting the [Development Requirements](#development-requirements) above 
 
