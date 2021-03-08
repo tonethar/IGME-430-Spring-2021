@@ -66,7 +66,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
     - *a user, probably an admin, will also have the ability to update (edit) information on the server*
     
    
-
+<a id="required-endpoints" />
  
   **4) Required endpoints (MINIMUM) - your project needs ALL of these - here are examples:**
   
@@ -220,7 +220,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 1) (-5% each) App is missing any of the individual requirements listed under [**III. Functional Requirements**](#functional-requirements) - Examples:
 
-    - **III. Functional Requirements  4) Required endpoints** - *missing a GET API parameter*, *not sending back XML when requested*, *not sending back headers only when requested*, *not having 2 params sent in POST Body requests*, *not sending back a `201` status code at the proper time*, *not sending back a `400` status code at the proper time*a and so on
+    - [**III. Functional Requirements  4) Required endpoints**](#required-endpoints) - *missing a GET API parameter*, *not sending back XML when requested*, *not sending back headers only when requested*, *not having 2 params sent in POST Body requests*, *not sending back a `201` status code at the proper time*, *not sending back a `400` status code at the proper time*a and so on
    
 2) (up to -30% if not fully implemented) Users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users 
 
@@ -234,7 +234,7 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 6) (-5% each) Does not meet [**IV. User Experience Requirements**](#experience-requirements)
 
-7) (-10% each) Not meeting the [Development Requirements](#development-requirements) above 
+7) (-10% each) Not meeting the [**V. Development Requirements**](#development-requirements) above 
 
 8) (-100%) Used express or similar framework 
 
