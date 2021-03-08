@@ -102,14 +102,15 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
  
    **6) Other:**
    
-    - All of these information "calls"  (getting data, posting data, checking for updates, etc) must be done through Ajax and your web API
-    - It is okay to keep your API data in "memory only" for this project:
-      - this does mean that user added data will go away after each server reload, which is roughly 30 minutes on Heroku
-      - NB - we will be learning MongoDB for the next project
-    - Static files (such as HTML, CSS, Client JS, Images, Videos, etc) MUST be delivered from your Nodejs server (For example, NOT hosted on banjo, and delivered via a link)
-    - Direct calls to GET requests in the browser location box or via Postman must work correctly
-    - We will be testing `POST` requests with your `<form>` and via Postman
-    - We will be testing `HEAD` requests via Postman
+- All of these information "calls"  (getting data, posting data, checking for updates, etc) must be done through Ajax and your web API
+- It is okay to keep your API data in "memory only" for this project:
+  - this does mean that user added data will go away after each server reload, which is roughly 30 minutes on Heroku
+  - NB - we will be learning MongoDB for the next project
+- Static files (such as HTML, CSS, Client JS, Images, Videos, etc) MUST be delivered from your Nodejs server (For example, NOT hosted on banjo, and delivered via a link)
+- Direct calls to GET requests in the browser location box or via Postman must work correctly:
+  - We will be testing `POST` requests with your `<form>` and via Postman
+  - We will be testing `HEAD` requests via Postman
+
 
 <a id="experience-requirements" />
 
