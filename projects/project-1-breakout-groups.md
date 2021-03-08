@@ -2,7 +2,7 @@
 
 ## I. Overview
 
-- Today we will put you in Zoom breakout groups consisting of 3 or 4 students, and you will give and receive feedback regarding the [Project 1](project-1.md) prototypes
+- Today we will put you in Zoom breakout groups consisting of 3 or 4 students, and you will give and receive feedback regarding the *user experience* [Project 1](project-1.md) prototypes
 
 <hr>
 
@@ -18,7 +18,7 @@ These answers will be added to a document (DOC or PDF) and posted to the dropbox
 4) Add the following to the document:
 
     - the names of each breakout room member, and the link to their working project on Heroku (NOTE: DO NOT SHARE GitHub links)
-    - as a group, for each project, discuss how well each project meets or exceeds the [Project 1](project-1.md) requirements, most specifically the **IV. User Experience Requirements** and the **III. Functional Requriements**
+    - as a group, for each project, discuss how well each project meets or exceeds the [Project 1](project-1.md) requirements, most specifically the **IV. User Experience Requirements**
     - you are likely only going to have 10 minutes or so per project
     - below are the questions you need to answer as a group, and a template you could follow:
 
@@ -53,6 +53,8 @@ IV. User Experience Requirements
 Project #2 Author:
 Project #2 Heroku Link: 
 etc ...
+
+- If you have time at the end, you can also evaluate the III. Functional Requirements of each project
 ```
 
 
