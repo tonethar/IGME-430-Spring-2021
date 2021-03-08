@@ -207,24 +207,31 @@ Here are some loose ideas that would warrant a server side API. Be creative! Mak
 
 <hr>
 
-## VII. Rubric (DRAFT)
+## VII. Rubric
 
 - Do all of the above and get an 89%
-- App mut go "above and beyond" in order to get an A (be sure to document this)
+- App must go "above and beyond" in order to get an A (be sure to document this)
 
 ### VII-A. Deductions
 
-1) In your project, users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users (up to -30% if not fully implemented)
+1) (-5% each) App is missing any of the individual requirements listed under **III. Functional Requirements** - Examples:
 
-2) Missing Admin page (-10%)
+    - **III. Functional Requirements  4) Required endpoints** - *missing a GET API parameter*, *not sending back XML when requsted*, *not sending back headers only when requested*, *not having 2 params sent in POST Body requests*, *not sending back a `201` status code at the proper time*, *not sending back a `400` status code at the proper time*a and so on
+   
+2) (up to -30% if not fully implemented) Users must be able to access at least 2 endpoints of your API via Ajax calls, with a variety of controls depending on the needs of your users 
 
-3) Missing page with `<form>` and ability to POST data to server  (-25%)
+3) (-25%) Missing page with `<form>` and ability to POST data with at least 2 parms to the server  
 
-4) Missing endpoints, ex. HTML, CSS, image, error page, JSON endpoints  (-10 each)
+4) (-10% each) Missing any of the required HTML/CSS/Image endpoints
 
+4) (-25% each) Missing GET endpoints
 
-XX) Not meeting the [Development Requirements](#development-requirements) above  (-10% each)
+5) (-25% each) Missing POST endpoint
 
-XX) Used express or similar framework (-100%)
+6) (-5% each) Does not meet **IV. User Experience Requirements**
 
-XX) Code must be based on the "HW - Random Jokes Plus" assignment - i.e. do not use any "DONE" versions of demos from the other section or previous semesters as a starting point (-100%)
+7) (-10% each) Not meeting the [Development Requirements](#development-requirements) above 
+
+8) (-100%) Used express or similar framework 
+
+9) (-100%) Code must be based on the "HW - Random Jokes Plus" assignment - i.e. do not use any "DONE" versions of demos from the other section or previous semesters as a starting point 
