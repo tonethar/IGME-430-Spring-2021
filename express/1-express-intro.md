@@ -30,7 +30,9 @@
 
 ### II-A. Start Code
 
-- Rather than CommonJS modules (`require()` & `module.exports`) like we used in Project 1, let's instead use ES6 modules (`import` & `export`)
+- Rather than CommonJS modules (`require()` & `module.exports`) like we used in Project 1:
+  - let's instead use ES6 modules (`import` & `export`)
+  - here's the code to start you off
 
 **src/server.js**
 
