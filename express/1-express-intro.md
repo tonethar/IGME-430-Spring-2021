@@ -22,6 +22,8 @@
 3) Add the following to the "scripts" key of **package.json**
 - `"nodemon": "nodemon --watch src src/server.js"`
 
+4) Create a **src** folder for your program files
+
 <hr>
 
 ## II. Start coding your express server
@@ -47,11 +49,41 @@
 ## III. Create some hard-coded data
 
 - You can get some fake JSON data from https://www.mockaroo.com/
-- 
+- Just use the `id`, `first_name` & `last_name` fields - delete the others
+- Now export the JSON - 50 or 100 records is enough
+- We will store this hard-coded data as just a regular JS array of object literals
+- Create **src/data/user-data.js** file:
+
+```js
+const users = [{
+  "id": 1,
+  "first_name": "Jere",
+  "last_name": "Reay"
+},...];
+
+// default export
+export default users
+```
+
+- make sure that the **data** folder is inside the **src** folder
+- note we are doing an ES6 `export default` at then end
 
 <hr>
 
-## IV. Make sure that it's loaded
+## IV. Make sure that the data is loaded
+
+- Add the following to **src/server.js**
+
+```js
+// default ES6 import
+import users from './data/user-data.js';
+
+...
+
+console.log(users);
+```
+
+- Test it - the `users` array should log out
 
 <hr>
 
