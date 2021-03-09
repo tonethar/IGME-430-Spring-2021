@@ -69,8 +69,9 @@ const users = [{
 export default users
 ```
 
-- make sure that the **data** folder is inside the **src** folder
-- note we are doing an ES6 `export default` at then end
+- make sure that the **data** folder is inside the **src** folder so that the path to the file **src/data/user-data.js**:
+  - of course, you can put this file where ever you want to, just be sure to `import` it properly!
+- note we are doing an ES6 `export default` at then end of the **user-data.js** module
 
 <hr>
 
@@ -92,6 +93,13 @@ console.log(users);
 <hr>
 
 ## V. Create some `GET` routes
+
+- Here is the code that will listen and respond for the `/` route
+- Note that similar to the the `http` librbary, we ue the `response` object to send a message back to the requesting client
+
+![screenshot](_images/express-2.png)
+
+
 
 <hr>
 
