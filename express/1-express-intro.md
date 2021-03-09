@@ -41,6 +41,8 @@
 - Now run the app with `npm run nodemon`
 - ***FAIL!***
 
+<hr>
+
 ### II-B. Node uses CommonJS (CJS) modules by default
 - You can tell Node.js to use ES6 modules by either:
   -  changing the file extension of the JS files from `.js` to `.mjs` OR
