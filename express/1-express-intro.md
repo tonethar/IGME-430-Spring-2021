@@ -34,16 +34,20 @@
 
 ![screenshot](_images/express-1.png)
 
-- `npm run nodemon` // FAIL
+- Now run the app with `npm run nodemon`
+- ***FAIL!***
 
 ### II-B. Node uses CommonJS (CJS) modules by default
 - You can tell Node.js to use ES6 modules by either:
-  -  chnaging the file extension of the JS files from `.js` to `.mjs` OR
-  -  adding a `"type": "module"` key to **package.json**
+  -  changing the file extension of the JS files from `.js` to `.mjs` OR
+  -  adding a `"type": "module"` key to **package.json** (we will do it this way)
 
 <hr>
 
 ## III. Create some hard-coded data
+
+- You can get some fake JSON data from https://www.mockaroo.com/
+- 
 
 <hr>
 
