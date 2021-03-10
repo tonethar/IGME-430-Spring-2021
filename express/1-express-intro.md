@@ -1,9 +1,11 @@
+# 1 - Intro to express
+
 ## 0. Video & HW
 
 - The video for this lecture, which walks through the notes, is here --> [Express - Part I (21:30)](https://video.rit.edu/Watch/430-express-1)
 - See the HW assignment at the bottom of the page (Part IX.)
 
-# 1 - Intro to express
+## Overview of express
 - *Fast, unopinionated, minimalist web framework for node:*
   - https://www.npmjs.com/package/express
   - http://expressjs.com/
