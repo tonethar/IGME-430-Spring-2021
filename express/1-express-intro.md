@@ -94,7 +94,7 @@ console.log(users);
 
 ## V. Create some `GET` routes
 
-- Here is the code that will listen and respond for the `/` route
+- Here is the code that will listen and respond for the **/** route
 - Note that similar to the the `http` librbary, we ue the `response` object to send a message back to the requesting client
 
 ![screenshot](_images/express-2.png)
@@ -111,7 +111,7 @@ console.log(users);
 
 ## VI. Create some `POST`, `PUT`, and `DELETE` routes for `/`
 
-- Listen for `POST`, `PUT`, and `DELETE` requests for the `/` route 
+- Listen for `POST`, `PUT`, and `DELETE` requests for the **/** route 
 - Pause the video, see if you can figure these out on your own
 - Hint: `app.post()`, `app.put()` etc
 - When you are done, test them with Postman (you won't be able to use the location bar of the browser for request types other than `GET`)
@@ -120,7 +120,7 @@ console.log(users);
 
 ## VII. Create a `GET` endpoint `/all-users`
 
-- Now send back the entire contents of the the `users` array for the `/all-users` endpoint
+- Now send back the entire contents of the the `users` array for the **/all-users** endpoint
 - Note that `res.send()` will automatically convert your array to a JSON string representation - so `JSON.stringify()` is not required
 - Pause the video, see if you can figure this out on your own
 - When you are done, test the endpoint with the browser and Postman
@@ -128,6 +128,12 @@ console.log(users);
 <hr>
 
 ## VIII. Submission
+
+
+
+<hr>
+
+## IX. Submission
 
 
 <hr><hr>
