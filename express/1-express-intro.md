@@ -107,6 +107,12 @@ console.log(users);
   - `res.setHeader('content-type', 'text/plain');`
 - And here are the docs for the `app` object - be sure to check out all that it can do: http://expressjs.com/en/4x/api.html#app
 
+
+### V-A. Create a "fallback" route
+
+- You should have a fallback route for when *any* path is requested:
+  - use `*` for the path name
+
 <hr>
 
 ## VI. Create some `POST`, `PUT`, and `DELETE` routes for `/`
@@ -121,7 +127,7 @@ console.log(users);
 ## VII. Create a `GET` endpoint `/all-users`
 
 - Now send back the entire contents of the the `users` array for the **/all-users** endpoint
-- Note that [`res.json()`]():
+- Note that [`res.json()`](http://expressjs.com/en/4x/api.html#res.json):
   - will automatically convert the `users` array to a JSON string representation - so `JSON.stringify()` is not required
   - will automatically send the "application/json" content-type for you
 - Pause the video, see if you can figure this out on your own
@@ -131,11 +137,21 @@ console.log(users);
 
 ## VIII. Passing data to a `/user` endpoint
 
-- Now we will 
+- Now we will create a **/user** endpoint, send along an `id` parameter, and get back a single user with a matching id, in JSON format
+- We have previously been passing `GET` parameters in the query string - i.e. `?name=Festus&age=50`
+- But here we will pass the paramter along in a "RESTful" fashion - as part of the URL:
+  - https://restfulapi.net/rest-api-design-tutorial-with-example/#model-uris
+- Watch the video to see how we implement it
 
 <hr>
 
 ## IX. Submission
+
+- Get all of the endpoints working:
+  - `GET`
+    - 
+- Delete your **node_modules** folder, then ZIP and POST to the dropbox
+- THere is no need to post this to GitHub
 
 
 <hr><hr>
