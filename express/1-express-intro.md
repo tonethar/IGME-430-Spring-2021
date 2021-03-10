@@ -114,13 +114,16 @@ console.log(users);
 - Listen for `POST`, `PUT`, and `DELETE` requests for the `/` route 
 - Pause the video, see if you can figure these out on your own
 - Hint: `app.post()`, `app.put()` etc
-- When you are done, test them with Postman
+- When you are done, test them with Postman (you won't be able to use the location bar of the browser for request types other than `GET`)
 
 <hr>
 
 ## VII. Create a `GET` endpoint `/all-users`
 
-- Now send back the entire contents of the the `users` array for the 
+- Now send back the entire contents of the the `users` array for the `/all-users` endpoint
+- Note that `res.send()` will automatically convert your array to a JSON string representation - so `JSON.stringify()` is not required
+- Pause the video, see if you can figure this out on your own
+- When you are done, test the endpoint with the browser and Postman
 
 <hr>
 
