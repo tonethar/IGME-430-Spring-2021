@@ -121,7 +121,7 @@ console.log(users);
 - Pause the video, see if you can figure these out on your own
 - Hint: `app.post()`, `app.put()` etc
 - When you are done, test them with Postman (you won't be able to use the location bar of the browser for request types other than `GET`)
-- Don't forget to set up a fallback route - **\*** - for each! 
+- Don't forget to set up a fallback route - `**\***` - for each! 
 
 <hr>
 
@@ -150,13 +150,13 @@ console.log(users);
 
 - Get all of the endpoints working:
   - `GET`
-    - **/**
-    - **/all-users**
-    - **/user/:id**
-    - **\***
+    - `**/**`
+    - `**/all-users**`
+    - `**/user/:id**`
+    - `**\***`
   - `POST`, `PUT`, `DELETE`
-    - **/**
-    - **\***
+    - `**/**`
+    - `**\***`
 - Delete your **node_modules** folder, then ZIP and POST to the dropbox
 - There is no need to post this to GitHub or Heroku
 
