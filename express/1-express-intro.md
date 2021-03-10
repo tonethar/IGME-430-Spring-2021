@@ -104,17 +104,22 @@ console.log(users);
   - `res.status(200).type('text/plain').send(`A GET request on route '/'`);`
 - You can also set the response headers using the `http` library (BEFORE calling `res.send()`:
   - `res.setHeader('content-type', 'text/plain');`
+- And here are the docs for the `app` object - be sure to check out all that it can do: http://expressjs.com/en/4x/api.html#app
 
 <hr>
 
-## VI. Create some `POST`, `PUT`, and `DELETE` routes
+## VI. Create some `POST`, `PUT`, and `DELETE` routes for `/`
 
+- Listen for `POST`, `PUT`, and `DELETE` requests for the `/` route 
 - Pause the video, see if you can figure these out on your own
+- Hint: `app.post()`, `app.put()` etc
 - When you are done, test them with Postman
 
 <hr>
 
 ## VII. Create a `GET` endpoint `/all-users`
+
+- Now send back the entire contents of the the `users` array for the 
 
 <hr>
 
