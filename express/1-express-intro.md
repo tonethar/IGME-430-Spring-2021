@@ -149,13 +149,13 @@ console.log(users);
 
 - Get all of the endpoints working:
   - `GET`
-    - */*
-    - */all-users*
-    - */user/:id*
-    - *\**
+    - **/**
+    - **/all-users**
+    - **/user/:id**
+    - **\***
   - `POST`, `PUT`, `DELETE`
-    - */*
-    - *\**
+    - **/**
+    - **\***
 - Delete your **node_modules** folder, then ZIP and POST to the dropbox
 - There is no need to post this to GitHub or Heroku
 
