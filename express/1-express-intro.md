@@ -105,6 +105,9 @@ console.log(users);
 
 ## VI. Create some `POST`, `PUT`, and `DELETE` routes
 
+- Pause the video, see if you can figure these out on your own
+- When you are done, test them with Postman
+
 <hr>
 
 ## VII. Create a `GET` endpoint `/all-users`
