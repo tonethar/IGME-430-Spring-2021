@@ -20,7 +20,7 @@
     - `npm i --save-dev nodemon`
 
 3) Add the following to the "scripts" key of **package.json**
-- `"nodemon": "nodemon --watch src src/server.js"`
+    - `"nodemon": "nodemon --watch src src/server.js"`
 
 4) Create a **src** folder for your program files
 
