@@ -100,7 +100,10 @@ console.log(users);
 ![screenshot](_images/express-2.png)
 
 - Here are the express docs for `response` - http://expressjs.com/en/4x/api.html#res.send
-- If we test this kn the browser and check the headers, we will see that a HTTP status code of 200 and the "text/html" content type were sent by default
+- If we test this in the browser and check the headers, we will see that a HTTP status code of `200` (or `304`) and the "text/html" content type were sent by default. But we can explictly set both of these like this (not the method chaining):
+  - `res.status(200).type('text/plain').send(`A GET request on route '/'`);`
+- You can also set the response headers using the `http` library (BEFORE calling `res.send()`:
+  - `res.setHeader('content-type', 'text/plain');`
 
 <hr>
 
