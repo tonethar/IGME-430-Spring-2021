@@ -121,7 +121,7 @@ console.log(users);
 ## VII. Create a `GET` endpoint `/all-users`
 
 - Now send back the entire contents of the the `users` array for the **/all-users** endpoint
-- Note that `res.send()`:
+- Note that [`res.json()`]():
   - will automatically convert the `users` array to a JSON string representation - so `JSON.stringify()` is not required
   - will automatically send the "application/json" content-type for you
 - Pause the video, see if you can figure this out on your own
