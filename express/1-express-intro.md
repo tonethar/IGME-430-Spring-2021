@@ -99,7 +99,8 @@ console.log(users);
 
 ![screenshot](_images/express-2.png)
 
-
+- Here are the express docs for `response` - http://expressjs.com/en/4x/api.html#res.send
+- If we test this kn the browser and check the headers, we will see that a HTTP status code of 200 and the "text/html" content type were sent by default
 
 <hr>
 
