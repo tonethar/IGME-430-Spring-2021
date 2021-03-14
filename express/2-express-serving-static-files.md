@@ -9,7 +9,7 @@
 
 ## II. Start Files
 
-- The start files for this project are here --> [client.zip](_files/client.zip):
+- The "static" start files that you will be "serving" for this exercise are here --> [client.zip](_files/client.zip):
   - **client/html/home.html**
   - **client/images/dr-evil.jpg**
   - **client/styles/default-styles.css**
