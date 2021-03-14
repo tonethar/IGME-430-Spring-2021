@@ -19,8 +19,19 @@
 <hr>
 
 ## III. Start Coding!
+- Get the app running with `npm run nodemon` and make sure that everything still works
+- Add this line of code to **server.js** and put it BEFORE  the first `app.get(...)` call:
+  
+  ```js
+  // "public" folder, "source" folder
+  app.use('/assets', express.static('client/'));
+  ```
 
-- 
+- The above line of code tells express to "serve" the above files in the **client** folder, and make them available at an **/assets** endpoint
+- Reload the **http://localhost:3000/** endpoint - everything is the same as before - or is it?
+  - Now check the URLs out in the browser:
+    - http://localhost:3000/assets/images/dr-evil.jpg
+    - http://localhost:3000/assets/styles/default-styles.css
 
 
 
