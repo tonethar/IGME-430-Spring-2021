@@ -7,7 +7,12 @@
  - PS - there's no video for this, and it shouldn't take you too long
 
 
-## II. 
+## II. Start Files
+
+- The start files for this project are here --> [client.zip](_files/client.zip):
+  - **client/html/home.html**
+  - **client/images/dr-evil.jpg**
+  - **client/styles/default-styles.css**
 
 <hr><hr>
 
