@@ -49,7 +49,7 @@
 ![screenshot](_images/express-3.png)
 
 - You will also have to import `path` like this - `import path from 'path';`
-- Head to `http://localhost:3000/` - **home.html** should load, but the image isn't showing, nor are styles being applied, it will looking like this:
+- Head to `http://localhost:3000/` - **home.html** should load, but the image isn't showing, nor are styles being applied, it will look like this:
 
 
 ![screenshot](_images/express-4.png)
@@ -58,7 +58,7 @@
 
 ## V. Fix the home.html page
 
-- You will need to make 2 small edits to **home.html** to fix it (hint, look at the files paths). When you are done it should look like this:
+- You will need to make 2 small edits to **home.html** to fix it (hint, look at the file paths in the `<link>` and `<img>` tags). When you are done it should look like this:
 
 ![screenshot](_images/express-5.png)
 
