@@ -33,7 +33,7 @@
     - http://localhost:3000/assets/images/dr-evil.jpg
     - http://localhost:3000/assets/styles/default-styles.css
     - http://localhost:3000/assets/html/home.html
-  - All 3 of these files should be loaded - note that the path now starts with **assets**
+  - All 3 of these files should load into a browser tab with no issues - note that the path now starts with **assets**
   - One issue though: the HTML page is not displaying the image, nor loading the stylesheet properly. You will fix this shortly
   - If you check the `content-type` in the Network inspector you will also see that these values are correct
 
