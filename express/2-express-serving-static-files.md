@@ -43,7 +43,7 @@
 
 - To serve **home.html** as the default file (i.e. under **/**), make `app.get('/',...)` look like this:
 
-![screenshot](_images/)
+![screenshot](_images/express-3.jpg)
 
 - You will also have to import `path` like this - `import path from 'path';`
 
