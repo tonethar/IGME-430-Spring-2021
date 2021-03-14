@@ -56,7 +56,7 @@
 
 ## V. Fix the home.html page
 
-- You will need to make 2 small edits to **home.html** to fix it. When you are done it should look like this:
+- You will need to make 2 small edits to **home.html** to fix it (hint, look at the files paths). When you are done it should look like this:
 
 ![screenshot](_images/express-5.png)
 
