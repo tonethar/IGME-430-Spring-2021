@@ -34,8 +34,18 @@
     - http://localhost:3000/assets/styles/default-styles.css
     - http://localhost:3000/assets/html/home.html
   - All 3 of these files should be loaded - note that the path now starts with **assets**
+  - One issue though: the HTML page is not displaying the image, nor loading the stylesheet properly. You will fix this shortly
   - If you check the `content-type` in the Network inspector you will also see that these values are correct
-  - That was easy
+
+<hr>
+
+## IV. Serve up `home.html` under the `/` endpoint
+
+- To serve **home.html** as the default file (i.e. under **/**), make `app.get('/',...)` look like this:
+
+![screenshot](_images/)
+
+- You will also have to import `path` like this - `import path from 'path';`
 
 
 
