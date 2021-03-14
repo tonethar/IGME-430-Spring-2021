@@ -56,7 +56,7 @@
 
 <hr>
 
-## V. Fix the home.html page
+## V. Fix the `home.html` page
 
 - You will need to make 2 small edits to **home.html** to fix it (hint, look at the file paths in the `<link>` and `<img>` tags). When you are done it should look like this:
 
