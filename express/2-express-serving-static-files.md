@@ -41,7 +41,7 @@
 
 ## IV. Serve up `home.html` under the `/` endpoint
 
-- To serve **home.html** as the default file (i.e. under **/**), we need to get the full path to **home.html**, and call `app.sendFIle()`:
+- To serve **home.html** as the default file (i.e. under **/**), we need to get the full path to **home.html**, and call `res.sendFile()`:
   - make `app.get('/',...)` look like this:
 
 ![screenshot](_images/express-3.png)
