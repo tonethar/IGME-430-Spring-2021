@@ -47,9 +47,25 @@
 ![screenshot](_images/express-3.png)
 
 - You will also have to import `path` like this - `import path from 'path';`
-- Head to `http://localhost:3000/` - **home**
+- Head to `http://localhost:3000/` - **home.html** should load, but the image isn't showing, nor are styles being applied, it will looking like this:
 
 
+![screenshot](_images/express-4.png)
+
+<hr>
+
+## V. Fix the home.html page
+
+- You will need to make 2 small edits to **home.html** to fix it. When you are done it should look like this:
+
+![screenshot](_images/express-5.png)
+
+<hr>
+
+## VI. Submission
+
+- Delete your **node_modules** folder, then ZIP and POST to the dropbox
+- There is no need to post this to GitHub or Heroku
 
 
 <hr><hr>
