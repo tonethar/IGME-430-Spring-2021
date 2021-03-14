@@ -18,7 +18,7 @@
 
 <hr>
 
-## III. Start Coding!
+## III. Start coding using our first *middleware*
 - Get the app running with `npm run nodemon` and make sure that everything still works
 - Add this line of code to **server.js** and put it BEFORE  the first `app.get(...)` call:
   
@@ -29,9 +29,14 @@
 
 - The above line of code tells express to "serve" the above files in the **client** folder, and make them available at an **/assets** endpoint
 - Reload the **http://localhost:3000/** endpoint - everything is the same as before - or is it?
-  - Now check the URLs out in the browser:
+  - Now check these URLs out in the browser:
     - http://localhost:3000/assets/images/dr-evil.jpg
     - http://localhost:3000/assets/styles/default-styles.css
+    - http://localhost:3000/assets/html/home.html
+  - All 3 of these files should be loaded - note that the path now starts with **assets**
+  - If you check the `content-type` in the Network inspector you will also see that these values are correct
+  - That was easy
+
 
 
 
