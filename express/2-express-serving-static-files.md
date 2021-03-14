@@ -6,6 +6,7 @@
  - Note: a *static* file is one that doesn't change between server calls - examples include images, CSS files, JavaScript files, and some HTML files
  - PS - there's no video for this, and it shouldn't take you too long
 
+<hr>
 
 ## II. Start Files
 
@@ -13,6 +14,15 @@
   - **client/html/home.html**
   - **client/images/dr-evil.jpg**
   - **client/styles/default-styles.css**
+- Unzip these and place the **client** folder inside of the **first-express-app** folder
+
+<hr>
+
+## III. Start Coding!
+
+- 
+
+
 
 <hr><hr>
 
