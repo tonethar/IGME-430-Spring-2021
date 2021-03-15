@@ -1,4 +1,4 @@
-# 3 - Express - Serving Static Files
+# 3 - Express - POST requests
 
 ## I. Overview
 
@@ -72,11 +72,15 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 - Let's write some code for that endpoint:
 
-![screenshot](_images/express-5.png)
+![screenshot](_images/express-6.png)
+
+- Test it!
+  - You should now be able to add new users with the **/add-user-form.html** form (which calls the **/add-user** POST endpoint)
+  - Confirm you were successful by heading to the **/all-users** endpoint
 
 <hr>
 
-## XX. Submission
+## IV. Submission
 
 - Delete your **node_modules** folder, then ZIP and POST to the dropbox
 - There is no need to post this to GitHub or Heroku
