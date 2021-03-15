@@ -2,9 +2,13 @@
 
 ## I. Overview
 
-## VI. Enable `POST` requests
+- Let's get POST request working and give our little app the ability to add new users
+- To help us with this, there is some built in *middleware* to handle POST requests - `body-parser`:
+  - http://expressjs.com/en/resources/middleware/body-parser.html
 
-### VI-A. Create a HTML `<form>` page
+<hr>
+
+## II.  Create a HTML `<form>` page
 
 - put the following in the **client/html/** folder
 
@@ -44,22 +48,31 @@
 
 <hr>
 
-### VI-B. Create the `/add-user` `POST` endpoint
+## III. Create the `/add-user` `POST` endpoint
 
+### III-A. Import the `body-parser` middleware
 - When you look at the `<form>` tag above, you will see that the form's HTTP `method` is `POST`, and the `action` (the endpoint it calls when the submit button is clicked) is `/add-user`
-- There is some built in *middleware* to handle POST requests and data sent in the HTTP message body - add the following to **server.js**:
+- Now we need to tell express to use the `body-parser`  *middleware* to handle any POST data that is sent in the HTTP message body - add the following to **server.js**:
 
 ```js
 import bodyParser from 'body-parser';
 ```
 
-and
+- and:
 
 ```js
 app.use(bodyParser.urlencoded({extended: true}));
 ```
 
+- and you should also download the `body-parser` files by typing `npm i body-parser`
+
+<hr>
+
+### III-B. Get the `/add-user` endpoint working
+
 - Let's write some code for that endpoint:
+
+![screenshot](_images/express-5.png)
 
 <hr>
 
@@ -73,4 +86,4 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   [Express #1 - Intro to express](1-express-intro.md) |  [**IGME-430**](../) | **Express #3**
+|   [2 - Express - Serving Static Files](2-express-serving-static-files.md) |  [**IGME-430**](../) | **Express #3**
