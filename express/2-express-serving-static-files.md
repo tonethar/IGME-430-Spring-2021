@@ -68,7 +68,7 @@
 
 ### VI-A. Create a HTML `<form>` page
 
-- put the follwoing in the **client/html/** folder
+- put the following in the **client/html/** folder
 
 **add-user-form.html**
 ```html
@@ -107,6 +107,9 @@
 <hr>
 
 ### VI-B. Create the `/add-user` `POST` endpoint
+
+- When you look at the `<form>` tag above, you will see that the form's HTTP `method` is `POST`, and the `action` (the endpoint it calls when the submit button is clicked) is `/add-user`
+- Let's write some code for that endpoint:
 
 
 
