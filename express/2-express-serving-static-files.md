@@ -74,4 +74,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   [**Express #1 - Intro to express**](1-express-intro.md) |  [**IGME-430**](../) | [**Express #3 - POST requests**](3-express-post-requests.md)
+|   [**Express #1 - Intro to express**](1-express-intro.md) |  [**IGME-430**](../README.md) | [**Express #3 - POST requests**](3-express-post-requests.md)
