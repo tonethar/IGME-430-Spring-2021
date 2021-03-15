@@ -109,6 +109,18 @@
 ### VI-B. Create the `/add-user` `POST` endpoint
 
 - When you look at the `<form>` tag above, you will see that the form's HTTP `method` is `POST`, and the `action` (the endpoint it calls when the submit button is clicked) is `/add-user`
+- There is some built in *middleware* to handle POST requests and data sent in the HTTP message body - add the following to **server.js**:
+
+```js
+import bodyParser from 'body-parser';
+```
+
+and
+
+```js
+app.use(bodyParser.urlencoded({extended: true}));
+```
+
 - Let's write some code for that endpoint:
 
 
