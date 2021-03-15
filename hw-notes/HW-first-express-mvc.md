@@ -13,7 +13,7 @@
     - add an `age` field to the `<form>`
     - makes sure that `setName` looks for this paramter and sends back an error if it's not set
     - if it is set, go ahead and add an `age` property to the `name` object, and return it
-    - you should see something like the following in the web browser:
+    - you should see something like the following in the web browser after you successfully add a new user:
 
 ```js
 {
