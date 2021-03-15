@@ -5,6 +5,7 @@
 - Let's get POST request working and give our little app the ability to add new users
 - To help us with this, there is some built in *middleware* to handle POST requests - `body-parser`:
   - http://expressjs.com/en/resources/middleware/body-parser.html
+- PS there's not a video for this, and it shouldn't take you too long
 
 <hr>
 
