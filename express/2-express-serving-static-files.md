@@ -64,7 +64,13 @@
 
 <hr>
 
-## VI. Submission
+## VI. Enable `POST` requests
+
+
+
+<hr>
+
+## VII. Submission
 
 - Delete your **node_modules** folder, then ZIP and POST to the dropbox
 - There is no need to post this to GitHub or Heroku
