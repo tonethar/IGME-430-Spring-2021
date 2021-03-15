@@ -66,7 +66,7 @@
 
 ## VI. Enable `POST` requests
 
-## VI-A. Create a HTML `<form>` page
+### VI-A. Create a HTML `<form>` page
 
 - put the follwoing in the **client/html/** folder
 
@@ -106,7 +106,7 @@
 
 <hr>
 
-## VI-B. Create the `/add-user` `POST` endpoint
+### VI-B. Create the `/add-user` `POST` endpoint
 
 
 
