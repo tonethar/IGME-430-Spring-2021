@@ -66,6 +66,48 @@
 
 ## VI. Enable `POST` requests
 
+## VI-A. Create a HTML `<form>` page
+
+- put the follwoing in the **client/html/** folder
+
+**add-user-form.html**
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Add a user</title>
+  </head>
+  <body>
+    <header>
+      <h1>Add a user!</h1>
+    </header>
+    <main>
+      <form action="/add-user" method="POST">
+        First name:
+        <input type="text" name="firstname" value="">
+        Last name:
+        <input type="text" name="lastname" value="">
+        <input type="submit" value="Submit">
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2021 Ace Coder</p>
+    </footer>
+  </body>
+</html>
+```
+
+- now head to `http://localhost:3000/assets/html/add-user-form.html` - the form should be visible because of `express.static()` serving it for us:
+  - although that's a clunky endpoint!
+- so let's serve it on **'/add-user-form.html'** instead:
+  - head to **server.js** and add a `GET` endpoint - `app.get('/add-user-form.html', ...),`
+  - then test it at `http://localhost:3000/add-user-form.html` to be sure you did it right
+
+<hr>
+
+## VI-B. Create the `/add-user` `POST` endpoint
+
 
 
 <hr>
