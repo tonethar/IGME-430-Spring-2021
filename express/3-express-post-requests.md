@@ -90,4 +90,4 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   [2 - Express - Serving Static Files](2-express-serving-static-files.md) |  [**IGME-430**](../) | **Express #4**
+|   [**2 - Express - Serving Static Files**](2-express-serving-static-files.md) |  [**IGME-430**](../) | **Express #4**
