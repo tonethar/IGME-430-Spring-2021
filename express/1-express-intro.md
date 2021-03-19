@@ -172,7 +172,6 @@ console.log(users);
 
 <hr><hr>
 
-<hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
