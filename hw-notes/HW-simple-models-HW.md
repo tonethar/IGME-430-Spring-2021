@@ -1,4 +1,4 @@
-# HW - Simple Models ICE
+# HW - Simple Models
 
 ## I. Overview
 
