@@ -1,6 +1,18 @@
 # HW - Simple Models ICE
 
-## I. Instructions
+## I. Overview
+
+- This HW covers a lot:
+  - Express Routes
+  - MVC
+  - Server-side View Rendering (handlerbars)
+  - Mongo
+  - Mongoose
+
+
+<hr>
+
+## II. Instructions
 
 1) Start files are here - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-templates
 
