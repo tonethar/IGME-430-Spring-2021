@@ -1,4 +1,4 @@
-# HW - First Express MVC
+# HW - Simple Models ICE
 
 ## I. Instructions
 
