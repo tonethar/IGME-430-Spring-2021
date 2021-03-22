@@ -5,7 +5,7 @@
 - This HW covers a lot:
   - Express Routes
   - MVC
-  - Server-side View Rendering (handlerbars)
+  - Server-side view rendering (handlerbars)
   - Mongo
   - Mongoose
 
