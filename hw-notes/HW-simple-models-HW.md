@@ -151,6 +151,15 @@ CatSchema.statics.findByName = (name, callback) => {
 };
 ```
 
+### IV-D. Create `CatModel`
+
+- Create `CatModel` and utilize `CatSchema`, and name the MongoDB collection `Cat`
+
+```
+let CatModel = mongoose.model('Cat', CatSchema);
+```
+
+- 
 
 
 
