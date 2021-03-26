@@ -90,9 +90,38 @@ db.cats.find().pretty()
 
 ## IV. Walkthrough
 
-### IV-A. server/app.js
-
+### IV-A. Get Mongo working
+- **server/app.js**
 - talk about Mongo cloud code above
-- look at a local install of `mongo`:
+- demo a local install of `mongo`:
   - `mongo` (the client) and `mongod` (the server)
-  - a PDF in myCourses covers how to install this
+  - a PDF in myCourses covers how to install a local version of Mongo
+
+
+### IV-B. Mongoose - creating a data *schema*
+- Mongoose - *"elegant mongodb object modeling for node.js"* - https://mongoosejs.com/
+- A *schema* is a "blueprint" of how a mongo collection will be structured
+- **server/models/Cat.js**
+
+```js
+const CatSchema = new mongoose.Schema({
+  name: {
+    type: String,
+    required: true,
+    trim: true,
+    unique: true,
+  },
+
+  bedsOwned: {
+    type: Number,
+    min: 0,
+    required: true,
+  },
+
+  createdDate: {
+    type: Date,
+    default: Date.now,
+  },
+
+});
+```
