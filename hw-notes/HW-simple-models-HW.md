@@ -8,6 +8,10 @@
   - Server-side view rendering (handlerbars)
   - Mongo
   - Mongoose
+- But we have actually already looked at the first 4 of these, which just leaves the last one:
+  - connecting a Node.js app to MongoDB
+  - assigning a *schema* to MongoDB collection using Mongoose
+  - doing the Mongo DB "CRUD" operations from Node.js
 
 
 <hr>
