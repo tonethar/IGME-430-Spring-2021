@@ -29,3 +29,22 @@
 
 ## III. Walkthrough & Tips
 
+1) You may want to skip setting up a local MongoDB for this HW, and instead exclusively use your Mongo Cloud account. To do so
+
+- comment out this line of code  `const dbURL = process.env.MONGODB_URI || 'mongodb://localhost/simpleMVCExample';`
+- and replace it with this one - replacing the placeholder values with your Mongo Cloud login and password:
+  - `const dbURL = "mongodb+srv://MY_CLOUD_LOGIN:MY_CLOUD_PASSWORD@cluster0.bcwxq.mongodb.net/SimpleModels";`
+
+2) From **MongoDB Compass**, you can see the cats you've added to ``, and even add some yourself. Here's what you need to type into the **MongoSH Beta** console at the bottom of the **MongoDB Compass** window
+
+```js
+use SimpleModels
+
+db.cats.insertOne({
+  name: 'Mr Meow',
+  bedsOwned: 1,
+  createdDate: Date()
+})
+
+db.cats.find().pretty()
+```
