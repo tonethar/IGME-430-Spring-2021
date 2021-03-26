@@ -132,5 +132,5 @@ const CatSchema = new mongoose.Schema({
 
 - A mongoose *schema* enforces a data *type* for the properties of the `Cats` collection
   - The permitted *SchemaTypes* are `String`, `Number`, `Date`, `Buffer`, `Boolean`, `Mixed`, `ObjectId`, `Array`, `Decimal128`, `Map`
-  - There are other *options* we can specify such as minimum values, if there is a default value, and if a value is required:
+  - There are other *options* we can specify such as minimum/maximum values, if there is a default value, and if a value is required, or if a value must be *unique*:
     - https://mongoosejs.com/docs/guide.html#options
