@@ -92,6 +92,7 @@ db.cats.find().pretty()
 
 ### IV-A. server/app.js
 
-- talk about Mongo stuff above
-- look at a local isntall of `mongo`:
+- talk about Mongo code above
+- look at a local install of `mongo`:
+  - `mongo` (the client) and `mongod` (the server)
   - a PDF in myCourses covers how to install this
