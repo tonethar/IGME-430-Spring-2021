@@ -29,7 +29,7 @@
 
 ## III. Tips
 
-1) You may want to skip setting up a local MongoDB for this HW, and instead exclusively use your Mongo Cloud account. To do so:
+1) You may want to skip setting up a local MongoDB for this HW, and instead exclusively use your MongoDB Cloud account. To do so:
 
     - comment out this line of code:
       - `const dbURL = process.env.MONGODB_URI || 'mongodb://localhost/simpleMVCExample';`
@@ -94,15 +94,17 @@ db.cats.find().pretty()
 
 ### IV-A. Get Mongo working
 - **server/app.js**
-- talk about Mongo cloud code above
+- talk about MongoDB cloud code above
 - demo a local install of `mongo`:
   - `mongo` (the client) and `mongod` (the server)
-  - a PDF in myCourses covers how to install a local version of Mongo
+  - a PDF in myCourses covers how to install a local version of MongoDB
 
 
 ### IV-B. Mongoose - creating a data *schema*
 - Mongoose - *"elegant mongodb object modeling for node.js"* - https://mongoosejs.com/
-- A *schema* is a "blueprint" of how a mongo collection will be structured
+- A *schema* is a "blueprint" of how a MongoDB collection will be structured
+- https://mongoosejs.com/docs/guide.html
+  - *"Everything in Mongoose starts with a Schema. Each schema maps to a MongoDB collection and defines the shape of the documents within that collection."*
 - **server/models/Cat.js**
 
 ```js
@@ -127,3 +129,5 @@ const CatSchema = new mongoose.Schema({
 
 });
 ```
+
+- The permitted *SchemaTypes* are `String`, `Number`, `Date`, `Buffer`, `Boolean`, `Mixed`, `ObjectId`, `Array`, `Decimal128`, `Map`
