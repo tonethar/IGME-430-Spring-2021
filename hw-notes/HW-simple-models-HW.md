@@ -39,7 +39,7 @@
 
 2) If you are using the MongoDB Cloud with this asignment, in **MongoDB Compass** you can see the cats that you have added to `SimpleModels`. You can even add some more yourself using the **MongoDB Compass** app. Below is what you need to type into the **MongoSH Beta** console:
 
-```js
+```
 use SimpleModels
 
 db.cats.insertOne({
