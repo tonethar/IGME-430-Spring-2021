@@ -134,3 +134,21 @@ const CatSchema = new mongoose.Schema({
   - The permitted *SchemaTypes* are `String`, `Number`, `Date`, `Buffer`, `Boolean`, `Mixed`, `ObjectId`, `Array`, `Decimal128`, `Map`
   - There are other *options* we can specify such as minimum/maximum values, if there is a default value, and if a value is required, or if a value must be *unique*:
     - https://mongoosejs.com/docs/guide.html#options
+
+
+
+### IV-C. Mongoose schemas can have *static functions*
+
+```
+CatSchema.statics.findByName = (name, callback) => {
+  const search = {
+    name,
+  };
+
+  return CatModel.findOne(search, callback); // calls Mongo's built-in `findOne()` method
+};
+```
+
+
+
+
