@@ -138,6 +138,7 @@ const CatSchema = new mongoose.Schema({
   - The permitted *SchemaTypes* are `String`, `Number`, `Date`, `Buffer`, `Boolean`, `Mixed`, `ObjectId`, `Array`, `Decimal128`, `Map`
   - There are other *options* we can specify such as minimum/maximum values, if there is a default value, and if a value is required, or if a value must be *unique*:
     - https://mongoosejs.com/docs/guide.html#options
+    - be careful with the `unique` option - it's not something that you will need very often (so don't copy/paste it and keep reusing it!)
 
 
 
@@ -162,6 +163,9 @@ CatSchema.statics.findByName = (name, callback) => {
 ```
 let CatModel = mongoose.model('Cat', CatSchema);
 ```
+
+
+### IV-E. Make a new `Cat`
 
 - We can then make a new `Cat` like this:
 
