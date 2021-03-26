@@ -139,7 +139,7 @@ const CatSchema = new mongoose.Schema({
 
 ### IV-C. Mongoose schemas can have *static functions*
 
-- Below is a function that we'll define - it looks for a specific cat - that we'll later call from `readCat()` - `Cat.findByName(name1, callback);`
+- Below is a function that we'll define - it looks for a specific cat - that we'll later call from `readCat()` like this: `Cat.findByName(name1, callback);`
 
 ```
 CatSchema.statics.findByName = (name, callback) => {
