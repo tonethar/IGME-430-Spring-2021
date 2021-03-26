@@ -35,7 +35,7 @@
 - and replace it with this one - replacing the placeholder values with your Mongo Cloud login and password:
   - `const dbURL = "mongodb+srv://MY_CLOUD_LOGIN:MY_CLOUD_PASSWORD@cluster0.bcwxq.mongodb.net/SimpleModels";`
 
-2) From **MongoDB Compass**, you can see the cats you've added to ``, and even add some yourself. Here's what you need to type into the **MongoSH Beta** console at the bottom of the **MongoDB Compass** window
+2) If you are using MongoDB Cloud with this Node app, in **MongoDB Compass** you can see the cats that you add to `SimpleModels`. You can even add some more yourself using the **MongoDB Compass** app. Below is what you need to type into the **MongoSH Beta** console:
 
 ```js
 use SimpleModels
