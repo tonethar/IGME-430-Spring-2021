@@ -27,7 +27,7 @@
 
 <hr>
 
-## III. Walkthrough & Tips
+## III. Tips
 
 1) You may want to skip setting up a local MongoDB for this HW, and instead exclusively use your Mongo Cloud account. To do so:
 
@@ -86,3 +86,12 @@ db.cats.find().pretty()
 
 3) When you start working on this HW, change the name of the database from `simpleMVCExample` to `SimpleModels` (by editing the end of `dbURL`)
 
+<hr>
+
+## IV. Walkthrough
+
+### IV-A. server/app.js
+
+- talk about Mongo stuff above
+- look at a local isntall of `mongo`:
+  - a PDF in myCourses covers how to install this
