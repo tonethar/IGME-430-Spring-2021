@@ -36,6 +36,7 @@
     - and replace it with this one - replacing the placeholder values with your Mongo Cloud login and password:
       - `const dbURL = 'mongodb+srv://MY_CLOUD_LOGIN:MY_CLOUD_PASSWORD@cluster0.bcwxq.mongodb.net/simpleMVCExample';`
 
+<hr>
 
 2) If you are using the MongoDB Cloud with this assignment, in **MongoDB Compass** you can see the cats that you have added to `SimpleModels`. You can even add some more yourself using the **MongoDB Compass** app. Below is what you need to type into the **MongoSH Beta** console:
 
@@ -77,7 +78,7 @@ db.cats.deleteOne({ name: 'Mr Meow' })
 db.cats.find().pretty()
 ```
 
-
+<hr>
 
 3) When you start working on this HW, change the name of the database from `simpleMVCExample` to `SimpleModels` (by editing the end of `dbURL`)
 
