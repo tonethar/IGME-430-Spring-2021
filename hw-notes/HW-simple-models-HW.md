@@ -23,3 +23,9 @@
 4) Now head to myCourses and grab the **SimpleModelsICE_MongoCloudUpdate.pdf** file - the HW instructions are there
 
 5) Follow the submission instructions in the PDF
+
+
+<hr>
+
+## III. Walkthrough & Tips
+
