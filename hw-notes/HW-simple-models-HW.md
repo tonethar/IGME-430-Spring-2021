@@ -161,7 +161,7 @@ let CatModel = mongoose.model('Cat', CatSchema);
 
 - We can then make a new `Cat` like this:
 
-Some of **controllers/index.js**
+**controllers/index.js** (Some of if)
 
 ```
 const Cat = models.Cat.CatModel; // renaming `CatModel` to `Cat`
