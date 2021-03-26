@@ -29,13 +29,15 @@
 
 ## III. Walkthrough & Tips
 
-1) You may want to skip setting up a local MongoDB for this HW, and instead exclusively use your Mongo Cloud account. To do so
+1) You may want to skip setting up a local MongoDB for this HW, and instead exclusively use your Mongo Cloud account. To do so:
 
-- comment out this line of code  `const dbURL = process.env.MONGODB_URI || 'mongodb://localhost/simpleMVCExample';`
-- and replace it with this one - replacing the placeholder values with your Mongo Cloud login and password:
-  - `const dbURL = "mongodb+srv://MY_CLOUD_LOGIN:MY_CLOUD_PASSWORD@cluster0.bcwxq.mongodb.net/SimpleModels";`
+    - comment out this line of code  `const dbURL = process.env.MONGODB_URI || 'mongodb://localhost/simpleMVCExample';`
+    - and replace it with this one - replacing the placeholder values with your Mongo Cloud login and password:
+      - `const dbURL = "mongodb+srv://MY_CLOUD_LOGIN:MY_CLOUD_PASSWORD@cluster0.bcwxq.mongodb.net/SimpleModels";`
 
-2) If you are using MongoDB Cloud with this Node app, in **MongoDB Compass** you can see the cats that you add to `SimpleModels`. You can even add some more yourself using the **MongoDB Compass** app. Below is what you need to type into the **MongoSH Beta** console:
+<hr>
+
+2) If you are using the MongoDB Cloud with this asignment, in **MongoDB Compass** you can see the cats that you have added to `SimpleModels`. You can even add some more yourself using the **MongoDB Compass** app. Below is what you need to type into the **MongoSH Beta** console:
 
 ```js
 use SimpleModels
