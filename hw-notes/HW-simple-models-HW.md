@@ -56,7 +56,26 @@ db.cats.find().pretty()
 - Try it:
 
 ```
+use SimpleModels
 
+db.cats.updateOne({ name: 'Mr Meow' },
+{
+  $inc: {
+    bedsOwned: 10
+  }
+})
+
+db.cats.find().pretty()
+```
+
+- And:
+
+```
+use SimpleModels
+
+db.cats.deleteOne({ name: 'Mr Meow' })
+
+db.cats.find().pretty()
 ```
 
 - Then head back to `http://localhost:3000/page1` of the node app
