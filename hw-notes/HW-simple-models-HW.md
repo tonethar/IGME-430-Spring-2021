@@ -56,7 +56,7 @@ db.cats.find().pretty()
   - Try running the mongo commands below in **MongoDB Compass** - and as you create/update/delete cats, be sure to head back to `http://localhost:3000/page1` of the node app to see that the changes you made are happening there too!:
 
 ```
-use SimpleModels
+use simpleMVCExample
 
 db.cats.updateOne({ name: 'Mr Meow' },
 {
@@ -71,7 +71,7 @@ db.cats.find().pretty()
   - And:
 
 ```
-use SimpleModels
+use simpleMVCExample
 
 db.cats.deleteOne({ name: 'Mr Meow' })
 
