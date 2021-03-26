@@ -33,7 +33,7 @@
 
     - comment out this line of code:
       - `const dbURL = process.env.MONGODB_URI || 'mongodb://localhost/simpleMVCExample';`
-    - and replace it with this one - replacing the placeholder values with your Mongo Cloud login and password:
+    - and replace it with this one - changing the placeholder values to instead reflect your actual Mongo Cloud login and password:
       - `const dbURL = 'mongodb+srv://MY_CLOUD_LOGIN:MY_CLOUD_PASSWORD@cluster0.bcwxq.mongodb.net/simpleMVCExample';`
 
 <hr>
