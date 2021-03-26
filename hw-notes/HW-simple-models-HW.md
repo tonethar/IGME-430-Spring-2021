@@ -35,6 +35,7 @@
       - `const dbURL = process.env.MONGODB_URI || 'mongodb://localhost/simpleMVCExample';`
     - and replace it with this one - changing the placeholder values to instead reflect your actual Mongo Cloud login and password:
       - `const dbURL = 'mongodb+srv://MY_CLOUD_LOGIN:MY_CLOUD_PASSWORD@cluster0.bcwxq.mongodb.net/simpleMVCExample';`
+    - if the `dbURL` connection string is invalid in some way (bad username or password for example) - the app will throw an error in the Node console
 
 <hr>
 
