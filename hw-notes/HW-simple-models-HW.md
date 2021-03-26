@@ -88,7 +88,9 @@ db.cats.find().pretty()
 
 <hr>
 
-## IV. Walkthrough
+## IV. Walkthrough of *simple-mvc-example-done*
+
+- We will hit the key points of the videro linekd above (but you will still need to watch the video!)
 
 ### IV-A. Get Mongo working
 - **server/app.js**
