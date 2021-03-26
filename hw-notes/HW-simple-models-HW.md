@@ -38,7 +38,7 @@
 
 <hr>
 
-2) If you are using the MongoDB Cloud with this asignment, in **MongoDB Compass** you can see the cats that you have added to `SimpleModels`. You can even add some more yourself using the **MongoDB Compass** app. Below is what you need to type into the **MongoSH Beta** console:
+2) If you are using the MongoDB Cloud with this assignment, in **MongoDB Compass** you can see the cats that you have added to `SimpleModels`. You can even add some more yourself using the **MongoDB Compass** app. Below is what you need to type into the **MongoSH Beta** console:
 
 ```
 use simpleMVCExample
@@ -51,6 +51,15 @@ db.cats.insertOne({
 
 db.cats.find().pretty()
 ```
+
+- Any changes ("CRUD") that you make to the cat data in either the Node App, or in **MongoDB Compass**, are reflected in ***BOTH apps***
+- Try it:
+
+```
+
+```
+
+- Then head back to `http://localhost:3000/page1` of the node app
 
 <hr>
 
