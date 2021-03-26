@@ -51,8 +51,8 @@ db.cats.insertOne({
 db.cats.find().pretty()
 ```
 
-- Any changes ("CRUD") that you make to the cat data in either the Node App, or in **MongoDB Compass**, are reflected in ***BOTH apps***
-- Try it - as you create/update/delete cats, be sure to head back to `http://localhost:3000/page1` of the node app to see that the changes you made are happening there too!:
+    - Any changes ("CRUD") that you make to the cat data in either the Node App, or in **MongoDB Compass**, are reflected in ***BOTH apps***
+    - Try it - as you create/update/delete cats, be sure to head back to `http://localhost:3000/page1` of the node app to see that the changes you made are happening there too!:
 
 ```
 use SimpleModels
@@ -67,7 +67,7 @@ db.cats.updateOne({ name: 'Mr Meow' },
 db.cats.find().pretty()
 ```
 
-- And:
+    - And:
 
 ```
 use SimpleModels
@@ -78,7 +78,6 @@ db.cats.find().pretty()
 ```
 
 
-<hr>
 
 3) When you start working on this HW, change the name of the database from `simpleMVCExample` to `SimpleModels` (by editing the end of `dbURL`)
 
