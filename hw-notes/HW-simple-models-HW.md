@@ -53,7 +53,7 @@ db.cats.find().pretty()
 ```
 
 - Any changes ("CRUD") that you make to the cat data in either the Node App, or in **MongoDB Compass**, are reflected in ***BOTH apps***
-- Try it:
+- Try it - as you create/update/delete cats, be sure to head back to `http://localhost:3000/page1` of the node app to see that the changes you made are happening there too!:
 
 ```
 use SimpleModels
@@ -78,7 +78,6 @@ db.cats.deleteOne({ name: 'Mr Meow' })
 db.cats.find().pretty()
 ```
 
-- Then head back to `http://localhost:3000/page1` of the node app
 
 <hr>
 
