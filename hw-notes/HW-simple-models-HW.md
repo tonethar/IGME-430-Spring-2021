@@ -159,7 +159,52 @@ CatSchema.statics.findByName = (name, callback) => {
 let CatModel = mongoose.model('Cat', CatSchema);
 ```
 
-- 
+- We can then make a new `Cat` like this:
 
+Some of **controllers/index.js**
 
+```
+const Cat = models.Cat.CatModel; // renaming `CatModel` to `Cat`
+
+...
+
+const setName = (req, res) => {
+  // check if the required fields exist
+  // normally you would also perform validation
+  // to know if the data they sent you was real
+  if (!req.body.firstname || !req.body.lastname || !req.body.beds) {
+    // if not respond with a 400 error
+    // (either through json or a web page depending on the client dev)
+    return res.status(400).json({ error: 'firstname,lastname and beds are all required' });
+  }
+
+  // if required fields are good, then set name
+  const name = `${req.body.firstname} ${req.body.lastname}`;
+
+  // dummy JSON to insert into database
+  const catData = {
+    name,
+    bedsOwned: req.body.beds,
+  };
+
+  // create a new object of CatModel with the object to save
+  const newCat = new Cat(catData);
+
+  // create new save promise for the database
+  const savePromise = newCat.save();
+
+  savePromise.then(() => {
+    // set the lastAdded cat to our newest cat object.
+    // This way we can update it dynamically
+    lastAdded = newCat;
+    // return success
+    res.json({ name: lastAdded.name, beds: lastAdded.bedsOwned });
+  });
+
+  // if error, return it
+  savePromise.catch((err) => res.status(500).json({ err }));
+
+  return res;
+};
+```
 
