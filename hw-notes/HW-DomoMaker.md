@@ -1,7 +1,7 @@
 # DomoMaker HW Overview
 
 - DomoMaker is a 4-part assignment where you will use React, Mongo/Mongoose, and Redis to create a web application that has the capability to create persistent data in our MongoDB cloud accounts, as well as login/logout capabilities for administrative "super users"
-- The PDFs for a 4 parts are in myCourses
+- The PDFs for all 4 parts are in myCourses
 
 **Overview**
 
