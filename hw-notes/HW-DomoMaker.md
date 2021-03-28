@@ -7,7 +7,7 @@
 
 - [I. DomoMaker A](#A)
 
-- [II. DomoMaker A](#B)
+- [II. DomoMaker B](#B)
 
 <a id="A"></a>
 
