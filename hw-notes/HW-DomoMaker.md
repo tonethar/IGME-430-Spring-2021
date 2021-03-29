@@ -19,7 +19,7 @@
 ### I-A DomoMaker-A Tips and Hints
 1) PDF of assignment is in myCourses
  
-2) Start Code is here: https://github.com/IGM-RichMedia-at-RIT/DomoMaker-A-Start - because you will be posting this to Heroku, you might want to Fork the repository and then `gi clone` it (rather than download the ZIP like the instructions say)
+2) Start Code is here: https://github.com/IGM-RichMedia-at-RIT/DomoMaker-A-Start - because you will be posting this to Heroku, you might want to Fork the repository and then `git clone` it (rather than download the ZIP like the instructions say)
 
 3) If you do NOT have a local instance of MongoDB running, just use your cloud account like we did on the Simple Models HW:
 
