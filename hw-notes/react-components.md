@@ -1,6 +1,8 @@
 ## Topics: React Function Components (including hooks) & React Class Components
 
-### I. React FSCs & React Class Components
+<a id="functional-state-component" />
+
+### I. React FSCs
 
 #### I-A. FSC (Functional Stateless Components) Overview
 - https://reactjs.org/
@@ -178,6 +180,8 @@ const loadSongsFromServer = () => {
 ```
 - and call it from `init()`
 
+<a id="class-component" />
+
 <hr>  
 
 ### II. React Class components 
@@ -240,6 +244,8 @@ window.onload = init;
     - if part of a page changes, the client contacts the server to get the new info (like the stock price) and then updates the page by changing just part of it (ex. the innerHTML of the div that holds the stock price)
     - thus the server doesn't have to do as much work, and not as much bandwidth needs to be used because only small bits of information (like a stock price) are sent back and forth (as opposed to the whole page)
     
+
+<a id="function-component-hooks" />
 
 <hr>
 
