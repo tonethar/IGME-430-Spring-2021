@@ -1,6 +1,6 @@
 ## Topics: React Function Components (including hooks) & React Class Components
 
-<a id="functional-state-component" />
+<a id="functional-stateless-component" />
 
 ### I. React FSCs
 
