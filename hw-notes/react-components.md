@@ -10,7 +10,7 @@
 #### I-B. About Demos
 - start code at: https://github.com/IGM-RichMedia-at-RIT/React-FSCs
 - done code at: https://github.com/IGM-RichMedia-at-RIT/React-FSCs-Done
-- video for demo is here: https://www.youtube.com/watch?v=kAMb0sEp9js&feature=emb_logo
+- video for demo is here: https://www.youtube.com/watch?v=kAMb0sEp9js
 - **package.json** has multiple build scripts for each example
 - look at **example1.handlebars** - it is importing the needed client-side libs for React
 - **client folder** is where we'll write most of the the code
