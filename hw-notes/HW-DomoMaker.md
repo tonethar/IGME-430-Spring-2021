@@ -40,6 +40,7 @@
   - `const dbURL = 'mongodb+srv://MY_CLOUD_LOGIN:MY_CLOUD_PASSWORD@cluster0.bcwxq.mongodb.net/DomoMaker';`
 - if the `dbURL` connection string is invalid in some way (bad username or password for example) - the app will throw an error in the Node console
 
+
 ### I-B. DomoMaker-A Assignment Walkthrough (we will talk about this in class)
 
 - The architecture of this app is very similar to the *Simple Models* HW
