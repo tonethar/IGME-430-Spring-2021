@@ -23,7 +23,7 @@
 
 3) To get rid of those annoying warnings, and to make sure that Heroku uses the correct version of node and npm, set the "engines" keys of **package.json**
 
-- Typing `node -v` and `npm -v` in the console will give you the versions you are building with (*semantic versioning* is `major.minor.patch`)  Then you replace the last digit with an `x` to specify that the latest patch should be used - for example:
+  - Typing `node -v` and `npm -v` in the console will give you the versions you are building with (*semantic versioning* is `major.minor.patch`)  Then you replace the last digit with an `x` to specify that the latest patch should be used - for example:
 
 ```js
 "engines": {
@@ -34,16 +34,16 @@
 
 4) If you do NOT have a local instance of MongoDB running, just use your cloud account like we did on the Simple Models HW:
 
-- comment out this line of code: 
-  - `const dbURL = process.env.MONGODB_URI || 'mongodb://localhost/DomoMaker';`
-- and replace it with this one - changing the placeholder values to instead reflect your actual Mongo Cloud login and password:
-  - `const dbURL = 'mongodb+srv://MY_CLOUD_LOGIN:MY_CLOUD_PASSWORD@cluster0.bcwxq.mongodb.net/DomoMaker';`
-- if the `dbURL` connection string is invalid in some way (bad username or password for example) - the app will throw an error in the Node console
+  - comment out this line of code: 
+    - `const dbURL = process.env.MONGODB_URI || 'mongodb://localhost/DomoMaker';`
+  - and replace it with this one - changing the placeholder values to instead reflect your actual Mongo Cloud login and password:
+    - `const dbURL = 'mongodb+srv://MY_CLOUD_LOGIN:MY_CLOUD_PASSWORD@cluster0.bcwxq.mongodb.net/DomoMaker';`
+  - if the `dbURL` connection string is invalid in some way (bad username or password for example) - the app will throw an error in the Node console
 
 #### I-Ai) Reference
 
-- https://devcenter.heroku.com/articles/node-best-practices
-- https://nodejs.dev/learn/semantic-versioning-using-npm
+  - https://devcenter.heroku.com/articles/node-best-practices
+  - https://nodejs.dev/learn/semantic-versioning-using-npm
 
 <hr>
 
