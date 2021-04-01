@@ -21,7 +21,18 @@
  
 2) Start Code is here: https://github.com/IGM-RichMedia-at-RIT/DomoMaker-A-Start - because you will be posting this to Heroku, you might want to Fork the repository and then `git clone` it (rather than download the ZIP like the instructions say)
 
-3) If you do NOT have a local instance of MongoDB running, just use your cloud account like we did on the Simple Models HW:
+3) To get rid of those annoying warnings, and to make sure that Heroku uses the correct version of node and npm, set the "engines" keys of **package.json**
+
+- `node -v` and `npm -v` will give you the versions (*semantic versioning* is `*major.minor.patch`) you are building with - and then replace the last digit with an `x` to specify that the latest patch should be used - for example:
+
+```js
+"engines": {
+    "node": "15.4.x",
+    "npm": "7.6.x"
+  },
+```
+
+4) If you do NOT have a local instance of MongoDB running, just use your cloud account like we did on the Simple Models HW:
 
 - comment out this line of code: 
   - `const dbURL = process.env.MONGODB_URI || 'mongodb://localhost/DomoMaker';`
