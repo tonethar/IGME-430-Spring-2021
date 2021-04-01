@@ -23,7 +23,7 @@
 
 3) To get rid of those annoying warnings, and to make sure that Heroku uses the correct version of node and npm, set the "engines" keys of **package.json**
 
-- `node -v` and `npm -v` will give you the versions (*semantic versioning* is `major.minor.patch`) you are building with - and then replace the last digit with an `x` to specify that the latest patch should be used - for example:
+- Typing `node -v` and `npm -v` in the console will give you the versions you are building with (*semantic versioning* is `major.minor.patch`)  Then you replace the last digit with an `x` to specify that the latest patch should be used - for example:
 
 ```js
 "engines": {
