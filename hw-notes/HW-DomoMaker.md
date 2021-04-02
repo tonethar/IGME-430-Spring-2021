@@ -78,7 +78,8 @@
     - the ***controllers*** will call the appropriate methods defined in the ***models***, and then render (draw) the ***views***
 - Note: the **client.js** code is all [jQuery](https://jquery.com/):
   - why? `jQuery.animate()` I guess ...
-  - here's a nice overview - [jQuery Fundamentals - jquery Basics](http://jqfundamentals.com/chapter/jquery-basics)
+    - here's a nice overview - [jQuery Fundamentals - jquery Basics](http://jqfundamentals.com/chapter/jquery-basics)
+  - also, the **client.js** code is actually getting *transpiled* into ES5 by the server (utilizing Babel) and stored in **hosted/bundle.js**
 - Create a user account (name and password) with **signup.handlebars**
   - `<input id="pass" type="password" name="pass" placeholder="password"/>`
   - note that the `type` is [`"password"`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password)
