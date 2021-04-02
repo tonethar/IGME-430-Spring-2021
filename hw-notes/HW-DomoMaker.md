@@ -16,10 +16,12 @@
 
 ## I. DomoMaker-A 
 
+<a id="domomaker-a-tips"></a>
+
 ### I-A DomoMaker-A Tips and Hints
-1) PDF of assignment is in myCourses
+1) The PDF of the assignment is in myCourses
  
-2) Start Code is here: https://github.com/IGM-RichMedia-at-RIT/DomoMaker-A-Start - because you will be posting this to Heroku, you might want to Fork the repository and then `git clone` it (rather than download the ZIP like the instructions say)
+2) The start code is here: https://github.com/IGM-RichMedia-at-RIT/DomoMaker-A-Start - because you will be posting this to Heroku, you might want to Fork the repository and then `git clone` it (rather than download the ZIP like the instructions say)
 
 3) To get rid of those annoying warnings, and to make sure that Heroku uses the correct version of node and npm, set the "engines" keys of **package.json**
 
