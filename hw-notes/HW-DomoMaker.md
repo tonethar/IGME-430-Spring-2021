@@ -68,7 +68,7 @@
 
 - The architecture of this app is very similar to the *Simple Models* HW
   - **app.js**  loads the app dependencies and starts up the [express](https://www.npmjs.com/package/express) server
-  - **router.js** calls the various routes with code defined in the **controllers/** folder
+  - **router.js** calls the various routes with code defined in the **controllers/** folder - it also illustrates *dependency injection*
   - a **views/** folder contains [handlebars](https://handlebarsjs.com/) templates of the site's three pages (**app**, **signup**, **login**)
   - a **models/** folder that contains [mongoose](https://www.npmjs.com/package/mongoose) models (one per file) such as `Account` and (coming soon!) `Domo`
     - we add "class" methods to these models with the `statics` property
