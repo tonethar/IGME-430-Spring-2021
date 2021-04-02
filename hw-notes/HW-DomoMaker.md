@@ -88,7 +88,7 @@
     - we encrypt the typed in password with node's built-in **crypto** library:
       - https://nodejs.org/api/crypto.html#crypto_crypto_pbkdf2_password_salt_iterations_keylen_digest_callback
       - https://nodejs.org/api/crypto.html#crypto_crypto_randombytes_size_callback
-  - `controllers/Account.js` uses `signup()` to call `AccountModel.generateHash()` and generate an encrypted password
+  - **controllers/Account.js** uses `signup()` to call `AccountModel.generateHash()` and generate an encrypted password
   - password encryption:
     - clear text:
       - https://simple.wikipedia.org/wiki/Cleartext
@@ -128,7 +128,6 @@
 
 1) DomoMaker-B:
   - See myCourses for PDF and dropbox/due date
-  - See ***tonys_class*** channel in Discord - there I noted 4 DomoMaker-B PDF typos
   - Make sure that you create a new repository (and Heroku app) for each version of DomoMaker. I will be grading/checking these off very quiickly, so you will be able to delete the old Heroku apps very quickly if need be
   - What's new:
     - HTTP *sessions* keep track of who is logged in
