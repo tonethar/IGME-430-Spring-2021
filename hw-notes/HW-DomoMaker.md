@@ -23,7 +23,7 @@
 
 <hr>
 
-2) The start code is here: https://github.com/IGM-RichMedia-at-RIT/DomoMaker-A-Start - because you will be posting this to Heroku, you might want to Fork the repository and then `git clone` it (rather than download the ZIP like the instructions say)
+2) The start code is here: https://github.com/IGM-RichMedia-at-RIT/DomoMaker-A-Start - because you will be posting this to Heroku, you might want to *fork* the repository and then `git clone` it (rather than download the ZIP like the instructions say)
 
 <hr>
 
