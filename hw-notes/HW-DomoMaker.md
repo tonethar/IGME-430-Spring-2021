@@ -32,7 +32,13 @@
   },
 ```
 
-4) If you do NOT have a local instance of MongoDB running, just use your cloud account like we did on the Simple Models HW:
+4) You will need to add an updated Babel library:
+
+  - https://www.npmjs.com/package/@babel/compat-data
+  - and run this command to install it: `npm i @babel/compat-data`
+  - don't forget to then isntall everything with `npm i`
+
+5) If you do NOT have a local instance of MongoDB running, just use your cloud account like we did on the Simple Models HW:
 
   - comment out this line of code: 
     - `const dbURL = process.env.MONGODB_URI || 'mongodb://localhost/DomoMaker';`
