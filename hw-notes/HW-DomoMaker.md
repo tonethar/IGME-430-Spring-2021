@@ -20,8 +20,12 @@
 
 ### I-A DomoMaker-A Tips and Hints
 1) The PDF of the assignment is in myCourses
- 
+
+<hr>
+
 2) The start code is here: https://github.com/IGM-RichMedia-at-RIT/DomoMaker-A-Start - because you will be posting this to Heroku, you might want to Fork the repository and then `git clone` it (rather than download the ZIP like the instructions say)
+
+<hr>
 
 3) To get rid of those annoying warnings, and to make sure that Heroku uses the correct version of node and npm, set the "engines" keys of **package.json**
 
@@ -34,11 +38,15 @@
   },
 ```
 
-4) You will need to add an updated Babel library:
+<hr>
+
+4) You will need to add an updated Babel library (otherwise, this will break on Heroku):
 
   - https://www.npmjs.com/package/@babel/compat-data
   - and run this command to install it: `npm i @babel/compat-data`
-  - don't forget to then isntall everything with `npm i`
+  - don't forget to then install everything else with `npm i`
+
+<hr>
 
 5) If you do NOT have a local instance of MongoDB running, just use your cloud account like we did on the Simple Models HW:
 
@@ -48,7 +56,9 @@
     - `const dbURL = 'mongodb+srv://MY_CLOUD_LOGIN:MY_CLOUD_PASSWORD@cluster0.bcwxq.mongodb.net/DomoMaker';`
   - if the `dbURL` connection string is invalid in some way (bad username or password for example) - the app will throw an error in the Node console
 
-#### 4A) Reference
+<hr>
+
+#### 3A) Reference
 
   - https://devcenter.heroku.com/articles/node-best-practices
   - https://nodejs.dev/learn/semantic-versioning-using-npm
