@@ -38,6 +38,11 @@
   },
 ```
 
+**Reference:**
+
+- https://devcenter.heroku.com/articles/node-best-practices
+- https://nodejs.dev/learn/semantic-versioning-using-npm
+  
 <hr>
 
 4) You will need to add an updated Babel library (otherwise, this will break on Heroku):
@@ -56,12 +61,6 @@
     - `const dbURL = 'mongodb+srv://MY_CLOUD_LOGIN:MY_CLOUD_PASSWORD@cluster0.bcwxq.mongodb.net/DomoMaker';`
   - if the `dbURL` connection string is invalid in some way (bad username or password for example) - the app will throw an error in the Node console
 
-<hr>
-
-#### 3A) Reference
-
-  - https://devcenter.heroku.com/articles/node-best-practices
-  - https://nodejs.dev/learn/semantic-versioning-using-npm
 
 <hr>
 
