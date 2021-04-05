@@ -131,9 +131,11 @@
 1) DomoMaker-B:
   - See myCourses for PDF and dropbox/due date
   - To get rid of the "circular dependency" warning - update your mongoose version in **package.json** - `"mongoose": "^5.12.3"` - and then run `npm i`
-  - Comment out the following line in **models/** (with Mongo 5, we don't need it anymore):
+  - Comment out the following line in **models/Account.js** (with mongoose 5, we don't need it anymore):
     - `mongoose.Promise = global.Promise;`
   - Typos in PDF:
+    - Near the top of page 6, delete this line (with mongoose 5, we don't need it anymore):
+      - `mongoose.Promise = global.Promise;`
     - Bottom of page 6, should be `createdDate` NOT `createdData`
     - Near top of page 7, get rid of semicolon on this line `owner: convertId(ownderId)`
     - Bottom of page 7, regarding #12, a clarification. In **client.js**, the jQuery code that is called when the `#makeDomoSubmit` button is clicked is triggered by this: `$("#domoForm").on("submit", ...`
