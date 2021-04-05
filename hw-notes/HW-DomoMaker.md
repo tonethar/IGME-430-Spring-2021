@@ -9,6 +9,8 @@
 
 - [II. DomoMaker-B](#B)
 
+- [III. DomoMaker-C](#C)
+
 <a id="A"></a>
 
 <hr>
@@ -175,4 +177,17 @@ B) Documentation
      - `return DomoModel.find(search).select('name age').lean().exec(callback);`
  - **underscore**
    - https://www.npmjs.com/package/underscore
+
+<a id="C"></a>
+
+<hr>
+
+
+## III. DomoMaker C - Assignment Walkthrough
+
+### III-A. Tips
+
+- In your form elements, make sure that there is a space after the two closing (React) curly braces:
+  - like this - `<input type="hidden" name="_csrf" value={{csrfToken}} />`
+  - NOT this - `<input type="hidden" name="_csrf" value={{csrfToken}}/>`
 
