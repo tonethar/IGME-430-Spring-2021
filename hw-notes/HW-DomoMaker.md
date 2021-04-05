@@ -139,7 +139,7 @@
     - Bottom of page 7, regarding #12, a clarification. In **client.js**, the jQuery code that is called when the `#makeDomoSubmit` button is clicked is triggered by this: `$("#domoForm").on("submit", ...`
     - Bottom of Page 8, regarding #15, both lines of code are new
     - Clarification - the code for both #15 & #16 will go into **controllers/Domo.js**
-  - Make sure that you create a new repository (and Heroku app) for each version of DomoMaker. I will be grading/checking these off very quiickly, so you will be able to delete the old Heroku apps very quickly if need be
+  - Make sure that you create a new repository (and Heroku app) for each version of DomoMaker. I will be grading/checking these off very quickly, so you will be able to delete the old Heroku apps very quickly if need be
   - What's new:
     - HTTP *sessions* keep track of who is logged in
     - you can now add Domos to the database, "owned" and only visible to the current logged in user
