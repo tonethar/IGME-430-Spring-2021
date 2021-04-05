@@ -131,6 +131,8 @@
 1) DomoMaker-B:
   - See myCourses for PDF and dropbox/due date
   - To get rid of the "circular dependency" warning - update your mongoose version in **package.json** - `"mongoose": "^5.12.3"` - and then run `npm i`
+  - Comment out the following line in **models/** (with Mongo 5, we don't need it anymore):
+    - `mongoose.Promise = global.Promise;`
   - Typos in PDF:
     - Bottom of page 6, should be `createdDate` NOT `createdData`
     - Near top of page 7, get rid of semicolon on this line `owner: convertId(ownderId)`
