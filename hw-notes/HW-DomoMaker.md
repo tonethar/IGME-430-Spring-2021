@@ -152,6 +152,8 @@
 
 - HTTP sessions store *per-user* data on the server, and keep the "key" to that data stored in the user's browser, as a cookie
 - https://stackoverflow.com/questions/3804209/what-are-sessions-how-do-they-work
+- [`Cookie` request header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cookie)
+- [`Set-Cookie` response header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie)
 
 A) Demo
   - https://github.com/tonethar/session-demo-2201
