@@ -193,19 +193,27 @@ B) Documentation
 ### III-A. Tips
 
 **step #3**
-- explain array destructuring
-- explain what `if (process.env.REDISCLOUD_URL){` is doing
+- explain array destructuring and what this code is doing:
+
+```js
+if (process.env.REDISCLOUD_URL) {
+  // redisPASS = redisURL.auth.split(':')[1];
+  redisURL = url.parse(process.env.REDISCLOUD_URL);
+  [, redisPASS] = redisURL.auth.split(':');
+}
+```
+
 
 **step #8**
 - demo running on 2 ports - you will need to be using `npm start` for both instances
 
 **step #9**
 - On Heroku, look under the Resources tab (Add ons) to add Redis Enterprise Cloud
-- Note that now there is a `REDISCLOUD_URL` under Convfig Vars - this was automagically populated for us by the Redis Add-on
+- Note that now there is a `REDISCLOUD_URL` under Config Vars - this was automagically populated for us by the Redis Add-on
 - Then, test it on Heroku, it should work the same as it did locally!
 
 **step #20**
-- we already made this chnage back in step #4
+- we already made this change back in step #4
 
 **Step #24**
 - In your form elements, make sure that there is a space after the two closing (React) curly braces:
