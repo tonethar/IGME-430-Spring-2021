@@ -245,6 +245,7 @@ $("#domoName").val("");
 $("#domoAge").val("");
 ```
 
+- PS -  There is a lot of typing in this part and lot's of places to make syntax errors - esp. in the JSX. So triple-check your typing. The JSX typos often show up as errors in the browser console (which is where the React is rendering HTML) - so that is another place to look for hints if things are not working
 
 <a id="E"></a>
 
