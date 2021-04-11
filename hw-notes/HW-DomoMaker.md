@@ -246,4 +246,14 @@ if (process.env.REDISCLOUD_URL) {
 
 ## V. DomoMaker E
 
+- See myCourses for PDF and dropbox/due date
+- For this part, you will be A) adding a new attribute to one of the models, and B) adding a new feature to the app (such as a delete button, or a new page to render
+- Here's a completed version you can look at as an example:
+- "A" above should be pretty straightforward, "B" will be trickier. Here are some tips:
+  - You will likely need to create a new endpoint (for example, **/all-users** or **/delete-domo**) - this means you will have to pass body data that includes the current value of `_csrf` everytime you call this new endpoint
+  - One issue with this is that Postman won't be very helpful for debugging because of the need for the `_csrf` value
+  - If you are using `jQuery.ajax()` to call the new endpoint from the client-side:
+    - you can grab the `_csrf` value from the hidden form field using `const _csrf = document.querySelector("some-selector").value`
+    - and then pass the token along with any other data like this `const postData = `_csrf=${_csrf}&anotherVariable=anotherValue&...`
+
 
