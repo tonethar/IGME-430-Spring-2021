@@ -11,6 +11,10 @@
 
 - [III. DomoMaker-C](#C)
 
+- [IV. DomoMaker-D](#D)
+
+- [V. DomoMaker-E](#E)
+
 <a id="A"></a>
 
 <hr>
@@ -188,9 +192,9 @@ B) Documentation
 <hr>
 
 
-## III. DomoMaker C - Assignment Walkthrough
+## III. DomoMaker C - Add Redis & csrf
 
-### III-A. Tips
+### III-A. Tips & Assignment Walkthrough
 
 **step #3**
 - explain array destructuring and what this code is doing:
@@ -219,4 +223,27 @@ if (process.env.REDISCLOUD_URL) {
 - In your form elements, make sure that there is a space after the two closing (React) curly braces:
   - like this - `<input type="hidden" name="_csrf" value={{csrfToken}} />`
   - NOT this - `<input type="hidden" name="_csrf" value={{csrfToken}}/>`
+
+<hr>
+
+<a id="D"></a>
+
+## IV. DomoMaker D - Add React.js
+
+- See myCourses for PDF and dropbox/due date
+- What does React do for us?
+  - In DomoMaker-C, whenever a new Domo was created by a user, the "domo list" was being rendered on the server-side by `res.render()` and Handlebars.js, which meant that every time you added a domo, a request was being made to the server, the entire HTML page was being re-created by the server, this new HTML page was sent back to the browser, and the browser needed to re-render this new page
+  - In DomoMaker-D, whenever a new Domo is created by a user, the Domo is sent to the server, and if there is a successfull update, the React components that are running on the client will request a new list of Domos from the server, and then just the "domo list" portion of the page will be modified by the client-side code, meaning that the entire HTML page is NOT re-rendered by the browser.
+
+### IV-A. Tips
+ - You will need to make sure that the `watchLoginBundle` and `watchAppBundle` are running at all times. These are the scripts that will transpile the ES6 and React JSX that is located in your **client/** folder into the ES5 in your **hosted/** folder
+ - PS - Handlebars.js isn't rendering the domos for you anymore in **app.handlebars** (React is now doing it on the client-side), so you don't need most of the code in the `makerPage` function (which located in **controllers/Domo.js**)
+
+
+<a id="E"></a>
+
+<hr>
+
+## V. DomoMaker E
+
 
