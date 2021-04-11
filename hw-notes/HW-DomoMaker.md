@@ -231,7 +231,7 @@ if (process.env.REDISCLOUD_URL) {
 ## IV. DomoMaker D - Add React.js
 
 - See myCourses for PDF and dropbox/due date
-- What does React do for us?
+- What does React do for us in Part D?
   - In DomoMaker-C, whenever a new Domo was created by a user, the "domo list" was being rendered on the server-side by `res.render()` and Handlebars.js, which meant that every time you added a domo, a request was being made to the server, the entire HTML page was being re-created by the server, this new HTML page was sent back to the browser, and the browser needed to re-render this new page
   - In DomoMaker-D, whenever a new Domo is created by a user, the Domo is sent to the server, and if there is a successfull update, the React components that are running on the client will request a new list of Domos from the server, and then just the "domo list" portion of the page will be modified by the client-side code, meaning that the entire HTML page is NOT re-rendered by the browser.
 
