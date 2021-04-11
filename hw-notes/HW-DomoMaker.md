@@ -254,6 +254,6 @@ if (process.env.REDISCLOUD_URL) {
   - One issue with this is that Postman won't be very helpful for debugging because of the need for the `_csrf` value
   - If you are using `jQuery.ajax()` to call the new endpoint from the client-side:
     - you can grab the `_csrf` value from the hidden form field using `const _csrf = document.querySelector("some-selector").value`
-    - and then pass the token along with any other data like this `const postData = `_csrf=${_csrf}&anotherVariable=anotherValue&...`
+    - and then pass the token along with any other data like this `const postData = _csrf=Z6vP0rP...&anotherVariable=anotherValue&...`
 
 
