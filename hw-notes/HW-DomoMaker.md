@@ -263,7 +263,7 @@ $("#domoAge").val("");
 - "A" above should be pretty straightforward, but "B" will be trickier
 - To add event handling to a React component:
   - use the `onClick` attribute like this `onClick={handleClick}`, and then create the `handleClick()` function normally
-  - if there are parameters to pass along, you could wrap `handleClick` above in an anonymous function, OR
+  - if there are parameters to pass along, you could wrap `handleClick` above in an anonymous function like this `onClick={()=>handleClick(args)}`, OR
   - store the parameters as attributes on the component, and then access them on the event handler function with something like this `e.currentTarget.getAttribute('attributeName')`
 - You will likely need to create a new endpoint (for example, **/all-users** or **/delete-domo**) - this means you will have to pass body data that includes the current value of `_csrf` everytime you call this new endpoint
 - One issue with this is that Postman won't be very helpful for debugging because of the need for the `_csrf` value
