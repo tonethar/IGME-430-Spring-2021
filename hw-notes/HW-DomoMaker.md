@@ -238,6 +238,12 @@ if (process.env.REDISCLOUD_URL) {
 ### IV-A. Tips
  - You will need to make sure that the `watchLoginBundle` and `watchAppBundle` are running at all times. These are the scripts that will transpile the ES6 and React JSX that is located in your **client/** folder into the ES5 in your **hosted/** folder
  - PS - Handlebars.js isn't rendering the domos for you anymore in **app.handlebars** (React is now doing it on the client-side), so you don't need most of the code in the `makerPage` function (which located in **controllers/Domo.js**)
+ - PS - clearing the form fields after the user makes a successful submission is always a good idea. With more modern React components we would just change the state varaible and then the component fields would update themselves. But here the "new domo" form fields are not being rendered by React so we have to do it in "old school jQuery" style:
+
+```js
+$("#domoName").val("");
+$("#domoAge").val("");
+```
 
 
 <a id="E"></a>
