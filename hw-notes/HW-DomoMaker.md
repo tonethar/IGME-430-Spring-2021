@@ -267,7 +267,7 @@ $("#domoAge").val("");
 - You will likely need to create a new endpoint (for example, **/all-users** or **/delete-domo**) - this means you will have to pass body data that includes the current value of `_csrf` everytime you call this new endpoint
 - One issue with this is that Postman won't be very helpful for debugging because of the need for the `_csrf` value
 - If you are using `jQuery.ajax()` to call the new endpoint from the client-side:
-  - you can grab the `_csrf` value from the hidden form field using `const _csrf = document.querySelector("some-selector").value`
-  - and then pass the token along with any other data like this `const postData = _csrf=Z6vP0rP...&anotherVariable=anotherValue&...`
+  - you can grab the `_csrf` value from the hidden form field using `const _csrf = document.querySelector("some-selector").value;`
+  - and then pass the token along with any other data like this `const postData = "_csrf=Z6vP0rP...&anotherVariable=anotherValue&...";`
 
 
