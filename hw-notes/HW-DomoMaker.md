@@ -258,11 +258,16 @@ $("#domoAge").val("");
 - For this part, you will be:
     - A) adding a new attribute to one of the models AND
     - B) adding a new feature to the app (such as a delete button, or a new page to render
-- "A" above should be pretty straightforward, but "B" will be trickier. Here are some tips:
-  - You will likely need to create a new endpoint (for example, **/all-users** or **/delete-domo**) - this means you will have to pass body data that includes the current value of `_csrf` everytime you call this new endpoint
-  - One issue with this is that Postman won't be very helpful for debugging because of the need for the `_csrf` value
-  - If you are using `jQuery.ajax()` to call the new endpoint from the client-side:
-    - you can grab the `_csrf` value from the hidden form field using `const _csrf = document.querySelector("some-selector").value`
-    - and then pass the token along with any other data like this `const postData = _csrf=Z6vP0rP...&anotherVariable=anotherValue&...`
+
+### Tips
+- "A" above should be pretty straightforward, but "B" will be trickier
+- To add event handling to a React component:
+  - use the `onClick` attribute like this `onClick={handleClick}`, and then create the `handleClick()` function normally
+  - if there are parameters to pass along, the easiest way to do it is to store them as attributes on the component, and then access them on the event handler function with something like this `e.currentTarget.getAttribute('attributeName')`
+- You will likely need to create a new endpoint (for example, **/all-users** or **/delete-domo**) - this means you will have to pass body data that includes the current value of `_csrf` everytime you call this new endpoint
+- One issue with this is that Postman won't be very helpful for debugging because of the need for the `_csrf` value
+- If you are using `jQuery.ajax()` to call the new endpoint from the client-side:
+  - you can grab the `_csrf` value from the hidden form field using `const _csrf = document.querySelector("some-selector").value`
+  - and then pass the token along with any other data like this `const postData = _csrf=Z6vP0rP...&anotherVariable=anotherValue&...`
 
 
