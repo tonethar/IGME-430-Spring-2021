@@ -22,7 +22,7 @@
   - GitHub Link
   - Heroku Link
   - Demo Video
-  - Written Documenation
+  - Written Documentation
 
 <hr>
 
