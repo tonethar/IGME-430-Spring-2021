@@ -20,4 +20,4 @@
   - Written Documenation
 
 ## III. Grading
-- -50% from frinal grade if app does not run on Heroku
+- -50% from final project grade if app does not run on Heroku
