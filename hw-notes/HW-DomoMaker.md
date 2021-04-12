@@ -236,6 +236,8 @@ if (process.env.REDISCLOUD_URL) {
 - What does React do for us in Part D?
   - In DomoMaker-C, whenever a new Domo was created by a user, the "domo list" was being rendered on the server-side by `res.render()` and Handlebars.js, which meant that every time you added a domo, a request was being made to the server, the entire HTML page was being re-created by the server, this new HTML page was sent back to the browser, and the browser needed to re-render this new page
   - In DomoMaker-D, whenever a new Domo is created by a user, the Domo is sent to the server, and if there is a successful update, the React components that are running on the client will request a new list of Domos from the server, and then just the "domo list" portion of the page will be modified by the client-side code, meaning that the entire HTML page is NOT re-rendered by the browser.
+- What else is new?
+  - `"buildLoginBundle"`, `"watchLoginBundle"`, `buildAppBundle`, `watchAppBundle` will watch for changes to JS files in the **client/** folder, and then transpile these files into ES5/JSX and publish them to **client/hosted/** as  **bundle.js** and **loginBundle.js**
 
 ### IV-A. Tips
  - You will need to make sure that the `watchLoginBundle` and `watchAppBundle` are running at all times. These are the scripts that will transpile the ES6 and React JSX that is located in your **client/** folder into the ES5 in your **hosted/** folder
