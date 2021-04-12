@@ -10,6 +10,7 @@
   - User accounts/logins
 - Modifications from links above:
   - Handlebars is not required for this section
+  - csrf is not required for this section
 - You could use DomoMaker-E as a "starter", or start from a new template by utilizing [`create-react-app`](https://reactjs.org/docs/create-a-new-react-app.html) to which you will add an authentication system, mongoose, etc
 
 <hr>
