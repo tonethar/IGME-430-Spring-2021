@@ -10,14 +10,21 @@
   - User accounts/logins
 - You could use DomoMaker-E as a "starter", or start from a new template by utilizing [`create-react-app`](https://reactjs.org/docs/create-a-new-react-app.html) to which you will add an authentication system, mongoose, etc
 
+<hr>
+
 ## II. Deliverables
 
-- See myCourses dropboxes for "Project 2 Idea", "Project 2 - React MVC Project Milestone" and "Project 2 - React MVC Project - Final Version"
+- See myCourses dropboxes for:
+  - "Project 2 Idea"
+  - "Project 2 - React MVC Project Milestone"
+  - "Project 2 - React MVC Project - Final Version"
 - Final Deliverables:
   - GitHub Link
   - Heroku Link
   - Demo Video
   - Written Documenation
+
+<hr>
 
 ## III. Grading
 - -50% from final project grade if app does not run on Heroku
