@@ -282,4 +282,4 @@ $("#domoAge").val("");
 <hr>
 
 ## Final Project
-- [Final Project - Product/Service Site - React](https://people.rit.edu/arwigm/430/)
+- [Final Project - Product/Service Site - React](../projects/project-2.md)
