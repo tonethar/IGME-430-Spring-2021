@@ -21,3 +21,4 @@
 
 ## III. Grading
 - -50% from final project grade if app does not run on Heroku
+- Rest of the rubric is TBA
