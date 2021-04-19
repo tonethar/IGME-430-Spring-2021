@@ -297,4 +297,13 @@ button:active { background: #15d; }
 
 <hr>
 
-## VI. Deploy the app to Heroku
+
+## VI. Update your Git respoitory
+
+
+
+<hr>
+
+## VII. Deploy the app to Heroku
+
+- First
