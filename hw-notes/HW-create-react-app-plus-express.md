@@ -51,7 +51,7 @@
 
 <hr>
 
-## II. Start building your express app
+## II. Build your express-driven "back-end"
 
 - The express part of the application (e.g. the "back-end") will provide a *service* that the React client will call
 - Here we are going to have express act as a *proxy server* that calls the Word Associations API above
@@ -117,7 +117,19 @@ app.listen(port, () => {
   "pos": "adjective"
 },
 { 
-...
 ```
 
+9) Now satisfy yourself that the service works by searching for other words
 
+<hr>
+
+## III. Build your React "Front-end"
+
+1) Make sure that your *current working directory* is still **word-app**
+
+2) Now we are going to run `create-react-app` - which will generate a skeleton of a React app for us
+
+- type `npx create-react-app client` - this will create a new React template (and folder) for us named "client"
+- this downloading/installing will take a while!
+
+3) 
