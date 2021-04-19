@@ -358,7 +358,7 @@ app.get('*', (req, res) => {
 
 1) Make **word-app** your *current working directory*
 
-2) Type `git status` - this should tell you that the **client** folder is untracked
+2) Type `git status` - this should tell you that the **client** folder and other files are untracked
 
 3) Type `git add .` & `git status` - you should see that all of the files in the **client** folder are being tracked
 
@@ -371,4 +371,14 @@ app.get('*', (req, res) => {
 ## VIII. Deploy the app to Heroku
 
 - Go ahead and set up an app on Heroku like you always do - name it **abc1234-word-app** (where abc1234 is your id)
-- Once the app starts to deploy, be sure to "View Build log" link under the Activity tab. Here you will see where Heroku is executing the scripts in **word-app/package.json**
+- Once the app starts to deploy from GitHub to Heroku, be sure to "View Build log" link under the Activity tab. Here you will see where Heroku is executing the scripts in **word-app/package.json**
+- The app should now function on Heroku as it just did locally! (If not, check the logs)
+
+<hr>
+
+## IX. NB
+
+- This walkthrough is based on code found here - `https://rapidapi.com/blog/create-react-app-express/` - the front-end React UI code is essentially identical - but there are many changes elsewhere:
+  - we are calling the API directly, and NOT utilizing the RapidAPI "wrapper" functionality
+  - the **server.js** proxy-server code is simplified because we don't need to send authentication headers to RapidAPI
+  - the original app as written won't run on Heroku, thus the `npm run build` step, the static file serving code, and the `"heroku-postbuild"` key in the **package.json** are all new
