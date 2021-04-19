@@ -336,7 +336,8 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 
 11)  One last thing. In order to get this app to run on Heroku, you need to add the following to the "scripts" key of **word-app/package.json**
 
-    - `"heroku-postbuild": "cd client && npm install && npm run build"`
+ `"heroku-postbuild": "cd client && npm install && npm run build"`
+ 
     - what Heroku will do is to:
       - first run the `npm start` to start up our express server
       - it will then build the "rolled up" files of the React app by invoking `npm run build` 
