@@ -7,8 +7,14 @@
   - create a React client Application with [`create-react-app`](https://reactjs.org/docs/create-a-new-react-app.html)
   - connect this app to an [express](https://www.npmjs.com/package/express) server
   - post the completed app to Heroku
+  - the complete app will run locally AND on Heroku and looks like this:
 
 <hr>
+
+![screenshot](_images/hw-17.png)
+
+<hr>
+
 
 ## I. Get Started
 
