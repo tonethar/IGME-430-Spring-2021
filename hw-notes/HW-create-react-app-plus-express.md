@@ -93,3 +93,31 @@ app.listen(port, () => {
 ```
 
 6) Add `"start" : "node ./server.js"` to the "scripts" key of your **package.json** file
+
+7) Type `npm start` to start up this proxy server
+
+8) To test the proxy server, head to http://localhost:3001/api/associations/software
+
+- you should get results something like this:
+
+```json
+{
+  "item": "Gnu",
+  "weight": 100,
+  "pos": "noun"
+},
+{
+  "item": "Hardware",
+  "weight": 96,
+  "pos": "noun"
+},
+{
+  "item": "Proprietary",
+  "weight": 78,
+  "pos": "adjective"
+},
+{ 
+...
+```
+
+
