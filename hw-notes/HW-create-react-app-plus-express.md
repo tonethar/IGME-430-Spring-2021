@@ -18,7 +18,7 @@
 - Now test this endpoint with your API key:
   - `https://api.wordassociations.net/associations/v1.0/json/search?apikey=YOUR_API_KEY&text=welcome&lang=en`
   - this will return 50 words that are related to the word "welcome", and a number between 1 and 100 that indicates the amount of similarity
-  -  you should get results something like this = the `response[0].items` array is what we are interested in
+  -  you should get results something like below - note that the `response[0].items` array is what we are interested in
 
 ```json
  "version": "1.0",
@@ -62,4 +62,10 @@
 
 3) Type `npm i express unirest` (this downloads and add dependencies for express and [unirest](https://www.npmjs.com/package/unirest) - the latter is an easy to use HTTP library for downloading files)
 
-4) 
+4) In  **word-app**, create a file named **server.js**
+
+5) Add the follwoing code to it:
+
+```js
+
+```
