@@ -328,7 +328,7 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 
 7) Launch just the back-end now, from the **word-app** folder, with `npm start`
 
-8) Head to http://localhost:3001/api/associations/computer to be sure that the proxy-server still works
+8) Head to http://localhost:3001/api/associations/software to be sure that the proxy-server still works
 
 9) Head to http://localhost:3001 and click the Search button to be sure that the React app still works
 
