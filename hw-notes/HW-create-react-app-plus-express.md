@@ -239,6 +239,8 @@ function App() {
 export default App;
 ```
 
+<hr>
+
 2) Replace the contents of **client/src/App.css** with the following:
 
 ```css
@@ -262,7 +264,9 @@ button        { background: #17f; color: #fff; }
 button:active { background: #15d; }
 ```
 
-3) Type `npm start` (while in the **word-app/client** folder) to start up express. Head to http://localhost:3000/ to see the new UI:
+<hr>
+
+3) Type `npm start` (while in the **client** folder) to start up express. Head to http://localhost:3000/ to see the new UI:
 
 <hr>
 
