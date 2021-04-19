@@ -119,7 +119,7 @@ app.listen(port, () => {
 { 
 ```
 
-9) Now satisfy yourself that the service works by searching for other words
+9) Now satisfy yourself that our proxy server works by searching for other words
 
 <hr>
 
