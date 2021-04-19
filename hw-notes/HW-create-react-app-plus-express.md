@@ -174,8 +174,14 @@ git push -u origin main
 
 4) Go ahead and `cd client` like the instructions tell you to do, and then `npm start` to launch the React app:
 
-    - The React template app should launch and be available in the browser at http://localhost:3000/ - coolio!
+    - The React template app should launch (see screenshot below) and be available in the browser at http://localhost:3000/ - coolio!
     - Go ahead and quit the React app (control-c)
+
+<hr>
+
+![screenshot](_images/hw-15.png)
+
+<hr>
 
 5) Take a look at the files in the **client** folder:
 
