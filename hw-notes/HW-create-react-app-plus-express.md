@@ -91,3 +91,5 @@ app.listen(port, () => {
   console.log(`word-app listening on port ${port}`);
 });
 ```
+
+6) Add `"start" : "node ./server.js"` to the "scripts" key of your **package.json** file
