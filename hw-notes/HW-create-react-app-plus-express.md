@@ -1,4 +1,4 @@
-# HW Create React App + Express - Part I
+# HW - Create React App + Express - Part I
 
 
 ## Overview 
