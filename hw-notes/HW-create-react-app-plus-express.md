@@ -199,6 +199,8 @@ git push -u origin main
 
 1) Go ahead and replace the contents of **client/src/App.js** with the following:
 
+<hr>
+
 ```js
 import React from 'react';
 import './App.css';
@@ -217,7 +219,7 @@ function App() {
     <div className="app">
       <h1>Word Associations!</h1>
       <input value={word} onChange={e => setWord(e.target.value)} />
-      <button onClick={getAssociations}>Find Associations</button>
+      <button onClick={getAssociations}>Search</button>
 
       {associations && (
         associations.length === 0
@@ -274,3 +276,4 @@ button:active { background: #15d; }
 
 <hr>
 
+4) GO ahead and click the 
