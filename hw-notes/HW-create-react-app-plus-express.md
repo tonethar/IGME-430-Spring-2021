@@ -285,7 +285,7 @@ button:active { background: #15d; }
 
 6) Back in your React app, click the Search button again - same error!
 
-7) To fix this, add `"proxy": "http://localhost:3001"` to the **client/package.json** file
+7) To fix this, add `"proxy": "http://localhost:3001"` to the **client/package.json** file (this is a "top level" key, DO NOT put it under the "scripts" key)
 
     - https://create-react-app.dev/docs/proxying-api-requests-in-development/
 
@@ -299,9 +299,9 @@ button:active { background: #15d; }
 
 <hr>
 
-10) Awesome! One last thing. In order to get this app to run on Heroku, you need to add the following to the "scripts" tag of **word-app/package.json**
+10) Awesome! One last thing. In order to get this app to run on Heroku, you need to add the following to the "scripts" key of **word-app/package.json**
 
-    - "heroku-postbuild": "cd client && npm install && npm run build"
+    - `"heroku-postbuild": "cd client && npm install && npm run build"`
     - what Heroku will do is to:
       - first run the `npm start` to start up our express server
       - it will then start up the React app by invoking `npm run build` 
