@@ -156,9 +156,9 @@ git push -u origin main
 
 2) Now we are going to run `create-react-app` - which will generate a skeleton of a React app for us
 
-  - type `npx create-react-app client` - this will create a new React template (and folder) for us named **client**
-  - if this is the first time you are running  `create-react-app`, you will get prompted to download it (say yes!)
-  - be prepared for this downloading/installing process to take a while!
+    - type `npx create-react-app client` - this will create a new React template (and folder) for us named **client**
+    - if this is the first time you are running  `create-react-app`, you will get prompted to download it (say yes!)
+   - be prepared for this downloading/installing process to take a while!
 
 3) When you are done, you should see a message like this in the console:
 
@@ -166,4 +166,4 @@ git push -u origin main
 
 4) Go ahead and `cd client` like the instructions tell you to do, and then `npm start` to launch the React app. 
 
-  - The template should launch and be available in the browser at http://localhost:3000/
+    - The template should launch and be available in the browser at http://localhost:3000/
