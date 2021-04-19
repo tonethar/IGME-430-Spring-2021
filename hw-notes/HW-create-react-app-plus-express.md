@@ -302,7 +302,17 @@ button:active { background: #15d; }
 
 ## VI. Update your Git respoitory
 
+- Now we need to commit all of our changes to our GitHub repository and commit them
 
+1) Make **word-app** your *current working directory*
+
+2) Type `git status` - this should tell you that the **client** folder is untracked
+
+3) Type `git add .` & `git status` - you should see that all of the files in the **client** folder are being tracked
+
+4) Type `git commit -m "committed client folder"` - this commits all of the changes to your local repository
+
+5) Type `git push` - this pushes the local changes to the remote repository on GitHub
 
 <hr>
 
