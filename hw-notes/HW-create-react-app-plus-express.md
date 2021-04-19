@@ -295,13 +295,33 @@ button:active { background: #15d; }
 
 9) Click the Search button again - success!
 
+
 <hr>
 
 ![screenshot](_images/hw-17.png)
 
 <hr>
 
-10) Awesome! One last thing. In order to get this app to run on Heroku, you need to add the following to the "scripts" key of **word-app/package.json**
+## VI. Create a react production build
+
+1) Make sure that your proxy server is still running (in one console)
+
+2) In another console, make **word-app/client** the *current working directory* and type `npm run build`
+
+     - now check out the **client/build** folder to see what that command did - which was to use babel to transpile the code, and webpack as the build tool to bundle (aka "roll up) the app
+
+3) Now type `serve -s build` to serve the app on port 5000 - http://localhost:5000/ - the app loads, but now the button doesn't work
+
+4) To get this function, we are going to make it so that **server.js** serves up both the back end, AND  all of the React files in the **client/build** folder. THis will also mean that we only need to run our app in one console rather than two.
+
+5) Add the following to **server.js**
+
+```js
+
+```
+
+
+XX)  One last thing. In order to get this app to run on Heroku, you need to add the following to the "scripts" key of **word-app/package.json**
 
     - `"heroku-postbuild": "cd client && npm install && npm run build"`
     - what Heroku will do is to:
@@ -310,7 +330,7 @@ button:active { background: #15d; }
 
 <hr>
 
-## VI. Update your Git respoitory
+## VII. Update your Git respoitory
 
 - Now we need to commit all of our changes to our GitHub repository and commit them
 
@@ -326,6 +346,6 @@ button:active { background: #15d; }
 
 <hr>
 
-## VII. Deploy the app to Heroku
+## VIII. Deploy the app to Heroku
 
 - First
