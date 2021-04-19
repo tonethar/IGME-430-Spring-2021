@@ -312,7 +312,7 @@ button:active { background: #15d; }
 
 3) Now type `serve -s build` to serve the app on port 5000 - http://localhost:5000/ - the app loads, but now the button doesn't work
 
-4) To get this function, we are going to make it so that **server.js** serves up both the back end, AND  all of the React files in the **client/build** folder. THis will also mean that we only need to run our app in one console rather than two.
+4) To get this app functioning, we are going to make it so that **server.js** serves up both the back end, AND  all of the React files in the **client/build** folder. THis will also mean that we only need to run our app in one console rather than two.
 
 5) Add the following to **server.js**
 
