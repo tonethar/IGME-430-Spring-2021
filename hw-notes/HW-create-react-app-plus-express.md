@@ -15,6 +15,39 @@
 - For this exercise, we are going to use the Word Associations API:
   - here's the main page - https://wordassociations.net/
   - here's the developer page - https://wordassociations.net/en/api - signup for your free API key now
+- Now test this endpoint with your API key:
+  - `https://api.wordassociations.net/associations/v1.0/json/search?apikey=YOUR_API_KEY&text=welcome&lang=en`
+  - this will return 50 words that are related to the word "welcome", and a number between 1 and 100 that indicates the amount of similarity
+  -  you should get results something like this = the `response[0].items` array is what we are interested in
+
+```json
+ "version": "1.0",
+  "code": 200,
+  "request": {
+    "text": [
+      "welcome"
+    ],
+    "lang": "en",
+    "type": "stimulus",
+    "limit": 50,
+    "pos": "noun,adjective,verb,adverb",
+    "indent": "yes"
+  },
+  "response": [
+    {
+      "text": "welcome",
+      "items": [
+        {
+          "item": "Warmly",
+          "weight": 100,
+          "pos": "adverb"
+        },
+        {
+          "item": "Hearty",
+          "weight": 98,
+          "pos": "adjective"
+        },
+```
 
 <hr>
 
