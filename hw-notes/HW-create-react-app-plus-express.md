@@ -287,6 +287,8 @@ button:active { background: #15d; }
 
 7) To fix this, add `"proxy": "http://localhost:3001"` to the **client/package.json** file
 
+    - https://create-react-app.dev/docs/proxying-api-requests-in-development/
+
 8) So that React reloads the **package.json** file, kill the client app (control-c), and the restart it with `npm start`
 
 9) Click the Search button again - success!
