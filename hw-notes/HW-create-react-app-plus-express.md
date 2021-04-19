@@ -117,7 +117,7 @@ app.listen(port, () => {
     "weight": 78,
     "pos": "adjective"
   },
-  {...
+  {..}
 ]
 ```
 
