@@ -24,5 +24,8 @@
 
 1) Create a folder named **word-associations** and `cd` into it
 
-2) 
+2) Type `npm init -y` (this creates a **package.json** file)
 
+3) Type `npm i express unirest` (this downloads and add dependencies for express and [unirest](https://www.npmjs.com/package/unirest) - the latter is an easy to use HTTP library for downloading files)
+
+4) 
