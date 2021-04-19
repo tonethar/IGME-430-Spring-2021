@@ -22,7 +22,7 @@
 
 - The express part of the application (e.g. the "back-end") will provide a *service* that the React client will call. Here we are going to have express act as a *proxy server* that calls the Word Associations API above
 
-1) Create a folder named **word-associations** and `cd` into it
+1) Create a folder named **word-app** and `cd` into it
 
 2) Type `npm init -y` (this creates a **package.json** file)
 
