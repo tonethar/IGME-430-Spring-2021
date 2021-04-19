@@ -101,22 +101,24 @@ app.listen(port, () => {
 - you should get results something like this:
 
 ```json
-{
-  "item": "Gnu",
-  "weight": 100,
-  "pos": "noun"
-},
-{
-  "item": "Hardware",
-  "weight": 96,
-  "pos": "noun"
-},
-{
-  "item": "Proprietary",
-  "weight": 78,
-  "pos": "adjective"
-},
-{ 
+[
+  {
+    "item": "Gnu",
+    "weight": 100,
+    "pos": "noun"
+  },
+  {
+    "item": "Hardware",
+    "weight": 96,
+    "pos": "noun"
+  },
+  {
+    "item": "Proprietary",
+    "weight": 78,
+    "pos": "adjective"
+  },
+  {...
+]
 ```
 
 9) Now satisfy yourself that our proxy server works by searching for other words
