@@ -215,7 +215,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Word Associations Map</h1>
+      <h1>Word Associations!</h1>
       <input value={word} onChange={e => setWord(e.target.value)} />
       <button onClick={getAssociations}>Find Associations</button>
 
