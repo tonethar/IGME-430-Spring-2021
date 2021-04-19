@@ -166,7 +166,11 @@ git push -u origin main
 
 3) When you are done, you should see a new **word-app/client** folder, and a message like this in the console:
 
+<hr>
+
 ![screenshot](_images/hw-14.png)
+
+<hr>
 
 4) Go ahead and `cd client` like the instructions tell you to do, and then `npm start` to launch the React app:
 
