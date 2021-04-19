@@ -273,7 +273,7 @@ button:active { background: #15d; }
 
 <hr>
 
-3) Head to **client/src/index.js** and delete the `reportWebVitals()` code and import - we don't need it
+3) Head to **client/src/index.js** and delete the code that calls `reportWebVitals()` and the related `import` - we don't need them
 
 4) Type `npm start` (while in the **client** folder) to start up express. Head to http://localhost:3000/ to see the new UI:
 
