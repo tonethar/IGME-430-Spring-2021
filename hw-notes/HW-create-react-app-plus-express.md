@@ -276,4 +276,13 @@ button:active { background: #15d; }
 
 <hr>
 
-4) GO ahead and click the 
+4) Go ahead and click the Search button (and check the console) - you will see an error - something like `Unexpected token < in JSON at position 0` - this is because our express proxy server is not running
+
+5) Open a NEW console (or Terminal tab if you are using VS Code):
+
+    - `cd` to the **word-app** folder so that it is the *current working directory* 
+    - type `npm start`
+
+6) Back in your React app, click the Search button again - same error!
+
+
