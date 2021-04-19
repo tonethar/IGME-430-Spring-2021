@@ -369,4 +369,5 @@ app.get('*', (req, res) => {
 
 ## VIII. Deploy the app to Heroku
 
-- First
+- Go ahead and set up an app on Heroku like you always do - name it **abc1234-word-app** (where abc1234 is your id)
+- Once the app starts to deploy, be sure to "View Build log" link under the Activity tab. Here you will see where Heroku is executing the scripts in **word-app/package.json**
