@@ -308,7 +308,7 @@ button:active { background: #15d; }
 
 <hr>
 
-## VI. Create a react production build
+## VI. Create a React production build
 
 1) Make sure that your proxy server is still running (in one console)
 
@@ -373,7 +373,7 @@ app.get('*', (req, res) => {
 
 <hr>
 
-## VIII. Deploy the app to Heroku
+## VIII. Deploy the word-app to Heroku
 
 - Go ahead and set up an app on Heroku like you always do - name it **abc1234-word-app** (where abc1234 is your id)
 - Once the app starts to deploy from GitHub to Heroku, be sure to look at the "View Build log" link under the Activity tab. Here you will see where Heroku is executing the scripts in **word-app/package.json**
