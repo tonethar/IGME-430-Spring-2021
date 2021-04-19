@@ -166,7 +166,10 @@ git push -u origin main
 
 4) Go ahead and `cd client` like the instructions tell you to do, and then `npm start` to launch the React app:
 
-    - The template should launch and be available in the browser at http://localhost:3000/
+    - The React template app should launch and be available in the browser at http://localhost:3000/ - coolio!
     - Go ahead an quit the React app (control-c)
 
 5) Take a look at the files in the **client** folder:
+
+    - note that there is a **client/.gitignore** file - leave it alone - our git repository that's "one folder up" will be referencing this
+    - note that there is NOT a **client/.git** folder - that's good - we did not want one - and `create-react-app` was smart enough to not create one for us in the **client** folder because we already have one in the **word-app** folder
