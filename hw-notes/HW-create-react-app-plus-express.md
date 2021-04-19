@@ -160,10 +160,13 @@ git push -u origin main
     - if this is the first time you are running  `create-react-app`, you will get prompted to download it (say yes!)
    - be prepared for this downloading/installing process to take a while!
 
-3) When you are done, you should see a message like this in the console:
+3) When you are done, you should see a new **word-app/client** folder, and a message like this in the console:
 
 ![screenshot](_images/hw-14.png)
 
-4) Go ahead and `cd client` like the instructions tell you to do, and then `npm start` to launch the React app. 
+4) Go ahead and `cd client` like the instructions tell you to do, and then `npm start` to launch the React app:
 
     - The template should launch and be available in the browser at http://localhost:3000/
+    - Go ahead an quit the React app (control-c)
+
+5) Take a look at the files in the **client** folder:
