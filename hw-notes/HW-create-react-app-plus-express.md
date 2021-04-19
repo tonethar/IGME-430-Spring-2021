@@ -295,7 +295,7 @@ button:active { background: #15d; }
 7) To fix this, add `"proxy": "http://localhost:3001"` to the **client/package.json** file (this is a "top level" key, DO NOT put it under the "scripts" key)
 
     - https://create-react-app.dev/docs/proxying-api-requests-in-development/
-    - note: we only need this for local development, Heroku will ignore this key because everything will be running on the same port (the one assignmed by Heroku at `process.env.PORT`)
+    - note: we only need this for local development, Heroku will ignore this key because everything will be running on the same port (the one assigned by Heroku at `process.env.PORT`)
 
 8) So that React reloads the **package.json** file, kill the client app (control-c), and the restart it with `npm start`
 
