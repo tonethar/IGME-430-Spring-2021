@@ -123,7 +123,24 @@ app.listen(port, () => {
 
 <hr>
 
-## III. Build your React "Front-end"
+## III. Create a local git repository
+
+1) Make sure that your *current working directory* is still **word-app**
+
+2) Type `git init` to create a new git repository
+
+3) Create a **.gitignore** file and add `node_modules` to the top of it
+
+4) To add your files to this repository, type `git add .`, `git commit -m "First commit"`
+
+5) Now head to GitHub and create an empty remote repository
+
+6) 
+
+<hr>
+
+
+## IV. Build your React "Front-end"
 
 1) Make sure that your *current working directory* is still **word-app**
 
