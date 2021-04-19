@@ -96,7 +96,7 @@ app.listen(port, () => {
 
 7) Type `npm start` to start up this proxy server
 
-8) To test the proxy server, head to http://localhost:3001/api/associations/software
+8) To test the proxy server, point your browser at http://localhost:3001/api/associations/software
 
 - you should get results something like this:
 
