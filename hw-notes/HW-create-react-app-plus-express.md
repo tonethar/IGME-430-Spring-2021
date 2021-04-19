@@ -285,6 +285,16 @@ button:active { background: #15d; }
 
 6) Back in your React app, click the Search button again - same error!
 
-7) TO fix this, add `"proxy": "http://localhost:3001"` to the **client/package.json** file
+7) To fix this, add `"proxy": "http://localhost:3001"` to the **client/package.json** file
 
+8) So that React reloads the **package.json** file, kill the client app (control-c), and the restart it with `npm start`
 
+9) Click the Search button again - success!
+
+<hr>
+
+![screenshot](_images/hw-17.png)
+
+<hr>
+
+## VI. Deploy the app to Heroku
