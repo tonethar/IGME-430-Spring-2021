@@ -197,7 +197,7 @@ git push -u origin main
 
 - Now it is time to create our React client application that will utilize our express proxy server
 
-1) Go ahead and replace the contents of **client/src/App.js** with the following:
+1) Go ahead and replace the contents of **client/src/App.js** with the following (note: `App` below, is a function component that uses *hooks* to track state, we will talk about how all of this works soon):
 
 <hr>
 
