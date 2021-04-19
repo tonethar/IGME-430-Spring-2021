@@ -20,7 +20,8 @@
 
 ## II. Start building your express app
 
-- The express part of the application (e.g. the "back-end") will provide a *service* that the React client will call. Here we are going to have express act as a *proxy server* that calls the Word Associations API above
+- The express part of the application (e.g. the "back-end") will provide a *service* that the React client will call
+- Here we are going to have express act as a *proxy server* that calls the Word Associations API above
 
 1) Create a folder named **word-app** and `cd` into it
 
