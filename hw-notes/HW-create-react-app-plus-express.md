@@ -133,9 +133,19 @@ app.listen(port, () => {
 
 4) To add your files to this repository, type `git add .`, `git commit -m "First commit"`
 
-5) Now head to GitHub and create an empty remote repository
+5) Now head to GitHub and create an empty remote repository named **word-app**
 
-6) 
+6) To connect this remote repository to your local one, type (these commands are on the "landing page" of the GitHub repository right after you created it - you can copy/paste them)
+
+```
+git remote add origin <url-of-repository>
+git branch -M main
+git push -u origin main
+```
+
+7) Type `git status` to be sure that you are up to date
+
+8) Verify that all of your files have been pushed to the GitHub repository by reloading that page
 
 <hr>
 
