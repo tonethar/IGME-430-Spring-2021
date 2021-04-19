@@ -123,6 +123,8 @@ app.listen(port, () => {
 
 9) Now satisfy yourself that our proxy server works by searching for other words
 
+10) Quit the server (control-c) when you are done
+
 <hr>
 
 ## III. Create a local git repository, and connect it to GitHub
