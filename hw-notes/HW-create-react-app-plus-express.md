@@ -130,6 +130,7 @@ app.listen(port, () => {
 2) Now we are going to run `create-react-app` - which will generate a skeleton of a React app for us
 
 - type `npx create-react-app client` - this will create a new React template (and folder) for us named **client**
-- be prepared for this downloading/installing will take a while!
+- if this is the first time you are running  `create-react-app`, you will get prompted to download it (say yes!)
+- be prepared for this downloading/installing process to take a while!
 
 3) 
