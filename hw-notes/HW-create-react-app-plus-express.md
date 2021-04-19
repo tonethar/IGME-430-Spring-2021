@@ -5,9 +5,8 @@
 
 - In this exercise, we are going to see how to:
   - create a React client Application with [`create-react-app`](https://reactjs.org/docs/create-a-new-react-app.html)
-  - connect this app to an [express](https://www.npmjs.com/package/express) server
-  - post the completed app to Heroku
-  - the complete app will run locally AND on Heroku and looks like this:
+  - connect this app to an [express](https://www.npmjs.com/package/express) server - this server acys as a *proxy* and will download the contents of a "word association" web service for us
+  - post the completed app to Heroko - it will run both locally AND on Heroku and looks like this:
 
 <hr>
 
