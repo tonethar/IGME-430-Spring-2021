@@ -77,9 +77,9 @@ app.get('/api/associations/:word', (req, res) => {
 	const word = req.params.word;
 	const request = unirest.get(`https://api.wordassociations.net/associations/v1.0/json/search?apikey=${API_KEY}&lang=en&text=${word}`)
 	.then(response => {
-			const results = response.body.response[0].items || []; // grab array of results
-			console.log(`Num results=${results.length}`);
-			res.json(results);
+		const results = response.body.response[0].items || []; // grab array of results
+		console.log(`Num results=${results.length}`);
+		res.json(results);
 	})
 	.catch(error => {
 		console.log(`error=${error}`);
@@ -156,8 +156,14 @@ git push -u origin main
 
 2) Now we are going to run `create-react-app` - which will generate a skeleton of a React app for us
 
-- type `npx create-react-app client` - this will create a new React template (and folder) for us named **client**
-- if this is the first time you are running  `create-react-app`, you will get prompted to download it (say yes!)
-- be prepared for this downloading/installing process to take a while!
+  - type `npx create-react-app client` - this will create a new React template (and folder) for us named **client**
+  - if this is the first time you are running  `create-react-app`, you will get prompted to download it (say yes!)
+  - be prepared for this downloading/installing process to take a while!
 
-3) 
+3) When you are done, you should see a message like this in the console:
+
+![screenshot](_images/hw-14.png)
+
+4) Go ahead and `cd client` like the instructions tell you to do, and then `npm start` to launch the React app. 
+
+  - The template should launch and be available in the browser at http://localhost:3000/
