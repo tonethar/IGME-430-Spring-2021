@@ -171,8 +171,8 @@ git push -u origin main
 
 5) Take a look at the files in the **client** folder:
 
-    - note that there is a **client/.gitignore** file - leave it alone - our git repository that's "one folder up" will be referencing this
-    - note that there is NOT a **client/.git** folder - that's good - we did not want one - and `create-react-app` was smart enough to not create one for us in the **client** folder because we already have one in the **word-app** folder
+    - note that there is a **client/.gitignore** file - leave it alone - the git repository we created that's located "one folder up" will be referencing this
+    - note that there is NOT a **client/.git** folder - that's good - we did not want one - and `create-react-app` was smart enough to not create one for us in the **client** folder because we already have one a "folder up" in the **word-app** folder
     - here is a good explanation of what the other files are for: https://www.codecademy.com/articles/how-to-create-a-react-app
 
 
