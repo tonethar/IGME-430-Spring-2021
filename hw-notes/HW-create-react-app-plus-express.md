@@ -196,7 +196,8 @@ git push -u origin main
 ## V. Modify the React Template
 
 - Now it is time to create our React client application that will utilize our express proxy server
-- Go ahead and replace the contents of **client/src/App.js** with the following:
+
+1) Go ahead and replace the contents of **client/src/App.js** with the following:
 
 ```js
 import React from 'react';
@@ -238,4 +239,34 @@ function App() {
 export default App;
 ```
 
+2) Replace the contents of **client/src/App.css** with the following:
+
+```css
+body { background: #f7f7f7; }
+.app { margin: 3em; width: 24em; }
+
+input,
+button {
+  padding: 0.5em 0.75em;
+  margin-right: 1em;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid transparent;
+  font: inherit;
+}
+
+input       { border-color: #888; }
+input:focus { border-color: #17f; }
+
+button        { background: #17f; color: #fff; }
+button:active { background: #15d; }
+```
+
+3) Type `npm start` (while in the **word-app/client** folder) to start up express. Head to http://localhost:3000/ to see the new UI:
+
+<hr>
+
+![screenshot](_images/hw-16.png)
+
+<hr>
 
