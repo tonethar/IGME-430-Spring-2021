@@ -318,7 +318,7 @@ button:active { background: #15d; }
 
 3) Now type `serve -s build` to serve the app on port 5000 (you might have to run `npm i serve` first) - http://localhost:5000/ - the app loads, but now the button doesn't work
 
-4) To get this app functioning, we are going to make it so that **server.js** serves up both the back end, AND  all of the React files in the **client/build** folder. THis will also mean that we only need to run our app in one console rather than two.
+4) To get this app functioning, we are going to make it so that **server.js** serves up both the back end, AND all of the React files in the **client/build** folder. THis will also mean that we only need to run our app in one console rather than two.
 
 5) Add the following to **server.js**
 
@@ -376,7 +376,7 @@ app.get('*', (req, res) => {
 ## VIII. Deploy the app to Heroku
 
 - Go ahead and set up an app on Heroku like you always do - name it **abc1234-word-app** (where abc1234 is your id)
-- Once the app starts to deploy from GitHub to Heroku, be sure to "View Build log" link under the Activity tab. Here you will see where Heroku is executing the scripts in **word-app/package.json**
+- Once the app starts to deploy from GitHub to Heroku, be sure to look at the "View Build log" link under the Activity tab. Here you will see where Heroku is executing the scripts in **word-app/package.json**
 - The app should now function on Heroku as it just did locally! (If not, check the logs)
 
 <hr>
