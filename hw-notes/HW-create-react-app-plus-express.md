@@ -386,4 +386,4 @@ app.get('*', (req, res) => {
 - This walkthrough is based on code found here - `https://rapidapi.com/blog/create-react-app-express/` - the front-end React UI code is essentially identical - but there are many changes elsewhere:
   - we are calling the API directly, and NOT utilizing the RapidAPI "wrapper" functionality
   - the **server.js** proxy-server code is simplified because we don't need to send authentication headers to RapidAPI
-  - the original app as written won't run on Heroku, thus the `npm run build` step, the static file serving code in **server.js**, and the `"heroku-postbuild"` key in the **package.json** are all new
+  - the original app as written won't run on Heroku as single project, thus we added the static file serving code in **server.js**, the `"heroku-postbuild"` key in the **package.json**, and the `npm run build` step
