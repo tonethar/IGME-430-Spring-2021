@@ -123,7 +123,7 @@ app.listen(port, () => {
 
 <hr>
 
-## III. Create a local git repository
+## III. Create a local git repository, and connect it to GitHub
 
 1) Make sure that your *current working directory* is still **word-app**
 
