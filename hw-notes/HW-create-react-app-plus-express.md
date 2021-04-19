@@ -4,7 +4,7 @@
 ## Overview 
 
 - In this exercise, we are going to see how to:
-  - create a React client Application with [`react-react-app`](https://reactjs.org/docs/create-a-new-react-app.html)
+  - create a React client Application with [`create-react-app`](https://reactjs.org/docs/create-a-new-react-app.html)
   - connect this app to an [express](https://www.npmjs.com/package/express) server
   - post the completed app to Heroku
 
