@@ -317,7 +317,11 @@ button:active { background: #15d; }
 5) Add the following to **server.js**
 
 ```js
+// import path library
+const path = require('path');
 
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, 'client/build')));
 ```
 
 
