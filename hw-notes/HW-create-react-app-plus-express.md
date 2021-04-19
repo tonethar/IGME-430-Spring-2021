@@ -285,4 +285,6 @@ button:active { background: #15d; }
 
 6) Back in your React app, click the Search button again - same error!
 
+7) TO fix this, add `"proxy": "http://localhost:3001"` to the **client/package.json** file
+
 
