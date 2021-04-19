@@ -131,7 +131,7 @@ app.listen(port, () => {
 
 3) Create a **.gitignore** file and add `node_modules` to the top of it
 
-4) To add your files to this repository, type `git add .`, `git commit -m "First commit"`
+4) To add your files to this repository, type `git add .` & `git commit -m "First commit"`
 
 5) Now head to GitHub and create an empty remote repository named **word-app**
 
@@ -167,7 +167,7 @@ git push -u origin main
 4) Go ahead and `cd client` like the instructions tell you to do, and then `npm start` to launch the React app:
 
     - The React template app should launch and be available in the browser at http://localhost:3000/ - coolio!
-    - Go ahead an quit the React app (control-c)
+    - Go ahead and quit the React app (control-c)
 
 5) Take a look at the files in the **client** folder:
 
