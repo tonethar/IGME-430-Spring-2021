@@ -75,7 +75,7 @@ const API_KEY = "YER-API-KEY-GOES-HERE";
 
 app.get('/api/associations/:word', (req, res) => {
 	const word = req.params.word;
-	const request = unirest.get(`https://api.wordassociations.net/associations/v1.0/json/search?apikey=API_KEY&lang=en&text=${word}`)
+	const request = unirest.get(`https://api.wordassociations.net/associations/v1.0/json/search?apikey=${API_KEY}&lang=en&text=${word}`)
 	.then(response => {
 			const results = response.body.response[0].items || []; // grab array of results
 			console.log(`Num results=${results.length}`);
