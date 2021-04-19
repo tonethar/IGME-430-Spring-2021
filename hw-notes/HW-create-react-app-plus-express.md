@@ -64,8 +64,30 @@
 
 4) In  **word-app**, create a file named **server.js**
 
-5) Add the follwoing code to it:
+5) Add the following code to it:
 
 ```js
+const express = require('express');
+const app = express();
+const port = 3001;
+const unirest = require("unirest");
+const API_KEY = "YER-API-KEY-GOES-HERE";
 
+app.get('/api/associations/:word', (req, res) => {
+	const word = req.params.word;
+	const request = unirest.get(`https://api.wordassociations.net/associations/v1.0/json/search?apikey=API_KEY&lang=en&text=${word}`)
+	.then(response => {
+			const results = response.body.response[0].items || []; // grab array of results
+			console.log(`Num results=${results.length}`);
+			res.json(results);
+	})
+	.catch(error => {
+		console.log(`error=${error}`);
+		res.json({status:"Error", message: `${error}`});
+	});
+});
+
+app.listen(port, () => {
+  console.log(`word-app listening on port ${port}`);
+});
 ```
