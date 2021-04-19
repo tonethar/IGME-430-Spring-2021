@@ -324,17 +324,26 @@ const path = require('path');
 app.use(express.static(path.join(__dirname, 'client/build')));
 ```
 
+6) Now quit your back-end (server.js) and front-end (React) servers with control-c
 
-XX)  One last thing. In order to get this app to run on Heroku, you need to add the following to the "scripts" key of **word-app/package.json**
+7) Launch just the back-end now, from the **word-app** folder, with `npm start`
+
+8) Head to http://localhost:3001/api/associations/computer to be sure that the proxy-server still works
+
+9) Head to http://localhost:3001 and click the Search button to be sure that the React app still works
+
+10) Now our front-end (the files in the **client/build** folder) and back-end endpoints are being served by the express instance!
+
+11)  One last thing. In order to get this app to run on Heroku, you need to add the following to the "scripts" key of **word-app/package.json**
 
     - `"heroku-postbuild": "cd client && npm install && npm run build"`
     - what Heroku will do is to:
       - first run the `npm start` to start up our express server
-      - it will then start up the React app by invoking `npm run build` 
+      - it will then build the "rolled up" files of the React app by invoking `npm run build` 
 
 <hr>
 
-## VII. Update your Git respoitory
+## VII. Update your Git respository
 
 - Now we need to commit all of our changes to our GitHub repository and commit them
 
