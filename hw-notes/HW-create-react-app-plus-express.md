@@ -316,9 +316,9 @@ button:active { background: #15d; }
 
      - now check out the **client/build** folder to see what that command did - which was to use babel to transpile the code, and webpack as the build tool to bundle (aka "roll up) the app
 
-3) Now type `serve -s build` to serve the app on port 5000 (you might have to run `npm i serve` first) - http://localhost:5000/ - the app loads, but now the button doesn't work
+3) Now type `serve -s build` to serve the app on port 5000 (you might have to run `npm i serve` first) - http://localhost:5000/ - the app loads, but now the button doesn't work! This is because the static React server is ignoring the `"proxy": "http://localhost:3001"` directive
 
-4) To get this app functioning, we are going to make it so that **server.js** serves up both the back end, AND all of the React files in the **client/build** folder. THis will also mean that we only need to run our app in one console rather than two.
+4) To get this app functioning, we are going to make it so that **server.js** serves up not only the back end proxy server, but also ALL of the React files in the **client/build** folder. This will also mean that we will only need to run our app in one console rather than two.
 
 5) Add the following to **server.js**
 
