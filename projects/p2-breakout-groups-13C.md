@@ -39,11 +39,54 @@ Scribe Name:
 - etc ...
 ```
 
+<hr>
 
+## III. Breakout Groups
+
+### Breakout Group #1 - Jared Baker & David Chen & Anna Conway & Drew Donovan
+
+- **Jared Baker** - I plan on revamping my project 1, adding react, mongoDb and accounts and building it off the create-react-app:
+  - https://jdb3959-430-project-1.herokuapp.com/home 
+- **David Chen** - I am going to convert project 1 to using React, Mongo, and logins. In addition, I am going to used Domomaker-E as a "starter":
+  - https://dxc7649-430-project-1.herokuapp.com/
+- **Anna Conway** - I am going to convert project 1 to using React, Mongo, and logins. I also want to extend the UI and the features as well and will probably use DomoMaker as a launchpad:
+  - https://azc5184-430-project-1.herokuapp.com/routines
+- **Drew Donovan** - For my project 2 I plan to remake my project 1 using all the fun new stuff we've learned. As of now I see myself starting with Domomaker, but that may change once I begin working on it:
+  - https://ddd5189-430-project-1.herokuapp.com/
+
+<hr>
+
+### Breakout Group #2 - Sean Gindhart & Brad Hanel & James Harkins & Breanna Henriquez
+- **Sean Gindhart** - For this project, I plan to simply make an upgraded version of my Project 1, which was Infinite Pictionary. I plan to start with a create-react-app script, and then add Mongo, logins, and React to it. If I have the time, I might attempt to add a live online multiplayer aspect to the app, allowing two users to play together simultaneously.
+- **Brad Hanel** - I plan to build off of my project 1 to use React, Mongo, and the ability to log in. I'm going to add the ability to post charts publicly and view public charts if you're a logged in user. I plan to extend off of DomoMaker.
+- **James Harkins** - For project 2, I am going to make a multiplayer web game out of a pen and paper game my friends and I played in high school. I plan to use MongoDB and HTTP requests for the account making, login, and possibly leaderboards, and then Socket.io for the gameplay. I plan to use create-react-app instead of extending Domomaker.
+- **Breanna Henriquez** - I plan to convert my project 1 to using React, Mongo, and logins, and I am going to build off my DomoMaker. 
+
+<hr>
+
+### Breakout Group #3 -
+
+<hr>
+
+### Breakout Group #4 -
+
+<hr>
+
+### Breakout Group #5 -
+
+<hr>
+
+### Breakout Group #6 -
 
 <hr>
 
 
+
+
+### XX) Excused from class, will do this remotely over weekend:
+  -Dylan Gomer, Alex Rosenbach, Cheng Yu
+
+<hr>
 
 ## IV. Submission
 - After class, the scribe should spend a few minutes to clean up the document (edit for clarity/brevity, fix spelling errors, format it so that it's readable etc...)
