@@ -26,13 +26,14 @@
 - Project Name:
 - Prototype URL (if it is built off of Project 1)
 - Tech "stack" the project will build off of (DomoMaker-E, `create-react-app`, or specify if it's not one of these)
-- List at least 2 [User Personas](https://www.usability.gov/how-to-and-tools/methods/personas.html)
+- List at least 2 [user personas](https://www.usability.gov/how-to-and-tools/methods/personas.html):
   - example: "Rita is an experienced *Magic & Monsters* GM who wants to quickly look up monsters, and save groups of them as "Encounters"
   - example: "Freddy is a newbie *Magic & Monsters* player who wants to be able to suggest ideas for new monsters to the web site"
   - example: "An admin user who will be able to CRUD all of the user submitted data
-- Describe at least 3 [user stories](https://www.productplan.com/glossary/user-story/) for the personas that you defined above (three total is fine, you don't have to do 3 *each*)
-  - "Title: Submit a monster. Freddy will input the monster details (such as name, description, CR and so on) into a form and click a submit button to send them to the web site"
+- Describe at least 3 [user stories](https://www.productplan.com/glossary/user-story/) for the personas that you defined above (three total is fine, you don't have to do 3 *each*):
+  - "Title: *Submit a monster*. Freddy will input the monster details (such as name, description, CR and so on) into a form and click a submit button to send them to the web site"
     - "If Freddy leaves out any of the required information, the form will not submit and will notify him of the missing fields"
+    - "If Freddy is successful he will get a success message and a boost to his *site mana* score"
 - Using the above User Personas & USer Stories as inspiration, list:
   - A) the "must have" features & capabilities of this project 
   - B) the "nice to have" features &  capabilities of this project 
