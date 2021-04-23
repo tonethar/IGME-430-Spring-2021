@@ -57,10 +57,13 @@ Scribe Name:
 <hr>
 
 ### Breakout Group #2 - Sean Gindhart & Brad Hanel & James Harkins & Breanna Henriquez
-- **Sean Gindhart** - For this project, I plan to simply make an upgraded version of my Project 1, which was Infinite Pictionary. I plan to start with a create-react-app script, and then add Mongo, logins, and React to it. If I have the time, I might attempt to add a live online multiplayer aspect to the app, allowing two users to play together simultaneously.
-- **Brad Hanel** - I plan to build off of my project 1 to use React, Mongo, and the ability to log in. I'm going to add the ability to post charts publicly and view public charts if you're a logged in user. I plan to extend off of DomoMaker.
-- **James Harkins** - For project 2, I am going to make a multiplayer web game out of a pen and paper game my friends and I played in high school. I plan to use MongoDB and HTTP requests for the account making, login, and possibly leaderboards, and then Socket.io for the gameplay. I plan to use create-react-app instead of extending Domomaker.
-- **Breanna Henriquez** - I plan to convert my project 1 to using React, Mongo, and logins, and I am going to build off my DomoMaker. 
+- **Sean Gindhart** - For this project, I plan to simply make an upgraded version of my Project 1, which was Infinite Pictionary. I plan to start with a create-react-app script, and then add Mongo, logins, and React to it. If I have the time, I might attempt to add a live online multiplayer aspect to the app, allowing two users to play together simultaneously:
+  - https://spg1627-project-1.herokuapp.com/
+- **Brad Hanel** - I plan to build off of my project 1 to use React, Mongo, and the ability to log in. I'm going to add the ability to post charts publicly and view public charts if you're a logged in user. I plan to extend off of DomoMaker:
+  - https://alignment-charts.herokuapp.com/joke-client.html
+- **James Harkins** - For project 2, I am going to make a multiplayer web game out of a pen and paper game my friends and I played in high school. I plan to use MongoDB and HTTP requests for the account making, login, and possibly leaderboards, and then Socket.io for the gameplay. I plan to use create-react-app instead of extending Domomaker:
+- **Breanna Henriquez** - I plan to convert my project 1 to using React, Mongo, and logins, and I am going to build off my DomoMaker:
+  - https://jeh4253-430-project-1.herokuapp.com/home.html
 
 <hr>
 
