@@ -87,7 +87,7 @@
 - **Camilo Lima-Castro** - I am going to create a web app for a networked game. For now, I am thinking of centering the app around Ultimate Tic Tac Toe, a slightly more complicated variation of the most famous pen-and-paper game. I am going to extend the DomoMaker assignment and make it fit the purpose of this different real-time app. The plan is to use Socket.io to communicate in WebSockets between the server and the clients, providing real-time updates for the users when competing against their opponents.
 - **Frank Luo** - I want to make a simple note taking system that supports people to upload their notes to the site and to log back in later and see what they have uploaded.
 - **Tom Margosian** - I’m basically going to be expanding upon my Project 1, creating an app to create lists of restaurants that you’ve been recommended by friends.  It’ll include multiple lists, the ability to share lists with other users, and notes / comments for each place.  My API server is going to be separate from the react node server, and I’m going to be building an iOS app as my final project for my ISTE-454 class as well:
-  - TOm will provide link
+  - Tom will provide link
 - **Cori Mori** - I plan on converting project 1 using React, Mongo, and logins using DomoMaker as a base:
   - https://cnm7453-fetch.herokuapp.com/home
 
