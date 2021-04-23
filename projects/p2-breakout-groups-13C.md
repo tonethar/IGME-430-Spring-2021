@@ -135,5 +135,5 @@
 
 ## IV. Submission
 - After class, the scribe should spend a few minutes to clean up the document (edit for clarity/brevity, fix spelling errors, format it so that it's readable etc...)
-- Over the weekend, this document can be updated as needed
+- Over the weekend, this document can be updated by the group members as needed
 - The scribe will then post this to the myCourses dropbox before it closes (Sunday night), and will distribute a copy to each member.
