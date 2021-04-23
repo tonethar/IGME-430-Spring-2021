@@ -52,7 +52,7 @@
 
 - **Jared Baker** - I plan on revamping my project 1, adding react, mongoDb and accounts and building it off the create-react-app:
   - https://jdb3959-430-project-1.herokuapp.com/home 
-- **David Chen** - I am going to convert project 1 to using React, Mongo, and logins. In addition, I am going to used Domomaker-E as a "starter":
+- **David Chen** - I am going to convert project 1 to using React, Mongo, and logins. In addition, I am going to use Domomaker-E as a "starter":
   - https://dxc7649-430-project-1.herokuapp.com/
 - **Anna Conway** - I am going to convert project 1 to using React, Mongo, and logins. I also want to extend the UI and the features as well and will probably use DomoMaker as a launchpad:
   - https://azc5184-430-project-1.herokuapp.com/routines
