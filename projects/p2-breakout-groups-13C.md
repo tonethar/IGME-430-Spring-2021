@@ -3,6 +3,7 @@
 ## I. Overview
 
 - Today we will put you in Zoom breakout groups consisting of 3 or 4 students, and you will give and receive feedback regarding the *planned features/user experience* of your [Project 2](project-2.md)
+- Many of you are working off of/extending your Project 1's - which as I mentioned in class pretty much all were rock-solid on the back-end, but needed some "sizze" on the front-end - so let's brainstorm some exciting new features with our classmates!
 
 <hr>
 
@@ -67,7 +68,14 @@ Scribe Name:
 
 <hr>
 
-### Breakout Group #3 -
+### Breakout Group #3 - Oliver Hindman & Andy Huang Ling & Jacob Kemp-Schneider & Chase Lear
+- **Oliver Hindman** - I am going to use DomoMaker E. I haven't come up with what to extend on Domomaker yet but I am planning on it
+- **Andy Huang Ling** - I plan on making a chat for people to use. It is just going to be one big chatroom that users would have to register or log in to, to use. I plan on starting from a create-react-app or something similar if I can find something that fits my needs.
+- **Jacob Kemp-Schneider** - I plan on converting and extending my project 1, and I am currently planning on building off of the domomaker assignment:
+  - https://jmk6152-430-project-1.herokuapp.com/random-char.html
+- **Chase Lear** - I think I’m going to study the file upload example and create an app with user accounts that allows people to upload essays, and perhaps use some of what I did in project 1 to add some social media style communication along with it. So people can upload their papers, and then other users might comment on them:
+  - https://cal7114-conversation-assistant.herokuapp.com/app
+
 
 <hr>
 
