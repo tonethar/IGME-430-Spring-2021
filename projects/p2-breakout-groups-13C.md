@@ -12,10 +12,10 @@
 1) See below for the assigned groups - and go ahead and join your designated breakout room
 
 2) Choose one of you to "scribe":
-  - this person will record the names of everyone in your breakout room, and help "clean up" the answers to the questions below
-  - these answers will be added to a document (DOC or PDF) and posted to the dropbox. Only ONE document per team will be submitted to the dropbox
-  - *Note, if you wish, the most efficient approach might be to create a Google Doc and collaboratively edit it. Regardless, the scribe will be responsible for doing the final editing and posting of the document to myCourses.*
-  - *Everyone - help the scribe by contributing what you can to the shared document yourself!*
+    - this person will record the names of everyone in your breakout room, and help "clean up" the answers to the questions below
+    - these answers will be added to a document (DOC or PDF) and posted to the dropbox. Only ONE document per team will be submitted to the dropbox
+    - *Note, if you wish, the most efficient approach might be to create a Google Doc and collaboratively edit it. Regardless, the scribe will be responsible for doing the final editing and posting of the document to myCourses.*
+    - *Everyone - help the scribe by contributing what you can to the shared document yourself!*
 
 3) Below is a template of the document:
 
