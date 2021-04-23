@@ -103,15 +103,32 @@ Scribe Name:
 
 <hr>
 
-### Breakout Group #6 -
+### Breakout Group #6 - Jake Sands & Ryan Sousis & Cullen Sullivan & Kippy Tidwell & John Zhang 
+- **Jake Sands** - For Project 2, I will be converting my Project 1 to use React, Mongo, and logins.  I think I’ll build off of create-react-app and just paste the pages I have from project 1 and hook everything up as needed -	I may end up using Domomaker:
+  - https://jxs4264-chess-saver.herokuapp.com/
+- **Ryan Sousis** - For project 2 I am planning on making a pokemon shiny tracker that allows users to sign in and save previous and current hunts to their account allowing them to see which pokemon they have already gotten shiny and which ones they need to continue to hunt. I am making this primarily because of how difficult it is to find a tracker that allows you to do multiple hunts and save them across multiple devices.
+- **Cullen Sullivan** - I’m planning on reworking and expanding DomoMaker into a utility for tabletop RPG game masters.  The plan is to create an app that allows game masters to create and update lists of various things that would be relevant to a tabletop RPG campaign, such as NPCs, house rules, spells, magic items, encounters, and sidequests.
+- **Kippy Tidwell** - I am going to extend my project 1 to use React, Mongo, logins, and image uploads. Probaby going to start from a create-react-app:
+  - https://kct2548-430-project-1.herokuapp.com/
+- **John Zhang** - I will use my project1 as a start off, change it with React, Mongo, and Logins:
+  - https://jz2728-430-project-1-heroku.herokuapp.com/
 
 <hr>
 
 
 
 
-### XX) Excused from class, will do this remotely over weekend:
-  -Dylan Gomer, Alex Rosenbach, Cheng Yu
+### Breakout Group #7 - Dylan Gomer & Alex Rosenbach & KeCheng Yu 
+- ***Excused from class, will do this remotely over weekend***
+- **Dylan Gomer** - I am going to convert my project 1 to use React, Mongo and logins. I'll build this app off of create-react-app:
+  - https://dg1229-430-project-1.herokuapp.com/streams
+- **Alex Rosenbach** - I am going to convert my Project 1, which was the Pokemon Team Builder to use React, Mongo, and logins. And I am going to build it off of create-react-app
+  - https://ajr6974-430-project-1.herokuapp.com/
+- **KeCheng Yu** - I will be revamping/remaking project 1 with React, Mongo, and logins. I will either built off original app or DomoMaker/create-react-app:
+  - https://kxy3643-430-project-1.herokuapp.com/
+
+
+
 
 <hr>
 
