@@ -23,7 +23,7 @@
 
 ## Scribe Name:
 
-1) Student Name: Ace B. Coder
+1) **Student Name:** Ace B. Coder
 - Project Name:
 - Prototype URL (if it is built off of Project 1)
 - Tech "stack" the project will build off of (DomoMaker-E, `create-react-app`, or specify if it's not one of these)
@@ -41,7 +41,7 @@
   - C) "stretch goals" for this project (probably to do over the summer)
 
 
-2) Student Name: Ima G. Student
+2) **Student Name:** Ima G. Student
 - etc ...
 
 <hr>
