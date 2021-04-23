@@ -11,15 +11,17 @@
 
 1) See below for the assigned groups - and go ahead and join your designated breakout room
 
-2) Choose one of you to "scribe" - this person will record the names of everyone in your breakout room, and the answers to the questions below. 
-These answers will be added to a document (DOC or PDF) and posted to the dropbox. Only ONE document per team will be submitted to the dropbox. *Note, if you wish, the most efficient approach might be to create a Google Doc and collaboratively edit it. Regardless, the scribe will be responsible for doing the final editing and posting of the document to myCourses.*
+2) Choose one of you to "scribe":
+  - this person will record the names of everyone in your breakout room, and the answers to the questions below
+  - these answers will be added to a document (DOC or PDF) and posted to the dropbox. Only ONE document per team will be submitted to the dropbox
+  - *Note, if you wish, the most efficient approach might be to create a Google Doc and collaboratively edit it. Regardless, the scribe will be responsible for doing the final editing and posting of the document to myCourses.*
 
 3) Below is a template of the document:
 
 ```
 Scribe Name:
 
-1) Student Name:
+1) Student Name: Ace B. Coder
 - Project Name:
 - Prototype URL (if it is built off of Project 1)
 - Tech "stack" the project will build off of (DomoMaker-E, `create-react-app`, or specify if it's not one of these)
@@ -36,7 +38,7 @@ Scribe Name:
   - C) "stretch goals" for this project (probably to do over the summer)
 
 
-2) Student Name
+2) Student Name: Ima G. Student
 - etc ...
 ```
 
@@ -79,11 +81,25 @@ Scribe Name:
 
 <hr>
 
-### Breakout Group #4 -
+### Breakout Group #4 - Camilo Lima-Castro & Frank Luo & Tom Margosian & Cori Mori
+- **Camilo Lima-Castro** - I am going to create a web app for a networked game. For now, I am thinking of centering the app around Ultimate Tic Tac Toe, a slightly more complicated variation of the most famous pen-and-paper game. I am going to extend the DomoMaker assignment and make it fit the purpose of this different real-time app. The plan is to use Socket.io to communicate in WebSockets between the server and the clients, providing real-time updates for the users when competing against their opponents.
+- **Frank Luo** - I want to make a simple note taking system that supports people to upload their notes to the site and to log back in later and see what they have uploaded.
+- **Tom Margosian** - I’m basically going to be expanding upon my Project 1, creating an app to create lists of restaurants that you’ve been recommended by friends.  It’ll include multiple lists, the ability to share lists with other users, and notes / comments for each place.  My API server is going to be separate from the react node server, and I’m going to be building an iOS app as my final project for my ISTE-454 class as well:
+  - TOm will provide link
+- **Cori Mori** - I plan on converting project 1 using React, Mongo, and logins using DomoMaker as a base:
+  - https://cnm7453-fetch.herokuapp.com/home
+
 
 <hr>
 
-### Breakout Group #5 -
+### Breakout Group #5 - Alex Parrotto & Lauren Puglise & Jack Richards & Matthew Roberts
+- **Alex Parrotto** - I am planning to build a clicker game using React. Users will be able to make accounts and sign in, with their score and powerups being saved to their account. In order to theoretically profit off of the project, it will have a premium membership that users can “purchase” that will double all of their earnings from the clicker game. This will be built off of a create-react-app script.
+- **Lauren Puglise** - Cow-a-bug-a! Build off DomoMaker E 
+- **Jack Richards** - I plan on using DomoMaker as a base and recreating my project 1, This or That. I want to incorporate user accounts and other new features to make This or That as good as it can be!:
+  - https://jjr2098-430-project1.herokuapp.com/
+- **Matthew Roberts** - For project 2 I am going to create a free to use workout tracker that shows ads. There will be a premium option that will remove the ads. For the purposes of the project, these ads will be simulated. It will be similar to my project 1, but will use React, Mongo, and logins, and meet the other project 2 requirements:
+  - https://mxr2091-project-1.herokuapp.com/
+
 
 <hr>
 
