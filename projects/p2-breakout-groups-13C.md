@@ -41,7 +41,6 @@
 
 2) Student Name: Ima G. Student
 - etc ...
-```
 
 <hr>
 
