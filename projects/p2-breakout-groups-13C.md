@@ -134,4 +134,5 @@ Scribe Name:
 
 ## IV. Submission
 - After class, the scribe should spend a few minutes to clean up the document (edit for clarity/brevity, fix spelling errors, format it so that it's readable etc...)
-- The scribe will then post this to the myCourses dropbox before it closes, and will distribute a copy to each member.
+- Over the weekend, this document can be updated as needed
+- The scribe will then post this to the myCourses dropbox before it closes (Sunday night), and will distribute a copy to each member.
