@@ -18,8 +18,9 @@
 
 3) Below is a template of the document:
 
-```
-Scribe Name:
+<hr>
+
+## Scribe Name:
 
 1) Student Name: Ace B. Coder
 - Project Name:
