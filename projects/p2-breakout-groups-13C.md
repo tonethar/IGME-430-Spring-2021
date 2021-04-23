@@ -94,7 +94,9 @@
 
 <hr>
 
-### Breakout Group #5 - Alex Parrotto & Lauren Puglise & Jack Richards & Matthew Roberts
+### Breakout Group #5 - Justin Nauta & Alex Parrotto & Lauren Puglise & Jack Richards & Matthew Roberts
+- **Justin Nauta** - I plan on continuing my project 1 by building off of create-react-app and adding Mongo and User/Admin logins:
+  - https://jrn2778-430-project-1.herokuapp.com/
 - **Alex Parrotto** - I am planning to build a clicker game using React. Users will be able to make accounts and sign in, with their score and powerups being saved to their account. In order to theoretically profit off of the project, it will have a premium membership that users can “purchase” that will double all of their earnings from the clicker game. This will be built off of a create-react-app script.
 - **Lauren Puglise** - Cow-a-bug-a! Build off DomoMaker E 
 - **Jack Richards** - I plan on using DomoMaker as a base and recreating my project 1, This or That. I want to incorporate user accounts and other new features to make This or That as good as it can be!:
