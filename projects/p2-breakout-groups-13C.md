@@ -3,7 +3,7 @@
 ## I. Overview
 
 - Today we will put you in Zoom breakout groups consisting of 3 or 4 students, and you will give and receive feedback regarding the *planned features/user experience* of your [Project 2](project-2.md)
-- Many of you are working off of/extending your Project 1's - which as I mentioned in class pretty much all were rock-solid on the back-end, but needed some "sizze" on the front-end - so let's brainstorm some exciting new features with our classmates!
+- Many of you are working off of/extending your Project 1's - which as I mentioned in class pretty much all were rock-solid on the back-end, but many needed more "sizzle" on the front-end - so let's brainstorm some exciting new features with our classmates!
 
 <hr>
 
