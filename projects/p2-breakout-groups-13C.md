@@ -35,7 +35,7 @@
   - "Title: *Submit a monster*. Freddy will input the monster details (such as name, description, CR and so on) into a form and click a submit button to send them to the web site"
     - "If Freddy leaves out any of the required information, the form will not submit and will notify him of the missing fields"
     - "If Freddy is successful he will get a success message and a boost to his *site mana* score"
-- ***AND, this is the most import thing I am looking for --> Using the above User Personas & USer Stories as inspiration, list:***
+- ***AND, this is the most important thing I am looking for --> Using the above User Personas & USer Stories as inspiration, list:***
   - A) the "must have" features & capabilities of this project 
   - B) the "nice to have" features &  capabilities of this project 
   - C) "stretch goals" for this project (probably to do over the summer)
