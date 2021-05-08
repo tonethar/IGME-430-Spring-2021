@@ -39,4 +39,9 @@
 
 ## III. Grading
 - -50% from final project grade if app does not run on Heroku
-- Rest of the rubric is TBA
+- -20% for each missing functional requirement (see P2 Functional Requirements at linked requirements page above)
+- -10% for each missing programming requirement (see P2 Programming Requirements at linked requirements page above)
+- -20% if the app is poorly designed / unstyled (it does not have to be beautiful, but we want something "competent")
+- -20% if there is still references to domomaker in the code / app
+- -10% if there is no documentation, or 5% for incomplete documentation
+- -20% for missing video
