@@ -24,8 +24,16 @@
 - Final Deliverables:
   - GitHub Link
   - Heroku Link
-  - Demo Video
-  - Written Documentation
+  - Written Documentation (see P2 Deliverables at linked requirements page above)
+  - Demo Video:
+  
+1) 1 to 2-minute narrated “demo reel” of the completed project will be required. At 1440 x 900 resolution, the file size is roughly 5MB per minute, but your mileage may vary.  If the file size of the recording is under 50Meg or so, post it here (mp4 format ONLY). Otherwise, post it to YouTube and put the link in the comments field.
+
+2) The easiest way to record a demo reel is to use Zoom - here is a 2-minute video on how to do this: https://www.youtube.com/watch?v=D617OXKhSYw
+
+3) don't forget to "Share Screen" so that I can see you interacting with the project
+
+4) don't forget to turn the Mic on, so that I can hear what you have to say
 
 <hr>
 
